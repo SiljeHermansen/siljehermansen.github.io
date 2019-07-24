@@ -1,0 +1,405 @@
+\documentclass{beamer}
+\title{Eksperimenter}
+\author{Silje Synn{\o}ve Lyder Hermansen}
+\institute{\texttt{s.s.l.hermansen@stv.uio.no}\\}
+\date{}
+\begin{document}
+\maketitle
+\SweaveOpts{concordance=TRUE}
+
+<<results=hide, echo=FALSE>>=
+setwd("M:/Undervisning/HiØ/Forelesningsmateriale/Uke 41")
+
+@
+
+\section{Første eksperiment}
+
+\begin{frame}
+\title{Første eksperiment -- asylpolitikk}
+\author{}
+\maketitle
+\end{frame}
+<<results=hide, echo=FALSE, label='Resultat forste eksperiment'>>=
+gruppeA1<-c(7,5,6,4,5,5,6,4,5,6,2,3)
+gruppeB1<-c(5,4,7,6,7,3,7,6,5,7,6)
+gruppeA2<-c(6,5,6,7,7,5,6,4,6,5,2,5)
+gruppeB2<-c(5,4,7,5,7,3,7,6,5,7,6)
+
+pdf("Eksperiment1.pdf")
+barplot(c(mean(gruppeA1),mean(gruppeA2),mean(gruppeB1), mean(gruppeB2)),
+        col=c("yellow", "orange", "limegreen", "forestgreen"),
+        space=c(1,0,1,0),
+        names.arg=c("Før radio", "Etter radio","Før radio", "Etter radio"),
+        ylab="Gjennomsnitlig støtte",
+        xlim=c(0,6),
+        ylim=c(0,6.5))
+
+legend(x=0.5,
+       y=6.5,
+       legend=c("Kontrollgruppe (så ikke TV)", "Eksperimentgruppe (så TV)"),
+       col=c("yellow", "limegreen"),
+       pch=15,
+       bty="n")
+
+dev.off()
+@
+
+%Jeg viser video av \url{http://radio.nrk.no/serie/dagsnytt-atten/mnma03022812/14-11-2012#t=25m26s}
+\begin{frame}
+\url{http://tv.nrk.no/serie/dagsrevyen/nnfa03100613/}
+\url{http://radio.nrk.no/serie/her-og-naa/dmnh01019813/}
+\url{http://radio.nrk.no/serie/nyhetsmorgen/mnra36013013/}
+\end{frame}
+
+\begin{frame}
+\frametitle{Første eksperiment -- asyl}
+\begin{itemize}
+\item{Hvilket eksperimentelt design er dette?}
+\item{Hva kan vi slutte fra disse funnene?}
+\item{Hva er svakhetene i dette designet?}
+\item{Hvordan kunne vi forbedret eksperimentet?}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Første eksperiment -- opplegg}
+\begin{itemize}
+\item{Klassen deles i to grupper}
+\item{Eksperiementgruppen ser video om personlige tragedier til enkeltsøkere. Kontrollgruppen venter.}
+\item{Begge grupper svarer hvor enig/uenig man er i at søkerens behov heller enn kvoter skal avgjøre norsk asylpolitikk.}
+\item{Begge grupper hører om bråk ved asylmottak i Norge.}
+\item{Begge grupper svarer hvor enig/uenig man er i at søkerens behov heller enn kvoter skal avgjøre norsk asylpolitikk.}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Første eksperiment -- designet for å svare på et spørsmål}
+Jeg har testet to ting/bakt to eksperiementer inn i ett. Jeg har med andre ord designet eksperimentet for å svare på to spørsmål:  
+\begin{itemize}
+\item{\textbf{$H_1$:}} Ensidig mediadekning påvirker holdninger til innvandring.
+\end{itemize}
+Jeg ønsker å teste dette på to måter, og har dermed operasjonalisert hypotesen på to ulike måter:
+\begin{itemize}
+\item{\textbf{$H_{1a}$:}} Personlige tragedier øker sympati for en behovsbasert asylpolitikk.
+\item{\textbf{$H_{1b}$:}} Saker om kriminelle innvandrere senker sympati for en behovsbasert asylpolitikk.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Første eksperiment -- to operasjonaliseringer av samme spørsmål}
+Jeg har testet to ting/bakt to eksperiementer inn i ett for å måle samme tingen (effekt av mediadekning):  
+\begin{itemize}
+\item{\textbf{Jeg sammenlikner kontrollgruppen med eksperimentgruppen:}} Begge svarer på samme spørsmål, men bare en gruppe har blitt manipuert (sett video). Jeg har ikke testet holdningene før manipulasjonen av frykt for at dette skal påvirke resultatene mine.
+\item{\textbf{Jeg sammenlikner begge grupper med seg selv}} etter ytterligere en manipulasjon (høre radio). Denne gangen har jeg før/etter-data på kontrollgruppen, mens eksperiementgruppen viser den samlede effekten av begge manipulasjoner. Jeg risikerer en Hawthorne-effekt.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Første eksperiment -- Jacobsens fire ideelle elementer}
+\begin{itemize}
+\item{\textbf{Sammenlikning:}} Effekt av video: Jeg har en kontrollgruppe (som sto på gangen) og en eksperiementgruppe (som var i klasserommet). Dette likner en tverrsnittsstudie.
+\item{\textbf{Tidsseriedata:}} Effekt av radio: Jeg måler verdiene før og etter manipulasjonen. Jeg kan konkludere om \emph{effekten} av radioinnslaget på begge grupper, selv om startverdiene var ulike (på grunn av tidligere manipulasjon). Likner paneldata.
+\item{\textbf{Randomisering:}} Det var tilfeldig hvem som var i hver gruppe. Antakelsen er at et tilfeldig sannsynlighetsutvalg gjør at begge grupper er like, slik at all ulikhet kan forklares som en effekt av manipulasjonen.
+\item{\textbf{Manipulasjon:}} Jeg kontrollerte manipulasjonen: Liten tid mellom hver måling, og liten kontakt mellom studenter begrenset uønskede effekter fra andre forhold. To manipulasjoner foregikk: Ett videoklipp og et radioklipp. 
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Første eksperiment -- resulatater}
+\begin{figure}
+\centering
+\includegraphics[width=.5\textwidth]{Eksperiment1}
+\caption{Støtte til asylinstituttet}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Første eksperiment -- hva kan vi slutte fra dette?}
+\begin{itemize}
+\item{Gjennomsnitlig holdning til asylinstituttet i kontrollgruppen var på \Sexpr{round(mean(gruppeA1),2)}. Dette \emph{økte} til \Sexpr{round(mean(gruppeA2),2)} etter det negative nyhetsinnslaget}.
+\item{Gjennomsnitlig holdning til asylinstituttet i eksperimentgruppen var på \Sexpr{round(mean(gruppeB1),2)} etter videoinnslaget. Dette sank til \Sexpr{round(mean(gruppeA2),2)} etter det negative nyhetsinnslaget.}
+\item{Gjennomsnitlig holdning til asylinstituttet var i eksperimentgruppen \Sexpr{round(mean(gruppeB1)/mean(gruppeA1)*100)} prosent høyere enn i eksperimentgruppen etter videoinnslaget.}
+\end{itemize}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Begrensninger og eksperimentelt design}
+
+
+\begin{frame}
+\title{Rose McDermott: Experimental Methodology in Political Science}
+\author{}
+\maketitle
+\end{frame}
+
+
+\begin{frame}
+\frametitle{McDermott -- Til forsvar for eksperimentering i statsvitenskap}
+McDermotts tilnærming er at det er mye man kan kritisere eksperimentelle studier for, men kritikken som rammer hardest er den som godtar premissene blant eksperiementelle forskere. Det er også denne kritikken som kan bidra å forbedre metodebruken.
+\end{frame}
+
+\begin{frame}
+\frametitle{McDermott -- Effekt vs. kontroll}
+\begin{itemize}
+\item{\textbf{Effekt:}} Det er en utfordring å skape en så engasjerende eksperimentsituasjon at deltakerne faktisk reagerer på manipulasjonen. 
+\item{\textbf{Kontroll:}} Samtidig risikerer man at deltakere overreagerer: De tar med seg erfaringer fra tidligere liv som finner resonnans i manipuleringen.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{McDermott -- Triviell vs. eksperimentell realisme}
+Triviell realisme er ikke det samme som eksperimentell realisme. 
+\begin{itemize}
+\item{\textbf{Esperimentell realisme}} innebærer at deltakerne må engasjere seg nok til å reagere på stimuli. Dette er nødvendig for at eksperimentet skal fungere.
+\item{\textbf{Triviell realisme}} innebærer at eksperimentsituasjonen likner på den virkelige verden på alle vis. Dette er unødvendig, eller til og med en ulempe.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{McDermott -- Intern eller ekstern validitet}
+En eksperimentell forsker er mer opptatt av den interne validiteten en den eksterne validiteten.
+\begin{itemize}
+\item{\textbf{Intern validitet:}} Måler jeg det jeg tror jeg måler?\footnote{Se Jacobsen kap 11 for en lengre diskusjon.} Uten denne er det umulig å konkludere med en årsakssammenheng. Da har det også lite for seg å argumentere at den eksterne validiteten er lav. Viktigst her er å ha en god operasjonalisering, og være sikker på kontrollen i eksperiementsituasjonen.
+\item{\textbf{Ekstern validitet:}} Hva kan jeg generalisere til? Dette etableres gjennom replikasjon; man gjentar studien i ulike former for å se om vi oppnår samme resultater. Eksperimentelle design er best når de kan generaliseres til en spesifikk gruppe som åpenbart likner på deltakerne (1), eller når man skal utvikle teorier om svært generelle fenomener (2). Når sistnevnte er formålet, kan ikke eksperimentet generere valide hypoteser før en overordnet teori er utviklet.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{McDermott -- Lure deltakerne?}
+Av og til er det hensiktsmessig å holde målet for undersøkelsen hemmelig for deltakerne.
+\begin{itemize}
+\item{McDermott er ingen store ulemper ved det, og siterer også at mange deltakere blir mer engasjerte.}
+\item{Det kan være et problem med læringseffekt og at deltakerne bruker mer tid på å gjette seg fram til det virkelige formålet enn å delta aktivt.}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{McDermott -- På kontoret eller i felten?}
+Det er ikke et mål i seg selv å flytte eksperimentet ut av laboratoriet, men i noen tilfeller er det den eneste muligheten for å reprodusere en situasjon. Dette er \emph{naturlige eksperimenter}.
+\begin{itemize}
+\item{\textbf{Fordel med naturlige eksperimenter}} når det er uetisk eller umulig å manipulere. Hva er effekten av en sykdom? Naturkatastrofe?
+\item{\textbf{Ulempe med naturlige eksperimenter}} Det naturlige eksperimentet kan være enda mer uetisk siden deltakerne ikke gir sin eksplisitte tilslutning. Videre er det vanskelig å kontrollere eksperimentsituasjonen, så man kan i mindre grad isolere "manipulasjonsvariabelen".
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{McDermott -- Fordeler  ved eksperimenter}
+\begin{itemize}
+\item{\textbf{Intern validitet er høy}}
+\item{\textbf{Kontroll over testmiljøet}} (andre faktorer)
+\item{\textbf{Presise mål på variabel}} siden man har designet den selv.
+\item{\textbf{Detaljkunnskap}} ved årsakssammenhengene kommer lettere fram. 
+\item{\textbf{Bevisst forhold til eget forskningsdesign}} 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{McDermott -- Ulemper ved eksperimenter}
+\begin{itemize}
+\item{\textbf{Risiko for å designe et eksperiment som nødvendigvis bekrefter hypoteser}}
+\item{\textbf{Den observerte endrer oppførsel}} Deltakere er ofte responsive til uutrykte ønsker hos forskeren, de ønsker å sette seg selv i et godt lys, eller de endrer oppførselen sin midlertidig som konsekvens av eksperiementet.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\title{Dag Ingvar Jacobsen: s.110-121}
+\author{}
+\maketitle
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Kritikk mot eksperimenter}
+\begin{itemize}
+\item{\textbf{Hawthorne-effekten:}} Selve eksperimentsituasjonen påvirker handlinger. (placebo) 
+\item{\textbf{Smitte mellom kontroll- og eksperimentgruppe:}} Gruppene er ikke uavhengige. Mennesker snakker sammen, og påvirker hverandre når de omgås.
+\item{\textbf{Bevisste manipulasjoner er vanskelig:}} Kan være vanskelig gjennomførbare.
+\item{\textbf{Randomisering er vanskelig:}} Bl.a. har mennesker egen vilje, og deltakelse i eksperiementer må være frivillig. Dermed risikerer vi systematiske forskjeller blant deltakerne; som velger å delta av ulike (og ukjente) grunner.
+\item{\textbf{Etisk tvilsomt}}
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Kompensasjonsstrategier}
+\begin{itemize}
+\item{\textbf{Kvasieksperiementer:}} Når vi ikke kan gjøre et tilfeldig utvalg, må vi gjøre utvalg vi tror er \emph{representativt} basert på tidligere forskning.
+\item{\textbf{Naturlige kvasieksperiemnter:}} Når vi i tillegg ikke kan manipulere tiltakene gruppa utsettes for, må vi velge enheter som tilfeldigvis blir underlagt manipulasjonselementet og en kontrollgruppe som tilfeldigvis \emph{ikke} er underlagt manipulasjonselementet.
+\item{\textbf{Endring over tid:}} De samme enhetene endrer seg, men man har ikke kontrollgrupper. Gjør at man er usikker på om det er manipulasjonen som forårsaker endringer og ikke andre elementer i samme tidsrom.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Kompensasjonsstrategier}
+Når vi utelukkende ser at to ting samvarierer, kjenner vi ikke årsakssammenhengen dem i mellom (årsaksretning, spuriøsitet, tilfeldigheter). Dette kompenserer vi for ved å gjøre substansielle valg:
+\begin{itemize}
+\item{\textbf{Fokus på prosess/mekanismier}} Man kan fokusere på mekanismene som skaper årsaker. Vi nøyer oss ikke bare med å observere endringen i den ene variabelen når den andre endres. Vi krever også å se tegn på mekanismen vi har laget hypoteser om.
+\item{\textbf{Fokus på teori:}} Vi bruker tidligere forskning for å forme hypoteser som vi tester. Så observerer vi endringen i den ene variabelen når den andre endres. Vi krever ikke å se mekanismene.
+\end{itemize}
+\end{frame}
+
+
+
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\title{Andre eksperiment -- bilkjøring og sykdommer}
+\author{}
+\maketitle
+\end{frame}
+
+\begin{frame}
+\frametitle{Andre eksperiment -- første runder}
+Dette er et spill hvor det er om å gjøre å få flest poeng. Dere bor langt fra Halden, og må enten kjøre bil eller ta buss til skolen. Begge deler innebærer kostnader og gevinster:
+\begin{itemize}
+\item{\textbf{Buss (velges):}} Å kjøre buss gir en gevinst på 2 poeng, og en kostnad på 0 poeng. Total gevinst (2-0) er 2.
+\item{\textbf{Bil (velges):}} Å kjøre bil gir en gevinst på 7 poeng, og en kostnad på 4 poeng. Total gevinst (7-4) er 3
+\item{\textbf{Syk (trekkes):}} For hver runde blir enkelte av dere syke av forurensningen fra bilkjøringen. Da må dere være hjemme. Det gir en gevinst på 0.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Andre eksperiment -- videre runder}
+Denne gangen har dere ulike biler og ulike aktiviteter etter skolen. \textbf{NB: Skriv på kjøreloggen deres hvilen bil/fritidsinteresse du har.} Dere kan fortsatt velge mellom buss og bil:
+\begin{itemize}
+\item{\textbf{Buss (velges):}} Å kjøre buss gir fortsatt en gevinst på 2 poeng, og en kostnad på 0 poeng. Total gevinst (2-0) er 2.
+\item{\textbf{Bil (velges):}} Gevinsten avhenger av deres "private informasjon" om hvilken bil og hvilke aktiviteter dere har.
+\item{\textbf{Syk (trekkes):}} For hver runde blir enkelte syke av forurensningen fra bilkjøringen. Da må dere være hjemme. Det gir en gevinst på 0.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Andre eksperiment -- siste runder}
+Denne gangen legger alle som har bil, ett poeng til kostnadene sine:
+\begin{itemize}
+\item{\textbf{Buss (velges):}} Å kjøre buss gir fortsatt en gevinst på 2 poeng, og en kostnad på 0 poeng. Total gevinst (2-0) er 2.
+\item{\textbf{Bil (velges):}} Gevinsten avhenger av deres "private informasjon" om hvilken bil og hvilke aktiviteter dere har.
+\item{\textbf{Syk (trekkes):}} For hver runde blir enkelte syke av forurensningen fra bilkjøringen. Da må dere være hjemme. Det gir en gevinst på 0.
+\end{itemize}
+\end{frame}
+
+<<results=hide, echo=FALSE, label='Resultat andre eksperiment'>>=
+Period<-1:9
+Drive<-c(22,24,25,19,17,19,18,10,8)
+Bus<-c(7,5,4,9,12,9,11,19,21)
+Sick<-c(0,Drive*0.5)
+Treatment<-c(rep("1",3), rep("2",4), rep(3,1), rep(4,1))
+
+tabell<-cbind(Period, Drive, Bus, Sick[1:length(Sick)-1])
+colnames(tabell)<-c("Periode", "Bil", "Buss", "Syk")
+
+
+pdf("Eksperiment2.pdf")
+plot(y=Drive,
+     x=1:length(Drive),
+     type="n",
+     ylim=c(0,max(Drive)),
+     ylab="Bilkjøring",
+     xlab="Tid (runder i spillet)")
+
+points(y=Drive,
+     x=1:length(Drive),
+     type="b",
+       col="purple",
+       lwd=3)
+
+points(y=Sick[1:length(Sick)-1],
+     x=1:length(Drive),
+     type="b",
+       col="red",
+       lwd=3)
+
+legend(y=max(Drive),
+       x=length(Drive)-3,
+       legend=c("Antall biler (årsak)", "Antall syke (virkning)"),
+       lty=1,
+       lwd=3,
+       col=c("purple", "red"))
+
+abline(v=which(Treatment==2)[1], lty=2, col="grey")
+abline(v=which(Treatment==3)[1], lty=2, col="grey")
+abline(v=which(Treatment==4)[1], lty=2, col="grey")
+dev.off()
+
+@
+
+\begin{frame}
+\frametitle{Andre eksperiment -- resulatater}
+<<results=tex, echo=FALSE, label='Resultat andre eksperiment'>>=
+library(xtable)
+xtable(tabell,
+       row.names=FALSE,
+       digits=0,
+       align=c(rep(c("c","|"),4),"c")
+       )
+@
+\end{frame}
+
+\begin{frame}
+\frametitle{Andre eksperiment -- resulatater}
+\begin{figure}
+\centering
+\includegraphics[width=.6\textwidth]{Eksperiment2}
+\caption{Antall syke og bilkjøring -- effekten kommer en periode etter årsaken.}
+\end{figure}
+\end{frame}
+
+
+<<results=hide, echo=FALSE, label='Resultat andre eksperiment'>>=
+pdf("Eksperiment3.pdf")
+plot(y=Drive,
+     x=1:length(Drive),
+     type="n",
+     ylim=c(0,max(Drive)),
+     ylab="Bilkjøring",
+     xlab="Tid (runder i spillet)")
+
+points(y=Drive,
+     x=1:length(Drive),
+     type="b",
+       col="purple",
+       lwd=3)
+
+points(y=Sick[2:length(Sick)],
+     x=1:length(Drive),
+     type="b",
+       col="red",
+       lwd=3)
+
+legend(y=max(Drive),
+       x=length(Drive)-3,
+       legend=c("Antall biler (årsak)", "Antall syke (virkning)"),
+       lty=1,
+       lwd=3,
+       col=c("purple", "red"))
+
+abline(v=which(Treatment==2)[1], lty=2, col="grey")
+abline(v=which(Treatment==3)[1], lty=2, col="grey")
+abline(v=which(Treatment==4)[1], lty=2, col="grey")
+dev.off()
+
+@
+
+
+\begin{frame}
+\frametitle{Andre eksperiment -- resulatater}
+\begin{figure}
+\centering
+\includegraphics[width=.6\textwidth]{Eksperiment3}
+\caption{Bilkjøring fra forrige periode og antall syke i denne perioden.}
+\end{figure}
+\end{frame}
+
+

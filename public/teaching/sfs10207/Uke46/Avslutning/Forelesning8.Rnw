@@ -1,0 +1,102 @@
+\documentclass{beamer}
+\title{Tolkning av resultater}
+\author{Silje Synn{\o}ve Lyder Hermansen}
+\institute{\texttt{s.s.l.hermansen@stv.uio.no}\\}
+\date{}
+\begin{document}
+\maketitle
+\SweaveOpts{concordance=TRUE}
+
+\begin{frame}
+\title{Hva er tolkning?}
+\author{}
+\institute{}
+\maketitle
+\end{frame}
+
+
+<<results=hide, echo=FALSE>>=
+setwd("M:/Undervisning/HiO/Forelesningsmateriale/Uke 46/Avslutning")
+@
+
+\begin{frame}
+\frametitle{Hva er tolkning?}
+Å tolke resultatene innebærer at vi setter funnene våre i en sammenheng. Det er dette som gjør oss til forskere. Vi løfter blikket. For å gjøre dette trekker vi på erfaringer fra empiri og/eller teori:
+\begin{itemize}
+\item \textbf{Empirisk sammenheng:} Vi sammenlikner resultatene våre med andre enheter.
+\item \textbf{Teoretisk sammenheng:} Vi konfronterer resultatene våre teoretiske perspektiver.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Hva er tolkning? -- Empirisk sammenheng}
+\textbf{Empirisk sammenheng:}For å trekke konklusjoner må vi ha et referansepunkt. I tolkninsdelen av et prosjekt vil vi dermed ofte trekke på erfaringer/sammenlikne med andre, liknende enheter.  
+\begin{itemize}
+\item Eksperimentidealet : Man sammenlikner enheter som er like på flest mulig punkter, med unntak av årsak-konsekvens-variablene. Man kan sammenlikne de samme enhetene med seg selv, over tid. Eller man kan sammenlikne liknende enheter på ett tidspunkt. For at enhetene skal være sammenliknbare ville det beste være at de ble trukket tilfeldig fra samme populasjon. Det er ikke alltid mulig.
+\item  Kompensasjonsstrategien: Man \emph{matcher} enheter. Siden man ikke alltid kan trekke et nytt, tilfeldig utvalg fra den samme populasjonen kan man kompensere ved å definere et antall kriterier/punkter hvor enheter skal være like for så å sammenlikne ulikhetene forøvrig. For å definere slike punkter vil man måtte bruke tidligere forskning/teori.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Hva er tolkning? -- teoretisk sammenlikning}
+\textbf{Teoretisk sammenheng:} Den empiriske sammenlikningen gjør oss først og fremst i stand til å vurdere størrelsen/effekten av funnet uten å være normativ. Dermot bruker vi teorier til å gi mening til funnet: \emph{hvorfor} henger ting sammen slik? Hva vil \emph{konsekvensene} være?
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Hva er tolkning? -- teoretisk sammenlikning}
+En teori er en \emph{forenkling} av virkeligheten. En god teori er skjematisk, men er fortsatt realistisk. Den består av fire elementer:
+\begin{itemize}
+\item En liste over variabler. 
+\item En beskrivelse av hvordan de henger sammen.
+\item En forklaring på hvorfor de henger sammen.
+\item En reservasjonsrett: Under hvilke forutsetninger fungerer teorien?
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Hva er tolkning? -- teoretisk sammenlikning}
+Hvordan bruker vi teorien? Man kan bruke teorier på flere vis:
+\begin{itemize}
+\item Avskjerming: Man kan gjennomføre og tolke en empirisk undersøkelse ved å bruke \'{e}n enkelt teori.
+\item Man kan slå sammen teorier: De forklarer ulike deler av en større sammenheng, og føgler samme underliggende logikk.
+\item Utfylling: Teoriene utfyller hverandre slik at den ene er svak der den andre er sterk.  
+\item Konkurranse: Man setter to teorier opp mot hverandre og tester hvilken som best forklarer empirien. Dermed utforsker man begrensningene i teorien, man definerer gyldighetsområdet.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\title{Feilslutning}
+\author{}
+\institute{}
+\maketitle
+\end{frame}
+
+\begin{frame}
+\frametitle{Feilslutninger}
+\textbf{Feilslutning} man argumenterer for en tolkning med dataene som argument uten å ha belegg for det. Vi leser mer inn i dataene enn vi har belegg for. Det finnes tre hovedtyper av feilslutninger.
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Nivåfeilslutning}
+Vi trekker en konklusjon/generaliserer til et annet nivå enn det enhetene våre er på.
+\begin{itemize}
+\item \textbf{Økologiske feilslutninger:} Fra å ha studert en gruppe med enheter kan vi ikke automatisk trekke konklusjoner om enheter.
+\item \textbf{Aggregerende feilslutninger:} Fra å ha studert enheter kan vi ikke automatisk trekke konklusjoner om en gruppe med enheter.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Tidsfeilslutning}
+\end{frame}
+
+\begin{frame}
+\frametitle{Kausalitetsfeilslutning}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,69 @@
+Komite	Posisjon	Navn	Kvinne	Regjering	Perioder	Saksordfører
+Familie- og kulturkomiteen	Leder	Harberg, Svein	0	Nei	1	8
+Familie- og kulturkomiteen	Første nestleder	Bekkevold, Geir Jørgen	0	Nei	1	18
+Familie- og kulturkomiteen	Andre nestleder	Aasrud, Rigmor	1	Statsrad	1	0
+Familie- og kulturkomiteen	Medlem	Liadal, Hege Haukeland	1	Nei	0	0
+Familie- og kulturkomiteen	Medlem	Løvaas, Kårstein Eidem	0	Nei	0	0
+Familie- og kulturkomiteen	Medlem	Mandt, Sonja	1	Nei	2	25
+Familie- og kulturkomiteen	Medlem	Grande, Arild	0	Nei	1	31
+Familie- og kulturkomiteen	Medlem	Stordalen, Morten 	0	Nei	1	2
+Familie- og kulturkomiteen	Medlem	Thomsen, Ib	0	Nei	2	15
+Familie- og kulturkomiteen	Medlem	Tønder, Mette	1	Nei	0	0
+Utenriks- og forsvarskomiteen	Leder	Huitfeldt, Anniken	1	Statsrad	2	1
+Utenriks- og forsvarskomiteen	Første nestleder	Halleraker, Øyvind	0	Nei	3	37
+Utenriks- og forsvarskomiteen	Andre nestleder	Norheim, Kristian	0	Nei	0	0
+Utenriks- og forsvarskomiteen	Medlem	Agdestein, Elin Rodum	1	Nei	0	0
+Utenriks- og forsvarskomiteen	Medlem	Alexandrova, Regina	1	Nei	0	0
+Utenriks- og forsvarskomiteen	Medlem	Graham, Sylvi	1	Statssekretær	1	7
+Utenriks- og forsvarskomiteen	Medlem	Grande, Trine Skei	1	Nei	2	52
+Utenriks- og forsvarskomiteen	Medlem	Hansen, Svein Roald	0	Nei	3	46
+Utenriks- og forsvarskomiteen	Medlem	Helleland, Trond	0	Nei	4	52
+Utenriks- og forsvarskomiteen	Medlem	Hareide, Knut Arild	0	Statsrad	1	22
+Utenriks- og forsvarskomiteen	Medlem	Navarsete, Liv Signe	1	Statsrad	2	0
+Utenriks- og forsvarskomiteen	Medlem	Nybakk, Marit	1	Nei	5	120
+Utenriks- og forsvarskomiteen	Medlem	Sandberg, Per	0	Nei	4	47
+Utenriks- og forsvarskomiteen	Medlem	Simensen, Kåre	0	Nei	1	23
+Utenriks- og forsvarskomiteen	Medlem	Solhjell, Bård Vegar	0	Statsrad	1	0
+Utenriks- og forsvarskomiteen	Medlem	Stoltenberg, Jens	0	Statsrad	5	11
+Utenriks- og forsvarskomiteen	Medlem	Tybring-Gjedde, Christian	0	Nei	2	17
+Arbeids- og sosialkomiteen	Medlem	Mathisen, Bente Stein	1	Nei	0	1
+Arbeids- og sosialkomiteen	Medlem	Christoffersen, Lise	1	Nei	2	42
+Arbeids- og sosialkomiteen	Medlem	Lundteigen, Per Olaf	0	Statssekretær	3	55
+Arbeids- og sosialkomiteen	Medlem	Bergstø, Kirsti	1	Statssekretær	0	0
+Arbeids- og sosialkomiteen	Medlem	Trettebergstuen, Anette	1	Nei	2	28
+Arbeids- og sosialkomiteen	Medlem	Johnsen, Tor André	0	Nei	0	0
+Arbeids- og sosialkomiteen	Medlem	Bjørdal, Fredric Holen	0	Nei	0	0
+Arbeids- og sosialkomiteen	Medlem	Heggelund, Stefan	0	Nei	0	0
+Arbeids- og sosialkomiteen	Medlem	Kambe, Arve	0	Nei	1	14
+Arbeids- og sosialkomiteen	Medlem	Rotevatn, Sveinung	0	Nei	0	0
+Arbeids- og sosialkomiteen	Medlem	Andersen, Dag Terje	0	Statsrad	3	32
+Arbeids- og sosialkomiteen	Medlem	Wenstøb, Bengt Morten	0	Nei	0	0
+Arbeids- og sosialkomiteen	Medlem	Wiborg, Erlend	0	Nei	0	0
+Helse- og omsorgskomiteen	Leder	Kjos, Kari Kjønaas	1	Nei	2	13
+Helse- og omsorgskomiteen	Første nestleder	Toppe, Kjersti	1	Nei	1	5
+Helse- og omsorgskomiteen	Andre nestleder	Micaelsen, Torgeir	0	Nei	2	20
+Helse- og omsorgskomiteen	Medlem	Bollestad, Olaug V.	1	Nei	0	0
+Helse- og omsorgskomiteen	Medlem	Grung, Ruth Mari	1	Nei	0	0
+Helse- og omsorgskomiteen	Medlem	Johnsen, Kristin Ørmen	1	Nei	0	0
+Helse- og omsorgskomiteen	Medlem	Kjenseth, Ketil	0	Nei	0	0
+Helse- og omsorgskomiteen	Medlem	Knutsen, Tove Karoline 	1	Nei	2	18
+Helse- og omsorgskomiteen	Medlem	Lysbakken, Audun	0	Statsrad	2	5
+Helse- og omsorgskomiteen	Medlem	Nesvik, Harald T.	0	Nei	4	32
+Helse- og omsorgskomiteen	Medlem	Nørve, Elisabeth Røbekk	1	Nei	2	20
+Helse- og omsorgskomiteen	Medlem	de Ruiter, Freddy	0	Nei	2	8
+Helse- og omsorgskomiteen	Medlem	Stensland, Sveinung	0	Nei	0	0
+Helse- og omsorgskomiteen	Medlem	Trøen, Tone Wilhelmsen	1	Nei	0	0
+Helse- og omsorgskomiteen	Medlem	Tung, Karianne O.	1	Nei	0	0
+Helse- og omsorgskomiteen	Medlem	Wold, Morten 	0	Nei	0	0
+Kontroll- og konstitusjonskomiteen	Leder	Kolberg, Martin	0	Statssekretær	1	41
+Kontroll- og konstitusjonskomiteen	Første nestleder	Tetzschner, Michael	0	Nei	1	16
+Kontroll- og konstitusjonskomiteen	Andre nestleder	Svendsen, Kenneth	0	Nei	4	18
+Kontroll- og konstitusjonskomiteen	Medlem	Andersen, Karin	1	Nei	4	57
+Kontroll- og konstitusjonskomiteen	Medlem	Christensen, Jette F.	1	Nei	1	28
+Kontroll- og konstitusjonskomiteen	Medlem	Eldegard, Gunvor	1	Nei	2	25
+Kontroll- og konstitusjonskomiteen	Medlem	Grøvan, Hans Fredrik	0	Nei	0	2
+Kontroll- og konstitusjonskomiteen	Medlem	Hansson, Rasmus	0	Statssekretær	3	0
+Kontroll- og konstitusjonskomiteen	Medlem	Lundteigen, Per Olaf	0	Nei	1	55
+Kontroll- og konstitusjonskomiteen	Medlem	Raja, Abid Q.	0	Nei	0	3
+Kontroll- og konstitusjonskomiteen	Medlem	Skutle, Erik 	0	Nei	0	0
+Kontroll- og konstitusjonskomiteen	Medlem	Thorheim, Helge	0	Nei	0	0
