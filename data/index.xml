@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on Silje Synnøve Lyder Hermansen</title>
+    <link>/data/</link>
+    <description>Recent content in Data on Silje Synnøve Lyder Hermansen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lær deg R</title>
+      <link>/data/laerdegr/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data/laerdegr/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

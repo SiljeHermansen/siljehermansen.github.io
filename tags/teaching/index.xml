@@ -17,7 +17,9 @@
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/teaching/stv4020b/</guid>
-      <description>&lt;p&gt;Political scientists often pose questions of the type “Does X have an effect on Y?” Key to finding an answer is the formulation of a counter-factual: “What would Y have looked like in the absence of X?” The most significant challenge we face when trying to answer such questions with empirical data is that pre-existing conditions may affect both the explanatory factors and the outcomes we are interested in. This course is about ways to overcome this challenge by carefully selecting an appropriate research design and a suitable statistical model. The course aims to provide a toolkit of quantitative techniques for students interested in studying social science with observational data&lt;/p&gt;
+      <description>&lt;p&gt;Master&amp;rsquo;s level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2019&lt;/p&gt;
+
+&lt;p&gt;Political scientists often pose questions of the type “Does X have an effect on Y?” Key to finding an answer is the formulation of a counter-factual: “What would Y have looked like in the absence of X?” The most significant challenge we face when trying to answer such questions with empirical data is that pre-existing conditions may affect both the explanatory factors and the outcomes we are interested in. This course is about ways to overcome this challenge by carefully selecting an appropriate research design and a suitable statistical model. The course aims to provide a toolkit of quantitative techniques for students interested in studying social science with observational data&lt;/p&gt;
 
 &lt;p&gt;The first part of the course centers on experimental and quasi-experimental empirical approaches. We discuss how randomization might reduce concerns about pre-existing conditions and help us estimate causal effects without making many assumptions. We then turn to experimental designs and empirical approaches based on an as if random assumption, such as natural experiments, matching techniques, and regression discontinuity designs.&lt;/p&gt;
 
@@ -92,6 +94,16 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Lær deg R</title>
+      <link>/data/laerdegr/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data/laerdegr/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lær deg R</title>
       <link>/publication/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
@@ -121,7 +133,20 @@ If you use the *docs* layout, note that the name of the menu in the front matter
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/teaching/</guid>
-      <description></description>
+      <description>
+
+&lt;h2 id=&#34;statistical-analysis-stv-4020b-stv4020b&#34;&gt;&lt;a href=&#34;STV4020b&#34; target=&#34;_blank&#34;&gt;Statistical analysis (STV 4020B)&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Master&#39;s level. &lt;i&gt;University of Oslo. Department of Political Science.&lt;/i&gt; 2019&lt;/p&gt;
+
+&lt;p&gt;Advanced statistical analysis for social scientists. We go through the fundamental principals of causal inference as well as the most common generalized linear models (GLMs). Course given together with Øyvind Stiansen.&lt;/p&gt;
+
+&lt;h2 id=&#34;samfunnsvitenskapelig-forskningsmetode-sfs-10207-sfs10207&#34;&gt;&lt;a href=&#34;sfs10207&#34; target=&#34;_blank&#34;&gt;Samfunnsvitenskapelig forskningsmetode  (SFS 10207)&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Bachelor&#39;s level. &lt;i&gt;Østfold University College. Faculty of Business, Languages, and Social Sciences. &lt;/i&gt; 2013&lt;/p&gt;
+
+&lt;p&gt;Introduction to research methods (Bachelor&#39;s level). Course given together with Mathias Johannessen.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
