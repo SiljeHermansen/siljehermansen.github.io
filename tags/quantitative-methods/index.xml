@@ -12,6 +12,96 @@
     
     
     <item>
+      <title>Statistical analysis (STV 4020B)</title>
+      <link>/teaching/stv4020b/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/stv4020b/</guid>
+      <description>&lt;p&gt;Master&amp;rsquo;s level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2019&lt;/p&gt;
+
+&lt;p&gt;Political scientists often pose questions of the type “Does X have an effect on Y?” Key to finding an answer is the formulation of a counter-factual: “What would Y have looked like in the absence of X?” The most significant challenge we face when trying to answer such questions with empirical data is that pre-existing conditions may affect both the explanatory factors and the outcomes we are interested in. This course is about ways to overcome this challenge by carefully selecting an appropriate research design and a suitable statistical model. The course aims to provide a toolkit of quantitative techniques for students interested in studying social science with observational data&lt;/p&gt;
+
+&lt;p&gt;The first part of the course centers on experimental and quasi-experimental empirical approaches. We discuss how randomization might reduce concerns about pre-existing conditions and help us estimate causal effects without making many assumptions. We then turn to experimental designs and empirical approaches based on an as if random assumption, such as natural experiments, matching techniques, and regression discontinuity designs.&lt;/p&gt;
+
+&lt;p&gt;When randomization is not an option, we often have to make more assumptions to estimate effects. The second part of the course looks at different statistical estimators, with a focus on their advantages, their underlying assumptions and the consequences of breaking them, and the consequences our choice of estimator may have for the conclusions that we can draw. We start with OLS, and then introduce maximum likelihood estimators that in some situations are superior to OLS when studying choice, count, and events data.&lt;/p&gt;
+
+&lt;p&gt;Students will get hands-on practice by learning how to implement the various techniques and by replicating existing studies in R. Students will also learn how to present results in a manner that is understandable to a general audience, for example by using graphs and other visual tools.&lt;/p&gt;
+
+&lt;p&gt;You can find more information about the course &lt;a href=&#34;https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!---## Flexibility
+This feature can be used for publishing content such as:
+
+* **Online courses**
+* **Project or software documentation**
+* **Tutorials**
+
+The `courses` folder may be renamed. For example, we can rename it to `docs` for software/project documentation or `tutorials` for creating an online course.
+
+## Delete tutorials
+
+**To remove these pages, delete the `courses` folder and see below to delete the associated menu link.**
+
+## Update site menu
+
+After renaming or deleting the `courses` folder, you may wish to update any `[[main]]` menu links to it by editing your menu configuration at `config/_default/menus.toml`.
+
+For example, if you delete this folder, you can remove the following from your menu configuration:
+
+```toml
+[[main]]
+  name = &#34;Courses&#34;
+  url = &#34;courses/&#34;
+  weight = 50
+```
+
+Or, if you are creating a software documentation site, you can rename the `courses` folder to `docs` and update the associated *Courses* menu configuration to:
+
+```toml
+[[main]]
+  name = &#34;Docs&#34;
+  url = &#34;docs/&#34;
+  weight = 50
+```
+
+## Update the docs menu
+
+If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.&lt;NewFolderName&gt;]`.
+---&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Samfunnsvitenskapelig forskningsmetode (SFS 10207, Høgskolen i Østfold)</title>
+      <link>/teaching/sfs10207/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/sfs10207/</guid>
+      <description>&lt;p&gt;Lysark fra forelseningene finnes her:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Uke 34: &lt;a href=&#34;./Uke34/Presentation1.pptx&#34;&gt;Hva er vitenskap?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uke 41: &lt;a href=&#34;./Uke41/Eksperimenter.pdf&#34;&gt;Eksperimenter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uke 42: &lt;a href=&#34;./Uke42/Forelesning3.pdf&#34;&gt;Valg av studieobjekt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uke 43: &lt;a href=&#34;./Uke43/Forelesning4.pdf&#34;&gt;Univariate fordelinger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uke 44: &lt;a href=&#34;./Uke44/Forelesning5.pdf&#34;&gt;Multivariate fordelinger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uke 45: &lt;a href=&#34;./Uke45/Forelesning6.pdf&#34;&gt;Gyldighet og reliabilitet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uke 46: &lt;a href=&#34;./Uke46/Forelesning7.pdf&#34;&gt;Kjikvadrattesten&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lær deg R</title>
+      <link>/data/laerdegr/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data/laerdegr/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Lær deg R</title>
       <link>/publication/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
