@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Silje Synnøve Lyder Hermansen</title>
-    <link>/tags/r/</link>
+    <link>https://siljehermansen.github.io/tags/r/</link>
     <description>Recent content in R on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://siljehermansen.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lær deg R</title>
-      <link>/publication/laerdegr/</link>
+      <link>https://siljehermansen.github.io/publication/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/laerdegr/</guid>
+      <guid>https://siljehermansen.github.io/publication/laerdegr/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cover.jpg&#34; alt=&#34;Fagbokforlaget&#34; /&gt;
 &lt;!---&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>laerdegR</title>
-      <link>/data/laerdegr/</link>
+      <link>https://siljehermansen.github.io/data/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/data/laerdegr/</guid>
+      <guid>https://siljehermansen.github.io/data/laerdegr/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>

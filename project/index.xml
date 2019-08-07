@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Silje Synnøve Lyder Hermansen</title>
-    <link>/project/</link>
+    <link>https://siljehermansen.github.io/project/</link>
     <description>Recent content in Projects on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://siljehermansen.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Decision makers in the Court of Justice of the European Union (CJEU)</title>
-      <link>/project/court-of-justice-of-the-european-union/</link>
+      <link>https://siljehermansen.github.io/project/court-of-justice-of-the-european-union/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/court-of-justice-of-the-european-union/</guid>
+      <guid>https://siljehermansen.github.io/project/court-of-justice-of-the-european-union/</guid>
       <description>
 
 &lt;p&gt;The Court of Justice of the European Union (CJEU) has established itself as the world’s most influential international court, functioning in many respects as a federal supreme court.  This project aims to better understand the conditions for -– and therefore the limits of -– the Court’s independence.&lt;/p&gt;
@@ -75,10 +75,10 @@ The internal organization of the Court has become both more complex and more hie
     
     <item>
       <title>Decision makers in the European Parliament (EP)</title>
-      <link>/project/european-parliament/</link>
+      <link>https://siljehermansen.github.io/project/european-parliament/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/european-parliament/</guid>
+      <guid>https://siljehermansen.github.io/project/european-parliament/</guid>
       <description>
 
 &lt;!---
@@ -137,7 +137,7 @@ after the legislation of quotas in several member states.  Absent quotas, I find
 &lt;h4 id=&#34;published-work&#34;&gt;Published work&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;/publication/pp2018/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Striving for influence: The effect of performance on candidate selection&amp;rdquo;&lt;/a&gt; (2018) &lt;em&gt;Party Politics&lt;/em&gt; 24 (4), 382-396.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/pp2018/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Striving for influence: The effect of performance on candidate selection&amp;rdquo;&lt;/a&gt; (2018) &lt;em&gt;Party Politics&lt;/em&gt; 24 (4), 382-396.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;legislative-behavior&#34;&gt;Legislative behavior&lt;/h2&gt;
@@ -167,7 +167,7 @@ procedures, committees, and over time.&lt;/p&gt;
 &lt;h3 id=&#34;published-work-1&#34;&gt;Published work&lt;/h3&gt;
 
 &lt;!---
-* [&#34;(Self-)selection and expertise among decision-makers in the European Parliament&#34;] ( /publication/jls2018/) (2018) *The Journal of Legislative Studies*.
+* [&#34;(Self-)selection and expertise among decision-makers in the European Parliament&#34;] ( https://siljehermansen.github.io/publication/jls2018/) (2018) *The Journal of Legislative Studies*.
 [ ](Selfselection.pdf)
 ---&gt;
 
