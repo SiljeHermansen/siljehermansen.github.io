@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on Silje Synnøve Lyder Hermansen</title>
-    <link>https://siljehermansen.github.io/tags/teaching/</link>
+    <link>/tags/teaching/</link>
     <description>Recent content in Teaching on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://siljehermansen.github.io/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Statistical analysis (STV 4020B)</title>
-      <link>https://siljehermansen.github.io/teaching/stv4020b/</link>
+      <link>/teaching/stv4020b/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/stv4020b/</guid>
+      <guid>/teaching/stv4020b/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2019&lt;/p&gt;
 
 &lt;p&gt;Political scientists often pose questions of the type “Does X have an effect on Y?” Key to finding an answer is the formulation of a counter-factual: “What would Y have looked like in the absence of X?” The most significant challenge we face when trying to answer such questions with empirical data is that pre-existing conditions may affect both the explanatory factors and the outcomes we are interested in. This course is about ways to overcome this challenge by carefully selecting an appropriate research design and a suitable statistical model. The course aims to provide a toolkit of quantitative techniques for students interested in studying social science with observational data&lt;/p&gt;
@@ -73,10 +73,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Samfunnsvitenskapelig forskningsmetode (SFS 10207, Høgskolen i Østfold)</title>
-      <link>https://siljehermansen.github.io/teaching/sfs10207/</link>
+      <link>/teaching/sfs10207/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/sfs10207/</guid>
+      <guid>/teaching/sfs10207/</guid>
       <description>&lt;p&gt;Lysark fra forelseningene finnes her:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -93,10 +93,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Lær deg R</title>
-      <link>https://siljehermansen.github.io/publication/laerdegr/</link>
+      <link>/publication/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/publication/laerdegr/</guid>
+      <guid>/publication/laerdegr/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;cover.jpg&#34; alt=&#34;Fagbokforlaget&#34; /&gt;
 &lt;!---&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
@@ -118,20 +118,20 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>laerdegR</title>
-      <link>https://siljehermansen.github.io/data/laerdegr/</link>
+      <link>/data/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/data/laerdegr/</guid>
+      <guid>/data/laerdegr/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>https://siljehermansen.github.io/teaching/</link>
+      <link>/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/</guid>
+      <guid>/teaching/</guid>
       <description>
 
 &lt;h2 id=&#34;statistical-analysis-stv-4020b-stv4020b&#34;&gt;&lt;a href=&#34;STV4020b&#34; target=&#34;_blank&#34;&gt;Statistical analysis (STV 4020B)&lt;/a&gt;&lt;/h2&gt;

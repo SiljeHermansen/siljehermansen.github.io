@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Silje Synnøve Lyder Hermansen</title>
-    <link>https://siljehermansen.github.io/authors/</link>
+    <link>/authors/</link>
     <description>Recent content in Authors on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://siljehermansen.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://siljehermansen.github.io/authors/admin/</link>
+      <link>/authors/admin/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;Welcome to my website! I currently work at &lt;a href=&#34;https://www.jus.uio.no/pluricourts/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;PluriCourts&lt;/em&gt;&lt;/a&gt;, a centre of excellence dedicated to the study of international courts at the Univeristy of Oslo.&lt;/p&gt;
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Welcome to my website! I currently work at &lt;a href=&#34;https://www.jus.uio.no/pluricourts/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;PluriCourts&lt;/em&gt;&lt;/a&gt;, a centre of excellence dedicated to the study of international courts at the University of Oslo.&lt;/p&gt;
 
 &lt;p&gt;My research focuses on the selection and behavior of our representatives; be they legislators or judges. I am particularly interested in the EU institutions: The European Parliament and the Court of Justice of the European Union. I rely mostly on quantitative methods, and have extensive experience in both automated data collection and Bayesian estimation strategies.&lt;/p&gt;
 
-&lt;p&gt;Much of my teaching has been done on the topics of comparative politics and research methods. I&amp;rsquo;ve tought courses both at bachelor&amp;rsquo;s and master&amp;rsquo;s level, for students as well as professionals. My book, &lt;a href=&#34;https://siljehermansen.github.io/publication/laerdegr&#34;&gt;&lt;em&gt;Lær deg R&lt;/em&gt;&lt;/a&gt; (2019) is the first introduction to R in Norwegian.&lt;/p&gt;
+&lt;p&gt;Much of my teaching has been done on the topics of comparative politics and research methods. I&amp;rsquo;ve tought courses both at bachelor&amp;rsquo;s and master&amp;rsquo;s level, for students as well as professionals. My book, &lt;a href=&#34;/publication/laerdegr&#34;&gt;&lt;em&gt;Lær deg R&lt;/em&gt;&lt;/a&gt; (2019) is the first introduction to R in Norwegian.&lt;/p&gt;
 </description>
     </item>
     
