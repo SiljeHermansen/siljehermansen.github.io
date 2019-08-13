@@ -18,8 +18,14 @@
       
       <guid>/publication/laerdegr/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
-&lt;img src=&#34;laerdegr.jpg&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter.&#34;&gt;
+&lt;img src=&#34;laerdegr.jpg&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Author: Silje Synnøve Lyder Hermansen&#34;&gt;
 &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt; Velkommen til R-universet! Lær deg R er introduksjonen for deg som ønsker et godt arbeidsverktøy for statistisk analyse.  R har vokst enormt i popularitet de siste årene, og med god grunn. R er gratis og dekker analysebehovene til nybegynnere så vel som eksperter.&lt;/p&gt;  
+    &lt;p&gt;Boka er skrevet for samfunnsviteren som tar sine første skritt innen kvantitativ metode. Statistikk er et håndverk mer enn en vitenskap. Derfor er verktøyet viktig. Vi jobber sammen i RStudio, og går gjennom analysestadiene skritt for skritt. Vi laster inn data, tilrettelegger dem, gjør foranalyser og regresjonsanalyser. Fokuset er på å forstå hva som skjer, og kommunisere resultatene.&lt;/p&gt;
+  &lt;p&gt;Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Alt du trenger er en datamaskin, internett og denne boka.&lt;/p&gt;
 </description>
     </item>
     
@@ -29,8 +35,15 @@
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/pp2018/</guid>
-      <description>&lt;p&gt;&lt;!---Supplementary material can be found [here](https://www.jus.uio.no/ior/english/people/aca/ssherman/).---&gt;
-&lt;strong&gt;Replication files&lt;/strong&gt; can be downloaded &lt;a href=&#34;https://github.com/SiljeHermansen/Replication-files&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/1354068816663036&#34;&gt;
+&lt;img src=&#34;reselection_performance.jpg&#34; alt=&#34;Effect of signals of performance on the probability of members&#39; reselection to the European Parliament.&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;
+&lt;p&gt;I consider how asymmetric information between the party selectorate and members of Parliament affects the renomination of incumbent candidates. By applying an adverse selection model, I argue that the selectorate looks to past performance to select candidates it expects will gain influence. However, the impact of performance varies according to the need for and availability of information.&lt;/p&gt;
+  &lt;p&gt;The European Parliament (EP) provides a most-likely case for information asymmetry. Studying three elections in 11 member states, I find that the allocation of influential positions in office improves chances of reselection. The effect increases when the allocation is more selective, and when the prior uncertainty around candidacies is high. The study thus proposes a new approach to the relationship between national parties and transnational groups in the EP. It also suggests venues for research on parliamentary politics and candidate selection in general. &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Replication files&lt;/strong&gt; can be downloaded &lt;a href=&#34;https://github.com/SiljeHermansen/Replication-files&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -40,7 +53,16 @@
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/jls2018/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Online supplementary files&lt;/strong&gt; can be downloaded &lt;a href=&#34;https://github.com/SiljeHermansen/Replication-files&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/13572334.2018.1444631&#34;&gt;
+&lt;img src=&#34;coefplot_expertise.png&#34; alt=&#34;Coefplot reporting effect of policy expertise on allocation of codecision reports.&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;
+&lt;p&gt;Rapporteurs in the European Parliament (EP) are the most influential members in terms of the legislation they handle. They are appointed by their political groups. In making these appointments, these groups need to accommodate both their collective needs and individual requests.&lt;/p&gt;
+  &lt;p&gt;This article explores situations in which the collective need for information is prioritised: the codecision procedure. The data includes allocations over a 10-year period (2004–2014) in three of the most powerful EP committees, as well as key career choices among members.&lt;/p&gt;
+    &lt;p&gt;EP groups emphasise policy-specific knowledge. They also pay attention to individual members’ requests for exposure, but only when the expected policy drift is minimal. Harsh selection during the allocation of codecision reports creates pressure to accommodate a greater selection of legislators during other attractive report allocations. Own-initiative reports therefore affect allocation of codecision reports negatively.&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Online supplementary files&lt;/strong&gt; can be downloaded &lt;a href=&#34;https://github.com/SiljeHermansen/Replication-files&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -50,7 +72,17 @@
       <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/publication/phd2017/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.duo.uio.no/bitstream/handle/10852/69004/PhD-LyderHermansen-2017.pdf?sequence=4&amp;isAllowed=y&#34;&gt;
+&lt;img src=&#34;committee_activity.jpg&#34; alt=&#34;Graphic illustrating the variation in committee activity in the European Parliament (1999-2014). Author: Silje Synnøve Lyder Hermansen&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This dissertation treats with partisan organization in the European Parliament (EP) and its impact on members’ (MEPs) career opportunities. National parties organize elections. Parliamentary work is organized around transnational political groups. They do not share any overarching organizational structure. My contributions pertain to the interconnected choices made by MEPs and their two party organizations.&lt;/p&gt;
+&lt;p&gt;Parliamentary groups face a trade-off between the need for expertise and the risk of agency drift. Groups allocate reports to maximize the value added by the rapporteur while limiting the drift. They prefer policy experts to generalists and -- up to a point -- experienced MEPs to newcomers. Groups also balance individual demands with the collective need.&lt;/p&gt;
+
+&lt;p&gt;National parties do not have institutionalized presence in the EP. They enter into an outcome-based contract similar to voters. MEPs are either rewarded by reselection or kicked out of office. Report alloca-tions dissipate uncertainty about MEPs’ ability. They thus improve MEPs’ career prospects to the extent that parties need new information about agent quality, and to the extent that parliamentary groups can provide it.&lt;/p&gt;
+</description>
     </item>
     
     <item>
