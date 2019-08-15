@@ -35,11 +35,6 @@
   </url>
   
   <url>
-    <loc>/data/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/project/court-of-justice-of-the-european-union/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
@@ -71,6 +66,16 @@
     <loc>/tags/legislative-behavior/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/data/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/data/laerdegr_bok/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
