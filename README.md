@@ -1,2 +1,2 @@
 # SiljeHermansen.github.io
-Personal website of Silje Synnøve Lyder Hermansen
+These are the files for my personal website: [Silje Synnøve Lyder Hermansen](https://siljehermansen.github.io)
