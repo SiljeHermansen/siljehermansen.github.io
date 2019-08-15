@@ -137,8 +137,9 @@ If you use the *docs* layout, note that the name of the menu in the front matter
 
 &lt;p&gt;Denne løsningen gjøres i to skritt.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;På denne siden&lt;/strong&gt; laster du ned pakken ved å trykke på én av disse lenkene:
-For alle operativsystemer:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;På denne siden&lt;/strong&gt; laster du ned pakken ved å trykke på én av disse lenkene:&lt;/p&gt;
+
+&lt;p&gt;For alle operativsystemer:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; download&gt;
 &lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.tar.gz&lt;/button&gt;
