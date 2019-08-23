@@ -364,5 +364,29 @@ library(devtools)
 </description>
     </item>
     
+    <item>
+      <title>Teaching</title>
+      <link>/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/</guid>
+      <description>
+
+&lt;p&gt;These pages are intended to provide supplementary information to students. For a comprehensive overview of my past teaching activities, please refer to my CV.&lt;/p&gt;
+
+&lt;h2 id=&#34;statistical-analysis-stv4020b-stv4020b&#34;&gt;&lt;a href=&#34;stv4020b&#34; target=&#34;_blank&#34;&gt;Statistical analysis (STV4020B)&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Master&#39;s/PhD level. &lt;i&gt;University of Oslo. Department of Political Science.&lt;/i&gt; 2019&lt;/p&gt;
+
+&lt;p&gt;Advanced statistical analysis for social scientists. We go through the fundamental principals of causal inference as well as the most common generalized linear models (GLMs). Course given together with Øyvind Stiansen.&lt;/p&gt;
+
+&lt;h2 id=&#34;samfunnsvitenskapelig-forskningsmetode-sfs10207-sfs10207&#34;&gt;&lt;a href=&#34;sfs10207&#34; target=&#34;_blank&#34;&gt;Samfunnsvitenskapelig forskningsmetode  (SFS10207)&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Bachelor&#39;s level. &lt;i&gt;Østfold University College. Faculty of Business, Languages, and Social Sciences. &lt;/i&gt; 2013&lt;/p&gt;
+
+&lt;p&gt;Introduction to research methods (Bachelor&#39;s level). Course given together with Mathias Johannessen.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
