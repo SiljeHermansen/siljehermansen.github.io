@@ -6,55 +6,10 @@
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Lær deg R</title>
-      <link>/data/laerdegr_bok/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/data/laerdegr_bok/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
-&lt;img src=&#34;laerdegr.jpg&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt; Velkommen til R-universet! Lær deg R er introduksjonen for deg som ønsker et godt arbeidsverktøy for statistisk analyse.  R har vokst enormt i popularitet de siste årene, og med god grunn. R er gratis og dekker analysebehovene til nybegynnere så vel som eksperter.&lt;/p&gt;  
-    &lt;p&gt;Boka er skrevet for samfunnsviteren som tar sine første skritt innen kvantitativ metode. Statistikk er et håndverk mer enn en vitenskap. Derfor er verktøyet viktig. Vi jobber sammen i RStudio, og går gjennom analysestadiene skritt for skritt. Vi laster inn data, tilrettelegger dem, gjør foranalyser og regresjonsanalyser. Fokuset er på å forstå hva som skjer, og kommunisere resultatene.&lt;/p&gt;
-  &lt;p&gt;Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Alt du trenger er en datamaskin, internett og denne boka.&lt;/p&gt;
-  
-
-&lt;p&gt;&lt;strong&gt;Lær deg R-pakken&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Lær deg R-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Du kan laste ned pakken som .tar.gz-fil eller som .zip-fil:&lt;/p&gt;
-
-&lt;div&gt;
-&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; download&gt;
-&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.tar.gz&lt;/button&gt;
-&lt;/a&gt;
-&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.zip&#34; download&gt;
-&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.zip&lt;/button&gt;
-&lt;/a&gt; 
-&lt;/div&gt;
- 
-
-&lt;p&gt;Instrukser om hvordan du installerer pakken finner du på denne siden:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/data/laerdegr&#34; target=&#34;_blank&#34;&gt;Last ned og installere laerdegR&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Innholdsfortegnelse&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Boka tar deg skritt for skritt gjennom en typisk forskningsprosess.&lt;/p&gt;
-
-&lt;p&gt;Vi begynner med å laste inn og tilrettelegge data, før vi går videre med beskrivende analyser. I siste del av boka kjører vi så regresjonsanalyser: OLS og logistisk regresjon. Vi har fokus på å forstå og tolke resultatene. Dette inkluderer også å vurdere modellens troverdighet gjennom ulike former for modellstatistikk.&lt;/p&gt;
-
-&lt;p&gt;&lt;embed src=&#34;Innholdsfortegnelse.pdf&#34; width=&#34;700&#34; height=&#34;950&#34; alt=&#34;Innholdsfortegnelse til Lær deg R&#34; pluginspage=&#34;http://www.adobe.com/products/acrobat/readstep2.html&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Lær deg R</title>
@@ -171,10 +126,10 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Welcome to my website! I currently work at &lt;a href=&#34;https://www.jus.uio.no/pluricourts/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;PluriCourts&lt;/em&gt;&lt;/a&gt;, a centre of excellence dedicated to the study of international courts at the University of Oslo.&lt;/p&gt;
+      <description>&lt;p&gt;Welcome to my website! I currently work at &lt;a href=&#34;https://www.jus.uio.no/pluricourts/english/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;PluriCourts&lt;/em&gt;&lt;/a&gt;, a centre of excellence dedicated to the study of international courts at the University of Oslo.&lt;/p&gt;
 
 &lt;p&gt;My research focuses on the selection and behavior of our representatives; be they legislators or judges. I am particularly interested in the EU institutions: The European Parliament and the Court of Justice of the European Union. I rely mostly on quantitative methods, and have extensive experience in both automated data collection and Bayesian estimation strategies.&lt;/p&gt;
 
