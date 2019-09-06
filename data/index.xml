@@ -6,7 +6,7 @@
     <description>Recent content in Lær deg R on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/data/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Lær deg R</title>
       <link>/data/laerdegr_bok/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/data/laerdegr_bok/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
@@ -30,16 +30,34 @@
 
 &lt;p&gt;&lt;strong&gt;Lær deg R-pakken&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Lær deg R-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Her finner du instrukser til hvordan laste denne ned: &lt;a href=&#34;https://siljehermansen.github.io/data/laerdegr&#34; target=&#34;_blank&#34;&gt;Last ned og installere laerdegR&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lær deg R-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Du kan laste ned pakken som .tar.gz-fil eller som .zip-fil:&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.tar.gz&lt;/button&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.zip&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.zip&lt;/button&gt;
+&lt;/a&gt; 
+&lt;/div&gt;
+ 
+
+&lt;p&gt;Instrukser om hvordan du installerer pakken finner du på denne siden:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/data/laerdegr&#34; target=&#34;_blank&#34;&gt;Last ned og installere laerdegR&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Innholdsfortegnelse&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Boka tar deg skritt for skritt gjennom en typisk forskningsprosess.&lt;/p&gt;
+
+&lt;p&gt;Vi begynner med å laste inn og tilrettelegge data, før vi går videre med beskrivende analyser. I siste del av boka kjører vi så regresjonsanalyser: OLS og logistisk regresjon. Vi har fokus på å forstå og tolke resultatene. Dette inkluderer også å vurdere modellens troverdighet gjennom ulike former for modellstatistikk.&lt;/p&gt;
 
 &lt;p&gt;&lt;embed src=&#34;Innholdsfortegnelse.pdf&#34; width=&#34;700&#34; height=&#34;950&#34; alt=&#34;Innholdsfortegnelse til Lær deg R&#34; pluginspage=&#34;http://www.adobe.com/products/acrobat/readstep2.html&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Lær deg R-pakken</title>
+      <title>Installere R-pakken</title>
       <link>/data/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
