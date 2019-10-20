@@ -17,7 +17,9 @@
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/publication/laerdegr/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
 &lt;img src=&#34;laerdegr.jpg&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
 &lt;/a&gt;&lt;/p&gt;
 
@@ -28,7 +30,7 @@
   &lt;p&gt;Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Alt du trenger er en datamaskin, internett og denne boka.&lt;/p&gt;
   
 
-&lt;p&gt;&lt;strong&gt;Lær deg R-pakken&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;lær-deg-r-pakken&#34;&gt;Lær deg R-pakken&lt;/h3&gt;
 
 &lt;p&gt;Lær deg R-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Du kan laste ned pakken som .tar.gz-fil eller som .zip-fil:&lt;/p&gt;
 
@@ -46,7 +48,7 @@
 
 &lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/data/laerdegr&#34; target=&#34;_blank&#34;&gt;Last ned og installere laerdegR&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Innholdsfortegnelse&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;innholdsfortegnelse&#34;&gt;Innholdsfortegnelse&lt;/h3&gt;
 
 &lt;p&gt;Boka tar deg skritt for skritt gjennom en typisk forskningsprosess.&lt;/p&gt;
 
