@@ -78,12 +78,22 @@
   </url>
   
   <url>
+    <loc>/data/laerdegr/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/judicial-behavior/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/legislative-behavior/</loc>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/data/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -172,11 +182,6 @@
   </url>
   
   <url>
-    <loc>/data/laerdegr/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/data/laerdegr_bok/</loc>
     <priority>0</priority>
   </url>
@@ -188,10 +193,6 @@
   
   <url>
     <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/data/</loc>
   </url>
   
 </urlset>

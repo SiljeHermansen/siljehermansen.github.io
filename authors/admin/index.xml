@@ -12,6 +12,85 @@
     
     
     <item>
+      <title>Installere R-pakken</title>
+      <link>/data/laerdegr/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data/laerdegr/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Lær deg R&amp;rdquo;&lt;/a&gt; er en innføringsbok i statistikkprogrammet R utgitt av Fagbokforlaget (2019). Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Her kan du laste ned denne nettressursen. Den kommer som en egen R-pakke.&lt;/p&gt;
+
+&lt;p&gt;Pakken kan installeres fra lokal fil eller rett fra GitHub.
+&lt;figure&gt;
+&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
+&lt;img src=&#34;laerdegr.jpg&#34; width=&#34;35%&#34; align=&#34;right&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
+&lt;/a&gt;
+&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;installere-fra-lokal-fil&#34;&gt;Installere fra lokal fil&lt;/h2&gt;
+
+&lt;p&gt;Denne løsningen gjøres i to skritt.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;På denne siden&lt;/strong&gt; laster du ned pakken ved å trykke på én av disse lenkene:&lt;/p&gt;
+
+&lt;p&gt;For alle operativsystemer:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.tar.gz&lt;/button&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Windows-brukere kan også benytte seg av denne:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.zip&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.zip&lt;/button&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Filen vil da lastes ned på din maskin. Om du ikke har spesifisert annet, vil den ligge i mappen som kalles &amp;ldquo;Downloads&amp;rdquo; på maskinen din.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I RStudio&lt;/strong&gt; installerer du filen i R-biblioteket.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Klikk på fanen som kalles &amp;ldquo;Packages&amp;rdquo; i vinduet nederst til høyre.&lt;/li&gt;
+&lt;li&gt;Klikk så på &amp;ldquo;Install&amp;rdquo;. I kommunikasjonsvinduet som så åpner seg, skal du velge &amp;ldquo;Install from: Package Archive File&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Under &amp;ldquo;Package archive:&amp;rdquo; må du deretter klikke på &amp;ldquo;Browse&amp;rdquo; og navigere deg fram til filen du nettopp lastet ned.&lt;/li&gt;
+&lt;li&gt;Klikk så på &amp;ldquo;Install&amp;rdquo;. Nå skrives installasjonskommandoen til R, og R skal i rask rekkefølge gi deg beskjed i rød skrift om at pakken installeres, og i svart skrift at &lt;code&gt;package ‘laerdegR’ successfully unpacked and MD5 sums checked&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Om møter på feilmeldinger, bør du sjekke at tilleggsargumentene i installasjonskoden er korrekte. Filadressa (&lt;code&gt;C:/Downloads/&lt;/code&gt;) vil åpenbart variere fra maskin til maskin.&lt;/p&gt;
+
+&lt;p&gt;Om du har valgt tar.gz-fil, må koden se slik ut.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;C:/Downloads/laerdegR_0.1.0.tar.gz&amp;quot;, repos = NULL, type = &amp;quot;source&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Om du har valgt zip-fil, må koden se slik ut.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;C:/Downloads/laerdegR_0.1.0.zip&amp;quot;, repos = NULL, type = &amp;quot;binary&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;installere-direkte-fra-github&#34;&gt;Installere direkte fra GitHub&lt;/h2&gt;
+
+&lt;p&gt;Denne løsningen krever mer manøvrering.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I nettleseren:&lt;/strong&gt; Begynn med å laste ned og installere &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34; target=&#34;_blank&#34;&gt;RTools&lt;/a&gt; uten å åpne RStudio.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I RStudio:&lt;/strong&gt; installere &lt;code&gt;devtools&lt;/code&gt;-pakken og hent den inn fra biblioteket.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;install.packages(&#39;devtools&#39;)
+library(devtools)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Nå kan du laste ned og installere nettressursen direkte fra GitHubs sider.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;install_github(&amp;quot;SiljeHermansen/laerdegR&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Lær deg R</title>
       <link>/publication/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
