@@ -3,6 +3,91 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/authors/admin/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/chiou/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/hoyland/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/committee-work/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/eup2020/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/european-parliament-ep/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/legislative-behavior/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/performance/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rapporteurs/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/selection/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/specialization/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/quantitative-methods/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
@@ -13,17 +98,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/teaching/stv4020b/</loc>
-    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -38,17 +113,7 @@
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication_types/5/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,22 +138,12 @@
   </url>
   
   <url>
-    <loc>/tags/european-parliament-ep/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/data/laerdegr/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/judicial-behavior/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/legislative-behavior/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -108,42 +163,7 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/accountability/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/committee-work/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/performance/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/rapporteurs/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/selection/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -163,11 +183,6 @@
   </url>
   
   <url>
-    <loc>/tags/specialization/</loc>
-    <lastmod>2018-03-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication_types/7/</loc>
     <lastmod>2017-03-10T00:00:00+00:00</lastmod>
   </url>
@@ -178,16 +193,16 @@
   </url>
   
   <url>
+    <loc>/teaching/sfs10207/</loc>
+    <lastmod>2013-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
   </url>
   
   <url>
     <loc>/data/laerdegr_bok/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/teaching/sfs10207/</loc>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,37 @@
     <description>Recent content in Specialization on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/specialization/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Delegation of Committee Reports in the European Parliament</title>
+      <link>/publication/eup2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/eup2020/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;&#34;&gt;
+&lt;img src=&#34;EffectOfSpecialization.png&#34; alt=&#34;The positive effect of staying in the same committee decreases over time.&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;
+&lt;p&gt;Committee coordinators face a classic delegation problem when assigning re
+ports to their committee members. Although few theoretical developments have
+focused on the eﬀects of expertise on delegation, empirical studies have commonly assumed monotonic eﬀects. Based on the theoretical model by Fischer and Stocken (2001), we argue that more expertise, holding preference divergence constant, has a non-monotonic eﬀect on the probability of being appointed as a rapporteur because of informational credibility. Employing accumulated committee service as an expertise measure, we test this theoretical expectation on all committee report delegations in the European Parliament from 1979 - 2014. Across both nonparametric and parametric hierarchical conditional logit models we ﬁnd support for this non-monotonic eﬀect. The results hold across member states, political groups, procedures, committees, and over time.&lt;/p&gt;&lt;/p&gt;
+
+&lt;!---
+**Replication files** can be downloaded [here](https://github.com/SiljeHermansen/Replication-files)
+---&gt;
+
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Chiou, Fang-Yi, Hermansen, Silje Synnøve Lyder and Bjørn Høyland (2020) &amp;ldquo;Delegation of Committee Reports in the European Parliament&amp;rdquo; &lt;em&gt;European Union Politics&lt;/em&gt; 0 (0), 1-19.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>(Self-)selection and expertise among decision-makers in the European Parliament</title>

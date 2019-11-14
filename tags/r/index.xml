@@ -17,7 +17,11 @@
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/teaching/stv4020b/</guid>
-      <description>&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2019&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2019&lt;/p&gt;
+
+&lt;h2 id=&#34;course-description&#34;&gt;Course description&lt;/h2&gt;
 
 &lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We go through the statistical theory behind models, but we emphasize understanding when models are useful and how to employ them. The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).&lt;/p&gt;
 
@@ -30,10 +34,16 @@
 &lt;p&gt;&lt;strong&gt;More information&lt;/strong&gt; about the course is available at the &lt;a href=&#34;https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/&#34; target=&#34;_blank&#34;&gt;University of Oslo&amp;rsquo;s webpages&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div&gt;
-&lt;object data=&#34;syllabus.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
+&lt;object data=&#34;syllabus_stv4020b&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
 &lt;a href=&#34;syllabus.pdf&#34;&gt;Download the syllabus&lt;/a&gt;
 &lt;/object&gt;
 &lt;/div&gt; 
+
+&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;Lecture2_Logit.pdf&#34; target=&#34;_blank&#34;&gt;Logistic regression&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;!---## Flexibility
 This feature can be used for publishing content such as:
@@ -214,6 +224,30 @@ library(devtools)
 &lt;ul&gt;
 &lt;li&gt;Hermansen, Silje Synnøve Lyder (2019) &lt;a href=&#34;Innhold_bibliografi.pdf&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Lær deg R: En innføring i statistikkprogrammets muligheter&lt;/em&gt;&lt;/a&gt;, Bergen: Fagbokforlaget.&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Samfunnsvitenskapelig forskningsmetode (SFS10207, Høgskolen i Østfold)</title>
+      <link>/teaching/sfs10207/</link>
+      <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/sfs10207/</guid>
+      <description>&lt;p&gt;Formålet med dette faget er å gi deg en introduksjon til hvordan vi oppnår kunnskap om samfunnet vi lever i. Samfunnsvitenskapelig forskningsmetode er et obligatorisk emne for studenter som ønsker en bachelor i statsvitenskap ved Høgskolen i Østfold.&lt;/p&gt;
+
+&lt;p&gt;Lysark fra forelseningene finnes her:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Uke 34: &lt;a href=&#34;./Uke34/Presentation1.pdf&#34;&gt;Hva er vitenskap?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uke 41: &lt;a href=&#34;./Uke41/Eksperimenter.pdf&#34;&gt;Eksperimenter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uke 42: &lt;a href=&#34;./Uke42/Forelesning3.pdf&#34;&gt;Valg av studieobjekt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uke 43: &lt;a href=&#34;./Uke43/Forelesning4.pdf&#34;&gt;Univariate fordelinger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uke 44: &lt;a href=&#34;./Uke44/Forelesning5.pdf&#34;&gt;Multivariate fordelinger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uke 45: &lt;a href=&#34;./Uke45/Forelesning6.pdf&#34;&gt;Gyldighet og reliabilitet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Uke 46: &lt;a href=&#34;./Uke46/Forelesning7.pdf&#34;&gt;Kjikvadrattesten&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Emnebeskrivelse finner du &lt;a href=&#34;https://www.hiof.no/studier/emner/oss/2013/host/sfs10207.html&#34; target=&#34;_blank&#34;&gt;her&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
