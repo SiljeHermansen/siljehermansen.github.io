@@ -21,7 +21,7 @@
 
 &lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2019&lt;/p&gt;
 
-&lt;h2 id=&#34;course-description&#34;&gt;Course description&lt;/h2&gt;
+&lt;h3 id=&#34;course-description&#34;&gt;Course description&lt;/h3&gt;
 
 &lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We go through the statistical theory behind models, but we emphasize understanding when models are useful and how to employ them. The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).&lt;/p&gt;
 
@@ -39,10 +39,10 @@
 &lt;/object&gt;
 &lt;/div&gt; 
 
-&lt;h2 id=&#34;slides&#34;&gt;Slides&lt;/h2&gt;
+&lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;Lecture2_Logit.pdf&#34; target=&#34;_blank&#34;&gt;Logistic regression&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Lecture2_Logit.pdf&#34; target=&#34;_blank&#34;&gt;Logistic regression&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!---## Flexibility
