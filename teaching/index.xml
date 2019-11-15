@@ -6,7 +6,7 @@
     <description>Recent content in Teaching on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Statistical analysis (STV4020B)</title>
       <link>/teaching/stv4020b/</link>
-      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/teaching/stv4020b/</guid>
       <description>
@@ -42,11 +42,17 @@
 &lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;Lecture2_Logit.pdf&#34; target=&#34;_blank&#34;&gt;Logistic regression&lt;/a&gt;
-How to model binary outcomes.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;LaTex.pdf&#34; target=&#34;_blank&#34;&gt;LaTeX + R = Sant&lt;/a&gt;
-A brief introduction to LaTeX in Norwegian.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Lecture2_Logit.pdf&#34; target=&#34;_blank&#34;&gt;Logistic regression&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Logistic regression is the base-line example of a generalized linear model (GLM).
+We go through how to model binary outcomes, how to interpret the results from a logit and why we can&amp;rsquo;t simply run an OLS.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;LaTex.pdf&#34; target=&#34;_blank&#34;&gt;LaTeX + R = Sant&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A brief introduction to LaTeX and how to use it in combination with R scripts (in Norwegian).&lt;/p&gt;
 
 &lt;!---## Flexibility
 This feature can be used for publishing content such as:

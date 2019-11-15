@@ -6,7 +6,7 @@
     <description>Recent content in Teaching on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Statistical analysis (STV4020B)</title>
       <link>/teaching/stv4020b/</link>
-      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/teaching/stv4020b/</guid>
       <description>
@@ -42,11 +42,17 @@
 &lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;Lecture2_Logit.pdf&#34; target=&#34;_blank&#34;&gt;Logistic regression&lt;/a&gt;
-How to model binary outcomes.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;LaTex.pdf&#34; target=&#34;_blank&#34;&gt;LaTeX + R = Sant&lt;/a&gt;
-A brief introduction to LaTeX in Norwegian.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Lecture2_Logit.pdf&#34; target=&#34;_blank&#34;&gt;Logistic regression&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Logistic regression is the base-line example of a generalized linear model (GLM).
+We go through how to model binary outcomes, how to interpret the results from a logit and why we can&amp;rsquo;t simply run an OLS.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;LaTex.pdf&#34; target=&#34;_blank&#34;&gt;LaTeX + R = Sant&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A brief introduction to LaTeX and how to use it in combination with R scripts (in Norwegian).&lt;/p&gt;
 
 &lt;!---## Flexibility
 This feature can be used for publishing content such as:
@@ -87,6 +93,58 @@ Or, if you are creating a software documentation site, you can rename the `cours
 
 If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.&lt;NewFolderName&gt;]`.
 ---&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lær deg R-boka</title>
+      <link>/data/laerdegr_bok/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data/laerdegr_bok/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
+&lt;img src=&#34;laerdegr.jpg&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt; Velkommen til R-universet! Lær deg R er introduksjonen for deg som ønsker et godt arbeidsverktøy for statistisk analyse.  R har vokst enormt i popularitet de siste årene, og med god grunn. R er gratis og dekker analysebehovene til nybegynnere så vel som eksperter.&lt;/p&gt;  
+    &lt;p&gt;Boka er skrevet for samfunnsviteren som tar sine første skritt innen kvantitativ metode. Statistikk er et håndverk mer enn en vitenskap. Derfor er verktøyet viktig. Vi jobber sammen i RStudio, og går gjennom analysestadiene skritt for skritt. Vi laster inn data, tilrettelegger dem, gjør foranalyser og regresjonsanalyser. Fokuset er på å forstå hva som skjer, og kommunisere resultatene.&lt;/p&gt;
+  &lt;p&gt;Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Alt du trenger er en datamaskin, internett og denne boka.&lt;/p&gt;
+  
+
+&lt;p&gt;&lt;strong&gt;Lær deg R-pakken&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Lær deg R-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Du kan laste ned pakken som .tar.gz-fil eller som .zip-fil:&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.tar.gz&lt;/button&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.zip&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.zip&lt;/button&gt;
+&lt;/a&gt; 
+&lt;/div&gt;
+ 
+
+&lt;p&gt;Instrukser om hvordan du installerer pakken finner du på denne siden:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/data/laerdegr&#34; target=&#34;_blank&#34;&gt;Last ned og installere laerdegR&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Innhold&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Boka tar deg skritt for skritt gjennom en typisk forskningsprosess.&lt;/p&gt;
+
+&lt;p&gt;Vi begynner med å laste inn og tilrettelegge data, før vi går videre med beskrivende analyser. I siste del av boka kjører vi så regresjonsanalyser: OLS og logistisk regresjon. Vi har fokus på å forstå og tolke resultatene. Dette inkluderer også å vurdere modellens troverdighet gjennom ulike former for modellstatistikk.&lt;/p&gt;
+
+&lt;!---&lt;embed src=&#34;Innholdsfortegnelse.pdf&#34; width=&#34;700&#34; height=&#34;950&#34; alt=&#34;Innholdsfortegnelse til Lær deg R&#34; pluginspage=&#34;http://www.adobe.com/products/acrobat/readstep2.html&#34;&gt;
+---&gt;
+
+&lt;div&gt;
+&lt;object data=&#34;Innholdsfortegnelse.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
+&lt;a href=&#34;Innholdsfortegnelse.pdf&#34;&gt;Innholdsfortegnelsen til Lær deg R (2019)&lt;/a&gt;
+&lt;/object&gt;
+&lt;/div&gt; 
 </description>
     </item>
     
@@ -251,6 +309,30 @@ library(devtools)
 &lt;/ul&gt;
 
 &lt;p&gt;Emnebeskrivelse finner du &lt;a href=&#34;https://www.hiof.no/studier/emner/oss/2013/host/sfs10207.html&#34; target=&#34;_blank&#34;&gt;her&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/teaching/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/</guid>
+      <description>
+
+&lt;p&gt;These pages are intended to provide supplementary information to students. For a comprehensive overview of my past teaching activities, please refer to my CV.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-href-stv4020b-statistical-analysis-stv4020b-a&#34;&gt;&lt;a href=&#34;stv4020b&#34;&gt;Statistical analysis (STV4020B)&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Master&#39;s/PhD level. &lt;i&gt;University of Oslo. Department of Political Science.&lt;/i&gt; 2019&lt;/p&gt;
+
+&lt;p&gt;Advanced statistical analysis for social scientists. We go through the fundamental principals of causal inference as well as the most common generalized linear models (GLMs). Course given together with Øyvind Stiansen.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-href-sfs10207-samfunnsvitenskapelig-forskningsmetode-sfs10207-a&#34;&gt;&lt;a href=&#34;sfs10207&#34;&gt;Samfunnsvitenskapelig forskningsmetode  (SFS10207)&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Bachelor&#39;s level. &lt;i&gt;Østfold University College. Faculty of Business, Languages, and Social Sciences. &lt;/i&gt; 2013&lt;/p&gt;
+
+&lt;p&gt;Introduction to research methods (Bachelor&#39;s level). Course given together with Mathias Johannessen.&lt;/p&gt;
 </description>
     </item>
     
