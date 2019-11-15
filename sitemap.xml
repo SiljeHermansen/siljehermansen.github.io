@@ -10,21 +10,25 @@
   <url>
     <loc>/authors/</loc>
     <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/quantitative-methods/</loc>
     <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/r/</loc>
     <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
     <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -35,11 +39,13 @@
   <url>
     <loc>/tags/</loc>
     <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/teaching/</loc>
     <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -50,11 +56,13 @@
   <url>
     <loc>/publication_types/5/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/court-of-justice-of-the-european-union-cjeu/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -70,11 +78,13 @@
   <url>
     <loc>/tags/electoral-behavior/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/european-parliament-ep/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -85,11 +95,13 @@
   <url>
     <loc>/tags/judicial-behavior/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/legislative-behavior/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -110,6 +122,7 @@
   <url>
     <loc>/publication_types/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -120,31 +133,37 @@
   <url>
     <loc>/publication_types/2/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/accountability/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/committee-work/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/performance/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/rapporteurs/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/selection/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -165,11 +184,13 @@
   <url>
     <loc>/tags/specialization/</loc>
     <lastmod>2018-03-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication_types/7/</loc>
     <lastmod>2017-03-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -195,12 +216,8 @@
   </url>
   
   <url>
-    <loc>/data/laerdegr_bok/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
