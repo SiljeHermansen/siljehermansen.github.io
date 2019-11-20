@@ -6,7 +6,7 @@
     <description>Recent content in Court of Justice of the European Union (CJEU) on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/court-of-justice-of-the-european-union-cjeu/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Decision makers in the Court of Justice of the European Union (CJEU)</title>
       <link>/project/court-of-justice-of-the-european-union/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/court-of-justice-of-the-european-union/</guid>
       <description>
@@ -72,7 +72,11 @@ the Court of Justice of the European Union&#34;**&lt;/a&gt;   presented at EPSA 
 
 &lt;p&gt;A draft version can be found &lt;a href=&#34;WillDo_HermansenNaurin.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;measuring-the-evolution-of-cjeu-case-law-using-word-embeddings&#34;&gt;Measuring the evolution of CJEU case law using word embeddings&lt;/h2&gt;
+&lt;h2 id=&#34;judicial-decision-making&#34;&gt;Judicial decision-making&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Measuring the evolution of CJEU case law using word embeddings&lt;/strong&gt; presented at Big Insight - a center for research-based innovation, Norwegian Computing Center. 2019.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;To study the conditions for judicial activism – self-restraint, initiation or expansion of case law – we need a consistent and comparable measure of court output. Can machine learning help us in this respect? This research note discusses ways of comparing court documents in order to obtain such measures. The focus is on word embeddings, which allow researchers to identify similar – but not identical – terms and use them as building blocks for document-level comparisons.&lt;/p&gt;
 
