@@ -25,9 +25,11 @@
 
 &lt;p&gt;I show that judges&amp;rsquo; performance and governments&amp;rsquo; political preferences are intertwined both when judges are appointed and when cases are allocated.&lt;/p&gt;
 
-&lt;!---## [Case allocation within the Court](case-allocation)---&gt;
+&lt;!---## [Case allocation within the Court](case-allocation)
+## Case allocation within the CJEU
+---&gt;
 
-&lt;h2 id=&#34;case-allocation-within-the-cjeu&#34;&gt;Case allocation within the CJEU&lt;/h2&gt;
+&lt;h2 id=&#34;decision-making-in-the-cjeu&#34;&gt;Decision making in the CJEU&lt;/h2&gt;
 
 &lt;!---* &lt;a href=&#34;TendingTheBar_Hermansen.pdf&#34; style=&#34;color: #000000&#34;&gt;**&#34;Tending the Bar: Strategic Case Allocations in
 the Court of Justice of the European Union&#34;**&lt;/a&gt;   presented at EPSA Annual Meeting 2019 (Belfast)---&gt;
@@ -44,13 +46,29 @@ the Court of Justice of the European Union&#34;**&lt;/a&gt;   presented at EPSA 
 
 &lt;p&gt;I rely on original data on 9623 case allocations in CJEU (1980-2015). The results speak to the lingering effect of judges&amp;rsquo; renewable terms &amp;ndash; despite secret voting &amp;ndash; as well as the importance of an autonomous internal organization for judicial independence.&lt;/p&gt;
 
+&lt;p&gt;A draft version can be found &lt;a href=&#34;BuildingLegitimacy_Hermansen.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
 &lt;figure&gt;
 &lt;img src=&#34;MarginalEffect_First_B_item_Current_government_-_weighted0.jpeg&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;No effect of government preferences in non-politicized cases.&#34;/&gt;
 &lt;img src=&#34;MarginalEffect_First_B_item_Current_government_-_weighted1.jpeg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;Effect of government preferences in politicized cases.&#34;/&gt;
 &lt;figcaption&gt;Judges whose governments hold outlying economic preferences are less likely to act as rapporteur in court cases that could divide member states.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;A draft version can be found &lt;a href=&#34;BuildingLegitimacy_Hermansen.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Measuring the evolution of CJEU case law using word embeddings&amp;rdquo;&lt;/strong&gt; presented at Big Insight - a center for research-based innovation, Norwegian Computing Center 2019 (Oslo)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To study the conditions for judicial activism – self-restraint, initiation or expansion of case law – we need a consistent and comparable measure of court output. Can machine learning help us in this respect? This research note discusses ways of comparing court documents in order to obtain such measures. The focus is on word embeddings, which allow researchers to identify similar – but not identical – terms and use them as building blocks for document-level comparisons.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&#34;Effect_of_judgment_similarity_on_academic_attention.png&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;Effect of judgment similarity on academic attention (annotations in legal journals).&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Analyzing the evolution of case law requires researchers to read and compare judgments. It is a resource-intensive process both in terms of competence and number of working hours. Assessing the outcome of a case typically requires familiarity with legal precedent in the court, the doctrines under- pinning rulings as well at the type of cases brought before the tribunal. In other words, - depending on the task – the researcher needs a good grasp of similar cases in the past (i.e. legal precedent) and/or the future (i.e. its value as a precedent) as well as the field-specific vocabulary.&lt;/p&gt;
+
+&lt;p&gt;The purpose of this research note is to train a model to make such comparisons for us. To obtain word embeddings, I apply a word2vec algorithm on 30999 (machine-readable) legal texts produced by the members of the Court of Justice of the European Union (CJEU) itself. I use these to construct a do- main specific vocabulary of similar words. The similarities can then be used to identify and compare relevant documents based on their word occurrences.&lt;/p&gt;
+
+&lt;p&gt;A draft version can be found &lt;a href=&#34;WordEmbeddings_Hermansen.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;judicial-appointments-to-the-cjeu&#34;&gt;Judicial appointments to the CJEU&lt;/h2&gt;
 
@@ -71,24 +89,6 @@ the Court of Justice of the European Union&#34;**&lt;/a&gt;   presented at EPSA 
 &lt;p&gt;We find on the one hand that governments with different economic preferences hold different preferences over judges. That is, a change in government preferences increases the likelihood of changing the sitting judge. On the other hand, we find that governments &amp;ndash; regardless of their political preferences &amp;ndash; are more likely to retain judges who have obtained positions of influence.&lt;/p&gt;
 
 &lt;p&gt;A draft version can be found &lt;a href=&#34;WillDo_HermansenNaurin.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;judicial-decision-making&#34;&gt;Judicial decision-making&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Measuring the evolution of CJEU case law using word embeddings&lt;/strong&gt; presented at Big Insight - a center for research-based innovation, Norwegian Computing Center 2019 (Oslo)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To study the conditions for judicial activism – self-restraint, initiation or expansion of case law – we need a consistent and comparable measure of court output. Can machine learning help us in this respect? This research note discusses ways of comparing court documents in order to obtain such measures. The focus is on word embeddings, which allow researchers to identify similar – but not identical – terms and use them as building blocks for document-level comparisons.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src=&#34;Effect_of_judgment_similarity_on_academic_attention.png&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;Effect of judgment similarity on academic attention (annotations in legal journals).&#34;/&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Analyzing the evolution of case law requires researchers to read and compare judgments. It is a resource-intensive process both in terms of competence and number of working hours. Assessing the outcome of a case typically requires familiarity with legal precedent in the court, the doctrines under- pinning rulings as well at the type of cases brought before the tribunal. In other words, - depending on the task – the researcher needs a good grasp of similar cases in the past (i.e. legal precedent) and/or the future (i.e. its value as a precedent) as well as the field-specific vocabulary.&lt;/p&gt;
-
-&lt;p&gt;The purpose of this research note is to train a model to make such comparisons for us. To obtain word embeddings, I apply a word2vec algorithm on 30999 (machine-readable) legal texts produced by the members of the Court of Justice of the European Union (CJEU) itself. I use these to construct a do- main specific vocabulary of similar words. The similarities can then be used to identify and compare relevant documents based on their word occurrences.&lt;/p&gt;
-
-&lt;p&gt;A draft version can be found &lt;a href=&#34;WordEmbeddings_Hermansen.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;!---
 ## Data collection on decision makers
