@@ -620,6 +620,20 @@ the Court of Justice of the European Union"**</a>   presented at EPSA Annual Mee
 
 <p>A draft version can be found <a href="WillDo_HermansenNaurin.pdf" target="_blank">here</a>.</p>
 
+<h2 id="measuring-the-evolution-of-cjeu-case-law-using-word-embeddings">Measuring the evolution of CJEU case law using word embeddings</h2>
+
+<p>To study the conditions for judicial activism – self-restraint, initiation or expansion of case law – we need a consistent and comparable measure of court output. Can machine learning help us in this respect? This research note discusses ways of comparing court documents in order to obtain such measures. The focus is on word embeddings, which allow researchers to identify similar – but not identical – terms and use them as building blocks for document-level comparisons.</p>
+
+<figure>
+<img src="Effect_of_judgment_similarity_on_academic_attention.png" width="50%" align="left" alt="Effect of judgment similarity on academic attention (annotations in legal journals)."/>
+</figure>
+
+<p>Analyzing the evolution of case law requires researchers to read and compare judgments. It is a resource-intensive process both in terms of competence and number of working hours. Assessing the outcome of a case typically requires familiarity with legal precedent in the court, the doctrines under- pinning rulings as well at the type of cases brought before the tribunal. In other words, - depending on the task – the researcher needs a good grasp of similar cases in the past (i.e. legal precedent) and/or the future (i.e. its value as a precedent) as well as the field-specific vocabulary.</p>
+
+<p>The purpose of this research note is to train a model to make such comparisons for us. To obtain word embeddings, I apply a word2vec algorithm on 30999 (machine-readable) legal texts produced by the members of the Court of Justice of the European Union (CJEU) itself. I use these to construct a do- main specific vocabulary of similar words. The similarities can then be used to identify and compare relevant documents based on their word occurrences.</p>
+
+<p>A draft version can be found <a href="WordEmbeddings_Hermansen.pdf" target="_blank">here</a>.</p>
+
 <!---
 ## Data collection on decision makers
 The internal organization of the Court has become both more complex and more hierarchical over time.

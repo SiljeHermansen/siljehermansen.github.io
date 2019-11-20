@@ -165,6 +165,20 @@ the Court of Justice of the European Union&#34;**&lt;/a&gt;   presented at EPSA 
 
 &lt;p&gt;A draft version can be found &lt;a href=&#34;WillDo_HermansenNaurin.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
+&lt;h2 id=&#34;measuring-the-evolution-of-cjeu-case-law-using-word-embeddings&#34;&gt;Measuring the evolution of CJEU case law using word embeddings&lt;/h2&gt;
+
+&lt;p&gt;To study the conditions for judicial activism – self-restraint, initiation or expansion of case law – we need a consistent and comparable measure of court output. Can machine learning help us in this respect? This research note discusses ways of comparing court documents in order to obtain such measures. The focus is on word embeddings, which allow researchers to identify similar – but not identical – terms and use them as building blocks for document-level comparisons.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&#34;Effect_of_judgment_similarity_on_academic_attention.png&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;Effect of judgment similarity on academic attention (annotations in legal journals).&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Analyzing the evolution of case law requires researchers to read and compare judgments. It is a resource-intensive process both in terms of competence and number of working hours. Assessing the outcome of a case typically requires familiarity with legal precedent in the court, the doctrines under- pinning rulings as well at the type of cases brought before the tribunal. In other words, - depending on the task – the researcher needs a good grasp of similar cases in the past (i.e. legal precedent) and/or the future (i.e. its value as a precedent) as well as the field-specific vocabulary.&lt;/p&gt;
+
+&lt;p&gt;The purpose of this research note is to train a model to make such comparisons for us. To obtain word embeddings, I apply a word2vec algorithm on 30999 (machine-readable) legal texts produced by the members of the Court of Justice of the European Union (CJEU) itself. I use these to construct a do- main specific vocabulary of similar words. The similarities can then be used to identify and compare relevant documents based on their word occurrences.&lt;/p&gt;
+
+&lt;p&gt;A draft version can be found &lt;a href=&#34;WordEmbeddings_Hermansen.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
 &lt;!---
 ## Data collection on decision makers
 The internal organization of the Court has become both more complex and more hierarchical over time.
