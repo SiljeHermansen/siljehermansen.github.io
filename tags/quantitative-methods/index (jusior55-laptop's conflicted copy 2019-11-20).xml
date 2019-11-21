@@ -57,7 +57,7 @@ We go through how to model binary outcomes, how to interpret the results from a 
 &lt;p&gt;We go through models with categorical dependent variables: Ordinal and nominal categories. Example data used in class can be downloaded &lt;a href=&#34;kap10.txt&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It is the same as the data from chapter 10 in laerdegR.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;Lecture4_counts.pdf&#34; target=&#34;_blank&#34;&gt;Event count models&lt;/a&gt;&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 10)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Event count models&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 10)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Event count models describe grouped events. They are appropriate when we do not have relevant information at the event level, but are able to both count them and design contextual predictors. We go through the poisson model and how to check for overdispersion. We then consider different strategies to adress possible overdispersion. We study the quasi-poisson and the negative binomial models as well as hurle and zero-inflated models.&lt;/p&gt;
