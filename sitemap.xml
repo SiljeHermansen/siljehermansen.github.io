@@ -94,6 +94,22 @@
   </url>
   
   <url>
+    <loc>/project/european-parliament/</loc>
+    <lastmod>2019-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/electoral-behavior/</loc>
+    <lastmod>2019-11-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2019-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/court-of-justice-of-the-european-union-cjeu/</loc>
     <lastmod>2019-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -108,11 +124,6 @@
     <loc>/tags/judicial-behavior/</loc>
     <lastmod>2019-11-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2019-11-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -145,17 +156,6 @@
   
   <url>
     <loc>/publication_types/5/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/project/european-parliament/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/electoral-behavior/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
