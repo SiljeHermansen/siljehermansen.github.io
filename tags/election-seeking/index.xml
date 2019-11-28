@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Election seeking on Silje Synnøve Lyder Hermansen</title>
+    <link>/tags/election-seeking/</link>
+    <description>Recent content in Election seeking on Silje Synnøve Lyder Hermansen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/election-seeking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Decision makers in the European Parliament (EP)</title>
+      <link>/project/european-parliament/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/european-parliament/</guid>
+      <description>
+
+&lt;!---
+&lt;img src=&#34;EP.jpg&#34; align=&#34;centre&#34;, caption = &#34;The European Parliament in Strasbourg&#34;/&gt;
+---&gt;
+
+&lt;p&gt;Party organizations obtain influence through their choice of representatives. &lt;em&gt;Extra-parliamentary&lt;/em&gt; party organizations gain sway through the candidates for whom they secure election, while &lt;em&gt;parliamentary&lt;/em&gt; party groups shape policies through the allocation of tasks to competent members. This project delves into the mutual influence of parliamentary group allocations and the choices made by extra-parliamentary party organizations. In the center are members of Parliament whose political careers are shaped by both actors.&lt;/p&gt;
+
+&lt;h2 id=&#34;election-seeking&#34;&gt;Election seeking&lt;/h2&gt;
+
+&lt;p&gt;National parties do not have institutionalized presence in the EP. They enter
+into an outcome-based contract similar to voters. MEPs are either rewarded by reselection or kicked out of office. Report allocations dissipate uncertainty about MEPs’ ability. They thus improve MEPs’ career prospects to the extent that parties need new information about agent quality, and to the extent that parliamentary groups can provide it.&lt;/p&gt;
+
+&lt;h4 id=&#34;ongoing-work&#34;&gt;Ongoing work&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;The sanction that isn’t imposed? Roll-call voting loyalty and demotion in European Parliament elections&amp;rdquo;&lt;/strong&gt; with &lt;a href=&#34;https://www.researchgate.net/profile/Mihail_Chiru&#34; target=&#34;_blank&#34;&gt;Mihail Chiru&lt;/a&gt; and &lt;a href=&#34;https://www.researchgate.net/profile/Thomas_Daeubler&#34; target=&#34;_blank&#34;&gt;Thomas Däubler&lt;/a&gt;, presented at EPSA Annual Meeting 2019 (Belfast)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This article introduces a comprehensive data collection effortthat provides detailed election results, list ranking information, seat and vote attributes for MEPs, EP candidates and parties covering four electoral periods and legislative terms, from 1999 until the 2014 elections. The described data will facilitate a broad spectrum of empirical analyses of the EP, thus helping to improve our understanding of this unique parliamentary body. Possible applications include studies of the EP&amp;rsquo;s allegedly weak electoral connection, of whether personalized electoral systems make any difference with respect to whom is elected in the EP, or whether electoral rules mediate MEPs&amp;rsquo; career ambitions. The article illustratesthe main features of the datasets and their usefulness with brief analyses of intra-party competition in EP elections, the degree of usage of preference votes and its consequences, and the effects of voting disloyalty in the subsequent re-nomination process.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Blurred lines between electoral and parliamentary representation:  The use of constituency staff among European Members of Parliament&amp;rdquo;&lt;/strong&gt; with &lt;a href=&#34;http://www.pegan.org/&#34; target=&#34;_blank&#34;&gt;Andreja Pegan&lt;/a&gt;, presented at EPSA Annual Meeting 2017 (Vienna)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Political actors receive public funding to execute their mandate. Spending that money for electoral purposes, however, undermines democratic representation.&lt;/p&gt;
+
+&lt;p&gt;We investigate to what extent parliamentary spending increases during campaign periods and how the electoral system affects such behavior. Specifically, we model within-individual changes in constituency-staff size among 1174 Members of the European Parliament. We find that local spending increases prior to both European and national elections and more so in candidate-centered systems.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&#34;Coefplot_ElectoralSystem.jpeg&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;Coefplot displaying the predicted number of local assistants by electoral system.&#34;/&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We conclude that EU citizens are represented differently depending on their nationality. Insofar as constituency staff creates an incumbency advantage, the system also generates inequalities between candidates which public funding aims to equalize. Moreover, the attempt to mend Parliament’s democratic deficit by financing members’ contact with citizens also implies funding national electoral campaigns.&lt;/p&gt;
+
+&lt;p&gt;A draft version can be found &lt;a href=&#34;BlurredLines.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;How Do Legislated Gender Quotas Impact Representation?&amp;rdquo;&lt;/strong&gt; Working paper presented at EPSA Annual Meeting 2016 (Brussels)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;How does biased political recruitment – and the subsequent legislation of quotas – affect the quality of women’s performance as representatives in Parliament? I draw on insights from the literature on political agency to distinguish between the effects of selection and sanction.  First, if recruitment in the absence of quotas implies higher requirements for women, then selected women are of higher quality. Second, when quotas lower the bar, new women enter office.  However, parties are less certain about the quality of these women and react by increasing accountability.&lt;/p&gt;
+
+&lt;p&gt;I investigate representation in the European Parliament (1999-2014) before and after the legislation of quotas in several member states.  Absent quotas, I find that biased selection leads to female representatives who pursue longer careers and perform better at equal levels of effort. When quotas are legislated, parties emphasize women’s service records during reselection.  Women are thus incentivized to put in more effort.&lt;/p&gt;
+
+&lt;p&gt;A draft version can be found &lt;a href=&#34;Gender.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A popularized presentation (in Norwegian) can be found &lt;a href=&#34;https://www.sv.uio.no/isv/forskning/aktuelt/aktuelle-saker/2017/et-forsvar-for-kvinnekvotering-.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;published-work&#34;&gt;Published work&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/pp2018/&#34;&gt;&amp;ldquo;Striving for influence: The effect of performance on candidate selection&amp;rdquo;&lt;/a&gt;  (2018) &lt;em&gt;Party Politics&lt;/em&gt; 24 (4), 382-396.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;legislative-behavior&#34;&gt;Legislative behavior&lt;/h2&gt;
+
+&lt;p&gt;The European Parliament (EP) is a committee-oriented legislature; meaning that the bulk of legislative work is done in committees.&lt;/p&gt;
+
+&lt;p&gt;Parliamentary groups face a trade-off between the need for expertise and the risk of agency drift. We argue that groups allocate reports to maximize the value added by the rapporteur while limiting the drift. They prefer policy experts to generalists and &amp;ndash; up to a point &amp;ndash; experienced MEPs to newcomers. Groups also balance individual demands with the collective need.&lt;/p&gt;
+
+&lt;h4 id=&#34;published-work-1&#34;&gt;Published work&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/eup2020/&#34;&gt;&amp;ldquo;Delegation of committee reports in the European Parliament&amp;rdquo;&lt;/a&gt; with Fang-Yi Chiou and Bjørn Høyland (2020) &lt;em&gt;European Union Politics&lt;/em&gt; Forthcoming, 1-19.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/jls2018/&#34;&gt;&amp;rdquo;(Self-)selection and expertise among decision-makers in the European Parliament&amp;rdquo;&lt;/a&gt; (2018) &lt;em&gt;The Journal of Legislative Studies&lt;/em&gt; 24 (1), 148-172.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.duo.uio.no/bitstream/handle/10852/69004/PhD-LyderHermansen-2017.pdf?sequence=4&amp;amp;isAllowed=y&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Choosing Agents: Members of the European Parliament and their political organizations seen through report allocation&amp;rdquo;&lt;/a&gt; (2017) Doctoral dissertation, &lt;em&gt;University of Oslo&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Striving for influence: The effect of performance on candidate selection</title>
+      <link>/publication/pp2018/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/pp2018/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/1354068816663036&#34;&gt;
+&lt;img src=&#34;reselection_performance.jpg&#34; alt=&#34;Effect of signals of performance on incumbent candidate selection to the European Parliament. Author: Silje Hermansen.&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;
+&lt;p&gt;I consider how asymmetric information between the party selectorate and members of Parliament affects the renomination of incumbent candidates. By applying an adverse selection model, I argue that the selectorate looks to past performance to select candidates it expects will gain influence. However, the impact of performance varies according to the need for and availability of information.&lt;/p&gt;
+  &lt;p&gt;The European Parliament (EP) provides a most-likely case for information asymmetry. Studying three elections in 11 member states, I find that the allocation of influential positions in office improves chances of reselection. The effect increases when the allocation is more selective, and when the prior uncertainty around candidacies is high. The study thus proposes a new approach to the relationship between national parties and transnational groups in the EP. It also suggests venues for research on parliamentary politics and candidate selection in general. &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Replication files&lt;/strong&gt; can be downloaded &lt;a href=&#34;https://github.com/SiljeHermansen/Replication-files&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hermansen, Silje Synnøve Lyder (2018) &amp;ldquo;Striving for influence: The effect of performance on candidate selection&amp;rdquo; &lt;em&gt;Party Politics&lt;/em&gt; 24 (4), 382-396.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Choosing Agents: Members of the European Parliament and their Political Organizations Seen through Report Allocation</title>
+      <link>/publication/phd2017/</link>
+      <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/phd2017/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.duo.uio.no/bitstream/handle/10852/69004/PhD-LyderHermansen-2017.pdf?sequence=4&amp;isAllowed=y&#34;&gt;
+&lt;img src=&#34;committee_activity.jpg&#34; alt=&#34;Graphic illustrating the variation in committee activity in the European Parliament (1999-2014). Author: Silje Synnøve Lyder Hermansen&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This dissertation treats with partisan organization in the European Parliament (EP) and its impact on members’ (MEPs) career opportunities. National parties organize elections. Parliamentary work is organized around transnational political groups. They do not share any overarching organizational structure. My contributions pertain to the interconnected choices made by MEPs and their two party organizations.&lt;/p&gt;
+
+&lt;p&gt;Parliamentary groups face a trade-off between the need for expertise and the risk of agency drift. Groups allocate reports to maximize the value added by the rapporteur while limiting the drift. They prefer policy experts to generalists and -- up to a point -- experienced MEPs to newcomers. Groups also balance individual demands with the collective need.&lt;/p&gt;
+
+&lt;p&gt;National parties do not have institutionalized presence in the EP. They enter into an outcome-based contract similar to voters. MEPs are either rewarded by reselection or kicked out of office. Report alloca-tions dissipate uncertainty about MEPs’ ability. They thus improve MEPs’ career prospects to the extent that parties need new information about agent quality, and to the extent that parliamentary groups can provide it.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
