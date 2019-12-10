@@ -596,6 +596,12 @@ We go through how to model binary outcomes, how to interpret the results from a 
 <p>Event count models describe grouped events. They are appropriate when we do not have relevant information at the event level, but are able to both count them and design contextual predictors. We go through the poisson model and how to check for overdispersion. We then consider different strategies to adress possible overdispersion. We study the quasi-poisson and the negative binomial models as well as hurle and zero-inflated models.</p>
 
 <ul>
+<li><strong>Event history/duration models</strong> (Ward and Ahlquist, 2018, ch 11)</li>
+</ul>
+
+<p>We can leverage information both from the fact that an event occured or not (binary outcome) and the time it took for the event to take place (count outcome). These models are made to describe a duration until an outcome occurs.</p>
+
+<ul>
 <li><strong><a href="Lecture7_CausalInference.pdf" target="_blank">Causal inference</a></strong> (Angrist and Pischke, 2015, ch 1)</li>
 </ul>
 
@@ -609,8 +615,9 @@ We go through how to model binary outcomes, how to interpret the results from a 
 <li><p><strong><a href="Lecture9_RDD_DiffInDiff.pdf" target="_blank">RDD and diff-in-diff</a></strong> (Angrist and Pischke, 2015, ch 4 and 5)</p></li>
 </ul>
 
-<p>We go through regression discontinuity designs (RDD) where a treatment kicks in at a certain cutpoint of an observed running variable. We then have a look at the differences-in-differences approach (diff-in-diff) where we observe a treatment group and a control group before and after the treatment. It&rsquo;s all about interaction effects and dummies!
-We&rsquo;ll examplify with data from <a href="df.Rda" target="_blank">chapter 4</a> and <a href="deaths.Rda" target="_blank">chapter 5</a> in the book.</p>
+<p>We go through regression discontinuity designs (RDD) where a treatment kicks in at a certain cutpoint of an observed running variable. We then have a look at the differences-in-differences approach (diff-in-diff) where we observe a treatment group and a control group before and after the treatment. It&rsquo;s all about interaction effects and dummies!</p>
+
+<p>We&rsquo;ll examplify with data from <a href="df.Rda" target="_blank">chapter 4</a> and <a href="deaths.Rda" target="_blank">chapter 5</a> in the book.</p>
 
 <ul>
 <li><strong><a href="LaTeX.pdf" target="_blank">LaTeX + R = Sant</a></strong></li>

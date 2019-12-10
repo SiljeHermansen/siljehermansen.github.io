@@ -63,6 +63,12 @@ We go through how to model binary outcomes, how to interpret the results from a 
 &lt;p&gt;Event count models describe grouped events. They are appropriate when we do not have relevant information at the event level, but are able to both count them and design contextual predictors. We go through the poisson model and how to check for overdispersion. We then consider different strategies to adress possible overdispersion. We study the quasi-poisson and the negative binomial models as well as hurle and zero-inflated models.&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Event history/duration models&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 11)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We can leverage information both from the fact that an event occured or not (binary outcome) and the time it took for the event to take place (count outcome). These models are made to describe a duration until an outcome occurs.&lt;/p&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;Lecture7_CausalInference.pdf&#34; target=&#34;_blank&#34;&gt;Causal inference&lt;/a&gt;&lt;/strong&gt; (Angrist and Pischke, 2015, ch 1)&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -76,8 +82,9 @@ We go through how to model binary outcomes, how to interpret the results from a 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;Lecture9_RDD_DiffInDiff.pdf&#34; target=&#34;_blank&#34;&gt;RDD and diff-in-diff&lt;/a&gt;&lt;/strong&gt; (Angrist and Pischke, 2015, ch 4 and 5)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;We go through regression discontinuity designs (RDD) where a treatment kicks in at a certain cutpoint of an observed running variable. We then have a look at the differences-in-differences approach (diff-in-diff) where we observe a treatment group and a control group before and after the treatment. It&amp;rsquo;s all about interaction effects and dummies!
-We&amp;rsquo;ll examplify with data from &lt;a href=&#34;df.Rda&#34; target=&#34;_blank&#34;&gt;chapter 4&lt;/a&gt; and &lt;a href=&#34;deaths.Rda&#34; target=&#34;_blank&#34;&gt;chapter 5&lt;/a&gt; in the book.&lt;/p&gt;
+&lt;p&gt;We go through regression discontinuity designs (RDD) where a treatment kicks in at a certain cutpoint of an observed running variable. We then have a look at the differences-in-differences approach (diff-in-diff) where we observe a treatment group and a control group before and after the treatment. It&amp;rsquo;s all about interaction effects and dummies!&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ll examplify with data from &lt;a href=&#34;df.Rda&#34; target=&#34;_blank&#34;&gt;chapter 4&lt;/a&gt; and &lt;a href=&#34;deaths.Rda&#34; target=&#34;_blank&#34;&gt;chapter 5&lt;/a&gt; in the book.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;LaTeX.pdf&#34; target=&#34;_blank&#34;&gt;LaTeX + R = Sant&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
