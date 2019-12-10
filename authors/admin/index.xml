@@ -180,7 +180,18 @@ We go through how to model binary outcomes, how to interpret the results from a 
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;Lecture7_CausalInference.pdf&#34; target=&#34;_blank&#34;&gt;Causal inference&lt;/a&gt;&lt;/strong&gt; (Angrist and Pischke, 2015, ch 1)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;We will play with a version of the &lt;a href=&#34;judges.rda&#34; target=&#34;_blank&#34;&gt;data&lt;/a&gt; from Glyn and Sen&amp;rsquo;s daughters-effect paper in &lt;a href=&#34;https://scholar.harvard.edu/files/msen/files/daughters.pdf&#34; target=&#34;_blank&#34;&gt;APSR&lt;/a&gt; from 2014.&lt;/p&gt;
+&lt;p&gt;We go through the idea of potential outcomes. What are the comparisons we would we like to make? And what is actually possible to compare with?&lt;/p&gt;
+
+&lt;p&gt;In the R-lab we&amp;rsquo;ll look at matching techniques. We will play with a version of the &lt;a href=&#34;judges.rda&#34; target=&#34;_blank&#34;&gt;data&lt;/a&gt; from Glyn and Sen&amp;rsquo;s daughters-effect paper in &lt;a href=&#34;https://scholar.harvard.edu/files/msen/files/daughters.pdf&#34; target=&#34;_blank&#34;&gt;APSR&lt;/a&gt; from 2014.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Regression and matching&lt;/strong&gt; (Angrist and Pischke, 2015, ch 2)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;Lecture9_RDD_DiffInDiff.pdf&#34; target=&#34;_blank&#34;&gt;RDD and diff-in-diff&lt;/a&gt;&lt;/strong&gt; (Angrist and Pischke, 2015, ch 4 and 5)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We go through regression discontinuity designs (RDD) where a treatment kicks in at a certain cutpoint of an observed running variable. We then have a look at the differences-in-differences approach (diff-in-diff) where we observe a treatment group and a control group before and after the treatment. It&amp;rsquo;s all about interaction effects and dummies!
+We&amp;rsquo;ll examplify with data from &lt;a href=&#34;df.Rda&#34; target=&#34;_blank&#34;&gt;chapter 4&lt;/a&gt; and &lt;a href=&#34;deaths.Rda&#34; target=&#34;_blank&#34;&gt;chapter 5&lt;/a&gt; in the book.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&#34;LaTeX.pdf&#34; target=&#34;_blank&#34;&gt;LaTeX + R = Sant&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
