@@ -87,7 +87,9 @@ We go through how to model binary outcomes, how to interpret the results from a 
 &lt;p&gt;We&amp;rsquo;ll examplify with data from &lt;a href=&#34;df.Rda&#34; target=&#34;_blank&#34;&gt;chapter 4&lt;/a&gt; and &lt;a href=&#34;deaths.Rda&#34; target=&#34;_blank&#34;&gt;chapter 5&lt;/a&gt; in the book.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;LaTeX.pdf&#34; target=&#34;_blank&#34;&gt;LaTeX + R = Sant&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Instrumental variables&lt;/strong&gt; (Angrist and Pischke, 2015, ch 3 and 6)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;LaTeX.pdf&#34; target=&#34;_blank&#34;&gt;LaTeX + R = Sant&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;A brief introduction to LaTeX and how to use it in combination with R scripts (in Norwegian).&lt;/p&gt;
@@ -295,30 +297,6 @@ library(devtools)
 &lt;/ul&gt;
 
 &lt;p&gt;Emnebeskrivelse finner du &lt;a href=&#34;https://www.hiof.no/studier/emner/oss/2013/host/sfs10207.html&#34; target=&#34;_blank&#34;&gt;her&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>/teaching/</link>
-      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/teaching/</guid>
-      <description>
-
-&lt;p&gt;These pages are intended to provide supplementary information to students. For a comprehensive overview of my past teaching activities, please refer to my CV.&lt;/p&gt;
-
-&lt;h2 id=&#34;a-href-stv4020b-statistical-analysis-stv4020b-a&#34;&gt;&lt;a href=&#34;stv4020b&#34;&gt;Statistical analysis (STV4020B)&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Master&#39;s/PhD level. &lt;i&gt;University of Oslo. Department of Political Science.&lt;/i&gt; 2019&lt;/p&gt;
-
-&lt;p&gt;Advanced statistical analysis for social scientists. We go through the fundamental principals of causal inference as well as the most common generalized linear models (GLMs). Course given together with Øyvind Stiansen.&lt;/p&gt;
-
-&lt;h2 id=&#34;a-href-sfs10207-samfunnsvitenskapelig-forskningsmetode-sfs10207-a&#34;&gt;&lt;a href=&#34;sfs10207&#34;&gt;Samfunnsvitenskapelig forskningsmetode  (SFS10207)&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Bachelor&#39;s level. &lt;i&gt;Østfold University College. Faculty of Business, Languages, and Social Sciences. &lt;/i&gt; 2013&lt;/p&gt;
-
-&lt;p&gt;Introduction to research methods (Bachelor&#39;s level). Course given together with Mathias Johannessen.&lt;/p&gt;
 </description>
     </item>
     

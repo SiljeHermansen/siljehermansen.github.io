@@ -87,7 +87,9 @@ We go through how to model binary outcomes, how to interpret the results from a 
 &lt;p&gt;We&amp;rsquo;ll examplify with data from &lt;a href=&#34;df.Rda&#34; target=&#34;_blank&#34;&gt;chapter 4&lt;/a&gt; and &lt;a href=&#34;deaths.Rda&#34; target=&#34;_blank&#34;&gt;chapter 5&lt;/a&gt; in the book.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;LaTeX.pdf&#34; target=&#34;_blank&#34;&gt;LaTeX + R = Sant&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Instrumental variables&lt;/strong&gt; (Angrist and Pischke, 2015, ch 3 and 6)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;LaTeX.pdf&#34; target=&#34;_blank&#34;&gt;LaTeX + R = Sant&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;A brief introduction to LaTeX and how to use it in combination with R scripts (in Norwegian).&lt;/p&gt;
