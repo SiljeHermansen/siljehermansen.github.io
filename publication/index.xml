@@ -6,7 +6,7 @@
     <description>Recent content in Publications on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,12 +14,20 @@
     <item>
       <title>Building legitimacy: strategic case allocations in the Court of Justice of the European Union</title>
       <link>/publication/jepp2020/</link>
-      <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/publication/jepp2020/</guid>
-      <description>&lt;figure&gt;
+      <description>&lt;!---
+&lt;figure&gt;
 &lt;img src=&#34;MarginalEffect_First_B_item_Current_government_-_weighted0.jpeg&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;No effect of government preferences in non-politicized cases.&#34;/&gt;
 &lt;img src=&#34;MarginalEffect_First_B_item_Current_government_-_weighted1.jpeg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;Effect of government preferences in politicized cases. Author: Silje Synnøve Lyder Hermansen.&#34;/&gt;
+&lt;figcaption&gt;&lt;small&gt;Figure: Judges whose governments hold outlying economic preferences are less likely to act as rapporteur in court cases that could divide member states.&lt;/small&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+---&gt;
+
+&lt;figure&gt;
+&lt;img src=&#34;NotDebatedLegislation.jpeg&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;No effect of government preferences in non-politicized cases.&#34;/&gt;
+&lt;img src=&#34;DebatedLegislation.jpeg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;Effect of government preferences in politicized cases. Author: Silje Synnøve Lyder Hermansen.&#34;/&gt;
 &lt;figcaption&gt;&lt;small&gt;Figure: Judges whose governments hold outlying economic preferences are less likely to act as rapporteur in court cases that could divide member states.&lt;/small&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
