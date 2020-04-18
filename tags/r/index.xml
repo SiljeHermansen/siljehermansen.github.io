@@ -182,7 +182,7 @@ If you use the *docs* layout, note that the name of the menu in the front matter
 &lt;li&gt;Klikk så på &amp;ldquo;Install&amp;rdquo;. Nå skrives installasjonskommandoen til R, og R skal i rask rekkefølge gi deg beskjed i rød skrift om at pakken installeres, og i svart skrift at &lt;code&gt;package ‘laerdegR’ successfully unpacked and MD5 sums checked&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Om møter på feilmeldinger, bør du sjekke at tilleggsargumentene i installasjonskoden er korrekte. Filadressa (&lt;code&gt;C:/Downloads/&lt;/code&gt;) vil åpenbart variere fra maskin til maskin.&lt;/p&gt;
+&lt;p&gt;Om du møter på feilmeldinger, bør du sjekke at tilleggsargumentene i installasjonskoden er korrekte. Filadressa (&lt;code&gt;C:/Downloads/&lt;/code&gt;) vil åpenbart variere fra maskin til maskin.&lt;/p&gt;
 
 &lt;p&gt;Om du har valgt tar.gz-fil, må koden se slik ut.&lt;/p&gt;
 
