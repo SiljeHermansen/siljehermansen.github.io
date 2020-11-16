@@ -21,17 +21,101 @@
 
 &lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2020&lt;/p&gt;
 
-&lt;h3 id=&#34;course-description&#34;&gt;Course description&lt;/h3&gt;
+&lt;!---Here you can find the slides and other material used for the different lectures.---&gt;
 
-&lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them. The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).&lt;/p&gt;
+&lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them.&lt;/p&gt;
+
+&lt;p&gt;The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).&lt;/p&gt;
+
+&lt;h2 id=&#34;describing-data-generalized-linear-models&#34;&gt;Describing data (generalized linear models)&lt;/h2&gt;
 
 &lt;p&gt;Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&amp;rsquo; choice of party, number of violent incidences in a time span, or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.&lt;/p&gt;
 
+&lt;h4 id=&#34;lecture-1-maximum-likelihood&#34;&gt;Lecture 1: Maximum likelihood&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 1, 2, 5-7)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We introduce maximum likelihood as a framework for statistical modeling.&lt;/p&gt;
+
+&lt;h4 id=&#34;lecture-2-models-of-outcome-and-choice-the-logit-model-logit-model-stv4020b-pdf&#34;&gt;Lecture 2: &lt;a href=&#34;logit_model_stv4020b.pdf&#34; target=&#34;_blank&#34;&gt;Models of outcome and choice: The logit model&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 3)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Logistic regression is the base-line example of a generalized linear model (GLM).
+We go through how to model binary outcomes, how to interpret the results from a logit and why we can&amp;rsquo;t simply run an OLS.&lt;/p&gt;
+
+&lt;h4 id=&#34;lecture-3-ordered-and-multinomial-regression-logit-model-stv4020b-pdf&#34;&gt;Lecture 3: &lt;a href=&#34;logit_model_stv4020b.pdf&#34; target=&#34;_blank&#34;&gt;Ordered and multinomial regression&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 8-9)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We go through models with categorical dependent variables: Ordinal and nominal categories.&lt;/p&gt;
+
+&lt;h4 id=&#34;lecture-4-event-count-models&#34;&gt;Lecture 4: Event count models&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 10)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Event count models describe grouped events. They are appropriate when we do not have relevant information at the event level, but are able to both count them and design contextual predictors. We go through the poisson model and how to check for overdispersion. We then consider different strategies to adress possible overdispersion. We study the quasi-poisson and the negative binomial models as well as hurle and zero-inflated models.&lt;/p&gt;
+
+&lt;h4 id=&#34;lecture-5-event-history-duration-models&#34;&gt;Lecture 5: Event history/duration models&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 11)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We can leverage information both from the fact that an event occured or not (binary outcome) and the time it took for the event to take place (count outcome). These models are made to describe a duration until an outcome occurs.&lt;/p&gt;
+
+&lt;h2 id=&#34;causal-inference&#34;&gt;Causal inference&lt;/h2&gt;
+
 &lt;p&gt;Beyond statistical description, researchers&amp;rsquo; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework helps us understand the conditions under which we can identify causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.&lt;/p&gt;
+
+&lt;h4 id=&#34;causal-inference-1&#34;&gt;Causal inference&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;(Morgan and Winship, 2015, ch 1-3; Samii 2016)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We go through the idea of potential outcomes. What are the comparisons we would we like to make? And what is actually possible to compare with?&lt;/p&gt;
+
+&lt;p&gt;In the R-lab we&amp;rsquo;ll look at matching techniques.&lt;/p&gt;
+
+&lt;h4 id=&#34;regression-and-matching&#34;&gt;Regression and matching&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;(Ho et al., 2007; Iacus, King and Porro, 2011)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We introduce matching as a technique to adjust for observed confounders.&lt;/p&gt;
+
+&lt;h4 id=&#34;rdd-and-diff-in-diff&#34;&gt;RDD and diff-in-diff&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;(Angrist and Pischke, 2015, ch 4 and 5; Wing, Simon and Bello-Gomez, 2018; Imbens and Lemieux 2008)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We go through regression discontinuity designs (RDD) where a treatment kicks in at a certain cutpoint of an observed running variable. We then have a look at the differences-in-differences approach (diff-in-diff) where we observe a treatment group and a control group before and after the treatment. It&amp;rsquo;s all about interaction effects and dummies!&lt;/p&gt;
+
+&lt;h4 id=&#34;instrumental-variables&#34;&gt;Instrumental variables&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;(Sovey and Green, 2011)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We introduce instrumental variables and provide guidelines for their application in political science.&lt;/p&gt;
+
+&lt;h2 id=&#34;complete-syllabus&#34;&gt;Complete syllabus&lt;/h2&gt;
+
+&lt;div&gt;
+&lt;object data=&#34;syllabus_stv4020b.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
+&lt;a href=&#34;syllabus_stv4020b.pdf&#34;&gt;Download the syllabus for Statistical analysis (stv4020b)&lt;/a&gt;
+&lt;/object&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Learning outcome&lt;/strong&gt;  Students will get hands-on practice by learning how to implement the various techniques and by replicating existing studies in R. Students will also learn how to present results in a manner that is understandable to a general audience, for example by using graphs and other visual tools.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;More information&lt;/strong&gt; about the course is available at the &lt;a href=&#34;https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/&#34; target=&#34;_blank&#34;&gt;University of Oslo&amp;rsquo;s webpages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!---
+### Course description 
+This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them. The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).
+
+Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&#39; choice of party, number of violent incidences in a time span, or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.
+
+Beyond statistical description, researchers&#39; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework helps us understand the conditions under which we can identify causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.
+
+
+**Learning outcome**  Students will get hands-on practice by learning how to implement the various techniques and by replicating existing studies in R. Students will also learn how to present results in a manner that is understandable to a general audience, for example by using graphs and other visual tools. 
+
+**More information** about the course is available at the [University of Oslo&#39;s webpages](https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/).
 
 &lt;div&gt;
 &lt;object data=&#34;syllabus&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
@@ -39,24 +123,23 @@
 &lt;/object&gt;
 &lt;/div&gt; 
 
-&lt;h3 id=&#34;readings&#34;&gt;Readings&lt;/h3&gt;
+### Readings
+We will use the following assigned readings:
 
-&lt;p&gt;We will use the following assigned readings:&lt;/p&gt;
+* *Ward and Ahlquist (2018)* will introduce students to maximum likelihood as a framework for statistical modelling, different generalized linear models suited for various data types frequently encountered in political science, model selection strategies, and methods for interpreting and presenting empirical results.  This is the resource we will use for the first part of the course. 
+* Chapters 1-3 in *Morgan and Winship (2015)* will  introduce  students  to  the  potential outcomes framework for causal inference and causal graphs, while *Samii (2016)* reviews the turn towards “causal empiricism” in political science that builds on these ideas.
+* *Ho et al. (2007)* and *Iacus, King and Porro (2011)* introduce matching as a technique to adjust for observed confounders. 
+* Chapter 4 in *Angrist and Pischke (2014)* will introduce students to regression discontinuity designs, while *Imbens and Lemieux (2008)* provide more detailed advice for the use of this design in applied research. 
+* Chapter 5 in *Angrist and Pischke (2014)* will introduce students to difference-in-differences designs, while *Wing, Simon and Bello-Gomez (2018)* provide more detailed advice for the use of this design in applied research. 
+* *Sovey and Green (2011)* introduce instrumental variables and provide guidelines for their application in political science. 
 
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Ward and Ahlquist (2018)&lt;/em&gt; will introduce students to maximum likelihood as a frameworkfor statistical modelling, different generalized linear models suited for various data typesfrequently encountered in political science, model selection strategies, and methods for interpreting and presenting empirical results.  This is the resource we will use for the first part of the course.&lt;/li&gt;
-&lt;li&gt;Chapters 1-3 in &lt;em&gt;Morgan and Winship (2015)&lt;/em&gt; will  introduce  students  to  the  potential outcomes framework for causal inference and causal graphs, while &lt;em&gt;Samii (2016)&lt;/em&gt; reviews the turn towards “causal empiricism” in political science that builds on these ideas.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Ho et al. (2007)&lt;/em&gt; and &lt;em&gt;Iacus, King and Porro (2011)&lt;/em&gt; introduce matching as a technique to adjust for observed confounders.&lt;/li&gt;
-&lt;li&gt;Chapter 4 in &lt;em&gt;Angrist and Pischke (2014)&lt;/em&gt; will introduce students to regression discontinuity designs, while &lt;em&gt;Imbens and Lemieux (2008)&lt;/em&gt; provide more detailed advice for the use of this design in applied research.&lt;/li&gt;
-&lt;li&gt;Chapter 5 in &lt;em&gt;Angrist and Pischke (2014)&lt;/em&gt; will introduce students to difference-in-differences designs, while &lt;em&gt;Wing, Simon and Bello-Gomez (2018)&lt;/em&gt; provide more detailed advice for the use of this design in applied research.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Sovey and Green (2011)&lt;/em&gt; introduce instrumental variables and provide guidelines for their application in political science.&lt;/li&gt;
-&lt;/ul&gt;
+Some students may find some of the readings (such as Ward and Ahlquist (2018)) to be technically demanding. If so:  Do not despair!  We will use the lectures to clarify and provide intuition.  However, we do encourage you to not skip the equations.  A useful approach is to engage actively with the examples.  Working through as much as possible of the maths will give you a much better grasp of the material.
 
-&lt;p&gt;Some students may find some of the readings (such as Ward and Ahlquist (2018)) to be technically demanding. If so:  Do not despair!  We will use the lectures to clarify and provide intuition.  However, we do encourage you to not skip the equations.  A useful approach is to engage actively with the examples.  Working through as much as possible of the maths will give you a much better grasp of the material.&lt;/p&gt;
+**Recommended readings**
 
-&lt;p&gt;&lt;strong&gt;Recommended readings&lt;/strong&gt;&lt;/p&gt;
+Sometimes we understand things better when they are explained in different ways.  You may find it useful to consult the following books for alternative explanations throughout the course:  Fox (2008) and Stock and Watson (2012) are useful for thefirst part of the course (weeks 1-3), Cunningham (forthcoming) is useful for the second part of the course (weeks 4-5), and Hermansen (2019) is useful for getting up to speed in R.
 
-&lt;p&gt;Sometimes we understand things better when they are explained in different ways.  You may find it useful to consult the following books for alternative explanations throughout the course:  Fox (2008) and Stock and Watson (2012) are useful for thefirst part of the course (weeks 1-3), Cunningham (forthcoming) is useful for the second part of the course (weeks 4-5), and Hermansen (2019) is useful for getting up to speed in R.&lt;/p&gt;
+---&gt;
 
 &lt;!---## Flexibility
 This feature can be used for publishing content such as:
@@ -708,12 +791,14 @@ library(devtools)
     </item>
     
     <item>
-      <title>Samfunnsvitenskapelig forskningsmetode (SFS10207, Høgskolen i Østfold)</title>
+      <title>Samfunnsvitenskapelig forskningsmetode (SFS10207)</title>
       <link>/teaching/sfs10207/</link>
       <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
       
       <guid>/teaching/sfs10207/</guid>
-      <description>&lt;p&gt;Formålet med dette faget er å gi deg en introduksjon til hvordan vi oppnår kunnskap om samfunnet vi lever i. Samfunnsvitenskapelig forskningsmetode er et obligatorisk emne for studenter som ønsker en bachelor i statsvitenskap ved Høgskolen i Østfold.&lt;/p&gt;
+      <description>&lt;p&gt;Bachelornivå. &lt;em&gt;Høgskolen i Østfold. Avdeling for økonomi, språk og samfunnsfag.&lt;/em&gt; 2013&lt;/p&gt;
+
+&lt;p&gt;Formålet med dette faget er å gi deg en introduksjon til hvordan vi oppnår kunnskap om samfunnet vi lever i. Samfunnsvitenskapelig forskningsmetode er et obligatorisk emne for studenter som ønsker en bachelor i statsvitenskap ved Høgskolen i Østfold.&lt;/p&gt;
 
 &lt;p&gt;Lysark fra forelseningene finnes her:&lt;/p&gt;
 

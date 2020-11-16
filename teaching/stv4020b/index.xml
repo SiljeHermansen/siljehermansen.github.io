@@ -6,10 +6,69 @@
     <description>Recent content in Statistical analysis (STV4020B) on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/teaching/stv4020b/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lecture materials (STV 4020B)</title>
+      <link>/teaching/stv4020b/slides/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/stv4020b/slides/</guid>
+      <description>
+
+&lt;!---Here you can find the slides and other material used for the different lectures.---&gt;
+
+&lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them.&lt;/p&gt;
+
+&lt;p&gt;The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).&lt;/p&gt;
+
+&lt;h3 id=&#34;describing-data-generalized-linear-models&#34;&gt;Describing data (generalized linear models)&lt;/h3&gt;
+
+&lt;p&gt;Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&amp;rsquo; choice of party, number of violent incidences in a time span, or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Maximum likelihood&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 1, 2, 5-7)&lt;/p&gt;
+
+&lt;p&gt;We introduce maximum likelihood as a framework for statistical modeling.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;logit_model_stv4020b.pdf&#34; target=&#34;_blank&#34;&gt;Models of outcome and choice: The logit model&lt;/a&gt;&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 3)&lt;/p&gt;
+
+&lt;p&gt;Logistic regression is the base-line example of a generalized linear model (GLM).
+We go through how to model binary outcomes, how to interpret the results from a logit and why we can&amp;rsquo;t simply run an OLS.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;logit_model_stv4020b.pdf&#34; target=&#34;_blank&#34;&gt;Ordered and multinomial regression&lt;/a&gt;&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 8-9)&lt;/p&gt;
+
+&lt;p&gt;We go through models with categorical dependent variables: Ordinal and nominal categories.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Event count models&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 10)&lt;/p&gt;
+
+&lt;p&gt;Event count models describe grouped events. They are appropriate when we do not have relevant information at the event level, but are able to both count them and design contextual predictors. We go through the poisson model and how to check for overdispersion. We then consider different strategies to adress possible overdispersion. We study the quasi-poisson and the negative binomial models as well as hurle and zero-inflated models.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Event history/duration models&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 11)&lt;/p&gt;
+
+&lt;p&gt;We can leverage information both from the fact that an event occured or not (binary outcome) and the time it took for the event to take place (count outcome). These models are made to describe a duration until an outcome occurs.&lt;/p&gt;
+
+&lt;h3 id=&#34;causal-inference&#34;&gt;Causal inference&lt;/h3&gt;
+
+&lt;p&gt;Beyond statistical description, researchers&amp;rsquo; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework helps us understand the conditions under which we can identify causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Causal inference&lt;/strong&gt; (Angrist and Pischke, 2015, ch 1)&lt;/p&gt;
+
+&lt;p&gt;We go through the idea of potential outcomes. What are the comparisons we would we like to make? And what is actually possible to compare with?&lt;/p&gt;
+
+&lt;p&gt;In the R-lab we&amp;rsquo;ll look at matching techniques.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Regression and matching&lt;/strong&gt; (Angrist and Pischke, 2015, ch 2)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RDD and diff-in-diff&lt;/strong&gt; (Angrist and Pischke, 2015, ch 4 and 5)&lt;/p&gt;
+
+&lt;p&gt;We go through regression discontinuity designs (RDD) where a treatment kicks in at a certain cutpoint of an observed running variable. We then have a look at the differences-in-differences approach (diff-in-diff) where we observe a treatment group and a control group before and after the treatment. It&amp;rsquo;s all about interaction effects and dummies!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Instrumental variables&lt;/strong&gt; (Angrist and Pischke, 2015, ch 3 and 6)&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

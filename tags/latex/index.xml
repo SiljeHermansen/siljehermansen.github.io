@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LaTeX on Silje Synnøve Lyder Hermansen</title>
+    <link>/tags/latex/</link>
+    <description>Recent content in LaTeX on Silje Synnøve Lyder Hermansen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    
+	    <atom:link href="/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Teaching</title>
+      <link>/teaching/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/</guid>
+      <description>
+
+&lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
+
+&lt;p&gt;These pages are intended to provide supplementary information to students. For a comprehensive overview of my teaching activities, please refer to my CV.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-href-stv4020b-statistical-analysis-stv4020b-a&#34;&gt;&lt;a href=&#34;stv4020b&#34;&gt;Statistical analysis (STV4020B)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Master&#39;s/PhD level. &lt;i&gt;University of Oslo. Department of Political Science.&lt;/i&gt; 
+&lt;a href = &#34;https://siljehermansen.github.io/teaching/stv4020b_2019/&#34;&gt;2019&lt;/a&gt;, 
+&lt;a href = &#34;https://siljehermansen.github.io/teaching/stv4020b/&#34;&gt;2020&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Advanced statistical analysis for social scientists. We go through the fundamental principals of causal inference as well as the most common generalized linear models (GLMs). Course given together with Øyvind Stiansen.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-href-sfs10207-samfunnsvitenskapelig-forskningsmetode-sfs10207-a&#34;&gt;&lt;a href=&#34;sfs10207&#34;&gt;Samfunnsvitenskapelig forskningsmetode  (SFS10207)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Bachelor&#39;s level. &lt;i&gt;Østfold University College. Faculty of Business, Languages, and Social Sciences. &lt;/i&gt; 2013&lt;/p&gt;
+
+&lt;p&gt;Introduction to research methods. Course given together with Mathias Johannessen.&lt;/p&gt;
+
+&lt;h2 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h2&gt;
+
+&lt;h3 id=&#34;a-href-stv4020b-2019-latex-pdf-r-latex-sant-a&#34;&gt;&lt;a href=&#34;stv4020b_2019/LaTeX.pdf&#34;&gt;R + LaTeX = Sant&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Latex og R arbeider godt sammen. Her finner du en kjapp gjennomgang av hvordan du kan jobbe med begge i RStudio.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

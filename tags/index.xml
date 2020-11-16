@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Courses</title>
+      <link>/tags/courses/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/courses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Quantitative methods</title>
       <link>/tags/quantitative-methods/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
@@ -30,11 +39,11 @@
     </item>
     
     <item>
-      <title>Teaching</title>
-      <link>/tags/teaching/</link>
+      <title>Teaching material</title>
+      <link>/tags/teaching-material/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/teaching/</guid>
+      <guid>/tags/teaching-material/</guid>
       <description></description>
     </item>
     

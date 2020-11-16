@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching meterial on Silje Synnøve Lyder Hermansen</title>
+    <link>/tags/teaching-meterial/</link>
+    <description>Recent content in Teaching meterial on Silje Synnøve Lyder Hermansen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/teaching-meterial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lær deg R</title>
+      <link>/publication/laerdegr/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/laerdegr/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
+&lt;img src=&#34;laerdegr.jpg&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt; Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som ønsker et godt arbeidsverktøy for statistisk analyse.  R har vokst enormt i popularitet de siste årene, og med god grunn. R er gratis og dekker analysebehovene til nybegynnere så vel som eksperter.&lt;/p&gt;  
+
+&lt;p&gt;Boka er skrevet for samfunnsviteren som tar sine første skritt innen kvantitativ metode. Statistikk er et håndverk mer enn en vitenskap. Derfor er verktøyet viktig. Vi jobber sammen i RStudio, og går gjennom analysestadiene skritt for skritt. Vi laster inn data, tilrettelegger dem, gjør foranalyser og regresjonsanalyser. Fokuset er på å forstå hva som skjer, og kommunisere resultatene.&lt;/p&gt;
+  &lt;p&gt;Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Alt du trenger er en datamaskin, internett og denne boka.&lt;/p&gt;
+  
+
+&lt;p&gt;&lt;strong&gt;Omtale&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Øyvind Stiansen har anmeldt boka i &lt;a href=&#34;https://www.idunn.no/tfs/2020/02/silje_synnoeve_lyder_hermansen_laer_deg_r_en_innfoering_i_st&#34; target=&#34;_blank&#34;&gt;Tidsskrift for samfunnsforskning&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lær deg R-pakken&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Lær deg R-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Du kan laste ned pakken som .tar.gz-fil eller som .zip-fil:&lt;/p&gt;
+
+&lt;div&gt;
+&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.tar.gz&lt;/button&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.zip&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.zip&lt;/button&gt;
+&lt;/a&gt; 
+&lt;/div&gt;
+ 
+
+&lt;p&gt;Det kan være lurt å lese instruksene om hvordan du kan &lt;a href=&#34;https://siljehermansen.github.io/data/laerdegr&#34; target=&#34;_blank&#34;&gt;laste ned og installere laerdegR&lt;/a&gt;- pakken.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Innholdsfortegnelse&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Boka tar deg skritt for skritt gjennom en typisk forskningsprosess.&lt;/p&gt;
+
+&lt;p&gt;Vi begynner med å laste inn og tilrettelegge data, før vi går videre med beskrivende analyser. I siste del av boka kjører vi så regresjonsanalyser: OLS og logistisk regresjon. Vi har fokus på å forstå og tolke resultatene. Dette inkluderer også å vurdere modellens troverdighet gjennom ulike former for modellstatistikk.&lt;/p&gt;
+
+&lt;div&gt;
+&lt;object data=&#34;Innholdsfortegnelse.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
+&lt;a href=&#34;Innholdsfortegnelse.pdf&#34;&gt;Innholdsfortegnelsen til Lær deg R (2019)&lt;/a&gt;
+&lt;/object&gt;
+&lt;/div&gt;
+
+&lt;!---&lt;embed src=&#34;Innholdsfortegnelse.pdf&#34; width=&#34;700&#34; height=&#34;950&#34; alt=&#34;Innholdsfortegnelse til Lær deg R&#34; pluginspage=&#34;http://www.adobe.com/products/acrobat/readstep2.html&#34;&gt;
+---&gt;
+
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hermansen, Silje Synnøve Lyder (2019) &lt;a href=&#34;Innhold_bibliografi.pdf&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Lær deg R: En innføring i statistikkprogrammets muligheter&lt;/em&gt;&lt;/a&gt;, Bergen: Fagbokforlaget.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
