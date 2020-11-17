@@ -44,11 +44,11 @@
 &lt;p&gt;Logistic regression is the base-line example of a generalized linear model (GLM).
 We go through how to model binary outcomes, how to interpret the results from a logit and why we can&amp;rsquo;t simply run an OLS.&lt;/p&gt;
 
-&lt;h4 id=&#34;lecture-3-ordered-and-multinomial-regression-logit-model-stv4020b-pdf&#34;&gt;Lecture 3: &lt;a href=&#34;logit_model_stv4020b.pdf&#34; target=&#34;_blank&#34;&gt;Ordered and multinomial regression&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;lecture-3-ordered-and-multinomial-regression-choice-models-stv4020b-pdf&#34;&gt;Lecture 3: &lt;a href=&#34;choice_models_stv4020b.pdf&#34; target=&#34;_blank&#34;&gt;Ordered and multinomial regression&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 8-9)&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;We go through models with categorical dependent variables: Ordinal and nominal categories.&lt;/p&gt;
+&lt;p&gt;We go through models with categorical dependent variables: Ordinal and nominal categories. Example data used in class can be downloaded &lt;a href=&#34;kap10.txt&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It is the same as the data from chapter 10 in laerdegR.&lt;/p&gt;
 
 &lt;h4 id=&#34;lecture-4-event-count-models&#34;&gt;Lecture 4: Event count models&lt;/h4&gt;
 
@@ -563,46 +563,6 @@ library(devtools)
     
     <item>
       <title>Lær deg R</title>
-      <link>/data/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/data/</guid>
-      <description>
-
-&lt;p&gt;Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som lærer statistisk analyse.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
-&lt;img src=&#34;laerdegr.jpg&#34; width=&#34;35%&#34; align=&#34;right&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&#34;a-href-https-siljehermansen-github-io-publication-laerdegr-lær-deg-r-boka-a&#34;&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/laerdegr&#34;&gt;Lær deg R-boka&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;(2019) &lt;em&gt;Fagbokforlaget&lt;/em&gt;, Oslo, 224 p.&lt;/p&gt;
-
-&lt;p&gt;Her finner du mer informasjon om innholdet i boka.&lt;/p&gt;
-
-&lt;h2 id=&#34;a-href-laerdegr-installere-r-pakken-a&#34;&gt;&lt;a href=&#34;laerdegr&#34;&gt;Installere R-pakken&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Her finner du instrukser til hvordan laste ned nettressursen som hører med boka. Den gir deg tilgang på datasett og oppgaveløsninger.
-&lt;!---&#34;laerdegR&#34;-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Her finner du instrukser til hvordan laste denne ned.---&gt;&lt;/p&gt;
-
-&lt;!---
-## [Lær deg R-boka](laerdegr_bok)
-(2019) &lt;em&gt;Fagbokforlaget&lt;/em&gt;, Oslo, 224 p. 
-
-&lt;p&gt;Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som lærer statistisk analyse.&lt;/p&gt;
-
-## [Installere R-pakken](laerdegr)
-
-&#34;laerdegR&#34;-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Her finner du instrukser til hvordan laste denne ned.
----&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Lær deg R</title>
       <link>/publication/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
@@ -738,30 +698,6 @@ library(devtools)
 &lt;ul&gt;
 &lt;li&gt;Hermansen, Silje Synnøve Lyder (2017) &lt;em&gt;Choosing Agents: Members of the European Parliament and their Political Organizations Seen through Report Allocation&lt;/em&gt;. Doctoral dissertation. University of Oslo. 323 p.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>&lt;p&gt;Silje Synnøve Lyder Hermansen works as a senior research fellow at &lt;em&gt;PluriCourts - Centre for the Study of the Legitimate Roles of the Judiciary in the Global Order&lt;/em&gt; at the Univeristy of Oslo.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Welcome to my website! I currently work at &lt;a href=&#34;https://www.jus.uio.no/pluricourts/english/&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;PluriCourts&lt;/em&gt;&lt;/a&gt;, a centre of excellence dedicated to the study of international courts at the University of Oslo.&lt;/p&gt;
-
-&lt;p&gt;My research focuses on the selection and behavior of our representatives; be they legislators or judges. I am particularly interested in the &lt;a href=&#34;/project/court-of-justice-of-the-european-union&#34;&gt;Court of Justice of the European Union&lt;/a&gt; and the &lt;a href=&#34;/project/european-parliament&#34;&gt;European Parliament&lt;/a&gt;. I rely mostly on quantitative methods, and have extensive experience in both automated data collection and Bayesian estimation strategies. My research is featured in places like &lt;em&gt;European Union Politics&lt;/em&gt;, &lt;em&gt;Party Politics&lt;/em&gt; and &lt;em&gt;Journal of European Public Policy&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;I teach topics on comparative politics and research methods. This includes courses both at bachelor&amp;rsquo;s and master&amp;rsquo;s/PhD level, for students as well as professionals. My book, &lt;a href=&#34;/publication/laerdegr&#34;&gt;&lt;em&gt;Lær deg R&lt;/em&gt;&lt;/a&gt; (2019) is the first introduction to R in Norwegian.&lt;/p&gt;
 </description>
     </item>
     
