@@ -50,13 +50,13 @@ We go through how to model binary outcomes, how to interpret the results from a 
 
 &lt;p&gt;We go through models with categorical dependent variables: Ordinal and nominal categories. Example data used in class can be downloaded &lt;a href=&#34;kap10.txt&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It is the same as the data from chapter 10 in laerdegR.&lt;/p&gt;
 
-&lt;h4 id=&#34;lecture-4-event-count-models-count-models-stv4020b-pdf&#34;&gt;Lecture 4: &lt;a href=&#34;count_models_stv4020b.pdf&#34; target=&#34;_blank&#34;&gt;Event count models&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;lecture-4-event-count-models-poisson-regression-and-other-alternatives-count-models-stv4020b-pdf&#34;&gt;Lecture 4: &lt;a href=&#34;count_models_stv4020b.pdf&#34; target=&#34;_blank&#34;&gt;Event count models: Poisson regression and other alternatives&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 10)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Event count models describe grouped events. They are appropriate when we do not have relevant information at the event level, but are able to both count them and design contextual predictors. We go through the poisson model and how to check for overdispersion. We then consider different strategies to adress possible overdispersion. We study the quasi-poisson and the negative binomial models as well as hurle and zero-inflated models.&lt;/p&gt;
 
-&lt;p&gt;Towards the end of the lecture, we consider the different  we now know how to choose from.&lt;/p&gt;
+&lt;p&gt;Towards the end of the lecture, we consider the &lt;a href=&#34;https://siljehermansen.github.io/teaching/model_choice/&#34; target=&#34;_blank&#34;&gt;decision tree for determining which GLM model&lt;/a&gt; might best describe our data.&lt;/p&gt;
 
 &lt;h4 id=&#34;lecture-5-event-history-duration-models&#34;&gt;Lecture 5: Event history/duration models&lt;/h4&gt;
 

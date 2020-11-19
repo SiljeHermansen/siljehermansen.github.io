@@ -6,10 +6,27 @@
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What GLM should i choose?</title>
+      <link>/teaching/choose_glm/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/choose_glm/</guid>
+      <description>&lt;p&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of model choice criteria, given the data generating process that produced my dependent variable. It comes in the shape of a decision tree for Generalized Linear Models (GLMs).&lt;/p&gt;
+
+&lt;p&gt;&lt;html&gt;
+&lt;head&gt;&lt;title&gt;Decision tree for GLMs&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;
+&lt;iframe id=&#34;decision tree for glms app&#34; src=&#34;https://siljehermansen.github.io/teaching/choose_glm/model_choice/&#34; style=&#34;border: none; width: 100%; height: 950px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;/body&gt;
+&lt;/html&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Statistical analysis (STV4020B)</title>
@@ -50,13 +67,13 @@ We go through how to model binary outcomes, how to interpret the results from a 
 
 &lt;p&gt;We go through models with categorical dependent variables: Ordinal and nominal categories. Example data used in class can be downloaded &lt;a href=&#34;kap10.txt&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It is the same as the data from chapter 10 in laerdegR.&lt;/p&gt;
 
-&lt;h4 id=&#34;lecture-4-event-count-models-count-models-stv4020b-pdf&#34;&gt;Lecture 4: &lt;a href=&#34;count_models_stv4020b.pdf&#34; target=&#34;_blank&#34;&gt;Event count models&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;lecture-4-event-count-models-poisson-regression-and-other-alternatives-count-models-stv4020b-pdf&#34;&gt;Lecture 4: &lt;a href=&#34;count_models_stv4020b.pdf&#34; target=&#34;_blank&#34;&gt;Event count models: Poisson regression and other alternatives&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 10)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Event count models describe grouped events. They are appropriate when we do not have relevant information at the event level, but are able to both count them and design contextual predictors. We go through the poisson model and how to check for overdispersion. We then consider different strategies to adress possible overdispersion. We study the quasi-poisson and the negative binomial models as well as hurle and zero-inflated models.&lt;/p&gt;
 
-&lt;p&gt;Towards the end of the lecture, we consider the different  we now know how to choose from.&lt;/p&gt;
+&lt;p&gt;Towards the end of the lecture, we consider the &lt;a href=&#34;https://siljehermansen.github.io/teaching/model_choice/&#34; target=&#34;_blank&#34;&gt;decision tree for determining which GLM model&lt;/a&gt; might best describe our data.&lt;/p&gt;
 
 &lt;h4 id=&#34;lecture-5-event-history-duration-models&#34;&gt;Lecture 5: Event history/duration models&lt;/h4&gt;
 
