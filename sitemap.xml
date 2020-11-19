@@ -222,6 +222,16 @@
   </url>
   
   <url>
+    <loc>/teaching/choose_glm/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/teaching/model_choice/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
   </url>
   
