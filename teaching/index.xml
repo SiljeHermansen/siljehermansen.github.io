@@ -17,14 +17,16 @@
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/teaching/choose_glm/</guid>
-      <description>&lt;p&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of model choice criteria, given the data generating process that produced my dependent variable. It comes in the shape of a decision tree for Generalized Linear Models (GLMs).&lt;/p&gt;
+      <description>&lt;p&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of choice criteria when I consider what Generalized Linear Model (GLM) to rely on.&lt;/p&gt;
 
 &lt;p&gt;&lt;html&gt;
 &lt;head&gt;&lt;title&gt;Decision tree for GLMs&lt;/title&gt;&lt;/head&gt;
 &lt;body&gt;
-&lt;iframe id=&#34;decision tree for glms app&#34; src=&#34;https://siljehermansen.github.io/teaching/model_choice/&#34; style=&#34;border: none; width: 100%; height: 950px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;iframe id=&#34;decision tree for glms app&#34; src=&#34;https://siljehermansen.github.io/teaching/model_choice/&#34; style=&#34;border: none; width: 100%; height: 1250px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
 &lt;/body&gt;
 &lt;/html&gt;&lt;/p&gt;
+
+&lt;p&gt;I generally begin by considering how my dependent variable is measured and the data generating process that I believe produced it. It is standard procedure to check if the assumptions inherent in the model are satisfied and potentially reconsider the choice.&lt;/p&gt;
 </description>
     </item>
     
@@ -486,8 +488,8 @@ If you use the *docs* layout, note that the name of the menu in the front matter
 
 &lt;!-- step 2 --&gt;        
         &lt;fieldset class=&#34;hide step2 option1&#34;&gt;
-            &lt;legend&gt;&lt;b&gt;Run an OLS&lt;/b&gt;&lt;/legend&gt;
-            &lt;p&gt;Run an OLS&lt;/p&gt; 
+            &lt;legend&gt;&lt;b&gt;Run a linear model&lt;/b&gt;&lt;/legend&gt;
+            &lt;p&gt;You can run a &lt;em&gt;linear&lt;/em&gt; model that you estimate using ordinary least squares (OLS) or maximum likelihood drawing from a gaussian/normal distribution.&lt;/p&gt; 
         &lt;/fieldset&gt;
         
         &lt;fieldset class=&#34;hide step2 option2&#34;&gt;
@@ -620,7 +622,7 @@ If you use the *docs* layout, note that the name of the menu in the front matter
             &lt;ul&gt;Previous events increase the rate of subsequent events.&lt;/ul&gt;
            &lt;p&gt;
                 &lt;input id=&#34;question_4_2_1_2&#34; name=&#34;group_8&#34; type=&#34;radio&#34; /&gt;
-                &lt;label for=&#34;question_4_2_1_2&#34;&gt;Other.&lt;/label&gt;
+                &lt;label for=&#34;question_4_2_1_2&#34;&gt;Other&lt;/label&gt;
             &lt;/p&gt;
         &lt;/fieldset&gt;
 
@@ -628,8 +630,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
         &lt;fieldset class=&#34;hide step4 option422&#34;&gt;
             &lt;legend&gt;&lt;b&gt;Choose a model that addresses excess zero counts&lt;/b&gt;&lt;/legend&gt;
             &lt;p&gt;The data generating process involves a joint probability of two events: One binary and one count process. These two processes can be modeled separately.&lt;/p&gt;
+            &lt;ul&gt;
                 &lt;li&gt;&lt;em&gt;Zero-inflated model&lt;/em&gt;&lt;/li&gt;
                 &lt;li&gt;&lt;em&gt;Hurdle model&lt;/em&gt;&lt;/li&gt;
+            &lt;/ul&gt;
         &lt;/fieldset&gt;
 
         &lt;fieldset class=&#34;hide step4 option423&#34;&gt;

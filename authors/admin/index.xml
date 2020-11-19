@@ -17,14 +17,16 @@
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/teaching/choose_glm/</guid>
-      <description>&lt;p&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of model choice criteria, given the data generating process that produced my dependent variable. It comes in the shape of a decision tree for Generalized Linear Models (GLMs).&lt;/p&gt;
+      <description>&lt;p&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of choice criteria when I consider what Generalized Linear Model (GLM) to rely on.&lt;/p&gt;
 
 &lt;p&gt;&lt;html&gt;
 &lt;head&gt;&lt;title&gt;Decision tree for GLMs&lt;/title&gt;&lt;/head&gt;
 &lt;body&gt;
-&lt;iframe id=&#34;decision tree for glms app&#34; src=&#34;https://siljehermansen.github.io/teaching/model_choice/&#34; style=&#34;border: none; width: 100%; height: 950px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;iframe id=&#34;decision tree for glms app&#34; src=&#34;https://siljehermansen.github.io/teaching/model_choice/&#34; style=&#34;border: none; width: 100%; height: 1250px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
 &lt;/body&gt;
 &lt;/html&gt;&lt;/p&gt;
+
+&lt;p&gt;I generally begin by considering how my dependent variable is measured and the data generating process that I believe produced it. It is standard procedure to check if the assumptions inherent in the model are satisfied and potentially reconsider the choice.&lt;/p&gt;
 </description>
     </item>
     
