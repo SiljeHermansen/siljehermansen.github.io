@@ -578,8 +578,31 @@
 <head><title>Shiny App Iframe</title></head>
 <body>
 <iframe id="lawyers shiny app" src="https://siljehermansen.shinyapps.io/Lawyers/" style="border: none; width: 100%; height: 950px" frameborder="0"></iframe>
+<script>
+ga('create', 'UA-144587007-1', 'auto');
+ga(function(tracker) {
+  // Gets the client ID of the default tracker.
+  var clientId = tracker.get('clientId');
+
+  // Gets a reference to the window object of the destionation iframe.
+  var frameWindow = document.getElementById('lawyers shiny app').contentWindow;
+
+  // Sends the client ID to the window inside the destination frame.
+  frameWindow.postMessage(clientId, 'https://siljehermansen.shinyapps.io/Lawyers/');
+});
+</script>
 </body>
 </html>
+<script>
+window.addEventListener('message', function(event) {
+  // Ignores messages from untrusted domains.
+  if (event.origin != 'https://siljehermansen.shinyapps.io/Lawyers/') return;
+
+  ga('create', 'UA-144587007-1', 'auto', {
+    clientId: event.data
+  });
+});
+</script>
 <ul>
 <li><strong>&ldquo;Measuring the evolution of CJEU case law using word embeddings&rdquo;</strong> presented at Big Insight - a center for research-based innovation, Norwegian Computing Center 2019 (Oslo)</li>
 </ul>
