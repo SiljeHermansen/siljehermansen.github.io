@@ -22,20 +22,14 @@
 &lt;img src=&#34;EffectOfSpecialization.png&#34; alt=&#34;The positive effect of staying in the same committee decreases over time.&#34;&gt;
 &lt;/a&gt;
 ---&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;
-&lt;p&gt;Committee coordinators face a classic delegation problem when assigning reports to their committee members. Although few theoretical developments have focused on the eﬀects of expertise on delegation, empirical studies have commonly assumed monotonic eﬀects. Based on the theoretical model by Fischer and Stocken (2001), we argue that more expertise, holding preference divergence constant, has a non-monotonic eﬀect on the probability of being appointed as a rapporteur because of informational credibility. Employing accumulated committee service as an expertise measure, we test this theoretical expectation on all committee report delegations in the European Parliament from 1979 - 2014. Across both nonparametric and parametric hierarchical conditional logit models we ﬁnd support for this non-monotonic eﬀect. The results hold across member states, political groups, procedures, committees, and over time.&lt;/p&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Committee coordinators face a classic delegation problem when assigning reports to their committee members. Although few theoretical developments have focused on the eﬀects of expertise on delegation, empirical studies have commonly assumed monotonic eﬀects. Based on the theoretical model by Fischer and Stocken (2001), we argue that more expertise, holding preference divergence constant, has a non-monotonic eﬀect on the probability of being appointed as a rapporteur because of informational credibility. Employing accumulated committee service as an expertise measure, we test this theoretical expectation on all committee report delegations in the European Parliament from 1979 - 2014. Across both nonparametric and parametric hierarchical conditional logit models we ﬁnd support for this non-monotonic eﬀect. The results hold across member states, political groups, procedures, committees, and over time.&lt;/p&gt; 
 &lt;p&gt;&lt;strong&gt;Outreach&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A popularized version of the paper is featured on LSE&amp;rsquo;s EUROPP-blog: &lt;a href=&#34;https://blogs.lse.ac.uk/europpblog/2020/01/21/a-question-of-trust-intra-party-delegation-in-the-european-parliament/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;A question of trust: Intra-party delegation in the European Parliament&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;A popularized version of the paper is featured on LSE&amp;rsquo;s EUROPP-blog: &lt;a href=&#34;https://blogs.lse.ac.uk/europpblog/2020/01/21/a-question-of-trust-intra-party-delegation-in-the-european-parliament/&#34;&gt;&amp;ldquo;A question of trust: Intra-party delegation in the European Parliament&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
 &lt;!---
 **Replication files** can be downloaded [here](https://github.com/SiljeHermansen/Replication-files)
 ---&gt;
-
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Chiou, Fang-Yi, Hermansen, Silje Synnøve Lyder and Bjørn Høyland (2020) &amp;ldquo;Delegation of Committee Reports in the European Parliament&amp;rdquo; &lt;em&gt;European Union Politics&lt;/em&gt;, 21(2), 233-254.&lt;/li&gt;
 &lt;/ul&gt;
@@ -55,27 +49,19 @@
 &lt;figcaption&gt;&lt;small&gt;Figure: Judges whose governments hold outlying economic preferences are less likely to act as rapporteur in court cases that could divide member states.&lt;/small&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 ---&gt;
-
 &lt;figure&gt;
 &lt;img src=&#34;NotDebatedLegislation.jpeg&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;No effect of government preferences in non-politicized cases.&#34;/&gt;
 &lt;img src=&#34;DebatedLegislation.jpeg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;Effect of government preferences in politicized cases. Author: Silje Synnøve Lyder Hermansen.&#34;/&gt;
 &lt;figcaption&gt;&lt;small&gt;Figure: Judges whose governments hold outlying economic preferences are less likely to act as rapporteur in court cases that could divide member states.&lt;/small&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
-
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;em&gt;Does the President of the Court of Justice of the European Union (CJEU) make strategic use of his members?&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;Cases in the CJEU areprepared  by  a  “judge-rapporteur”  who  acts  as  an  agenda  setter. I argue that the President builds the Court’s legitimacy by strategically allocating cases to select judges.&lt;/p&gt;
-
 &lt;p&gt;Using original data on 9623 case allocations (1980-2015), I argue that suspicions about judges’ political accountability can polarize already politicized debates.  The President circumvents such dynamicsby  appointing  a  rapporteur  whose  government  holds  moderate  political  preferences.   However,  he  considers  governmental  preferencesand disagreements mainly when case law is not yet developed.  This may  also  contribute  to  explaining  judges individual-level  specialization, which arguably favors the construction of a coherent case law.&lt;/p&gt;
-
 &lt;p&gt;The results speak to the lingering effect of judges’ renewable terms &amp;ndash; despite secret voting &amp;ndash; as well as the importance of courts internalorganization for judicial independence.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;Hermansen, Silje Synnøve Lyder (2020) &lt;a href=&#34;http://dx.doi.org/10.1080/13501763.2020.1714697&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Building legitimacy: strategic case allocations in the Court of Justice of the European Union&amp;rdquo;&lt;/a&gt; &lt;em&gt;Journal of European Public Policy&lt;/em&gt;, 27(8), pp 1215-1235&lt;/li&gt;
+&lt;li&gt;Hermansen, Silje Synnøve Lyder (2020) &lt;a href=&#34;http://dx.doi.org/10.1080/13501763.2020.1714697&#34;&gt;&amp;ldquo;Building legitimacy: strategic case allocations in the Court of Justice of the European Union&amp;rdquo;&lt;/a&gt; &lt;em&gt;Journal of European Public Policy&lt;/em&gt;, 27(8), pp 1215-1235&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -86,18 +72,14 @@
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/pp2018/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/1354068816663036&#34;&gt;
+      <description>&lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/1354068816663036&#34;&gt;
 &lt;img src=&#34;reselection_performance.jpg&#34; alt=&#34;Effect of signals of performance on incumbent candidate selection to the European Parliament. Author: Silje Hermansen.&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;
-&lt;p&gt;I consider how asymmetric information between the party selectorate and members of Parliament affects the renomination of incumbent candidates. By applying an adverse selection model, I argue that the selectorate looks to past performance to select candidates it expects will gain influence. However, the impact of performance varies according to the need for and availability of information.&lt;/p&gt;
-  &lt;p&gt;The European Parliament (EP) provides a most-likely case for information asymmetry. Studying three elections in 11 member states, I find that the allocation of influential positions in office improves chances of reselection. The effect increases when the allocation is more selective, and when the prior uncertainty around candidacies is high. The study thus proposes a new approach to the relationship between national parties and transnational groups in the EP. It also suggests venues for research on parliamentary politics and candidate selection in general. &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Replication files&lt;/strong&gt; can be downloaded &lt;a href=&#34;https://github.com/SiljeHermansen/Replication-files&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-
+&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I consider how asymmetric information between the party selectorate and members of Parliament affects the renomination of incumbent candidates. By applying an adverse selection model, I argue that the selectorate looks to past performance to select candidates it expects will gain influence. However, the impact of performance varies according to the need for and availability of information.&lt;/p&gt; 
+  &lt;p&gt;The European Parliament (EP) provides a most-likely case for information asymmetry. Studying three elections in 11 member states, I find that the allocation of influential positions in office improves chances of reselection. The effect increases when the allocation is more selective, and when the prior uncertainty around candidacies is high. The study thus proposes a new approach to the relationship between national parties and transnational groups in the EP. It also suggests venues for research on parliamentary politics and candidate selection in general. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Replication files&lt;/strong&gt; can be downloaded &lt;a href=&#34;https://github.com/SiljeHermansen/Replication-files&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Hermansen, Silje Synnøve Lyder (2018) &amp;ldquo;Striving for influence: The effect of performance on candidate selection&amp;rdquo; &lt;em&gt;Party Politics&lt;/em&gt; 24 (4), 382-396.&lt;/li&gt;
 &lt;/ul&gt;
@@ -110,19 +92,15 @@
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/jls2018/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/13572334.2018.1444631&#34;&gt;
+      <description>&lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/13572334.2018.1444631&#34;&gt;
 &lt;img src=&#34;coefplot_expertise.png&#34; alt=&#34;Coefplot reporting effect of policy expertise on allocation of codecision reports. Author: Silje Hermansen.&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;
-&lt;p&gt;Rapporteurs in the European Parliament (EP) are the most influential members in terms of the legislation they handle. They are appointed by their political groups. In making these appointments, these groups need to accommodate both their collective needs and individual requests.&lt;/p&gt;
-  &lt;p&gt;This article explores situations in which the collective need for information is prioritised: the codecision procedure. The data includes allocations over a 10-year period (2004–2014) in three of the most powerful EP committees, as well as key career choices among members.&lt;/p&gt;
-    &lt;p&gt;EP groups emphasise policy-specific expertise. They also pay attention to individual members’ requests for exposure, but only when the expected policy drift is minimal. Harsh selection during the allocation of codecision reports creates pressure to accommodate a greater selection of legislators during other attractive report allocations. Own-initiative reports therefore affect allocation of codecision reports negatively.&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Online supplementary files&lt;/strong&gt; can be downloaded &lt;a href=&#34;https://github.com/SiljeHermansen/Replication-files&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-
+&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Rapporteurs in the European Parliament (EP) are the most influential members in terms of the legislation they handle. They are appointed by their political groups. In making these appointments, these groups need to accommodate both their collective needs and individual requests.&lt;/p&gt; 
+  &lt;p&gt;This article explores situations in which the collective need for information is prioritised: the codecision procedure. The data includes allocations over a 10-year period (2004–2014) in three of the most powerful EP committees, as well as key career choices among members.&lt;/p&gt; 
+    &lt;p&gt;EP groups emphasise policy-specific expertise. They also pay attention to individual members’ requests for exposure, but only when the expected policy drift is minimal. Harsh selection during the allocation of codecision reports creates pressure to accommodate a greater selection of legislators during other attractive report allocations. Own-initiative reports therefore affect allocation of codecision reports negatively.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Online supplementary files&lt;/strong&gt; can be downloaded &lt;a href=&#34;https://github.com/SiljeHermansen/Replication-files&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Hermansen, Silje Synnøve Lyder (2018) &amp;ldquo;(Self-)selection and expertise among decision-makers in the European Parliament&amp;rdquo;, &lt;em&gt;The Journal of Legislative Studies&lt;/em&gt;, 24 (1), pp 148-172.&lt;/li&gt;
 &lt;/ul&gt;
@@ -135,24 +113,16 @@
       <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/publication/phd2017/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.duo.uio.no/bitstream/handle/10852/69004/PhD-LyderHermansen-2017.pdf?sequence=4&amp;isAllowed=y&#34;&gt;
+      <description>&lt;a href=&#34;https://www.duo.uio.no/bitstream/handle/10852/69004/PhD-LyderHermansen-2017.pdf?sequence=4&amp;isAllowed=y&#34;&gt;
 &lt;img src=&#34;committee_activity.jpg&#34; alt=&#34;Graphic illustrating the variation in committee activity in the European Parliament (1999-2014). Author: Silje Synnøve Lyder Hermansen&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-
+&lt;/a&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;This dissertation treats with partisan organization in the European Parliament (EP) and its impact on members’ (MEPs) career opportunities. National parties organize elections. Parliamentary work is organized around transnational political groups. They do not share any overarching organizational structure. My contributions pertain to the interconnected choices made by MEPs and their two party organizations.&lt;/p&gt;
-
 &lt;p&gt;Parliamentary groups face a trade-off between the need for expertise and the risk of agency drift. Groups allocate reports to maximize the value added by the rapporteur while limiting the drift. They prefer policy experts to generalists and -- up to a point -- experienced MEPs to newcomers. Groups also balance individual demands with the collective need.&lt;/p&gt;
-
 &lt;p&gt;National parties do not have institutionalized presence in the EP. They enter into an outcome-based contract similar to voters. MEPs are either rewarded by reselection or kicked out of office. Report alloca-tions dissipate uncertainty about MEPs’ ability. They thus improve MEPs’ career prospects to the extent that parties need new information about agent quality, and to the extent that parliamentary groups can provide it.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Outreach&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A popularized presentation in Norwegian on the effect of gender quotas on legislative behavior and parties&amp;rsquo; candidate selection can be found here: &lt;a href=&#34;https://www.sv.uio.no/isv/forskning/aktuelt/aktuelle-saker/2017/et-forsvar-for-kvinnekvotering-.html&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Et forsvar for kvinnekvotering&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;A popularized presentation in Norwegian on the effect of gender quotas on legislative behavior and parties&#39; candidate selection can be found here: &lt;a href=&#34;https://www.sv.uio.no/isv/forskning/aktuelt/aktuelle-saker/2017/et-forsvar-for-kvinnekvotering-.html&#34;&gt;&amp;ldquo;Et forsvar for kvinnekvotering&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Hermansen, Silje Synnøve Lyder (2017) &lt;em&gt;Choosing Agents: Members of the European Parliament and their Political Organizations Seen through Report Allocation&lt;/em&gt;. Doctoral dissertation. University of Oslo. 323 p.&lt;/li&gt;
 &lt;/ul&gt;

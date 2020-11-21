@@ -82,25 +82,11 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.2cf549a64a32fc39800b973f42a7d9f4.css">
+  <link rel="stylesheet" href="/css/academic.min.d1bd53b72036abed7e69d16805c6ae24.css">
 
   
 
   
-  
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-144587007-1', 'auto');
-      
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
   
   
 
@@ -550,83 +536,65 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      
-
-<p>Master&rsquo;s/PhD level. <em>University of Oslo. Department of Political Science.</em> 2019</p>
-
+      <p>Master&rsquo;s/PhD level. <em>University of Oslo. Department of Political Science.</em> 2019</p>
 <h3 id="course-description">Course description</h3>
-
 <p>This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We go through the statistical theory behind models, but we emphasize understanding when models are useful and how to employ them. The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).</p>
-
-<p>Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&rsquo; choice of party, number of violent incidences in a time span or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.</p>
-
-<p>Beyond statistical description, researchers&rsquo; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework provides a useful heuristic for assessing causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.</p>
-
+<p>Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters' choice of party, number of violent incidences in a time span or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.</p>
+<p>Beyond statistical description, researchers' interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework provides a useful heuristic for assessing causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.</p>
 <p><strong>Learning outcome</strong> Students will get hands-on practice by learning how to implement the various techniques and by replicating existing studies in R. Students will also learn how to present results in a manner that is understandable to a general audience, for example by using graphs and other visual tools.</p>
-
-<p><strong>More information</strong> about the course is available at the <a href="https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/" target="_blank">University of Oslo&rsquo;s webpages</a>.</p>
-
+<p><strong>More information</strong> about the course is available at the <a href="https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/">University of Oslo&rsquo;s webpages</a>.</p>
 <div>
 <object data="syllabus" type="application/pdf" width="700" height="950">
 <a href="syllabus_stv4020b.pdf">Download the syllabus</a>
 </object>
 </div> 
-
 <h3 id="slides">Slides</h3>
-
 <ul>
-<li><p><strong>Maximum likelihood</strong></p></li>
-
-<li><p><strong><a href="Lecture2_Logit.pdf" target="_blank">Logistic regression</a></strong> (Ward and Ahlquist, 2018, ch 3)</p></li>
+<li>
+<p><strong>Maximum likelihood</strong></p>
+</li>
+<li>
+<p><strong><a href="Lecture2_Logit.pdf">Logistic regression</a></strong> (Ward and Ahlquist, 2018, ch 3)</p>
+</li>
 </ul>
-
 <p>Logistic regression is the base-line example of a generalized linear model (GLM).
 We go through how to model binary outcomes, how to interpret the results from a logit and why we can&rsquo;t simply run an OLS.</p>
-
 <ul>
-<li><strong><a href="Lecture3_Choice.pdf" target="_blank">Ordered and multinomial regression</a></strong> (Ward and Ahlquist, 2018, ch 8-9)</li>
+<li><strong><a href="Lecture3_Choice.pdf">Ordered and multinomial regression</a></strong> (Ward and Ahlquist, 2018, ch 8-9)</li>
 </ul>
-
-<p>We go through models with categorical dependent variables: Ordinal and nominal categories. Example data used in class can be downloaded <a href="kap10.txt" target="_blank">here</a>. It is the same as the data from chapter 10 in laerdegR.</p>
-
+<p>We go through models with categorical dependent variables: Ordinal and nominal categories. Example data used in class can be downloaded <a href="kap10.txt">here</a>. It is the same as the data from chapter 10 in laerdegR.</p>
 <ul>
-<li><strong><a href="Lecture4_counts.pdf" target="_blank">Event count models</a></strong> (Ward and Ahlquist, 2018, ch 10)</li>
+<li><strong><a href="Lecture4_counts.pdf">Event count models</a></strong> (Ward and Ahlquist, 2018, ch 10)</li>
 </ul>
-
 <p>Event count models describe grouped events. They are appropriate when we do not have relevant information at the event level, but are able to both count them and design contextual predictors. We go through the poisson model and how to check for overdispersion. We then consider different strategies to adress possible overdispersion. We study the quasi-poisson and the negative binomial models as well as hurle and zero-inflated models.</p>
-
 <ul>
 <li><strong>Event history/duration models</strong> (Ward and Ahlquist, 2018, ch 11)</li>
 </ul>
-
 <p>We can leverage information both from the fact that an event occured or not (binary outcome) and the time it took for the event to take place (count outcome). These models are made to describe a duration until an outcome occurs.</p>
-
 <ul>
-<li><strong><a href="Lecture7_CausalInference.pdf" target="_blank">Causal inference</a></strong> (Angrist and Pischke, 2015, ch 1)</li>
+<li><strong><a href="Lecture7_CausalInference.pdf">Causal inference</a></strong> (Angrist and Pischke, 2015, ch 1)</li>
 </ul>
-
 <p>We go through the idea of potential outcomes. What are the comparisons we would we like to make? And what is actually possible to compare with?</p>
-
-<p>In the R-lab we&rsquo;ll look at matching techniques. We will play with a version of the <a href="judges.rda" target="_blank">data</a> from Glyn and Sen&rsquo;s daughters-effect paper in <a href="https://scholar.harvard.edu/files/msen/files/daughters.pdf" target="_blank">APSR</a> from 2014.</p>
-
+<p>In the R-lab we&rsquo;ll look at matching techniques. We will play with a version of the <a href="judges.rda">data</a> from Glyn and Sen&rsquo;s daughters-effect paper in <a href="https://scholar.harvard.edu/files/msen/files/daughters.pdf">APSR</a> from 2014.</p>
 <ul>
-<li><p><strong>Regression and matching</strong> (Angrist and Pischke, 2015, ch 2)</p></li>
-
-<li><p><strong><a href="Lecture9_RDD_DiffInDiff.pdf" target="_blank">RDD and diff-in-diff</a></strong> (Angrist and Pischke, 2015, ch 4 and 5)</p></li>
+<li>
+<p><strong>Regression and matching</strong> (Angrist and Pischke, 2015, ch 2)</p>
+</li>
+<li>
+<p><strong><a href="Lecture9_RDD_DiffInDiff.pdf">RDD and diff-in-diff</a></strong> (Angrist and Pischke, 2015, ch 4 and 5)</p>
+</li>
 </ul>
-
 <p>We go through regression discontinuity designs (RDD) where a treatment kicks in at a certain cutpoint of an observed running variable. We then have a look at the differences-in-differences approach (diff-in-diff) where we observe a treatment group and a control group before and after the treatment. It&rsquo;s all about interaction effects and dummies!</p>
-
-<p>We&rsquo;ll examplify with data from <a href="df.Rda" target="_blank">chapter 4</a> and <a href="deaths.Rda" target="_blank">chapter 5</a> in the book.</p>
-
+<p>We&rsquo;ll examplify with data from <a href="df.Rda">chapter 4</a> and <a href="deaths.Rda">chapter 5</a> in the book.</p>
 <ul>
-<li><p><strong>Instrumental variables</strong> (Angrist and Pischke, 2015, ch 3 and 6)</p></li>
-
-<li><p><strong><a href="LaTeX.pdf" target="_blank">LaTeX + R = Sant</a></strong></p></li>
+<li>
+<p><strong>Instrumental variables</strong> (Angrist and Pischke, 2015, ch 3 and 6)</p>
+</li>
+<li>
+<p><strong><a href="LaTeX.pdf">LaTeX + R = Sant</a></strong></p>
+</li>
 </ul>
-
 <p>A brief introduction to LaTeX and how to use it in combination with R scripts (in Norwegian).</p>
-
 <!---## Flexibility
 This feature can be used for publishing content such as:
 
@@ -665,7 +633,8 @@ Or, if you are creating a software documentation site, you can rename the `cours
 ## Update the docs menu
 
 If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`.
---->
+---><blockquote>
+</blockquote>
 
     </div>
 

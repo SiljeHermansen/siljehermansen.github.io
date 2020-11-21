@@ -84,25 +84,11 @@ The course helps students 1) identify appropriate statistical models that descri
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.2cf549a64a32fc39800b973f42a7d9f4.css">
+  <link rel="stylesheet" href="/css/academic.min.d1bd53b72036abed7e69d16805c6ae24.css">
 
   
 
   
-  
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-144587007-1', 'auto');
-      
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
   
   
 
@@ -554,95 +540,52 @@ The course helps students 1) identify appropriate statistical models that descri
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      
-
-<p>Master&rsquo;s/PhD level. <em>University of Oslo. Department of Political Science.</em> 2020</p>
-
+      <p>Master&rsquo;s/PhD level. <em>University of Oslo. Department of Political Science.</em> 2020</p>
 <!---Here you can find the slides and other material used for the different lectures.--->
-
 <p>This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them.</p>
-
 <p>The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).</p>
-
 <h2 id="describing-data-generalized-linear-models">Describing data (generalized linear models)</h2>
-
-<p>Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&rsquo; choice of party, number of violent incidences in a time span, or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.</p>
-
+<p>Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters' choice of party, number of violent incidences in a time span, or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.</p>
 <h4 id="lecture-1-maximum-likelihood">Lecture 1: Maximum likelihood</h4>
-
 <p><em>(Ward and Ahlquist, 2018, ch 1, 2, 5-7)</em></p>
-
 <p>We introduce maximum likelihood as a framework for statistical modeling.</p>
-
-<h4 id="lecture-2-models-of-outcome-and-choice-the-logit-model-logit-model-stv4020b-pdf">Lecture 2: <a href="logit_model_stv4020b.pdf" target="_blank">Models of outcome and choice: The logit model</a></h4>
-
+<h4 id="lecture-2-models-of-outcome-and-choice-the-logit-modellogit_model_stv4020bpdf">Lecture 2: <a href="logit_model_stv4020b.pdf">Models of outcome and choice: The logit model</a></h4>
 <p><em>(Ward and Ahlquist, 2018, ch 3)</em></p>
-
 <p>Logistic regression is the base-line example of a generalized linear model (GLM).
 We go through how to model binary outcomes, how to interpret the results from a logit and why we can&rsquo;t simply run an OLS.</p>
-
-<h4 id="lecture-3-models-of-outcome-and-choice-ordered-and-multinomial-regression-choice-models-stv4020b-pdf">Lecture 3: <a href="choice_models_stv4020b.pdf" target="_blank">Models of outcome and choice: Ordered and multinomial regression</a></h4>
-
+<h4 id="lecture-3-models-of-outcome-and-choice-ordered-and-multinomial-regressionchoice_models_stv4020bpdf">Lecture 3: <a href="choice_models_stv4020b.pdf">Models of outcome and choice: Ordered and multinomial regression</a></h4>
 <p><em>(Ward and Ahlquist, 2018, ch 8-9)</em></p>
-
-<p>We go through models with categorical dependent variables: Ordinal and nominal categories. Example data used in class can be downloaded <a href="kap10.txt" target="_blank">here</a>. It is the same as the data from chapter 10 in laerdegR.</p>
-
-<h4 id="lecture-4-event-count-models-poisson-regression-and-other-alternatives-count-models-stv4020b-pdf">Lecture 4: <a href="count_models_stv4020b.pdf" target="_blank">Event count models: Poisson regression and other alternatives</a></h4>
-
+<p>We go through models with categorical dependent variables: Ordinal and nominal categories. Example data used in class can be downloaded <a href="kap10.txt">here</a>. It is the same as the data from chapter 10 in laerdegR.</p>
+<h4 id="lecture-4-event-count-models-poisson-regression-and-other-alternativescount_models_stv4020bpdf">Lecture 4: <a href="count_models_stv4020b.pdf">Event count models: Poisson regression and other alternatives</a></h4>
 <p><em>(Ward and Ahlquist, 2018, ch 10)</em></p>
-
 <p>Event count models describe grouped events. They are appropriate when we do not have relevant information at the event level, but are able to both count them and design contextual predictors. We go through the poisson model and how to check for overdispersion. We then consider different strategies to adress possible overdispersion. We study the quasi-poisson and the negative binomial models as well as hurle and zero-inflated models.</p>
-
-<p>Towards the end of the lecture, we consider the <a href="https://siljehermansen.github.io/teaching/model_choice/" target="_blank">decision tree for determining which GLM model</a> might best describe our data.</p>
-
-<h4 id="lecture-5-event-history-duration-models">Lecture 5: Event history/duration models</h4>
-
+<p>Towards the end of the lecture, we consider the <a href="https://siljehermansen.github.io/teaching/choose_glm/">decision tree for determining which GLM model</a> might best describe our data.</p>
+<h4 id="lecture-5-event-historyduration-models">Lecture 5: Event history/duration models</h4>
 <p><em>(Ward and Ahlquist, 2018, ch 11)</em></p>
-
 <p>We can leverage information both from the fact that an event occured or not (binary outcome) and the time it took for the event to take place (count outcome). These models are made to describe a duration until an outcome occurs.</p>
-
 <h2 id="causal-inference">Causal inference</h2>
-
-<p>Beyond statistical description, researchers&rsquo; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework helps us understand the conditions under which we can identify causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.</p>
-
+<p>Beyond statistical description, researchers' interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework helps us understand the conditions under which we can identify causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.</p>
 <h4 id="causal-inference-1">Causal inference</h4>
-
 <p><em>(Morgan and Winship, 2015, ch 1-3; Samii 2016)</em></p>
-
 <p>We go through the idea of potential outcomes. What are the comparisons we would we like to make? And what is actually possible to compare with?</p>
-
 <p>In the R-lab we&rsquo;ll look at matching techniques.</p>
-
 <h4 id="regression-and-matching">Regression and matching</h4>
-
 <p><em>(Ho et al., 2007; Iacus, King and Porro, 2011)</em></p>
-
 <p>We introduce matching as a technique to adjust for observed confounders.</p>
-
 <h4 id="rdd-and-diff-in-diff">RDD and diff-in-diff</h4>
-
 <p><em>(Angrist and Pischke, 2015, ch 4 and 5; Wing, Simon and Bello-Gomez, 2018; Imbens and Lemieux 2008)</em></p>
-
 <p>We go through regression discontinuity designs (RDD) where a treatment kicks in at a certain cutpoint of an observed running variable. We then have a look at the differences-in-differences approach (diff-in-diff) where we observe a treatment group and a control group before and after the treatment. It&rsquo;s all about interaction effects and dummies!</p>
-
 <h4 id="instrumental-variables">Instrumental variables</h4>
-
 <p><em>(Sovey and Green, 2011)</em></p>
-
 <p>We introduce instrumental variables and provide guidelines for their application in political science.</p>
-
 <h2 id="complete-syllabus">Complete syllabus</h2>
-
 <div>
 <object data="syllabus_stv4020b.pdf" type="application/pdf" width="700" height="950">
 <a href="syllabus_stv4020b.pdf">Download the syllabus for Statistical analysis (stv4020b)</a>
 </object>
 </div>
-
 <p><strong>Learning outcome</strong>  Students will get hands-on practice by learning how to implement the various techniques and by replicating existing studies in R. Students will also learn how to present results in a manner that is understandable to a general audience, for example by using graphs and other visual tools.</p>
-
-<p><strong>More information</strong> about the course is available at the <a href="https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/" target="_blank">University of Oslo&rsquo;s webpages</a>.</p>
-
+<p><strong>More information</strong> about the course is available at the <a href="https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/">University of Oslo&rsquo;s webpages</a>.</p>
 <!---
 ### Course description 
 This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them. The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).
@@ -679,7 +622,6 @@ Some students may find some of the readings (such as Ward and Ahlquist (2018)) t
 Sometimes we understand things better when they are explained in different ways.  You may find it useful to consult the following books for alternative explanations throughout the course:  Fox (2008) and Stock and Watson (2012) are useful for thefirst part of the course (weeks 1-3), Cunningham (forthcoming) is useful for the second part of the course (weeks 4-5), and Hermansen (2019) is useful for getting up to speed in R.
 
 --->
-
 <!---## Flexibility
 This feature can be used for publishing content such as:
 
@@ -718,7 +660,8 @@ Or, if you are creating a software documentation site, you can rename the `cours
 ## Update the docs menu
 
 If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`.
---->
+---><blockquote>
+</blockquote>
 
     </div>
 

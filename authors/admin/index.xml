@@ -18,14 +18,12 @@
       
       <guid>/teaching/choose_glm/</guid>
       <description>&lt;p&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of choice criteria when I consider what Generalized Linear Model (GLM) to rely on.&lt;/p&gt;
-
-&lt;p&gt;&lt;html&gt;
+&lt;html&gt;
 &lt;head&gt;&lt;title&gt;Decision tree for GLMs&lt;/title&gt;&lt;/head&gt;
 &lt;body&gt;
 &lt;iframe id=&#34;decision tree for glms app&#34; src=&#34;https://siljehermansen.github.io/teaching/model_choice/&#34; style=&#34;border: none; width: 100%; height: 1250px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
 &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;
-
+&lt;/html&gt;
 &lt;p&gt;I generally begin by considering how my dependent variable is measured and the data generating process that I believe produced it. It is standard procedure to check if the assumptions inherent in the model are satisfied and potentially reconsider the choice.&lt;/p&gt;
 </description>
     </item>
@@ -36,95 +34,52 @@
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/teaching/stv4020b/</guid>
-      <description>
-
-&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2020&lt;/p&gt;
-
+      <description>&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2020&lt;/p&gt;
 &lt;!---Here you can find the slides and other material used for the different lectures.---&gt;
-
 &lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them.&lt;/p&gt;
-
 &lt;p&gt;The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).&lt;/p&gt;
-
 &lt;h2 id=&#34;describing-data-generalized-linear-models&#34;&gt;Describing data (generalized linear models)&lt;/h2&gt;
-
-&lt;p&gt;Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&amp;rsquo; choice of party, number of violent incidences in a time span, or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.&lt;/p&gt;
-
+&lt;p&gt;Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&#39; choice of party, number of violent incidences in a time span, or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.&lt;/p&gt;
 &lt;h4 id=&#34;lecture-1-maximum-likelihood&#34;&gt;Lecture 1: Maximum likelihood&lt;/h4&gt;
-
 &lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 1, 2, 5-7)&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;We introduce maximum likelihood as a framework for statistical modeling.&lt;/p&gt;
-
-&lt;h4 id=&#34;lecture-2-models-of-outcome-and-choice-the-logit-model-logit-model-stv4020b-pdf&#34;&gt;Lecture 2: &lt;a href=&#34;logit_model_stv4020b.pdf&#34; target=&#34;_blank&#34;&gt;Models of outcome and choice: The logit model&lt;/a&gt;&lt;/h4&gt;
-
+&lt;h4 id=&#34;lecture-2-models-of-outcome-and-choice-the-logit-modellogit_model_stv4020bpdf&#34;&gt;Lecture 2: &lt;a href=&#34;logit_model_stv4020b.pdf&#34;&gt;Models of outcome and choice: The logit model&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 3)&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;Logistic regression is the base-line example of a generalized linear model (GLM).
 We go through how to model binary outcomes, how to interpret the results from a logit and why we can&amp;rsquo;t simply run an OLS.&lt;/p&gt;
-
-&lt;h4 id=&#34;lecture-3-models-of-outcome-and-choice-ordered-and-multinomial-regression-choice-models-stv4020b-pdf&#34;&gt;Lecture 3: &lt;a href=&#34;choice_models_stv4020b.pdf&#34; target=&#34;_blank&#34;&gt;Models of outcome and choice: Ordered and multinomial regression&lt;/a&gt;&lt;/h4&gt;
-
+&lt;h4 id=&#34;lecture-3-models-of-outcome-and-choice-ordered-and-multinomial-regressionchoice_models_stv4020bpdf&#34;&gt;Lecture 3: &lt;a href=&#34;choice_models_stv4020b.pdf&#34;&gt;Models of outcome and choice: Ordered and multinomial regression&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 8-9)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;We go through models with categorical dependent variables: Ordinal and nominal categories. Example data used in class can be downloaded &lt;a href=&#34;kap10.txt&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It is the same as the data from chapter 10 in laerdegR.&lt;/p&gt;
-
-&lt;h4 id=&#34;lecture-4-event-count-models-poisson-regression-and-other-alternatives-count-models-stv4020b-pdf&#34;&gt;Lecture 4: &lt;a href=&#34;count_models_stv4020b.pdf&#34; target=&#34;_blank&#34;&gt;Event count models: Poisson regression and other alternatives&lt;/a&gt;&lt;/h4&gt;
-
+&lt;p&gt;We go through models with categorical dependent variables: Ordinal and nominal categories. Example data used in class can be downloaded &lt;a href=&#34;kap10.txt&#34;&gt;here&lt;/a&gt;. It is the same as the data from chapter 10 in laerdegR.&lt;/p&gt;
+&lt;h4 id=&#34;lecture-4-event-count-models-poisson-regression-and-other-alternativescount_models_stv4020bpdf&#34;&gt;Lecture 4: &lt;a href=&#34;count_models_stv4020b.pdf&#34;&gt;Event count models: Poisson regression and other alternatives&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 10)&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;Event count models describe grouped events. They are appropriate when we do not have relevant information at the event level, but are able to both count them and design contextual predictors. We go through the poisson model and how to check for overdispersion. We then consider different strategies to adress possible overdispersion. We study the quasi-poisson and the negative binomial models as well as hurle and zero-inflated models.&lt;/p&gt;
-
-&lt;p&gt;Towards the end of the lecture, we consider the &lt;a href=&#34;https://siljehermansen.github.io/teaching/model_choice/&#34; target=&#34;_blank&#34;&gt;decision tree for determining which GLM model&lt;/a&gt; might best describe our data.&lt;/p&gt;
-
-&lt;h4 id=&#34;lecture-5-event-history-duration-models&#34;&gt;Lecture 5: Event history/duration models&lt;/h4&gt;
-
+&lt;p&gt;Towards the end of the lecture, we consider the &lt;a href=&#34;https://siljehermansen.github.io/teaching/choose_glm/&#34;&gt;decision tree for determining which GLM model&lt;/a&gt; might best describe our data.&lt;/p&gt;
+&lt;h4 id=&#34;lecture-5-event-historyduration-models&#34;&gt;Lecture 5: Event history/duration models&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 11)&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;We can leverage information both from the fact that an event occured or not (binary outcome) and the time it took for the event to take place (count outcome). These models are made to describe a duration until an outcome occurs.&lt;/p&gt;
-
 &lt;h2 id=&#34;causal-inference&#34;&gt;Causal inference&lt;/h2&gt;
-
-&lt;p&gt;Beyond statistical description, researchers&amp;rsquo; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework helps us understand the conditions under which we can identify causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.&lt;/p&gt;
-
+&lt;p&gt;Beyond statistical description, researchers&#39; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework helps us understand the conditions under which we can identify causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.&lt;/p&gt;
 &lt;h4 id=&#34;causal-inference-1&#34;&gt;Causal inference&lt;/h4&gt;
-
 &lt;p&gt;&lt;em&gt;(Morgan and Winship, 2015, ch 1-3; Samii 2016)&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;We go through the idea of potential outcomes. What are the comparisons we would we like to make? And what is actually possible to compare with?&lt;/p&gt;
-
 &lt;p&gt;In the R-lab we&amp;rsquo;ll look at matching techniques.&lt;/p&gt;
-
 &lt;h4 id=&#34;regression-and-matching&#34;&gt;Regression and matching&lt;/h4&gt;
-
 &lt;p&gt;&lt;em&gt;(Ho et al., 2007; Iacus, King and Porro, 2011)&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;We introduce matching as a technique to adjust for observed confounders.&lt;/p&gt;
-
 &lt;h4 id=&#34;rdd-and-diff-in-diff&#34;&gt;RDD and diff-in-diff&lt;/h4&gt;
-
 &lt;p&gt;&lt;em&gt;(Angrist and Pischke, 2015, ch 4 and 5; Wing, Simon and Bello-Gomez, 2018; Imbens and Lemieux 2008)&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;We go through regression discontinuity designs (RDD) where a treatment kicks in at a certain cutpoint of an observed running variable. We then have a look at the differences-in-differences approach (diff-in-diff) where we observe a treatment group and a control group before and after the treatment. It&amp;rsquo;s all about interaction effects and dummies!&lt;/p&gt;
-
 &lt;h4 id=&#34;instrumental-variables&#34;&gt;Instrumental variables&lt;/h4&gt;
-
 &lt;p&gt;&lt;em&gt;(Sovey and Green, 2011)&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;We introduce instrumental variables and provide guidelines for their application in political science.&lt;/p&gt;
-
 &lt;h2 id=&#34;complete-syllabus&#34;&gt;Complete syllabus&lt;/h2&gt;
-
 &lt;div&gt;
 &lt;object data=&#34;syllabus_stv4020b.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
 &lt;a href=&#34;syllabus_stv4020b.pdf&#34;&gt;Download the syllabus for Statistical analysis (stv4020b)&lt;/a&gt;
 &lt;/object&gt;
 &lt;/div&gt;
-
 &lt;p&gt;&lt;strong&gt;Learning outcome&lt;/strong&gt;  Students will get hands-on practice by learning how to implement the various techniques and by replicating existing studies in R. Students will also learn how to present results in a manner that is understandable to a general audience, for example by using graphs and other visual tools.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;More information&lt;/strong&gt; about the course is available at the &lt;a href=&#34;https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/&#34; target=&#34;_blank&#34;&gt;University of Oslo&amp;rsquo;s webpages&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;More information&lt;/strong&gt; about the course is available at the &lt;a href=&#34;https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/&#34;&gt;University of Oslo&amp;rsquo;s webpages&lt;/a&gt;.&lt;/p&gt;
 &lt;!---
 ### Course description 
 This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them. The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).
@@ -161,7 +116,6 @@ Some students may find some of the readings (such as Ward and Ahlquist (2018)) t
 Sometimes we understand things better when they are explained in different ways.  You may find it useful to consult the following books for alternative explanations throughout the course:  Fox (2008) and Stock and Watson (2012) are useful for thefirst part of the course (weeks 1-3), Cunningham (forthcoming) is useful for the second part of the course (weeks 4-5), and Hermansen (2019) is useful for getting up to speed in R.
 
 ---&gt;
-
 &lt;!---## Flexibility
 This feature can be used for publishing content such as:
 
@@ -200,7 +154,8 @@ Or, if you are creating a software documentation site, you can rename the `cours
 ## Update the docs menu
 
 If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.&lt;NewFolderName&gt;]`.
----&gt;
+---&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
@@ -210,71 +165,45 @@ If you use the *docs* layout, note that the name of the menu in the front matter
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/project/court-of-justice-of-the-european-union/</guid>
-      <description>
-
-&lt;p&gt;The Court of Justice of the European Union (CJEU) is probably the world’s most influential international court, functioning in many respects as a federal supreme court.&lt;/p&gt;
-
+      <description>&lt;p&gt;The Court of Justice of the European Union (CJEU) is probably the world’s most influential international court, functioning in many respects as a federal supreme court.&lt;/p&gt;
 &lt;p&gt;As of today, little research exists on how judges enter the Court and how its internal organization affect decision making.  This project opens the black box of these decision-making processes to consider governments’ and judges’ strategic behavior.&lt;/p&gt;
-
-&lt;p&gt;I show that judges&amp;rsquo; performance and governments&amp;rsquo; political preferences are intertwined both when judges are appointed and when cases are allocated.&lt;/p&gt;
-
+&lt;p&gt;I show that judges&#39; performance and governments&#39; political preferences are intertwined both when judges are appointed and when cases are allocated.&lt;/p&gt;
 &lt;!---## [Case allocation within the Court](case-allocation)
 ## Case allocation within the CJEU
 ---&gt;
-
 &lt;h2 id=&#34;judicial-appointments-to-the-cjeu&#34;&gt;Judicial appointments to the CJEU&lt;/h2&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;Will do? Selecting Judges on the Basis of Policy Preferences or Performance Indicators&amp;rdquo;&lt;/strong&gt;  with Daniel Naurin presented at the ECPR Joint Sessions 2019 (Mons)&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;!---* &lt;a href=&#34;WillDo_HermansenNaurin.pdf&#34; style=&#34;color: #000000&#34;&gt;**&#34;Will do? Selecting Judges on the Basis of Policy Preferences or Performance Indicators&#34;**&lt;/a&gt;  with Daniel Naurin presented at the ECPR Joint Sessions 2019 (Mons)---&gt;
-
 &lt;p&gt;Are governments’ appointments of judges to the Court of Justice of the European Union (CJEU) politicized? And does this prevent them for emphasizing competence? The power to select judges is key to representative institutions’ control over the judiciary. Nevertheless, while the CJEU is the most powerful of international courts and motor of the judicialization of politics in Europe, the selection criteria for judicial appointments have remained a blank in the literature.&lt;/p&gt;
-
 &lt;p&gt;Judges in the CJEU sit for six years renewable. All cases are decided collectively and in secrecy, so the policies judges favor are unknown. However, their influence &amp;ndash; in terms of the positions they obtain –&amp;ndash; is known. We therefore start by assuming that judges are selected for their preferences, but sanctioned for their performance.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;Effect_of_preferences_on_change_of_judge.jpeg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;Graphic showing that the likelihood of replacing a sitting judge increases with the distance between the economic preferences of the appointing and reappointing government.&#34;/&gt;&lt;/p&gt;
-
+&lt;img src=&#34;Effect_of_preferences_on_change_of_judge.jpeg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;Graphic showing that the likelihood of replacing a sitting judge increases with the distance between the economic preferences of the appointing and reappointing government.&#34;/&gt;
 &lt;p&gt;We rely on original data on all potential reappointment decisions to the CJEU over a 60-year period, biographical information and key performance measures of judges’ activities at the Court.&lt;/p&gt;
-
 &lt;p&gt;We find on the one hand that governments with different economic preferences hold different preferences over judges. That is, a change in government preferences increases the likelihood of changing the sitting judge. On the other hand, we find that governments &amp;ndash; regardless of their political preferences &amp;ndash; are more likely to retain judges who have obtained positions of influence.&lt;/p&gt;
-
-&lt;p&gt;A draft version can be found &lt;a href=&#34;WillDo_HermansenNaurin.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;A draft version can be found &lt;a href=&#34;WillDo_HermansenNaurin.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;strategic-decision-making-in-the-cjeu&#34;&gt;Strategic decision making in the CJEU&lt;/h2&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Instrument of Power or Weapon of the Weak? Litigation and Legal Representation Before the European Court of Justice&amp;rdquo;&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34; target=&#34;_blank&#34;&gt;Tommaso Pavone&lt;/a&gt; presented at EPSA Annual Meeting 2020 (zoom)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Instrument of Power or Weapon of the Weak? Litigation and Legal Representation Before the European Court of Justice&amp;rdquo;&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; presented at EPSA Annual Meeting 2020 (zoom)&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;The proliferation of regional organizations and international courts has expanded opportunities for nongovernmental actors to pursue transnational litigation. In the European Union (EU) legal mobilization before the European Court of Justice (ECJ) has been particularly vigorous, yet a core puzzle remains unresolved: Does litigating at the ECJ empower the &amp;lsquo;have nots&amp;rsquo;, or does it reinforce the voice of the &amp;lsquo;haves&amp;rsquo;?&lt;/p&gt;
-
 &lt;p&gt;While some studies point to the judicial expansion of EU rights protections, others stress the resource advantages of corporate litigants and their ability to mobilize specialist &amp;lsquo;Euro-lawyers.&amp;rsquo; Drawing on party capability theories and leveraging the first dataset of parties and lawyers in all national court cases referred to the ECJ, we assess whether businesses increasingly obtain better legal representation before the Court and how this advantage shapes judicial policymaking. Our longitudinal results illuminate shifting patterns of legal mobilization that partially reconcile the debate over whether litigation before the ECJ tends to advance individual rights or magnify corporate power.&lt;/p&gt;
-
-&lt;p&gt;&lt;html&gt;
+&lt;html&gt;
 &lt;head&gt;&lt;title&gt;Shiny App Iframe&lt;/title&gt;&lt;/head&gt;
 &lt;body&gt;
 &lt;iframe id=&#34;lawyers shiny app&#34; src=&#34;https://siljehermansen.shinyapps.io/Lawyers/&#34; style=&#34;border: none; width: 100%; height: 950px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
 &lt;/body&gt;
-&lt;/html&gt;&lt;/p&gt;
-
+&lt;/html&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;Measuring the evolution of CJEU case law using word embeddings&amp;rdquo;&lt;/strong&gt; presented at Big Insight - a center for research-based innovation, Norwegian Computing Center 2019 (Oslo)&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;To study the conditions for judicial activism – self-restraint, initiation or expansion of case law – we need a consistent and comparable measure of court output. Can machine learning help us in this respect? This research note discusses ways of comparing court documents in order to obtain such measures. The focus is on word embeddings, which allow researchers to identify similar – but not identical – terms and use them as building blocks for document-level comparisons.&lt;/p&gt;
-
 &lt;figure&gt;
 &lt;img src=&#34;Effect_of_judgment_similarity_on_academic_attention.png&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;Effect of judgment similarity on academic attention (annotations in legal journals).&#34;/&gt;
 &lt;/figure&gt;
-
 &lt;p&gt;Analyzing the evolution of case law requires researchers to read and compare judgments. It is a resource-intensive process both in terms of competence and number of working hours. Assessing the outcome of a case typically requires familiarity with legal precedent in the court, the doctrines under- pinning rulings as well at the type of cases brought before the tribunal. In other words, - depending on the task – the researcher needs a good grasp of similar cases in the past (i.e. legal precedent) and/or the future (i.e. its value as a precedent) as well as the field-specific vocabulary.&lt;/p&gt;
-
 &lt;p&gt;The purpose of this research note is to train a model to make such comparisons for us. To obtain word embeddings, I apply a word2vec algorithm on 30999 (machine-readable) legal texts produced by the members of the Court of Justice of the European Union (CJEU) itself. I use these to construct a do- main specific vocabulary of similar words. The similarities can then be used to identify and compare relevant documents based on their word occurrences.&lt;/p&gt;
-
-&lt;p&gt;A draft version can be found &lt;a href=&#34;WordEmbeddings_Hermansen.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;A draft version can be found &lt;a href=&#34;WordEmbeddings_Hermansen.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;!---
 * **&#34;Building Legitimacy: Strategic Case Allocations in the Court of Justice of the European Union&#34;** presented at EPSA Annual Meeting 2019 (Belfast)
 
@@ -292,15 +221,11 @@ A draft version can be found [here](BuildingLegitimacy_Hermansen.pdf).
 &lt;figcaption&gt;Judges whose governments hold outlying economic preferences are less likely to act as rapporteur in court cases that could divide member states.&lt;/figcaption&gt;
 &lt;/figure&gt;
 ---&gt;
-
 &lt;h4 id=&#34;published-work&#34;&gt;Published work&lt;/h4&gt;
-
 &lt;p&gt;If who makes decisions within courts matters for the outcome of cases and their reception, then studying how cases and judges are matched is essential to understanding judicial independence.&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/jepp2020/&#34;&gt;&amp;ldquo;Building legitimacy: strategic case allocations in the Court of Justice of the European Union&amp;rdquo;&lt;/a&gt;  (2020) &lt;em&gt;Journal of European Public Policy&lt;/em&gt; 27 (8), 1215-1235.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;!---
 ## Data collection on decision makers
 The internal organization of the Court has become both more complex and more hierarchical over time.
@@ -320,20 +245,14 @@ The internal organization of the Court has become both more complex and more hie
 &lt;img src=&#34;EffectOfSpecialization.png&#34; alt=&#34;The positive effect of staying in the same committee decreases over time.&#34;&gt;
 &lt;/a&gt;
 ---&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;
-&lt;p&gt;Committee coordinators face a classic delegation problem when assigning reports to their committee members. Although few theoretical developments have focused on the eﬀects of expertise on delegation, empirical studies have commonly assumed monotonic eﬀects. Based on the theoretical model by Fischer and Stocken (2001), we argue that more expertise, holding preference divergence constant, has a non-monotonic eﬀect on the probability of being appointed as a rapporteur because of informational credibility. Employing accumulated committee service as an expertise measure, we test this theoretical expectation on all committee report delegations in the European Parliament from 1979 - 2014. Across both nonparametric and parametric hierarchical conditional logit models we ﬁnd support for this non-monotonic eﬀect. The results hold across member states, political groups, procedures, committees, and over time.&lt;/p&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Committee coordinators face a classic delegation problem when assigning reports to their committee members. Although few theoretical developments have focused on the eﬀects of expertise on delegation, empirical studies have commonly assumed monotonic eﬀects. Based on the theoretical model by Fischer and Stocken (2001), we argue that more expertise, holding preference divergence constant, has a non-monotonic eﬀect on the probability of being appointed as a rapporteur because of informational credibility. Employing accumulated committee service as an expertise measure, we test this theoretical expectation on all committee report delegations in the European Parliament from 1979 - 2014. Across both nonparametric and parametric hierarchical conditional logit models we ﬁnd support for this non-monotonic eﬀect. The results hold across member states, political groups, procedures, committees, and over time.&lt;/p&gt; 
 &lt;p&gt;&lt;strong&gt;Outreach&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A popularized version of the paper is featured on LSE&amp;rsquo;s EUROPP-blog: &lt;a href=&#34;https://blogs.lse.ac.uk/europpblog/2020/01/21/a-question-of-trust-intra-party-delegation-in-the-european-parliament/&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;A question of trust: Intra-party delegation in the European Parliament&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;A popularized version of the paper is featured on LSE&amp;rsquo;s EUROPP-blog: &lt;a href=&#34;https://blogs.lse.ac.uk/europpblog/2020/01/21/a-question-of-trust-intra-party-delegation-in-the-european-parliament/&#34;&gt;&amp;ldquo;A question of trust: Intra-party delegation in the European Parliament&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
 &lt;!---
 **Replication files** can be downloaded [here](https://github.com/SiljeHermansen/Replication-files)
 ---&gt;
-
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Chiou, Fang-Yi, Hermansen, Silje Synnøve Lyder and Bjørn Høyland (2020) &amp;ldquo;Delegation of Committee Reports in the European Parliament&amp;rdquo; &lt;em&gt;European Union Politics&lt;/em&gt;, 21(2), 233-254.&lt;/li&gt;
 &lt;/ul&gt;
@@ -353,27 +272,19 @@ The internal organization of the Court has become both more complex and more hie
 &lt;figcaption&gt;&lt;small&gt;Figure: Judges whose governments hold outlying economic preferences are less likely to act as rapporteur in court cases that could divide member states.&lt;/small&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 ---&gt;
-
 &lt;figure&gt;
 &lt;img src=&#34;NotDebatedLegislation.jpeg&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;No effect of government preferences in non-politicized cases.&#34;/&gt;
 &lt;img src=&#34;DebatedLegislation.jpeg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;Effect of government preferences in politicized cases. Author: Silje Synnøve Lyder Hermansen.&#34;/&gt;
 &lt;figcaption&gt;&lt;small&gt;Figure: Judges whose governments hold outlying economic preferences are less likely to act as rapporteur in court cases that could divide member states.&lt;/small&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
-
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;em&gt;Does the President of the Court of Justice of the European Union (CJEU) make strategic use of his members?&lt;/em&gt;&lt;/p&gt;
-
 &lt;p&gt;Cases in the CJEU areprepared  by  a  “judge-rapporteur”  who  acts  as  an  agenda  setter. I argue that the President builds the Court’s legitimacy by strategically allocating cases to select judges.&lt;/p&gt;
-
 &lt;p&gt;Using original data on 9623 case allocations (1980-2015), I argue that suspicions about judges’ political accountability can polarize already politicized debates.  The President circumvents such dynamicsby  appointing  a  rapporteur  whose  government  holds  moderate  political  preferences.   However,  he  considers  governmental  preferencesand disagreements mainly when case law is not yet developed.  This may  also  contribute  to  explaining  judges individual-level  specialization, which arguably favors the construction of a coherent case law.&lt;/p&gt;
-
 &lt;p&gt;The results speak to the lingering effect of judges’ renewable terms &amp;ndash; despite secret voting &amp;ndash; as well as the importance of courts internalorganization for judicial independence.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;Hermansen, Silje Synnøve Lyder (2020) &lt;a href=&#34;http://dx.doi.org/10.1080/13501763.2020.1714697&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Building legitimacy: strategic case allocations in the Court of Justice of the European Union&amp;rdquo;&lt;/a&gt; &lt;em&gt;Journal of European Public Policy&lt;/em&gt;, 27(8), pp 1215-1235&lt;/li&gt;
+&lt;li&gt;Hermansen, Silje Synnøve Lyder (2020) &lt;a href=&#34;http://dx.doi.org/10.1080/13501763.2020.1714697&#34;&gt;&amp;ldquo;Building legitimacy: strategic case allocations in the Court of Justice of the European Union&amp;rdquo;&lt;/a&gt; &lt;em&gt;Journal of European Public Policy&lt;/em&gt;, 27(8), pp 1215-1235&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -384,83 +295,65 @@ The internal organization of the Court has become both more complex and more hie
       <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/teaching/stv4020b_2019/</guid>
-      <description>
-
-&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2019&lt;/p&gt;
-
+      <description>&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2019&lt;/p&gt;
 &lt;h3 id=&#34;course-description&#34;&gt;Course description&lt;/h3&gt;
-
 &lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We go through the statistical theory behind models, but we emphasize understanding when models are useful and how to employ them. The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).&lt;/p&gt;
-
-&lt;p&gt;Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&amp;rsquo; choice of party, number of violent incidences in a time span or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.&lt;/p&gt;
-
-&lt;p&gt;Beyond statistical description, researchers&amp;rsquo; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework provides a useful heuristic for assessing causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.&lt;/p&gt;
-
+&lt;p&gt;Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&#39; choice of party, number of violent incidences in a time span or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.&lt;/p&gt;
+&lt;p&gt;Beyond statistical description, researchers&#39; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework provides a useful heuristic for assessing causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Learning outcome&lt;/strong&gt; Students will get hands-on practice by learning how to implement the various techniques and by replicating existing studies in R. Students will also learn how to present results in a manner that is understandable to a general audience, for example by using graphs and other visual tools.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;More information&lt;/strong&gt; about the course is available at the &lt;a href=&#34;https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/&#34; target=&#34;_blank&#34;&gt;University of Oslo&amp;rsquo;s webpages&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;More information&lt;/strong&gt; about the course is available at the &lt;a href=&#34;https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/&#34;&gt;University of Oslo&amp;rsquo;s webpages&lt;/a&gt;.&lt;/p&gt;
 &lt;div&gt;
 &lt;object data=&#34;syllabus&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
 &lt;a href=&#34;syllabus_stv4020b.pdf&#34;&gt;Download the syllabus&lt;/a&gt;
 &lt;/object&gt;
 &lt;/div&gt; 
-
 &lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Maximum likelihood&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;Lecture2_Logit.pdf&#34; target=&#34;_blank&#34;&gt;Logistic regression&lt;/a&gt;&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 3)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Maximum likelihood&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;Lecture2_Logit.pdf&#34;&gt;Logistic regression&lt;/a&gt;&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 3)&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Logistic regression is the base-line example of a generalized linear model (GLM).
 We go through how to model binary outcomes, how to interpret the results from a logit and why we can&amp;rsquo;t simply run an OLS.&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;Lecture3_Choice.pdf&#34; target=&#34;_blank&#34;&gt;Ordered and multinomial regression&lt;/a&gt;&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 8-9)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;Lecture3_Choice.pdf&#34;&gt;Ordered and multinomial regression&lt;/a&gt;&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 8-9)&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;We go through models with categorical dependent variables: Ordinal and nominal categories. Example data used in class can be downloaded &lt;a href=&#34;kap10.txt&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It is the same as the data from chapter 10 in laerdegR.&lt;/p&gt;
-
+&lt;p&gt;We go through models with categorical dependent variables: Ordinal and nominal categories. Example data used in class can be downloaded &lt;a href=&#34;kap10.txt&#34;&gt;here&lt;/a&gt;. It is the same as the data from chapter 10 in laerdegR.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;Lecture4_counts.pdf&#34; target=&#34;_blank&#34;&gt;Event count models&lt;/a&gt;&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 10)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;Lecture4_counts.pdf&#34;&gt;Event count models&lt;/a&gt;&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 10)&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;Event count models describe grouped events. They are appropriate when we do not have relevant information at the event level, but are able to both count them and design contextual predictors. We go through the poisson model and how to check for overdispersion. We then consider different strategies to adress possible overdispersion. We study the quasi-poisson and the negative binomial models as well as hurle and zero-inflated models.&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Event history/duration models&lt;/strong&gt; (Ward and Ahlquist, 2018, ch 11)&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;We can leverage information both from the fact that an event occured or not (binary outcome) and the time it took for the event to take place (count outcome). These models are made to describe a duration until an outcome occurs.&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;Lecture7_CausalInference.pdf&#34; target=&#34;_blank&#34;&gt;Causal inference&lt;/a&gt;&lt;/strong&gt; (Angrist and Pischke, 2015, ch 1)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;Lecture7_CausalInference.pdf&#34;&gt;Causal inference&lt;/a&gt;&lt;/strong&gt; (Angrist and Pischke, 2015, ch 1)&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;We go through the idea of potential outcomes. What are the comparisons we would we like to make? And what is actually possible to compare with?&lt;/p&gt;
-
-&lt;p&gt;In the R-lab we&amp;rsquo;ll look at matching techniques. We will play with a version of the &lt;a href=&#34;judges.rda&#34; target=&#34;_blank&#34;&gt;data&lt;/a&gt; from Glyn and Sen&amp;rsquo;s daughters-effect paper in &lt;a href=&#34;https://scholar.harvard.edu/files/msen/files/daughters.pdf&#34; target=&#34;_blank&#34;&gt;APSR&lt;/a&gt; from 2014.&lt;/p&gt;
-
+&lt;p&gt;In the R-lab we&amp;rsquo;ll look at matching techniques. We will play with a version of the &lt;a href=&#34;judges.rda&#34;&gt;data&lt;/a&gt; from Glyn and Sen&amp;rsquo;s daughters-effect paper in &lt;a href=&#34;https://scholar.harvard.edu/files/msen/files/daughters.pdf&#34;&gt;APSR&lt;/a&gt; from 2014.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Regression and matching&lt;/strong&gt; (Angrist and Pischke, 2015, ch 2)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;Lecture9_RDD_DiffInDiff.pdf&#34; target=&#34;_blank&#34;&gt;RDD and diff-in-diff&lt;/a&gt;&lt;/strong&gt; (Angrist and Pischke, 2015, ch 4 and 5)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Regression and matching&lt;/strong&gt; (Angrist and Pischke, 2015, ch 2)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;Lecture9_RDD_DiffInDiff.pdf&#34;&gt;RDD and diff-in-diff&lt;/a&gt;&lt;/strong&gt; (Angrist and Pischke, 2015, ch 4 and 5)&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;We go through regression discontinuity designs (RDD) where a treatment kicks in at a certain cutpoint of an observed running variable. We then have a look at the differences-in-differences approach (diff-in-diff) where we observe a treatment group and a control group before and after the treatment. It&amp;rsquo;s all about interaction effects and dummies!&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;ll examplify with data from &lt;a href=&#34;df.Rda&#34; target=&#34;_blank&#34;&gt;chapter 4&lt;/a&gt; and &lt;a href=&#34;deaths.Rda&#34; target=&#34;_blank&#34;&gt;chapter 5&lt;/a&gt; in the book.&lt;/p&gt;
-
+&lt;p&gt;We&amp;rsquo;ll examplify with data from &lt;a href=&#34;df.Rda&#34;&gt;chapter 4&lt;/a&gt; and &lt;a href=&#34;deaths.Rda&#34;&gt;chapter 5&lt;/a&gt; in the book.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Instrumental variables&lt;/strong&gt; (Angrist and Pischke, 2015, ch 3 and 6)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;LaTeX.pdf&#34; target=&#34;_blank&#34;&gt;LaTeX + R = Sant&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Instrumental variables&lt;/strong&gt; (Angrist and Pischke, 2015, ch 3 and 6)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;LaTeX.pdf&#34;&gt;LaTeX + R = Sant&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;A brief introduction to LaTeX and how to use it in combination with R scripts (in Norwegian).&lt;/p&gt;
-
 &lt;!---## Flexibility
 This feature can be used for publishing content such as:
 
@@ -499,7 +392,8 @@ Or, if you are creating a software documentation site, you can rename the `cours
 ## Update the docs menu
 
 If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.&lt;NewFolderName&gt;]`.
----&gt;
+---&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
@@ -509,76 +403,80 @@ If you use the *docs* layout, note that the name of the menu in the front matter
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/data/laerdegr/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Lær deg R&amp;rdquo;&lt;/a&gt; er en innføringsbok i statistikkprogrammet R utgitt av Fagbokforlaget (2019). Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Her kan du laste ned denne nettressursen. Den kommer som en egen R-pakke.&lt;/p&gt;
-
-&lt;p&gt;Pakken kan installeres fra lokal fil eller rett fra GitHub.
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;&amp;ldquo;Lær deg R&amp;rdquo;&lt;/a&gt; er en innføringsbok i statistikkprogrammet R utgitt av Fagbokforlaget (2019). Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Her kan du laste ned denne nettressursen. Den kommer som en egen R-pakke.&lt;/p&gt;
+&lt;p&gt;Pakken kan installeres fra lokal fil eller rett fra GitHub.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
 &lt;img src=&#34;laerdegr.jpg&#34; width=&#34;35%&#34; align=&#34;right&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
 &lt;/a&gt;
-&lt;/figure&gt;&lt;/p&gt;
-
+&lt;/figure&gt;
 &lt;h2 id=&#34;installere-fra-lokal-fil&#34;&gt;Installere fra lokal fil&lt;/h2&gt;
-
 &lt;p&gt;Denne løsningen gjøres i to skritt.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;På denne siden&lt;/strong&gt; laster du ned pakken ved å trykke på én av disse lenkene:&lt;/p&gt;
-
 &lt;p&gt;For alle operativsystemer:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; download&gt;
+&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; download&gt;
 &lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.tar.gz&lt;/button&gt;
-&lt;/a&gt;&lt;/p&gt;
-
+&lt;/a&gt;
 &lt;p&gt;Windows-brukere kan også benytte seg av denne:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.zip&#34; download&gt;
+&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.zip&#34; download&gt;
 &lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.zip&lt;/button&gt;
-&lt;/a&gt;&lt;/p&gt;
-
+&lt;/a&gt; 
 &lt;p&gt;Filen vil da lastes ned på din maskin. Om du ikke har spesifisert annet, vil den ligge i mappen som kalles &amp;ldquo;Downloads&amp;rdquo; på maskinen din.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;I RStudio&lt;/strong&gt; installerer du filen i R-biblioteket.&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;Klikk på fanen som kalles &amp;ldquo;Packages&amp;rdquo; i vinduet nederst til høyre.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
 &lt;li&gt;Klikk så på &amp;ldquo;Install&amp;rdquo;. I kommunikasjonsvinduet som så åpner seg, skal du velge &amp;ldquo;Install from: Package Archive File&amp;rdquo;.&lt;/li&gt;
 &lt;li&gt;Under &amp;ldquo;Package archive:&amp;rdquo; må du deretter klikke på &amp;ldquo;Browse&amp;rdquo; og navigere deg fram til filen du nettopp lastet ned.&lt;/li&gt;
 &lt;li&gt;Klikk så på &amp;ldquo;Install&amp;rdquo;. Nå skrives installasjonskommandoen til R, og R skal i rask rekkefølge gi deg beskjed i rød skrift om at pakken installeres, og i svart skrift at &lt;code&gt;package ‘laerdegR’ successfully unpacked and MD5 sums checked&lt;/code&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
+&lt;/ul&gt;
 &lt;p&gt;Om du møter på feilmeldinger, bør du sjekke at tilleggsargumentene i installasjonskoden er korrekte. Filadressa (&lt;code&gt;C:/Downloads/&lt;/code&gt;) vil åpenbart variere fra maskin til maskin.&lt;/p&gt;
-
 &lt;p&gt;Om du har valgt tar.gz-fil, må koden se slik ut.&lt;/p&gt;
-
 &lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;C:/Downloads/laerdegR_0.1.0.tar.gz&amp;quot;, repos = NULL, type = &amp;quot;source&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Om du har valgt zip-fil, må koden se slik ut.&lt;/p&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Om du har valgt zip-fil, må koden se slik ut.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;C:/Downloads/laerdegR_0.1.0.zip&amp;quot;, repos = NULL, type = &amp;quot;binary&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;/p&gt;&lt;/p&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
 &lt;h2 id=&#34;installere-direkte-fra-github&#34;&gt;Installere direkte fra GitHub&lt;/h2&gt;
-
 &lt;p&gt;Denne løsningen krever mer manøvrering.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;I nettleseren:&lt;/strong&gt; Begynn med å laste ned og installere &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34; target=&#34;_blank&#34;&gt;RTools&lt;/a&gt; uten å åpne RStudio.&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;I nettleseren:&lt;/strong&gt; Begynn med å laste ned og installere &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34;&gt;RTools&lt;/a&gt; uten å åpne RStudio.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I RStudio:&lt;/strong&gt; installere &lt;code&gt;devtools&lt;/code&gt;-pakken og hent den inn fra biblioteket.&lt;/p&gt;
-
 &lt;pre&gt;&lt;code&gt;install.packages(&#39;devtools&#39;)
 library(devtools)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Nå kan du laste ned og installere nettressursen direkte fra GitHubs sider.&lt;/p&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Nå kan du laste ned og installere nettressursen direkte fra GitHubs sider.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;install_github(&amp;quot;SiljeHermansen/laerdegR&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lær deg R</title>
+      <link>/data/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/data/</guid>
+      <description>&lt;p&gt;Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som lærer statistisk analyse.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
+&lt;img src=&#34;laerdegr.jpg&#34; width=&#34;35%&#34; align=&#34;right&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;a-hrefhttpssiljehermansengithubiopublicationlaerdegrlær-deg-r-bokaa&#34;&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/laerdegr&#34;&gt;Lær deg R-boka&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;(2019) &lt;em&gt;Fagbokforlaget&lt;/em&gt;, Oslo, 224 p.&lt;/p&gt;
+&lt;p&gt;Her finner du mer informasjon om innholdet i boka.&lt;/p&gt;
+&lt;h2 id=&#34;a-hreflaerdegrinstallere-r-pakkena&#34;&gt;&lt;a href=&#34;laerdegr&#34;&gt;Installere R-pakken&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Her finner du instrukser til hvordan laste ned nettressursen som hører med boka. Den gir deg tilgang på datasett og oppgaveløsninger.&lt;/p&gt;
+&lt;!---&#34;laerdegR&#34;-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Her finner du instrukser til hvordan laste denne ned.---&gt;
+&lt;!---
+## [Lær deg R-boka](laerdegr_bok)
+(2019) &lt;em&gt;Fagbokforlaget&lt;/em&gt;, Oslo, 224 p. 
+
+&lt;p&gt;Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som lærer statistisk analyse.&lt;/p&gt;
+
+## [Installere R-pakken](laerdegr)
+
+&#34;laerdegR&#34;-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Her finner du instrukser til hvordan laste denne ned.
+---&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
@@ -588,26 +486,17 @@ library(devtools)
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/publication/laerdegr/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
+      <description>&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
 &lt;img src=&#34;laerdegr.jpg&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-
+&lt;/a&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt; Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som ønsker et godt arbeidsverktøy for statistisk analyse.  R har vokst enormt i popularitet de siste årene, og med god grunn. R er gratis og dekker analysebehovene til nybegynnere så vel som eksperter.&lt;/p&gt;  
-
 &lt;p&gt;Boka er skrevet for samfunnsviteren som tar sine første skritt innen kvantitativ metode. Statistikk er et håndverk mer enn en vitenskap. Derfor er verktøyet viktig. Vi jobber sammen i RStudio, og går gjennom analysestadiene skritt for skritt. Vi laster inn data, tilrettelegger dem, gjør foranalyser og regresjonsanalyser. Fokuset er på å forstå hva som skjer, og kommunisere resultatene.&lt;/p&gt;
   &lt;p&gt;Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Alt du trenger er en datamaskin, internett og denne boka.&lt;/p&gt;
-  
-
 &lt;p&gt;&lt;strong&gt;Omtale&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Øyvind Stiansen har anmeldt boka i &lt;a href=&#34;https://www.idunn.no/tfs/2020/02/silje_synnoeve_lyder_hermansen_laer_deg_r_en_innfoering_i_st&#34; target=&#34;_blank&#34;&gt;Tidsskrift for samfunnsforskning&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;Øyvind Stiansen har anmeldt boka i &lt;a href=&#34;https://www.idunn.no/tfs/2020/02/silje_synnoeve_lyder_hermansen_laer_deg_r_en_innfoering_i_st&#34;&gt;Tidsskrift for samfunnsforskning&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Lær deg R-pakken&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;Lær deg R-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Du kan laste ned pakken som .tar.gz-fil eller som .zip-fil:&lt;/p&gt;
-
 &lt;div&gt;
 &lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; download&gt;
 &lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.tar.gz&lt;/button&gt;
@@ -616,29 +505,20 @@ library(devtools)
 &lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.zip&lt;/button&gt;
 &lt;/a&gt; 
 &lt;/div&gt;
- 
-
-&lt;p&gt;Det kan være lurt å lese instruksene om hvordan du kan &lt;a href=&#34;https://siljehermansen.github.io/data/laerdegr&#34; target=&#34;_blank&#34;&gt;laste ned og installere laerdegR&lt;/a&gt;- pakken.&lt;/p&gt;
-
+&lt;p&gt;Det kan være lurt å lese instruksene om hvordan du kan &lt;a href=&#34;https://siljehermansen.github.io/data/laerdegr&#34;&gt;laste ned og installere laerdegR&lt;/a&gt;- pakken.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Innholdsfortegnelse&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;Boka tar deg skritt for skritt gjennom en typisk forskningsprosess.&lt;/p&gt;
-
 &lt;p&gt;Vi begynner med å laste inn og tilrettelegge data, før vi går videre med beskrivende analyser. I siste del av boka kjører vi så regresjonsanalyser: OLS og logistisk regresjon. Vi har fokus på å forstå og tolke resultatene. Dette inkluderer også å vurdere modellens troverdighet gjennom ulike former for modellstatistikk.&lt;/p&gt;
-
 &lt;div&gt;
 &lt;object data=&#34;Innholdsfortegnelse.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
 &lt;a href=&#34;Innholdsfortegnelse.pdf&#34;&gt;Innholdsfortegnelsen til Lær deg R (2019)&lt;/a&gt;
 &lt;/object&gt;
 &lt;/div&gt;
-
 &lt;!---&lt;embed src=&#34;Innholdsfortegnelse.pdf&#34; width=&#34;700&#34; height=&#34;950&#34; alt=&#34;Innholdsfortegnelse til Lær deg R&#34; pluginspage=&#34;http://www.adobe.com/products/acrobat/readstep2.html&#34;&gt;
 ---&gt;
-
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;Hermansen, Silje Synnøve Lyder (2019) &lt;a href=&#34;Innhold_bibliografi.pdf&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Lær deg R: En innføring i statistikkprogrammets muligheter&lt;/em&gt;&lt;/a&gt;, Bergen: Fagbokforlaget.&lt;/li&gt;
+&lt;li&gt;Hermansen, Silje Synnøve Lyder (2019) &lt;a href=&#34;Innhold_bibliografi.pdf&#34;&gt;&lt;em&gt;Lær deg R: En innføring i statistikkprogrammets muligheter&lt;/em&gt;&lt;/a&gt;, Bergen: Fagbokforlaget.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -649,18 +529,14 @@ library(devtools)
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/pp2018/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/1354068816663036&#34;&gt;
+      <description>&lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/1354068816663036&#34;&gt;
 &lt;img src=&#34;reselection_performance.jpg&#34; alt=&#34;Effect of signals of performance on incumbent candidate selection to the European Parliament. Author: Silje Hermansen.&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;
-&lt;p&gt;I consider how asymmetric information between the party selectorate and members of Parliament affects the renomination of incumbent candidates. By applying an adverse selection model, I argue that the selectorate looks to past performance to select candidates it expects will gain influence. However, the impact of performance varies according to the need for and availability of information.&lt;/p&gt;
-  &lt;p&gt;The European Parliament (EP) provides a most-likely case for information asymmetry. Studying three elections in 11 member states, I find that the allocation of influential positions in office improves chances of reselection. The effect increases when the allocation is more selective, and when the prior uncertainty around candidacies is high. The study thus proposes a new approach to the relationship between national parties and transnational groups in the EP. It also suggests venues for research on parliamentary politics and candidate selection in general. &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Replication files&lt;/strong&gt; can be downloaded &lt;a href=&#34;https://github.com/SiljeHermansen/Replication-files&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-
+&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I consider how asymmetric information between the party selectorate and members of Parliament affects the renomination of incumbent candidates. By applying an adverse selection model, I argue that the selectorate looks to past performance to select candidates it expects will gain influence. However, the impact of performance varies according to the need for and availability of information.&lt;/p&gt; 
+  &lt;p&gt;The European Parliament (EP) provides a most-likely case for information asymmetry. Studying three elections in 11 member states, I find that the allocation of influential positions in office improves chances of reselection. The effect increases when the allocation is more selective, and when the prior uncertainty around candidacies is high. The study thus proposes a new approach to the relationship between national parties and transnational groups in the EP. It also suggests venues for research on parliamentary politics and candidate selection in general. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Replication files&lt;/strong&gt; can be downloaded &lt;a href=&#34;https://github.com/SiljeHermansen/Replication-files&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Hermansen, Silje Synnøve Lyder (2018) &amp;ldquo;Striving for influence: The effect of performance on candidate selection&amp;rdquo; &lt;em&gt;Party Politics&lt;/em&gt; 24 (4), 382-396.&lt;/li&gt;
 &lt;/ul&gt;
@@ -673,19 +549,15 @@ library(devtools)
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/jls2018/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/13572334.2018.1444631&#34;&gt;
+      <description>&lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/13572334.2018.1444631&#34;&gt;
 &lt;img src=&#34;coefplot_expertise.png&#34; alt=&#34;Coefplot reporting effect of policy expertise on allocation of codecision reports. Author: Silje Hermansen.&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;
-&lt;p&gt;Rapporteurs in the European Parliament (EP) are the most influential members in terms of the legislation they handle. They are appointed by their political groups. In making these appointments, these groups need to accommodate both their collective needs and individual requests.&lt;/p&gt;
-  &lt;p&gt;This article explores situations in which the collective need for information is prioritised: the codecision procedure. The data includes allocations over a 10-year period (2004–2014) in three of the most powerful EP committees, as well as key career choices among members.&lt;/p&gt;
-    &lt;p&gt;EP groups emphasise policy-specific expertise. They also pay attention to individual members’ requests for exposure, but only when the expected policy drift is minimal. Harsh selection during the allocation of codecision reports creates pressure to accommodate a greater selection of legislators during other attractive report allocations. Own-initiative reports therefore affect allocation of codecision reports negatively.&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Online supplementary files&lt;/strong&gt; can be downloaded &lt;a href=&#34;https://github.com/SiljeHermansen/Replication-files&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-
+&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Rapporteurs in the European Parliament (EP) are the most influential members in terms of the legislation they handle. They are appointed by their political groups. In making these appointments, these groups need to accommodate both their collective needs and individual requests.&lt;/p&gt; 
+  &lt;p&gt;This article explores situations in which the collective need for information is prioritised: the codecision procedure. The data includes allocations over a 10-year period (2004–2014) in three of the most powerful EP committees, as well as key career choices among members.&lt;/p&gt; 
+    &lt;p&gt;EP groups emphasise policy-specific expertise. They also pay attention to individual members’ requests for exposure, but only when the expected policy drift is minimal. Harsh selection during the allocation of codecision reports creates pressure to accommodate a greater selection of legislators during other attractive report allocations. Own-initiative reports therefore affect allocation of codecision reports negatively.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Online supplementary files&lt;/strong&gt; can be downloaded &lt;a href=&#34;https://github.com/SiljeHermansen/Replication-files&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Hermansen, Silje Synnøve Lyder (2018) &amp;ldquo;(Self-)selection and expertise among decision-makers in the European Parliament&amp;rdquo;, &lt;em&gt;The Journal of Legislative Studies&lt;/em&gt;, 24 (1), pp 148-172.&lt;/li&gt;
 &lt;/ul&gt;
@@ -698,27 +570,29 @@ library(devtools)
       <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/publication/phd2017/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.duo.uio.no/bitstream/handle/10852/69004/PhD-LyderHermansen-2017.pdf?sequence=4&amp;isAllowed=y&#34;&gt;
+      <description>&lt;a href=&#34;https://www.duo.uio.no/bitstream/handle/10852/69004/PhD-LyderHermansen-2017.pdf?sequence=4&amp;isAllowed=y&#34;&gt;
 &lt;img src=&#34;committee_activity.jpg&#34; alt=&#34;Graphic illustrating the variation in committee activity in the European Parliament (1999-2014). Author: Silje Synnøve Lyder Hermansen&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-
+&lt;/a&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
-
 &lt;p&gt;This dissertation treats with partisan organization in the European Parliament (EP) and its impact on members’ (MEPs) career opportunities. National parties organize elections. Parliamentary work is organized around transnational political groups. They do not share any overarching organizational structure. My contributions pertain to the interconnected choices made by MEPs and their two party organizations.&lt;/p&gt;
-
 &lt;p&gt;Parliamentary groups face a trade-off between the need for expertise and the risk of agency drift. Groups allocate reports to maximize the value added by the rapporteur while limiting the drift. They prefer policy experts to generalists and -- up to a point -- experienced MEPs to newcomers. Groups also balance individual demands with the collective need.&lt;/p&gt;
-
 &lt;p&gt;National parties do not have institutionalized presence in the EP. They enter into an outcome-based contract similar to voters. MEPs are either rewarded by reselection or kicked out of office. Report alloca-tions dissipate uncertainty about MEPs’ ability. They thus improve MEPs’ career prospects to the extent that parties need new information about agent quality, and to the extent that parliamentary groups can provide it.&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Outreach&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A popularized presentation in Norwegian on the effect of gender quotas on legislative behavior and parties&amp;rsquo; candidate selection can be found here: &lt;a href=&#34;https://www.sv.uio.no/isv/forskning/aktuelt/aktuelle-saker/2017/et-forsvar-for-kvinnekvotering-.html&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Et forsvar for kvinnekvotering&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;A popularized presentation in Norwegian on the effect of gender quotas on legislative behavior and parties&#39; candidate selection can be found here: &lt;a href=&#34;https://www.sv.uio.no/isv/forskning/aktuelt/aktuelle-saker/2017/et-forsvar-for-kvinnekvotering-.html&#34;&gt;&amp;ldquo;Et forsvar for kvinnekvotering&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;Hermansen, Silje Synnøve Lyder (2017) &lt;em&gt;Choosing Agents: Members of the European Parliament and their Political Organizations Seen through Report Allocation&lt;/em&gt;. Doctoral dissertation. University of Oslo. 323 p.&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>&lt;p&gt;Silje Synnøve Lyder Hermansen works as a senior research fellow at &lt;em&gt;PluriCourts - Centre for the Study of the Legitimate Roles of the Judiciary in the Global Order&lt;/em&gt; at the Univeristy of Oslo.&lt;/p&gt;
 </description>
     </item>
     
