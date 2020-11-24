@@ -94,9 +94,18 @@
     </head>
     <body>
     <h4>What GLM should I choose?</h4>
+<!--    <p>Let's assume I want to describe a linear relationship (&beta;) between an independent variable (<em>x</em>) and a dependent variable (<em>y</em>) in the form of:
+    </p>
+    <math display = "block">
+      y = &alpha; + &beta;x + &epsilon;
+    </math>
+    <p>
+      Let's furthermore assume that the ideal description is both parsimonious (i.e. it suffices with one parameter &beta;) and faithful to the data (i.e. the model predicts outcomes consistently over the entire range of <em>y</em>). Generalized linear models (GLMs) allow us to describe relationships in which the distribution errors (&epsilon;) is not normal. But which of these models should I choose?
+    </p>
+-->
       <form action="#" id="unique_id" class="productFilter">
         <fieldset class="step1 option0">
-            <legend>How is my dependent variable measured?</legend>
+            <legend><em>How is my dependent variable measured?</em></legend>
             <p>
                 <input id="question_1" name="group_1" type="radio" />
                 <label for="question_1">Continuous and (at least theoretically) unbounded</label>
@@ -120,17 +129,18 @@
               <input id="question_5" name="group_1" type="radio" />
               <label for="question_5">Both binary and a count</label>  
             </p>
-            <ul>I know the time it takes before an event happens/the time between events.</ul>
+            <ul>I know the time it takes before an event happens/the time between events. However, sometimes the event haven't even happened yet.</ul>
         </fieldset>
 
 <!-- step 2 -->        
+
         <fieldset class="hide step2 option1">
-            <legend><b>Run a linear model</b></legend>
+            <legend><b>Linear model</b></legend>
             <p>You can run a <em>linear</em> model that you estimate using ordinary least squares (OLS) or maximum likelihood drawing from a gaussian/normal distribution.</p> 
         </fieldset>
         
         <fieldset class="hide step2 option2">
-            <legend>Can you order the categories by some kind of value?</legend>
+            <legend><em>Can you order the categories by some kind of value?</em></legend>
             <p>
                 <input id="question_2_1" name="group_3" type="radio" />
                 <label for="question_2_1">Yes</label>
@@ -140,14 +150,25 @@
                 <label for="question_2_2">No</label>
             </p>
         </fieldset>
-        <fieldset class="hide step2 option3">
-            <legend><b>Run a binomial logit</b></legend>
-            <p>Run a <em>binomial logistic regression</em>. Another alternative is the <em>probit</em> model.</p> 
-        </fieldset>
         
+        <fieldset class="hide step2 option3">
+            <legend><em>Is the effect of x symmetric for both outcomes of y?</em></legend>
+            <p>Can you assume that &beta; (the effect of a unit increase in x) is the same regardless of which of the two outcomes is coded as success (y==1)?</p> 
+            <p>
+                <input id="question_3_1" name="group_2" type="radio" />
+                <label for="question_3_1">Yes, theoretically only the sign should differ (+ or -)</label>
+            </p> 
+<!--            <ul>I have no theoretical reason to believe &beta; would change if I reverse the direction of the coding of y; except for the direction. </ul>
+-->
+            <p>
+                <input id="question_3_2" name="group_2" type="radio" />
+                <label for="question_3_2">No. I have a theoretical reason to model a world in which &mdash; if I reverse the direction of the coding of y &mdash; I'll have a different slope parameter.</label>
+            </p>
+        </fieldset>
+
         <fieldset class="hide step2 option4">
-            <legend><b>Run a poisson model</b></legend>
-            <p>Is it overdispersed?</p>
+            <legend><b>Poisson model</b></legend>
+            <p>Consider a <em>poisson model</em>. Is it overdispersed?</p>
             <p>
                 <input id="question_4_1" name="group_2" type="radio" />
                 <label for="question_4_1">No</label>
@@ -159,15 +180,15 @@
         </fieldset>
 
         <fieldset class="hide step2 option5">
-            <legend><b>Run an event history model</b></legend>
-            <p>Run a parametric or non-parametric event history model</p> 
+            <legend><b>Event history model</b></legend>
+            <p>Consider a parametric or non-parametric <em>event history model</em>.</p> 
         </fieldset>
 
 
         <fieldset class="hide step3 option21">
-            <legend><b>Run an ordered logistic regression.</b>
+            <legend><b>Ordered logistic regression.</b>
             </legend>
-            <p>Does it satisfy the paralell lines assumtion?</p>
+            <p>Consider an <em>ordered logistic model</em>. Does it satisfy the paralell lines assumtion?</p>
             <p>
                 <input id="question_2_1_1" name="group_6" type="radio" />
                 <label for="question_2_1_1">Yes</label>
@@ -182,7 +203,7 @@
             <p>You're all set!</p>
         </fieldset>
         <fieldset class="hide step4 option212">
-            <legend>You need to reconsider your options</legend>
+            <legend><em>You need to reconsider your options</em></legend>
             <p>What describes your situation best?</p>
             <p>
                 <input id="question_2_1_2_1" name="group_7" type="radio" />
@@ -194,7 +215,7 @@
             </p>
         </fieldset>
         <fieldset class="hide step3 option22">
-            <legend>What are the explanatory variables referring to?</legend>
+            <legend><em>What are the explanatory variables referring to?</em></legend>
             <p>
                 <input id="question_2_2_1" name="group_7" type="radio" />
                 <label for="question_2_2_1">Chooser characteristics</label>
@@ -210,15 +231,44 @@
 
         </fieldset>
                 <fieldset class="hide step4 option221">
-            <legend><b>Run a multinomial logit</b></legend>
+            <legend><b>Multinomial logit</b></legend>
             <p>You want to run a <em>multinomial</em> logit.</p>
         </fieldset>
+        
         <fieldset class="hide step4 option222">
-            <legend><b>Run a conditional logit</b></legend>
+            <legend><b>Conditional logit</b></legend>
             <p>You want to run a <em>conditional</em> logit.</p>
         </fieldset>
 
-<!--step 3-->
+<!-- step 3-->
+
+
+        <fieldset class="hide step3 option31">
+            <legend><b>Binomial logit</b></legend>
+            <p>Consider a <em>binomial logistic regression</em>. Another alternative is the <em>probit</em> model.</p>
+            <p>Take a second look at the distribution of your dependent variable. Is your phenomenon either very rare or very common so that your <em>y</em> is skewed (i.e. most of your observations are 0s or 1s) even when you have reasonable variation in <em>x</em> ?
+            </p>
+            <p>
+                <input id="question_3_1_1" name="group_3" type="radio" />
+                <label for="question_3_1_1">My outcome variable is not exceptionally rare</label>
+            </p> 
+            <p>
+                <input id="question_3_1_2" name="group_3" type="radio" />
+                <label for="question_3_1_2">Yes, I study a rare phenomenon</label>
+            </p>
+        </fieldset>
+
+
+        <fieldset class="hide step3 option32 option312">
+            <legend><b>Complimentary logistic model</b></legend>
+            <p>Consider a <em>complimentary logistic model</em> (aka. the <em>cloglog</em> or the <em> complimentary log-log</em> model).</p>
+            <ul>
+              <p> The comlementary log-log model assumes that predicted probabilities approach 1 at a faster rate than 0. In other words, you find diffferent results depending on which outcome you code as a success (y == 1; usually the rare outcome) and which you code as a non success (y==0; usually the common outcome).
+              </p>
+              <p>The complementary log-log model is thus different from the more commonly employed logistic and normal (linear) regression. Both the logistic and normal distributions are symmetric. It means they assume that the effect of x is the same regardless of whether a unit increase in x means we approach the 1s or the 0s in the y.
+              </p>
+            </ul>
+        </fieldset>
 
         <fieldset class="hide step3 option41">
             <legend></legend>
@@ -244,14 +294,20 @@
 
 <!-- step 4 -->
 
+
+        <fieldset class="hide step4 option311">
+            <legend></legend>
+            <p>You're all set!</p>
+        </fieldset>
+
         <fieldset class="hide step4 option223">
-            <legend><b>Run a mixed logit</b></legend>
-            <p>You want to run a <em>mixed</em> logit.</p>
+            <legend><b>Mixed logit</b></legend>
+            <p>Consider a <em>mixed logit</em>.</p>
         </fieldset>
 
 
         <fieldset class="hide step4 option421">
-            <legend>How are your events correlated?</legend>
+            <legend><em>How are your events correlated?</em></legend>
             <p>
                 <input id="question_4_2_1_1" name="group_8" type="radio" />
                 <label for="question_4_2_1_1">Positively</label>
@@ -289,13 +345,13 @@
         </fieldset>
 
         <fieldset class="hide step5 option2122">
-            <legend><b>Consider a multinomial or a binomial model</b></legend>
+            <legend><b>Multinomial</b> or <b>binomial model</b></legend>
             <p>You can always opt to ignore the information from the ordering and run a <em>multinomial </em> or a <em>binomial logit</em>. In the process, you might also consider merging small categories. </p>
         </fieldset>
 
 
         <fieldset class="hide step5 option4211">
-            <legend><b>Run a negative binomial model</b></legend>
+            <legend><b>Negative binomial model</b></legend>
             <p>Consider a <em>negative binomial</em> model. The model alters both the standard errors and the estimate by adding an additional parameter accounting for the increasing positive correlation between events.</p>
         </fieldset>
 

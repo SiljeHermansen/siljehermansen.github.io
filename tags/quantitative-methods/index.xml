@@ -6,7 +6,7 @@
     <description>Recent content in Quantitative methods on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/quantitative-methods/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,14 +14,22 @@
     <item>
       <title>What GLM should I choose?</title>
       <link>/teaching/choose_glm/</link>
-      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/teaching/choose_glm/</guid>
-      <description>&lt;p&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of choice criteria when I consider what Generalized Linear Model (GLM) to rely on.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of choice criteria when I consider what Generalized Linear Model (GLM) to rely on.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Let&#39;s assume I want to describe a linear relationship (&amp;beta;) between an independent variable (&lt;em&gt;x&lt;/em&gt;) and a dependent variable (&lt;em&gt;y&lt;/em&gt;) in the form of:
+&lt;/p&gt;
+    &lt;math display = &#34;block&#34;&gt;
+      y = &amp;alpha; + &amp;beta;x + &amp;epsilon;
+    &lt;/math&gt;
+&lt;p&gt;
+      Let&#39;s furthermore assume that the ideal description is both parsimonious (i.e. it suffices with one parameter &amp;beta;) and faithful to the data (i.e. the model predicts outcomes consistently over the entire range of &lt;em&gt;y&lt;/em&gt;). Generalized linear models (GLMs) allow us to describe relationships in which the distribution errors (&amp;epsilon;) is not normal.
+&lt;/p&gt;
 &lt;html&gt;
 &lt;head&gt;&lt;title&gt;Decision tree for GLMs&lt;/title&gt;&lt;/head&gt;
 &lt;body&gt;
-&lt;iframe id=&#34;decision tree for glms app&#34; src=&#34;https://siljehermansen.github.io/teaching/model_choice/&#34; style=&#34;border: none; width: 100%; height: 1250px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;iframe id=&#34;decision tree for glms app&#34; src=&#34;model_choice.html&#34; style=&#34;border: none; width: 100%; height: 1250px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 &lt;p&gt;I generally begin by considering how my dependent variable is measured and the data generating process that I believe produced it. It is standard procedure to check if the assumptions inherent in the model are satisfied and potentially reconsider the choice.&lt;/p&gt;
@@ -53,7 +61,7 @@ We go through how to model binary outcomes, how to interpret the results from a 
 &lt;h4 id=&#34;lecture-4-event-count-models-poisson-regression-and-other-alternativescount_models_stv4020bpdf&#34;&gt;Lecture 4: &lt;a href=&#34;count_models_stv4020b.pdf&#34;&gt;Event count models: Poisson regression and other alternatives&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 10)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Event count models describe grouped events. They are appropriate when we do not have relevant information at the event level, but are able to both count them and design contextual predictors. We go through the poisson model and how to check for overdispersion. We then consider different strategies to adress possible overdispersion. We study the quasi-poisson and the negative binomial models as well as hurle and zero-inflated models.&lt;/p&gt;
-&lt;p&gt;Towards the end of the lecture, we consider the &lt;a href=&#34;https://siljehermansen.github.io/teaching/choose_glm/&#34;&gt;decision tree for determining which GLM model&lt;/a&gt; might best describe our data.&lt;/p&gt;
+&lt;p&gt;Towards the end of the lecture, we consider the &lt;a href=&#34;https://siljehermansen.github.io/teaching/choose_glm&#34;&gt;decision tree for determining which GLM model&lt;/a&gt; might best describe our data.&lt;/p&gt;
 &lt;h4 id=&#34;lecture-5-event-historyduration-models&#34;&gt;Lecture 5: Event history/duration models&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 11)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We can leverage information both from the fact that an event occured or not (binary outcome) and the time it took for the event to take place (count outcome). These models are made to describe a duration until an outcome occurs.&lt;/p&gt;
