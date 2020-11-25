@@ -23,8 +23,7 @@
     &lt;math display = &#34;block&#34;&gt;
       y = &amp;alpha; + &amp;beta;x + &amp;epsilon;
     &lt;/math&gt;
-&lt;p&gt;
-      Let&#39;s furthermore assume that the ideal description is both parsimonious (i.e. it suffices with one parameter &amp;beta;) and faithful to the data (i.e. the model predicts outcomes consistently over the entire range of &lt;em&gt;y&lt;/em&gt;). Generalized linear models (GLMs) allow us to describe relationships in which the distribution errors (&amp;epsilon;) is not normal.
+&lt;p&gt;Let&#39;s furthermore assume that the ideal description is both parsimonious (i.e. it suffices with one parameter &amp;beta;) and faithful to the data (i.e. the model predicts outcomes consistently over the entire range of &lt;em&gt;y&lt;/em&gt;). Generalized linear models (GLMs) allow us to describe relationships in which the distribution errors (&amp;epsilon;) is not normal.
 &lt;/p&gt;
 &lt;html&gt;
 &lt;head&gt;&lt;title&gt;Decision tree for GLMs&lt;/title&gt;&lt;/head&gt;
