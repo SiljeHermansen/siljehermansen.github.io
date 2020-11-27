@@ -6,7 +6,7 @@
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,16 +14,16 @@
     <item>
       <title>What GLM should I choose?</title>
       <link>/teaching/choose_glm/</link>
-      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/teaching/choose_glm/</guid>
       <description>&lt;p&gt;&lt;em&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of choice criteria when I consider what Generalized Linear Model (GLM) to rely on.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Let&#39;s assume I want to describe a linear relationship (&amp;beta;) between an independent variable (&lt;em&gt;x&lt;/em&gt;) and a dependent variable (&lt;em&gt;y&lt;/em&gt;) in the form of:
+&lt;p&gt;Let&#39;s assume I want to describe the relationship (&amp;beta;) between an independent variable (&lt;em&gt;x&lt;/em&gt;) and a dependent variable (&lt;em&gt;y&lt;/em&gt;) in the form of:
 &lt;/p&gt;
     &lt;math display = &#34;block&#34;&gt;
       y = &amp;alpha; + &amp;beta;x + &amp;epsilon;
     &lt;/math&gt;
-&lt;p&gt;Let&#39;s furthermore assume that the ideal description is both parsimonious (i.e. it suffices with one parameter &amp;beta;) and faithful to the data (i.e. the model predicts outcomes consistently over the entire range of &lt;em&gt;y&lt;/em&gt;). Generalized linear models (GLMs) allow us to describe relationships in which the distribution errors (&amp;epsilon;) is not normal.
+&lt;p&gt;Let&#39;s furthermore assume that the ideal description is not only parsimonious (i.e. it suffices with one parameter &amp;beta;) but also faithful to the data (i.e. the model predicts outcomes consistently over the entire range of &lt;em&gt;y&lt;/em&gt;). GLMs come in handy when we want to describe relationships in which the distribution of errors (&amp;epsilon;) is not normal.
 &lt;/p&gt;
 &lt;html&gt;
 &lt;head&gt;&lt;title&gt;Decision tree for GLMs&lt;/title&gt;&lt;/head&gt;
