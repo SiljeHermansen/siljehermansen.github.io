@@ -45,7 +45,7 @@ We go through how to model binary outcomes, how to interpret the results from a 
 &lt;h4 id=&#34;causal-inferencecausal_inference_stv4020bpdf&#34;&gt;&lt;a href=&#34;causal_inference_stv4020b.pdf&#34;&gt;Causal inference&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;(Morgan and Winship, 2015, ch 1-3; Samii 2016)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We go through the idea of potential outcomes. What are the comparisons we would we like to make? And what is actually possible to compare with?&lt;/p&gt;
-&lt;p&gt;In the R-lab we&amp;rsquo;ll look at matching techniques.&lt;/p&gt;
+&lt;p&gt;In the R-lab we&amp;rsquo;ll look at matching techniques. We will play with a version of the &lt;a href=&#34;judges.rda&#34;&gt;data&lt;/a&gt; from Glyn and Sen&amp;rsquo;s daughters-effect paper in &lt;a href=&#34;https://scholar.harvard.edu/files/msen/files/daughters.pdf&#34;&gt;APSR&lt;/a&gt; from 2014.&lt;/p&gt;
 &lt;h4 id=&#34;regression-and-matching&#34;&gt;Regression and matching&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;(Ho et al., 2007; Iacus, King and Porro, 2011)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We introduce matching as a technique to adjust for observed confounders.&lt;/p&gt;
