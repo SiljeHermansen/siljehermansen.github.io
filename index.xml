@@ -31,8 +31,8 @@
 &lt;h2 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h2&gt;
 &lt;h3 id=&#34;a-hreflatexpdfr--latex--santa&#34;&gt;&lt;a href=&#34;LaTeX.pdf&#34;&gt;R + LaTeX = Sant&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Latex og R arbeider godt sammen. Her finner du en kjapp gjennomgang av hvordan du kan jobbe med begge i RStudio.&lt;/p&gt;
-&lt;h3 id=&#34;a-hrefchoose_glmwhat-model-should-i-choosea&#34;&gt;&lt;a href=&#34;choose_glm&#34;&gt;What model should I choose?&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of model choice criteria, given the data generating process that produced my dependent variable. It comes in the shape of a decision tree for Generalized Linear Models (GLMs).&lt;/p&gt;
+&lt;h3 id=&#34;a-hrefchoose_glmwhat-glm-model-should-i-choosea&#34;&gt;&lt;a href=&#34;choose_glm&#34;&gt;What GLM model should I choose?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of model choice criteria, given the data generating process that produced my dependent variable. Play around with my decision tree for Generalized Linear Models (GLMs).&lt;/p&gt;
 </description>
     </item>
     
