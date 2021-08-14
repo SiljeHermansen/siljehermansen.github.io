@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quantitative methods on Silje Synnøve Lyder Hermansen</title>
-    <link>/tags/quantitative-methods/</link>
+    <link>https://siljehermansen.github.io/tags/quantitative-methods/</link>
     <description>Recent content in Quantitative methods on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/quantitative-methods/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://siljehermansen.github.io/tags/quantitative-methods/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What GLM should I choose?</title>
-      <link>/teaching/choose_glm/</link>
+      <link>https://siljehermansen.github.io/teaching/choose_glm/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/choose_glm/</guid>
+      <guid>https://siljehermansen.github.io/teaching/choose_glm/</guid>
       <description>&lt;p&gt;&lt;em&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of choice criteria when I consider what Generalized Linear Model (GLM) to rely on.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Let&#39;s assume I want to describe the relationship (&amp;beta;) between an independent variable (&lt;em&gt;x&lt;/em&gt;) and a dependent variable (&lt;em&gt;y&lt;/em&gt;) in the form of:
 &lt;/p&gt;
@@ -37,10 +37,10 @@
     
     <item>
       <title>Statistical analysis (STV4020B)</title>
-      <link>/teaching/stv4020b/</link>
+      <link>https://siljehermansen.github.io/teaching/stv4020b/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/stv4020b/</guid>
+      <guid>https://siljehermansen.github.io/teaching/stv4020b/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2020&lt;/p&gt;
 &lt;!---Here you can find the slides and other material used for the different lectures.---&gt;
 &lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them.&lt;/p&gt;
@@ -169,10 +169,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Installere R-pakken</title>
-      <link>/data/laerdegr/</link>
+      <link>https://siljehermansen.github.io/data/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/data/laerdegr/</guid>
+      <guid>https://siljehermansen.github.io/data/laerdegr/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;&amp;ldquo;Lær deg R&amp;rdquo;&lt;/a&gt; er en innføringsbok i statistikkprogrammet R utgitt av Fagbokforlaget (2019). Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Her kan du laste ned denne nettressursen. Den kommer som en egen R-pakke.&lt;/p&gt;
 &lt;p&gt;Pakken kan installeres fra lokal fil eller rett fra GitHub.&lt;/p&gt;
 &lt;figure&gt;
@@ -220,10 +220,10 @@ library(devtools)
     
     <item>
       <title>Lær deg R</title>
-      <link>/publication/laerdegr/</link>
+      <link>https://siljehermansen.github.io/publication/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/laerdegr/</guid>
+      <guid>https://siljehermansen.github.io/publication/laerdegr/</guid>
       <description>&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
 &lt;img src=&#34;laerdegr.jpg&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
 &lt;/a&gt;
@@ -263,10 +263,10 @@ library(devtools)
     
     <item>
       <title>Samfunnsvitenskapelig forskningsmetode (SFS10207)</title>
-      <link>/teaching/sfs10207/</link>
+      <link>https://siljehermansen.github.io/teaching/sfs10207/</link>
       <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/sfs10207/</guid>
+      <guid>https://siljehermansen.github.io/teaching/sfs10207/</guid>
       <description>&lt;p&gt;Bachelornivå. &lt;em&gt;Høgskolen i Østfold. Avdeling for økonomi, språk og samfunnsfag.&lt;/em&gt; 2013&lt;/p&gt;
 &lt;p&gt;Formålet med dette faget er å gi deg en introduksjon til hvordan vi oppnår kunnskap om samfunnet vi lever i. Samfunnsvitenskapelig forskningsmetode er et obligatorisk emne for studenter som ønsker en bachelor i statsvitenskap ved Høgskolen i Østfold.&lt;/p&gt;
 &lt;p&gt;Lysark fra forelseningene finnes her:&lt;/p&gt;

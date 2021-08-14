@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Silje Synnøve Lyder Hermansen</title>
-    <link>/authors/admin/</link>
+    <link>https://siljehermansen.github.io/authors/admin/</link>
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://siljehermansen.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What GLM should I choose?</title>
-      <link>/teaching/choose_glm/</link>
+      <link>https://siljehermansen.github.io/teaching/choose_glm/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/choose_glm/</guid>
+      <guid>https://siljehermansen.github.io/teaching/choose_glm/</guid>
       <description>&lt;p&gt;&lt;em&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of choice criteria when I consider what Generalized Linear Model (GLM) to rely on.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Let&#39;s assume I want to describe the relationship (&amp;beta;) between an independent variable (&lt;em&gt;x&lt;/em&gt;) and a dependent variable (&lt;em&gt;y&lt;/em&gt;) in the form of:
 &lt;/p&gt;
@@ -37,10 +37,10 @@
     
     <item>
       <title>Statistical analysis (STV4020B)</title>
-      <link>/teaching/stv4020b/</link>
+      <link>https://siljehermansen.github.io/teaching/stv4020b/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/stv4020b/</guid>
+      <guid>https://siljehermansen.github.io/teaching/stv4020b/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2020&lt;/p&gt;
 &lt;!---Here you can find the slides and other material used for the different lectures.---&gt;
 &lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them.&lt;/p&gt;
@@ -169,10 +169,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Decision makers in the Court of Justice of the European Union (CJEU)</title>
-      <link>/project/court-of-justice-of-the-european-union/</link>
+      <link>https://siljehermansen.github.io/project/court-of-justice-of-the-european-union/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/project/court-of-justice-of-the-european-union/</guid>
+      <guid>https://siljehermansen.github.io/project/court-of-justice-of-the-european-union/</guid>
       <description>&lt;p&gt;The Court of Justice of the European Union (CJEU) is probably the world’s most influential international court, functioning in many respects as a federal supreme court.&lt;/p&gt;
 &lt;p&gt;As of today, little research exists on how judges enter the Court and how its internal organization affect decision making.  This project opens the black box of these decision-making processes to consider governments’ and judges’ strategic behavior.&lt;/p&gt;
 &lt;p&gt;I show that judges&#39; performance and governments&#39; political preferences are intertwined both when judges are appointed and when cases are allocated.&lt;/p&gt;
@@ -244,10 +244,10 @@ The internal organization of the Court has become both more complex and more hie
     
     <item>
       <title>Delegation of committee reports in the European Parliament</title>
-      <link>/publication/eup2020/</link>
+      <link>https://siljehermansen.github.io/publication/eup2020/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/eup2020/</guid>
+      <guid>https://siljehermansen.github.io/publication/eup2020/</guid>
       <description>&lt;!---
 &lt;a href=&#34;&#34;&gt;
 &lt;img src=&#34;EffectOfSpecialization.png&#34; alt=&#34;The positive effect of staying in the same committee decreases over time.&#34;&gt;
@@ -269,10 +269,10 @@ The internal organization of the Court has become both more complex and more hie
     
     <item>
       <title>Building legitimacy: strategic case allocations in the Court of Justice of the European Union</title>
-      <link>/publication/jepp2020/</link>
+      <link>https://siljehermansen.github.io/publication/jepp2020/</link>
       <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/jepp2020/</guid>
+      <guid>https://siljehermansen.github.io/publication/jepp2020/</guid>
       <description>&lt;!---
 &lt;figure&gt;
 &lt;img src=&#34;MarginalEffect_First_B_item_Current_government_-_weighted0.jpeg&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;No effect of government preferences in non-politicized cases.&#34;/&gt;
@@ -299,10 +299,10 @@ The internal organization of the Court has become both more complex and more hie
     
     <item>
       <title>Statistical analysis (STV4020B)</title>
-      <link>/teaching/stv4020b_2019/</link>
+      <link>https://siljehermansen.github.io/teaching/stv4020b_2019/</link>
       <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/stv4020b_2019/</guid>
+      <guid>https://siljehermansen.github.io/teaching/stv4020b_2019/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2019&lt;/p&gt;
 &lt;h3 id=&#34;course-description&#34;&gt;Course description&lt;/h3&gt;
 &lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We go through the statistical theory behind models, but we emphasize understanding when models are useful and how to employ them. The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).&lt;/p&gt;
@@ -407,10 +407,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Installere R-pakken</title>
-      <link>/data/laerdegr/</link>
+      <link>https://siljehermansen.github.io/data/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/data/laerdegr/</guid>
+      <guid>https://siljehermansen.github.io/data/laerdegr/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;&amp;ldquo;Lær deg R&amp;rdquo;&lt;/a&gt; er en innføringsbok i statistikkprogrammet R utgitt av Fagbokforlaget (2019). Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Her kan du laste ned denne nettressursen. Den kommer som en egen R-pakke.&lt;/p&gt;
 &lt;p&gt;Pakken kan installeres fra lokal fil eller rett fra GitHub.&lt;/p&gt;
 &lt;figure&gt;
@@ -458,10 +458,10 @@ library(devtools)
     
     <item>
       <title>Lær deg R</title>
-      <link>/data/</link>
+      <link>https://siljehermansen.github.io/data/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/data/</guid>
+      <guid>https://siljehermansen.github.io/data/</guid>
       <description>&lt;p&gt;Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som lærer statistisk analyse.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
@@ -490,10 +490,10 @@ library(devtools)
     
     <item>
       <title>Lær deg R</title>
-      <link>/publication/laerdegr/</link>
+      <link>https://siljehermansen.github.io/publication/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/laerdegr/</guid>
+      <guid>https://siljehermansen.github.io/publication/laerdegr/</guid>
       <description>&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
 &lt;img src=&#34;laerdegr.jpg&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
 &lt;/a&gt;
@@ -533,10 +533,10 @@ library(devtools)
     
     <item>
       <title>Striving for influence: The effect of performance on candidate selection</title>
-      <link>/publication/pp2018/</link>
+      <link>https://siljehermansen.github.io/publication/pp2018/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/pp2018/</guid>
+      <guid>https://siljehermansen.github.io/publication/pp2018/</guid>
       <description>&lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/1354068816663036&#34;&gt;
 &lt;img src=&#34;reselection_performance.jpg&#34; alt=&#34;Effect of signals of performance on incumbent candidate selection to the European Parliament. Author: Silje Hermansen.&#34;&gt;
 &lt;/a&gt;
@@ -553,10 +553,10 @@ library(devtools)
     
     <item>
       <title>(Self-)selection and expertise among decision-makers in the European Parliament</title>
-      <link>/publication/jls2018/</link>
+      <link>https://siljehermansen.github.io/publication/jls2018/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/jls2018/</guid>
+      <guid>https://siljehermansen.github.io/publication/jls2018/</guid>
       <description>&lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/13572334.2018.1444631&#34;&gt;
 &lt;img src=&#34;coefplot_expertise.png&#34; alt=&#34;Coefplot reporting effect of policy expertise on allocation of codecision reports. Author: Silje Hermansen.&#34;&gt;
 &lt;/a&gt;
@@ -574,10 +574,10 @@ library(devtools)
     
     <item>
       <title>Choosing Agents: Members of the European Parliament and their Political Organizations Seen through Report Allocation</title>
-      <link>/publication/phd2017/</link>
+      <link>https://siljehermansen.github.io/publication/phd2017/</link>
       <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/phd2017/</guid>
+      <guid>https://siljehermansen.github.io/publication/phd2017/</guid>
       <description>&lt;a href=&#34;https://www.duo.uio.no/bitstream/handle/10852/69004/PhD-LyderHermansen-2017.pdf?sequence=4&amp;isAllowed=y&#34;&gt;
 &lt;img src=&#34;committee_activity.jpg&#34; alt=&#34;Graphic illustrating the variation in committee activity in the European Parliament (1999-2014). Author: Silje Synnøve Lyder Hermansen&#34;&gt;
 &lt;/a&gt;
@@ -596,11 +596,11 @@ library(devtools)
     
     <item>
       <title></title>
-      <link>/about/</link>
+      <link>https://siljehermansen.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
-      <description>&lt;p&gt;Silje Synnøve Lyder Hermansen works as a senior research fellow at &lt;em&gt;PluriCourts - Centre for the Study of the Legitimate Roles of the Judiciary in the Global Order&lt;/em&gt; at the Univeristy of Oslo.&lt;/p&gt;
+      <guid>https://siljehermansen.github.io/about/</guid>
+      <description>&lt;p&gt;Welcome to my website! I currently work at &lt;a href=&#34;https://jura.ku.dk/icourts/&#34;&gt;&lt;em&gt;iCourts&lt;/em&gt;&lt;/a&gt;, a centre of excellence dedicated to the study of international courts at the University of Copenhagen.&lt;/p&gt;
 </description>
     </item>
     
