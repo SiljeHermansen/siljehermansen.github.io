@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Silje Synnøve Lyder Hermansen</title>
+    <link>https://siljehermansen.github.io/authors/daubler/</link>
+    <description>Recent content on Silje Synnøve Lyder Hermansen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Nov 2021 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://siljehermansen.github.io/authors/daubler/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introducing COMEPELDA: Comprehensive European Parliament electoral data covering rules, parties and candidates</title>
+      <link>https://siljehermansen.github.io/publication/eup2021/</link>
+      <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/publication/eup2021/</guid>
+      <description>&lt;!---
+&lt;a href=&#34;&#34;&gt;
+&lt;img src=&#34;EffectOfSpecialization.png&#34; alt=&#34;The positive effect of staying in the same committee decreases over time.&#34;&gt;
+&lt;/a&gt;
+---&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We introduce a new collection of data that consolidates information on European Parliament elections into one comprehensive source. It provides information on formal electoral rules as well as national-level and district-level election results for parties and individual politicians (including full candidate lists). The use of existing and new key variables makes it easy to link the data across the different units of observation (country, party, candidate, member of parliament) and join them with external information. Currently, the data cover four elections (1999–2014). Among other aspects, the collection should facilitate research on the European Parliament&#39;s allegedly weak electoral connection. In this article, we outline the main features of the datasets, describe patterns of intra-party competition and preference voting and conduct exploratory analyses of individual-level changes in list positions.&lt;/p&gt; 
+&lt;!---
+**Replication files** can be downloaded [here](https://github.com/SiljeHermansen/Replication-files)
+---&gt;
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Däubler, Thomas, Mihail Chiru, Silje Synnøve Lyder Hermansend (2021) &amp;ldquo;Introducing COMEPELDA: Comprehensive European Parliament electoral data covering rules, parties and candidates&amp;rdquo; &lt;em&gt;European Union Politics&lt;/em&gt;, 0(0), 1-21.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

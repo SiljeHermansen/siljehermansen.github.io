@@ -6,10 +6,19 @@
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Nov 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://siljehermansen.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Publications</title>
+      <link>https://siljehermansen.github.io/publication/</link>
+      <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/publication/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Projects</title>
@@ -57,15 +66,6 @@
 &lt;h3 id=&#34;a-hreflatexpdfr--latex--santa&#34;&gt;&lt;a href=&#34;LaTeX.pdf&#34;&gt;R + LaTeX = Sant&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Latex og R arbeider godt sammen. Her finner du en kjapp gjennomgang av hvordan du kan jobbe med begge i RStudio.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://siljehermansen.github.io/publication/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://siljehermansen.github.io/publication/</guid>
-      <description></description>
     </item>
     
     <item>
