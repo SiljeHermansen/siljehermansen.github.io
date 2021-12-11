@@ -43,33 +43,20 @@
 &lt;iframe id=&#34;lawyers shiny app&#34; src=&#34;https://siljehermansen.shinyapps.io/Lawyers/&#34; style=&#34;border: none; width: 100%; height: 950px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Measuring the evolution of CJEU case law using word embeddings&amp;rdquo;&lt;/strong&gt; presented at Big Insight - a center for research-based innovation, Norwegian Computing Center 2019 (Oslo)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To study the conditions for judicial activism – self-restraint, initiation or expansion of case law – we need a consistent and comparable measure of court output. Can machine learning help us in this respect? This research note discusses ways of comparing court documents in order to obtain such measures. The focus is on word embeddings, which allow researchers to identify similar – but not identical – terms and use them as building blocks for document-level comparisons.&lt;/p&gt;
+&lt;!--* **&#34;Measuring the evolution of CJEU case law using word embeddings&#34;** presented at Big Insight - a center for research-based innovation, Norwegian Computing Center 2019 (Oslo)
+
+To study the conditions for judicial activism – self-restraint, initiation or expansion of case law – we need a consistent and comparable measure of court output. Can machine learning help us in this respect? This research note discusses ways of comparing court documents in order to obtain such measures. The focus is on word embeddings, which allow researchers to identify similar – but not identical – terms and use them as building blocks for document-level comparisons.
+
 &lt;figure&gt;
 &lt;img src=&#34;Effect_of_judgment_similarity_on_academic_attention.png&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;Effect of judgment similarity on academic attention (annotations in legal journals).&#34;/&gt;
 &lt;/figure&gt;
-&lt;p&gt;Analyzing the evolution of case law requires researchers to read and compare judgments. It is a resource-intensive process both in terms of competence and number of working hours. Assessing the outcome of a case typically requires familiarity with legal precedent in the court, the doctrines under- pinning rulings as well at the type of cases brought before the tribunal. In other words, - depending on the task – the researcher needs a good grasp of similar cases in the past (i.e. legal precedent) and/or the future (i.e. its value as a precedent) as well as the field-specific vocabulary.&lt;/p&gt;
-&lt;p&gt;The purpose of this research note is to train a model to make such comparisons for us. To obtain word embeddings, I apply a word2vec algorithm on 30999 (machine-readable) legal texts produced by the members of the Court of Justice of the European Union (CJEU) itself. I use these to construct a do- main specific vocabulary of similar words. The similarities can then be used to identify and compare relevant documents based on their word occurrences.&lt;/p&gt;
-&lt;p&gt;A draft version can be found &lt;a href=&#34;WordEmbeddings_Hermansen.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;!---
-* **&#34;Building Legitimacy: Strategic Case Allocations in the Court of Justice of the European Union&#34;** presented at EPSA Annual Meeting 2019 (Belfast)
 
-Does the President of the Court of Justice of the European Union (CJEU) make strategic use of his members? Despite its considerable independence, the Court demonstrates substantial self-restraint when confronted with member states&#39; preferences. However, to date, studies in the separation-of-powers tradition have considered judicial behavior at the organizational level. In contrast, this paper focuses on how external strategic considerations translate to individual influence *within* the CJEU. 
+Analyzing the evolution of case law requires researchers to read and compare judgments. It is a resource-intensive process both in terms of competence and number of working hours. Assessing the outcome of a case typically requires familiarity with legal precedent in the court, the doctrines under- pinning rulings as well at the type of cases brought before the tribunal. In other words, - depending on the task – the researcher needs a good grasp of similar cases in the past (i.e. legal precedent) and/or the future (i.e. its value as a precedent) as well as the field-specific vocabulary.
 
-Influence in the Court is individualized and distributed at the leadership&#39;s discretion. All cases are prepared by a ``judge-rapporteur&#39;&#39; who acts as an agenda setter. This study argues that the President seeks to build the Court&#39;s legitimacy by strategically allocating cases to select judges. I show that individual-level specialization is promoted and argue that it favors a consistent case law. I then argue that suspicions about judges&#39; political accountability can polarize already politicized cases. The President shortcuts such dynamics by allocating cases to judges whose governments hold moderate political preferences.
+The purpose of this research note is to train a model to make such comparisons for us. To obtain word embeddings, I apply a word2vec algorithm on 30999 (machine-readable) legal texts produced by the members of the Court of Justice of the European Union (CJEU) itself. I use these to construct a do- main specific vocabulary of similar words. The similarities can then be used to identify and compare relevant documents based on their word occurrences.
 
-I rely on original data on 9623 case allocations in CJEU (1980-2015). The results speak to the lingering effect of judges&#39; renewable terms -- despite secret voting -- as well as the importance of an autonomous internal organization for judicial independence.
-
-A draft version can be found [here](BuildingLegitimacy_Hermansen.pdf).
-
-&lt;figure&gt;
-&lt;img src=&#34;MarginalEffect_First_B_item_Current_government_-_weighted0.jpeg&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;No effect of government preferences in non-politicized cases.&#34;/&gt;
-&lt;img src=&#34;MarginalEffect_First_B_item_Current_government_-_weighted1.jpeg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;Effect of government preferences in politicized cases.&#34;/&gt;
-&lt;figcaption&gt;Judges whose governments hold outlying economic preferences are less likely to act as rapporteur in court cases that could divide member states.&lt;/figcaption&gt;
-&lt;/figure&gt;
----&gt;
+A draft version can be found [here](WordEmbeddings_Hermansen.pdf).
+--&gt;
 &lt;h4 id=&#34;published-work&#34;&gt;Published work&lt;/h4&gt;
 &lt;p&gt;If who makes decisions within courts matters for the outcome of cases and their reception, then studying how cases and judges are matched is essential to understanding judicial independence.&lt;/p&gt;
 &lt;ul&gt;
