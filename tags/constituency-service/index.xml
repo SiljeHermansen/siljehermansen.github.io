@@ -6,7 +6,7 @@
     <description>Recent content in Constituency service on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://siljehermansen.github.io/tags/constituency-service/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Decision makers in the European Parliament (EP)</title>
       <link>https://siljehermansen.github.io/project/european-parliament/</link>
-      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
       
       <guid>https://siljehermansen.github.io/project/european-parliament/</guid>
       <description>&lt;!---
@@ -25,10 +25,6 @@
 &lt;p&gt;National parties do not have institutionalized presence in the EP. They enter
 into an outcome-based contract similar to voters. MEPs are either rewarded by reselection or kicked out of office. Report allocations dissipate uncertainty about MEPs’ ability. They thus improve MEPs’ career prospects to the extent that parties need new information about agent quality, and to the extent that parliamentary groups can provide it.&lt;/p&gt;
 &lt;h4 id=&#34;ongoing-work&#34;&gt;Ongoing work&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;The sanction that isn’t imposed? Roll-call voting loyalty and demotion in European Parliament elections&amp;rdquo;&lt;/strong&gt; with &lt;a href=&#34;https://www.researchgate.net/profile/Mihail_Chiru&#34;&gt;Mihail Chiru&lt;/a&gt; and &lt;a href=&#34;https://www.researchgate.net/profile/Thomas_Daeubler&#34;&gt;Thomas Däubler&lt;/a&gt;, presented at EPSA Annual Meeting 2019 (Belfast)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This article introduces a comprehensive data collection effortthat provides detailed election results, list ranking information, seat and vote attributes for MEPs, EP candidates and parties covering four electoral periods and legislative terms, from 1999 until the 2014 elections. The described data will facilitate a broad spectrum of empirical analyses of the EP, thus helping to improve our understanding of this unique parliamentary body. Possible applications include studies of the EP&amp;rsquo;s allegedly weak electoral connection, of whether personalized electoral systems make any difference with respect to whom is elected in the EP, or whether electoral rules mediate MEPs&#39; career ambitions. The article illustratesthe main features of the datasets and their usefulness with brief analyses of intra-party competition in EP elections, the degree of usage of preference votes and its consequences, and the effects of voting disloyalty in the subsequent re-nomination process.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;Blurred lines between electoral and parliamentary representation:  The use of constituency staff among European Members of Parliament&amp;rdquo;&lt;/strong&gt; with &lt;a href=&#34;http://www.pegan.org/&#34;&gt;Andreja Pegan&lt;/a&gt;, presented at EPSA Annual Meeting 2017 (Vienna)&lt;/li&gt;
 &lt;/ul&gt;
@@ -48,7 +44,12 @@ into an outcome-based contract similar to voters. MEPs are either rewarded by re
 &lt;p&gt;A popularized presentation (in Norwegian) can be found &lt;a href=&#34;https://www.sv.uio.no/isv/forskning/aktuelt/aktuelle-saker/2017/et-forsvar-for-kvinnekvotering-.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h4 id=&#34;published-work&#34;&gt;Published work&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/pp2018/&#34;&gt;&amp;ldquo;Striving for influence: The effect of performance on candidate selection&amp;rdquo;&lt;/a&gt;  (2018) &lt;em&gt;Party Politics&lt;/em&gt; 24 (4), 382-396.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/eup2021/&#34;&gt;&amp;ldquo;Introducing COMEPELDA: Comprehensive European Parliament electoral data covering rules, parties and candidates&amp;rdquo;&lt;/a&gt;  (2021) &lt;em&gt;European Union Politics&lt;/em&gt; with Thomas Däubler and Mihail Chiru 0 (0), 1-21.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/pp2018/&#34;&gt;&amp;ldquo;Striving for influence: The effect of performance on candidate selection&amp;rdquo;&lt;/a&gt;  (2018) &lt;em&gt;Party Politics&lt;/em&gt; 24 (4), 382-396.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;legislative-behavior&#34;&gt;Legislative behavior&lt;/h2&gt;
 &lt;p&gt;The European Parliament (EP) is a committee-oriented legislature; meaning that the bulk of legislative work is done in committees.&lt;/p&gt;
