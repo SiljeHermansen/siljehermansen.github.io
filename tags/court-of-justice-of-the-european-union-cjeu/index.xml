@@ -62,11 +62,13 @@ A draft version can be found [here](WordEmbeddings_Hermansen.pdf).
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/jepp2020/&#34;&gt;&amp;ldquo;Building legitimacy: strategic case allocations in the Court of Justice of the European Union&amp;rdquo;&lt;/a&gt;  (2020) &lt;em&gt;Journal of European Public Policy&lt;/em&gt; 27 (8), 1215-1235.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!---
-## Data collection on decision makers
-The internal organization of the Court has become both more complex and more hierarchical over time.
-![The internal organization of the Court has become both more complex and more hierarchical over time.](Timeline.gif)
----&gt;
+&lt;h2 id=&#34;data-collection-on-decision-makers&#34;&gt;Data collection on decision makers&lt;/h2&gt;
+&lt;p&gt;The internal organization of the Court has become both more complex and more hierarchical over time. This data collection project maps out the decisions and decision makers within the Court.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Timeline.gif&#34; alt=&#34;The internal organization of the Court has become both more complex and more hierarchical over time.&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;The CJEU Database Platform: Decisions and Decision-Makers&amp;rdquo;&lt;/strong&gt; with Stein Arne Brekke, Joshua Fjelstul and Daniel Naurin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article presents &lt;em&gt;The CJEU Database Platform: Decisions and Decision-Makers&lt;/em&gt;, which includes data on the universe of cases, decisions, and judges at the Court of Justice of the European Union (CJEU). Cross-referencing data from multiple official sources, the CJEU Database Platform provides political scientists and legal scholars with an extensive collection of easily accessible, research-ready data that is compatible other data-collection projects on the CJEU. It provides a foundation for the broader CJEU Database currently being developed by a new multidisciplinary platform for research on judicial politics in the European Union (EU). In this article, we illustrate how researchers can use data from the CJEU Database Platform to study the internal politics of the Court, opening the door to new areas of theoretical and empirical research on judicial politics in the EU.&lt;/p&gt;
 </description>
     </item>
     
