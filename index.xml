@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Silje Synnøve Lyder Hermansen</title>
-    <link>https://siljehermansen.github.io/</link>
+    <link>/</link>
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://siljehermansen.github.io/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Projects</title>
-      <link>https://siljehermansen.github.io/project/</link>
+      <link>/project/</link>
       <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/project/</guid>
+      <guid>/project/</guid>
       <description>&lt;p&gt;How do our representatives behave given how we select them? And how does information about their behavior affect who we retain in office?&lt;/p&gt;
 &lt;h2 id=&#34;a-hrefcourt-of-justice-of-the-european-uniondecision-makers-in-the-court-of-justice-of-the-european-union-cjeua&#34;&gt;&lt;a href=&#34;court-of-justice-of-the-european-union&#34;&gt;Decision makers in the Court of Justice of the European Union (CJEU)&lt;/a&gt;&lt;/h2&gt;
-&lt;a href=&#34;https://siljehermansen.github.io/project/court-of-justice-of-the-european-union&#34;&gt;
+&lt;a href=&#34;/project/court-of-justice-of-the-european-union&#34;&gt;
 &lt;img src=&#34;CJEU.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; caption = &#34;The Court of Justice of the EU in Luxembourg&#34;  alt = &#34;The Court of Justice of the EU in Luxembourg&#34;/&gt;
 &lt;/a&gt;
 &lt;p&gt;The Court of Justice of the European Union (CJEU) is probably the world’s most influential international court, functioning in many respects as a federal supreme court. 
 &lt;p&gt;Yet little research exists on how judges enter the Court and how its internal organization affects decision making. This project considers governments’ and judges’ strategic behavior in an environment where performance and political preferences matter.&lt;/p&gt;
  &lt;/p&gt;
 &lt;h2 id=&#34;a-hrefeuropean-parliamentdecision-makers-in-the-european-parliament-epa&#34;&gt;&lt;a href=&#34;european-parliament&#34;&gt;Decision makers in the European Parliament (EP)&lt;/a&gt;&lt;/h2&gt;
-&lt;a href=&#34;https://siljehermansen.github.io/project/european-parliament&#34;&gt;
+&lt;a href=&#34;/project/european-parliament&#34;&gt;
 &lt;img src=&#34;EP.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; caption = &#34;The European Parliament in Strasbourg&#34;
  alt = &#34;The European Parliament in Strasbourg&#34;/&gt;
 &lt;/a&gt;
@@ -36,19 +36,19 @@
     
     <item>
       <title>Publications</title>
-      <link>https://siljehermansen.github.io/publication/</link>
+      <link>/publication/</link>
       <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/publication/</guid>
+      <guid>/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>https://siljehermansen.github.io/teaching/</link>
+      <link>/teaching/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/</guid>
+      <guid>/teaching/</guid>
       <description>&lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
 &lt;p&gt;These pages provide supplementary information to students. For a comprehensive overview of my teaching activities, please refer to my CV.&lt;/p&gt;
 &lt;h3 id=&#34;a-hrefstv4020bstatistical-analysis-stv4020ba&#34;&gt;&lt;a href=&#34;stv4020b&#34;&gt;Statistical analysis (STV4020B)&lt;/a&gt;&lt;/h3&gt;
@@ -70,10 +70,10 @@
     
     <item>
       <title>Lær deg R</title>
-      <link>https://siljehermansen.github.io/data/</link>
+      <link>/data/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/data/</guid>
+      <guid>/data/</guid>
       <description>&lt;p&gt;Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som lærer statistisk analyse.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
@@ -102,10 +102,10 @@
     
     <item>
       <title></title>
-      <link>https://siljehermansen.github.io/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/about/</guid>
+      <guid>/about/</guid>
       <description>&lt;p&gt;Welcome to my website! I currently work at &lt;a href=&#34;https://jura.ku.dk/icourts/&#34;&gt;&lt;em&gt;iCourts&lt;/em&gt;&lt;/a&gt;, a centre of excellence dedicated to the study of international courts at the University of Copenhagen.&lt;/p&gt;
 </description>
     </item>

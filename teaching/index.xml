@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on Silje Synnøve Lyder Hermansen</title>
-    <link>https://siljehermansen.github.io/teaching/</link>
+    <link>/teaching/</link>
     <description>Recent content in Teaching on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://siljehermansen.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>What GLM should I choose?</title>
-      <link>https://siljehermansen.github.io/teaching/choose_glm/</link>
+      <link>/teaching/choose_glm/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/choose_glm/</guid>
+      <guid>/teaching/choose_glm/</guid>
       <description>&lt;p&gt;&lt;em&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of choice criteria when I consider what Generalized Linear Model (GLM) to rely on.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Let&#39;s assume I want to describe the relationship (&amp;beta;) between an independent variable (&lt;em&gt;x&lt;/em&gt;) and a dependent variable (&lt;em&gt;y&lt;/em&gt;) in the form of:
 &lt;/p&gt;
@@ -37,10 +37,10 @@
     
     <item>
       <title>Statistical analysis (STV4020B)</title>
-      <link>https://siljehermansen.github.io/teaching/stv4020b/</link>
+      <link>/teaching/stv4020b/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/stv4020b/</guid>
+      <guid>/teaching/stv4020b/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2020&lt;/p&gt;
 &lt;!---Here you can find the slides and other material used for the different lectures.---&gt;
 &lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them.&lt;/p&gt;
@@ -169,10 +169,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Statistical analysis (STV4020B)</title>
-      <link>https://siljehermansen.github.io/teaching/stv4020b_2019/</link>
+      <link>/teaching/stv4020b_2019/</link>
       <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/stv4020b_2019/</guid>
+      <guid>/teaching/stv4020b_2019/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2019&lt;/p&gt;
 &lt;h3 id=&#34;course-description&#34;&gt;Course description&lt;/h3&gt;
 &lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We go through the statistical theory behind models, but we emphasize understanding when models are useful and how to employ them. The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).&lt;/p&gt;
@@ -277,10 +277,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Samfunnsvitenskapelig forskningsmetode (SFS10207)</title>
-      <link>https://siljehermansen.github.io/teaching/sfs10207/</link>
+      <link>/teaching/sfs10207/</link>
       <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/sfs10207/</guid>
+      <guid>/teaching/sfs10207/</guid>
       <description>&lt;p&gt;Bachelornivå. &lt;em&gt;Høgskolen i Østfold. Avdeling for økonomi, språk og samfunnsfag.&lt;/em&gt; 2013&lt;/p&gt;
 &lt;p&gt;Formålet med dette faget er å gi deg en introduksjon til hvordan vi oppnår kunnskap om samfunnet vi lever i. Samfunnsvitenskapelig forskningsmetode er et obligatorisk emne for studenter som ønsker en bachelor i statsvitenskap ved Høgskolen i Østfold.&lt;/p&gt;
 &lt;p&gt;Lysark fra forelseningene finnes her:&lt;/p&gt;

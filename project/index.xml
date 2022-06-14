@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Silje Synnøve Lyder Hermansen</title>
-    <link>https://siljehermansen.github.io/project/</link>
+    <link>/project/</link>
     <description>Recent content in Projects on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://siljehermansen.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Decision makers in the European Parliament (EP)</title>
-      <link>https://siljehermansen.github.io/project/european-parliament/</link>
+      <link>/project/european-parliament/</link>
       <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/project/european-parliament/</guid>
+      <guid>/project/european-parliament/</guid>
       <description>&lt;!---
 &lt;img src=&#34;EP.jpg&#34; align=&#34;centre&#34;, caption = &#34;The European Parliament in Strasbourg&#34;/&gt;
 ---&gt;
@@ -45,7 +45,7 @@ into an outcome-based contract similar to voters. MEPs are either rewarded by re
 &lt;h4 id=&#34;published-work&#34;&gt;Published work&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/eup2021/&#34;&gt;&amp;ldquo;Introducing COMEPELDA: Comprehensive European Parliament electoral data covering rules, parties and candidates&amp;rdquo;&lt;/a&gt;  (2021) &lt;em&gt;European Union Politics&lt;/em&gt; with Thomas Däubler and Mihail Chiru 0 (0), 1-21.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/eup2021/&#34;&gt;&amp;ldquo;Introducing COMEPELDA: Comprehensive European Parliament electoral data covering rules, parties and candidates&amp;rdquo;&lt;/a&gt;  (2021) &lt;em&gt;European Union Politics&lt;/em&gt; with Thomas Däubler and Mihail Chiru 23 (2), 351-371.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/pp2018/&#34;&gt;&amp;ldquo;Striving for influence: The effect of performance on candidate selection&amp;rdquo;&lt;/a&gt;  (2018) &lt;em&gt;Party Politics&lt;/em&gt; 24 (4), 382-396.&lt;/p&gt;
@@ -71,13 +71,20 @@ into an outcome-based contract similar to voters. MEPs are either rewarded by re
     
     <item>
       <title>Decision makers in the Court of Justice of the European Union (CJEU)</title>
-      <link>https://siljehermansen.github.io/project/court-of-justice-of-the-european-union/</link>
+      <link>/project/court-of-justice-of-the-european-union/</link>
       <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/project/court-of-justice-of-the-european-union/</guid>
+      <guid>/project/court-of-justice-of-the-european-union/</guid>
       <description>&lt;p&gt;The Court of Justice of the European Union (CJEU) is probably the world’s most influential international court, functioning in many respects as a federal supreme court.&lt;/p&gt;
 &lt;p&gt;As of today, little research exists on how judges enter the Court and how its internal organization affects decision making.  This project opens the black box of these decision-making processes to consider governments’ and judges’ strategic behavior.&lt;/p&gt;
 &lt;p&gt;I show that judges&#39; performance and governments&#39; political preferences are intertwined both when judges are appointed and when influence is distributed within the Court.&lt;/p&gt;
+&lt;h2 id=&#34;data-collection-on-decision-makers&#34;&gt;Data collection on decision makers&lt;/h2&gt;
+&lt;p&gt;The internal organization of the Court has become both more complex and more hierarchical over time. This data collection project maps out the decisions and decision makers within the Court.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Timeline.gif&#34; alt=&#34;The internal organization of the Court has become both more complex and more hierarchical over time.&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;The CJEU Database Platform: Decisions and Decision-Makers&amp;rdquo;&lt;/strong&gt; with Stein Arne Brekke, Joshua Fjelstul and Daniel Naurin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This article presents &lt;em&gt;The CJEU Database Platform: Decisions and Decision-Makers&lt;/em&gt;, which includes data on the universe of cases, decisions, and judges at the Court of Justice of the European Union (CJEU). Cross-referencing data from multiple official sources, the CJEU Database Platform provides political scientists and legal scholars with an extensive collection of easily accessible, research-ready data that is compatible other data-collection projects on the CJEU. It provides a foundation for the broader CJEU Database currently being developed by a new multidisciplinary platform for research on judicial politics in the European Union (EU). In this article, we illustrate how researchers can use data from the CJEU Database Platform to study the internal politics of the Court, opening the door to new areas of theoretical and empirical research on judicial politics in the EU.&lt;/p&gt;
 &lt;h2 id=&#34;judicial-appointments-to-the-cjeu&#34;&gt;Judicial appointments to the CJEU&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;Holding Judges To Account. Policy, Performance and Impartiality&amp;rdquo;&lt;/strong&gt;  with Daniel Naurin presented at the ECPR Joint Sessions 2019 (Mons)&lt;/li&gt;
@@ -88,10 +95,10 @@ into an outcome-based contract similar to voters. MEPs are either rewarded by re
 &lt;img src=&#34;Effectplot_preferences_economy_CJ.jpeg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;Graphic showing that the likelihood of replacing a sitting judge increases with the distance between the economic preferences of the appointing and reappointing government.&#34;/&gt;
 &lt;p&gt;We rely on original data on all potential reappointment decisions to the CJEU over a 60-year period, biographical information and key performance measures of judges’ activities at the Court.&lt;/p&gt;
 &lt;p&gt;We find on the one hand that governments with different economic preferences prefer different judges. That is, a change in government preferences increases the likelihood of changing the sitting judge. On the other hand, we find that governments &amp;ndash; regardless of their political preferences &amp;ndash; are more likely to retain judges who have obtained positions of influence when these positions are informative of judge&amp;rsquo;s future performance on the bench. That information is derived from the Court&amp;rsquo;s internal selection procedures when responsibilities are distributed among judges.&lt;/p&gt;
-&lt;p&gt;A draft version can be found &lt;a href=&#34;WillDo_HermansenNaurin.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A draft version can be found &lt;a href=&#34;HoldingJudgesToAccount_HermansenNaurin.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;strategic-decision-making-in-the-cjeu&#34;&gt;Strategic decision making in the CJEU&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Instrument of Power or Weapon of the Weak? Litigation and Legal Representation Before the European Court of Justice&amp;rdquo;&lt;/strong&gt; with Louisa Boulaziz and &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; presented at ECPR General Conference 2021 (zoom)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Instrument of Power or Weapon of the Weak? Litigation and Legal Representation Before the European Court of Justice&amp;rdquo;&lt;/strong&gt; with Louisa Boulaziz and &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; presented at EUSA 2022 (Miami)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The proliferation of regional organizations and international courts has expanded opportunities for nongovernmental actors to pursue transnational litigation. In the European Union (EU) legal mobilization before the European Court of Justice (ECJ) has been particularly vigorous, yet a core puzzle remains unresolved: Does litigating at the ECJ empower the &amp;lsquo;have nots&amp;rsquo;, or does it reinforce the voice of the &amp;lsquo;haves&amp;rsquo;?&lt;/p&gt;
 &lt;p&gt;While some studies point to the judicial expansion of EU rights protections, others stress the resource advantages of corporate litigants and their ability to mobilize specialist &amp;lsquo;Euro-lawyers.&amp;rsquo; Drawing on party capability theories and leveraging the first dataset of parties and lawyers in all national court cases referred to the ECJ, we assess whether businesses increasingly obtain better legal representation before the Court and how this advantage shapes judicial policymaking. Our longitudinal results illuminate shifting patterns of legal mobilization that partially reconcile the debate over whether litigation before the ECJ tends to advance individual rights or magnify corporate power.&lt;/p&gt;
@@ -120,13 +127,6 @@ A draft version can be found [here](WordEmbeddings_Hermansen.pdf).
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/jepp2020/&#34;&gt;&amp;ldquo;Building legitimacy: strategic case allocations in the Court of Justice of the European Union&amp;rdquo;&lt;/a&gt;  (2020) &lt;em&gt;Journal of European Public Policy&lt;/em&gt; 27 (8), 1215-1235.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;data-collection-on-decision-makers&#34;&gt;Data collection on decision makers&lt;/h2&gt;
-&lt;p&gt;The internal organization of the Court has become both more complex and more hierarchical over time. This data collection project maps out the decisions and decision makers within the Court.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Timeline.gif&#34; alt=&#34;The internal organization of the Court has become both more complex and more hierarchical over time.&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;The CJEU Database Platform: Decisions and Decision-Makers&amp;rdquo;&lt;/strong&gt; with Stein Arne Brekke, Joshua Fjelstul and Daniel Naurin.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This article presents &lt;em&gt;The CJEU Database Platform: Decisions and Decision-Makers&lt;/em&gt;, which includes data on the universe of cases, decisions, and judges at the Court of Justice of the European Union (CJEU). Cross-referencing data from multiple official sources, the CJEU Database Platform provides political scientists and legal scholars with an extensive collection of easily accessible, research-ready data that is compatible other data-collection projects on the CJEU. It provides a foundation for the broader CJEU Database currently being developed by a new multidisciplinary platform for research on judicial politics in the European Union (EU). In this article, we illustrate how researchers can use data from the CJEU Database Platform to study the internal politics of the Court, opening the door to new areas of theoretical and empirical research on judicial politics in the EU.&lt;/p&gt;
 </description>
     </item>
     
