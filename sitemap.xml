@@ -3,22 +3,102 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/authors/admin/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/brekke/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/chiru/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/daubler/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/fjelstul/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/candidate-selection/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/court-of-justice-of-the-european-union-cjeu/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/election-seeking/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/european-parliament-ep/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/eup2021/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/judicial-behavior/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/jlc2022/</loc>
+    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/constituency-service/</loc>
     <lastmod>2021-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/project/european-parliament/</loc>
-    <lastmod>2021-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/election-seeking/</loc>
-    <lastmod>2021-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/european-parliament-ep/</loc>
     <lastmod>2021-12-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -38,77 +118,12 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2021-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/admin/</loc>
-    <lastmod>2021-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/chiru/</loc>
-    <lastmod>2021-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/daubler/</loc>
-    <lastmod>2021-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2021-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2021-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/candidate-selection/</loc>
-    <lastmod>2021-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/eup2021/</loc>
-    <lastmod>2021-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2021-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2021-11-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/court-of-justice-of-the-european-union-cjeu/</loc>
-    <lastmod>2021-08-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/project/court-of-justice-of-the-european-union/</loc>
     <lastmod>2021-08-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/judicial-appointment/</loc>
-    <lastmod>2021-08-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/judicial-behavior/</loc>
     <lastmod>2021-08-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -254,6 +269,10 @@
   
   <url>
     <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/naurin/</loc>
   </url>
   
   <url>
