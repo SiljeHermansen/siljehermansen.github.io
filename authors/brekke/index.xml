@@ -23,13 +23,20 @@
 &lt;/a&gt;
 ---&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;We introduce a new collection of data that consolidates information on European Parliament elections into one comprehensive source. It provides information on formal electoral rules as well as national-level and district-level election results for parties and individual politicians (including full candidate lists). The use of existing and new key variables makes it easy to link the data across the different units of observation (country, party, candidate, member of parliament) and join them with external information. Currently, the data cover four elections (1999–2014). Among other aspects, the collection should facilitate research on the European Parliament&#39;s allegedly weak electoral connection. In this article, we outline the main features of the datasets, describe patterns of intra-party competition and preference voting and conduct exploratory analyses of individual-level changes in list positions.&lt;/p&gt; 
+&lt;p&gt;This article presents the CJEU Database Platform, which provides scholars with an ex-
+tensive collection of easily accessible, research-ready data on the the universe of cases,
+decisions, and judges at the Court of Justice of the European Union (CJEU). The CJEU
+Database Platform provides a foundation for the broader CJEU Database currently be-
+ing developed by The IUROPA Project, a multidisciplinary group of scholars researching
+judicial politics in the European Union (EU). In this article, we illustrate how the CJEU
+Database Platform opens the door to new areas of theoretical and empirical research
+on judicial politics in the EU.&lt;/p&gt; 
 &lt;!---
 **Replication files** can be downloaded [here](https://github.com/SiljeHermansen/Replication-files)
 ---&gt;
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Brekke, Stein-Arne, Joshua Fjelstul, Silje Synnøve Lyder Hermansen, Daniel Naurin (forthcoming) &amp;ldquo;The CJEU Database Platform: Decisions and Decision-Makers&amp;rdquo; &lt;em&gt;Journal of Law and Courts&lt;/em&gt;, 0(0), 1-35.&lt;/li&gt;
+&lt;li&gt;Brekke, Stein-Arne, Joshua Fjelstul, Silje Synnøve Lyder Hermansen, Daniel Naurin (forthcoming) &amp;ldquo;The CJEU Database Platform: Decisions and Decision-Makers&amp;rdquo; &lt;em&gt;The Journal of Law and Courts&lt;/em&gt;, 0(0), 1-35.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

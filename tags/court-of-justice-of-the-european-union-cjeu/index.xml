@@ -23,13 +23,20 @@
 &lt;/a&gt;
 ---&gt;
 &lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;We introduce a new collection of data that consolidates information on European Parliament elections into one comprehensive source. It provides information on formal electoral rules as well as national-level and district-level election results for parties and individual politicians (including full candidate lists). The use of existing and new key variables makes it easy to link the data across the different units of observation (country, party, candidate, member of parliament) and join them with external information. Currently, the data cover four elections (1999–2014). Among other aspects, the collection should facilitate research on the European Parliament&#39;s allegedly weak electoral connection. In this article, we outline the main features of the datasets, describe patterns of intra-party competition and preference voting and conduct exploratory analyses of individual-level changes in list positions.&lt;/p&gt; 
+&lt;p&gt;This article presents the CJEU Database Platform, which provides scholars with an ex-
+tensive collection of easily accessible, research-ready data on the the universe of cases,
+decisions, and judges at the Court of Justice of the European Union (CJEU). The CJEU
+Database Platform provides a foundation for the broader CJEU Database currently be-
+ing developed by The IUROPA Project, a multidisciplinary group of scholars researching
+judicial politics in the European Union (EU). In this article, we illustrate how the CJEU
+Database Platform opens the door to new areas of theoretical and empirical research
+on judicial politics in the EU.&lt;/p&gt; 
 &lt;!---
 **Replication files** can be downloaded [here](https://github.com/SiljeHermansen/Replication-files)
 ---&gt;
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Brekke, Stein-Arne, Joshua Fjelstul, Silje Synnøve Lyder Hermansen, Daniel Naurin (forthcoming) &amp;ldquo;The CJEU Database Platform: Decisions and Decision-Makers&amp;rdquo; &lt;em&gt;Journal of Law and Courts&lt;/em&gt;, 0(0), 1-35.&lt;/li&gt;
+&lt;li&gt;Brekke, Stein-Arne, Joshua Fjelstul, Silje Synnøve Lyder Hermansen, Daniel Naurin (forthcoming) &amp;ldquo;The CJEU Database Platform: Decisions and Decision-Makers&amp;rdquo; &lt;em&gt;The Journal of Law and Courts&lt;/em&gt;, 0(0), 1-35.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -59,7 +66,7 @@ The internal organization of the Court has become both more complex and more hie
 &lt;p&gt;A draft version can be found &lt;a href=&#34;HoldingJudgesToAccount_HermansenNaurin.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;strategic-decision-making-in-the-cjeu&#34;&gt;Strategic decision making in the CJEU&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Instrument of Power or Weapon of the Weak? Litigation and Legal Representation Before the European Court of Justice&amp;rdquo;&lt;/strong&gt; with Louisa Boulaziz and &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; presented at EUSA 2022 (Miami)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Instrument of Power or Weapon of the Weak? Litigation and Legal Representation Before the European Court of Justice&amp;rdquo;&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz  presented at EUSA 2022 (Miami)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The proliferation of regional organizations and international courts has expanded opportunities for nongovernmental actors to pursue transnational litigation. In the European Union (EU) legal mobilization before the European Court of Justice (ECJ) has been particularly vigorous, yet a core puzzle remains unresolved: Does litigating at the ECJ empower the &amp;lsquo;have nots&amp;rsquo;, or does it reinforce the voice of the &amp;lsquo;haves&amp;rsquo;?&lt;/p&gt;
 &lt;p&gt;While some studies point to the judicial expansion of EU rights protections, others stress the resource advantages of corporate litigants and their ability to mobilize specialist &amp;lsquo;Euro-lawyers.&amp;rsquo; Drawing on party capability theories and leveraging the first dataset of parties and lawyers in all national court cases referred to the ECJ, we assess whether businesses increasingly obtain better legal representation before the Court and how this advantage shapes judicial policymaking. Our longitudinal results illuminate shifting patterns of legal mobilization that partially reconcile the debate over whether litigation before the ECJ tends to advance individual rights or magnify corporate power.&lt;/p&gt;
@@ -70,7 +77,7 @@ The internal organization of the Court has become both more complex and more hie
 &lt;/body&gt;
 &lt;/html&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Litigating in the European Court of Justice: Lawyers&#39; influence on supranational decision-making&lt;/strong&gt; with Louisa Boulaziz and &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; presented at ECPR 2021 (zoom)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Litigating in the European Court of Justice: Lawyers&#39; influence on supranational decision-making&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz presented at ECPR 2021 (zoom)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This paper assesses how private litigants’ propensity to win cases before international courts is conditioned by the quality of their legal counsel and by the constraints of intergovernmental politics. Building on legal mobilization and party capability theories, we argue that quality legal counsel bolsters a private party’s capacity to convey legal information to judges that is relevant to deciding the case in their favor. At the same time, we build on intergovernmentalist theories of international adjudication positing that judges will also be sensitive to political signals by national governments. As a result, we hypothesize that the influence of quality legal counsel on international judges is conditioned by the political support that member states&#39; express.&lt;/p&gt;
 &lt;p&gt;To assess these claims, we exploit an original dataset of parties and lawyers involved in disputes before the European Court of Justice (ECJ) – arguably the most successful and influential international court procuring access to private litigants. We find being represented by a lawyer bolsters the probability that litigants submit observations and win cases before the ECJ, yet this effect is the highest in the minority of cases where a majority of more member state governments intervene in favor of the applicant. We conclude by highlighting the necessity of combining theories of legal mobilization and intergovernmental politics in order to explain judicial decision-making in international courts.&lt;/p&gt;
