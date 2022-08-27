@@ -21,7 +21,7 @@
 &lt;img src=&#34;RStudio-Logo.png&#34; width=&#34;45%&#34; align=&#34;right&#34; caption = &#34;RStudio&#34;  alt = &#34;RStudio&#34;/&gt;
 &lt;/a&gt;
 &lt;p&gt;&lt;strong&gt;Tid:&lt;/strong&gt; kl. 09.30-15.00; 30.-31. august 2022&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Sted:&lt;/strong&gt; Oslo Met&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sted:&lt;/strong&gt; Arbeidsforskningsinstituttet, OsloMet&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Kursholder:&lt;/strong&gt; Silje Synnøve Lyder Hermansen&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Epost:&lt;/strong&gt; &lt;a href=&#34;mailto:silje.hermansen@ifs.ku.dk&#34;&gt;silje.hermansen@ifs.ku.dk&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Velkommen til R workshop! Formålet med denne workshopen er å gi deg den grunnleggende kunnskapen du trenger for å navigere R på egenhånd. Du blir ingen ekspert, men etter våre to dager sammen, vil du ha et innblikk i &amp;ndash; og førstehånds erfaring med &amp;ndash; hvordan R fungerer.&lt;/p&gt;
@@ -35,7 +35,9 @@
 &lt;p&gt;&lt;strong&gt;Sesjon 5&lt;/strong&gt;: Arbeidsflyt&lt;/p&gt;
 &lt;h2 id=&#34;dag-2-analyse-i-r&#34;&gt;Dag 2: Analyse i R&lt;/h2&gt;
 &lt;p&gt;Andre dag begynner vi med analyser. Nå introduserer jeg også andre R-dialekter.&lt;/p&gt;
+&lt;p&gt;I forkant av workshopen, kan du installere de følgende R-pakkene: &lt;code&gt;tidyverse&lt;/code&gt; (denne kan ta tid), &lt;code&gt;dplyr&lt;/code&gt;, &lt;code&gt;kableExtra&lt;/code&gt;.  Dette gjør du ved å skrive &lt;code&gt;install.packages(&amp;quot;tidyverse&amp;quot;)&lt;/code&gt; i R-konsollen.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Sesjon 1&lt;/strong&gt;: Beskrivende statistikk&lt;/p&gt;
+&lt;p&gt;I denne sesjonen skal vi bruke data fra kapittel 5 i &lt;em&gt;Lær deg R&lt;/em&gt;. Dette er data fra den norske runden av ESS (2014). Du kan laste dem ned her: &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap5.rda&#34;&gt;https://siljehermansen.github.io/teaching/oslomet/kap5.rda&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Sesjon 2-3&lt;/strong&gt;:  Tilrettelegging av data&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Sesjon 4&lt;/strong&gt;:  Mer tegning: ggplot2&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Sesjon 5&lt;/strong&gt;:  Regresjoner: Analyse og tolkning&lt;/p&gt;
