@@ -6,10 +6,41 @@
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Aug 2022 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Introduksjon til R</title>
+      <link>/teaching/oslomet/</link>
+      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/oslomet/</guid>
+      <description>&lt;a&gt;
+&lt;img src=&#34;RStudio-Logo.png&#34; width=&#34;45%&#34; align=&#34;right&#34; caption = &#34;RStudio&#34;  alt = &#34;RStudio&#34;/&gt;
+&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;Tid:&lt;/strong&gt; kl. 09.30-15.00; 30.-31. august 2022&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sted:&lt;/strong&gt; Oslo Met&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kursholder:&lt;/strong&gt; Silje Synnøve Lyder Hermansen&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Epost:&lt;/strong&gt; &lt;a href=&#34;mailto:silje.hermansen@ifs.ku.dk&#34;&gt;silje.hermansen@ifs.ku.dk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Velkommen til R workshop! Formålet med denne workshopen er å gi deg den grunnleggende kunnskapen du trenger for å navigere R på egenhånd. Du blir ingen ekspert, men etter våre to dager sammen, vil du ha et innblikk i &amp;ndash; og førstehånds erfaring med &amp;ndash; hvordan R fungerer.&lt;/p&gt;
+&lt;p&gt;Dette er en workshop. Det betyr at vi jobber aktivt i R sammen gjennom hele kurset. Ta med deg laptop-en din og gjør deg klar til å skrive! &lt;em&gt;I forkant bør du allerede ha installert R&lt;/em&gt; (&lt;a href=&#34;https://www.r-project.org/;&#34;&gt;https://www.r-project.org/;&lt;/a&gt; statistikkprogrammet) &lt;em&gt;og RStudio&lt;/em&gt; (&lt;a href=&#34;https://www.rstudio.com/products/rstudio/;&#34;&gt;https://www.rstudio.com/products/rstudio/;&lt;/a&gt; brukergrensesnittet). Om du møter på problemer, kan du også møte opp en halvtime tidligere på tirsdag.&lt;/p&gt;
+&lt;p&gt;Alle skal med! Derfor kan vi justere på programmet underveis. Jeg vil dele r-notatene mine gjennom kurset. De vil dere finne på denne linken: &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet)&#34;&gt;https://siljehermansen.github.io/teaching/oslomet)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;dag-1-de-første-byggesteinene&#34;&gt;Dag 1: De første byggesteinene&lt;/h2&gt;
+&lt;p&gt;Første dag jobber vi i base-R. Fokuset er på å bli kjent med R-språket og få på plass gode arbeidsrutiner.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 1&lt;/strong&gt;: Kom i gang&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 2-3&lt;/strong&gt;: Datatyper, objekter og funksjoner&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 4&lt;/strong&gt;: R som tegneprogram&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 5&lt;/strong&gt;: Arbeidsflyt&lt;/p&gt;
+&lt;h2 id=&#34;dag-2-analyse-i-r&#34;&gt;Dag 2: Analyse i R&lt;/h2&gt;
+&lt;p&gt;Andre dag begynner vi med analyser. Nå introduserer jeg også andre R-dialekter.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 1&lt;/strong&gt;: Beskrivende statistikk&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 2-3&lt;/strong&gt;:  Tilrettelegging av data&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 4&lt;/strong&gt;:  Mer tegning: ggplot2&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 5&lt;/strong&gt;:  Regresjoner: Analyse og tolkning&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Introducing COMEPELDA: Comprehensive European Parliament electoral data covering rules, parties and candidates</title>
@@ -122,10 +153,10 @@ A draft version can be found [here](WordEmbeddings_Hermansen.pdf).
 &lt;p&gt;If who makes decisions within courts matters for the outcome of cases and their reception, then studying how cases and judges are matched is essential to understanding judicial independence.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/jlc2022/&#34;&gt;&amp;ldquo;The CJEU Database Platform: Decisions and Decision-Makers&amp;rdquo;&lt;/a&gt;  (2022)  with Stein Arne Brekke, Joshua Fjelstul and Daniel Naurin. &lt;em&gt;Journal of Law and Courts&lt;/em&gt; 0(0), 1-35.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;publication/jlc2022/&#34;&gt;&amp;ldquo;The CJEU Database Platform: Decisions and Decision-Makers&amp;rdquo;&lt;/a&gt;  (2022)  with Stein Arne Brekke, Joshua Fjelstul and Daniel Naurin. &lt;em&gt;Journal of Law and Courts&lt;/em&gt; 0(0), 1-35.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/jepp2020/&#34;&gt;&amp;ldquo;Building legitimacy: strategic case allocations in the Court of Justice of the European Union&amp;rdquo;&lt;/a&gt;  (2020) &lt;em&gt;Journal of European Public Policy&lt;/em&gt; 27 (8), 1215-1235.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;publication/jepp2020/&#34;&gt;&amp;ldquo;Building legitimacy: strategic case allocations in the Court of Justice of the European Union&amp;rdquo;&lt;/a&gt;  (2020) &lt;em&gt;Journal of European Public Policy&lt;/em&gt; 27 (8), 1215-1235.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>

@@ -4,7 +4,42 @@
   
   <url>
     <loc>/authors/admin/</loc>
-    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/teaching/oslomet/</loc>
+    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/quantitative-methods/</loc>
+    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/teaching/</loc>
+    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/teaching-material/</loc>
+    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -34,11 +69,6 @@
   
   <url>
     <loc>/publication_types/2/</loc>
-    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -79,16 +109,6 @@
   
   <url>
     <loc>/publication/</loc>
-    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2022-08-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2022-08-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -144,21 +164,6 @@
   
   <url>
     <loc>/teaching/choose_glm/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/quantitative-methods/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/teaching/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/teaching-material/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
