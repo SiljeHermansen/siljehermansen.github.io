@@ -37,13 +37,13 @@
 &lt;h2 id=&#34;dag-2-analyse-i-r&#34;&gt;Dag 2: Analyse i R&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Sted:&lt;/strong&gt; &lt;a href=&#34;https://link.mazemap.com/smWfgHM7&#34;&gt;Sykepleierhuset, rom N040.012&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Andre dag begynner vi med analyser. Nå introduserer jeg også andre R-dialekter.&lt;/p&gt;
-&lt;p&gt;I forkant av workshopen, kan du installere de følgende R-pakkene: &lt;code&gt;tidyverse&lt;/code&gt; (denne kan ta tid), &lt;code&gt;dplyr&lt;/code&gt;, &lt;code&gt;kableExtra&lt;/code&gt;.  Dette gjør du ved å skrive &lt;code&gt;install.packages(&amp;quot;tidyverse&amp;quot;)&lt;/code&gt; i R-konsollen.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Sesjon 1&lt;/strong&gt;: Beskrivende statistikk&lt;/p&gt;
+&lt;p&gt;I forkant av workshopen, kan du installere de følgende R-pakkene: &lt;code&gt;tidyverse&lt;/code&gt; (denne kan ta tid), &lt;code&gt;dplyr&lt;/code&gt;, &lt;code&gt;ggplot2&lt;/code&gt;, &lt;code&gt;kableExtra&lt;/code&gt;. &lt;code&gt;stargazer&lt;/code&gt; og &lt;code&gt;MASS&lt;/code&gt;.  Dette gjør du ved å skrive &lt;code&gt;install.packages(&amp;quot;tidyverse&amp;quot;)&lt;/code&gt; i R-konsollen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 6&lt;/strong&gt;: &lt;a href=&#34;sesjon6.html&#34;&gt;Beskrivende statistikk&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I denne sesjonen skal vi bruke data fra kapittel 5 i &lt;em&gt;Lær deg R&lt;/em&gt;. Dette er data fra den norske runden av &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap5.rda&#34;&gt;ESS (2014)&lt;/a&gt;. Du kan laste dem ned her.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Sesjon 2-3&lt;/strong&gt;:  Tilrettelegging av data&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 7-8&lt;/strong&gt;:  &lt;a href=&#34;sesjon7.html&#34;&gt;Tilrettelegging av data&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I denne sesjonen skal vi bruke data fra kapittel 6 i &lt;em&gt;Lær deg R&lt;/em&gt;. Dette er data fra den norske runden av &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap6.rda&#34;&gt;ESS (2014)&lt;/a&gt; samt &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap6b.rda&#34;&gt;Chapel Hill Survey&lt;/a&gt; fra samme år. Du kan laste dem ned her:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Sesjon 4&lt;/strong&gt;:  Mer tegning: ggplot2&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Sesjon 5&lt;/strong&gt;:  Regresjoner: Analyse og tolkning&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 9&lt;/strong&gt;:  &lt;a href=&#34;sesjon9.html&#34;&gt;Mer tegning: ggplot2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 19&lt;/strong&gt;:  &lt;a href=&#34;sesjon10.html&#34;&gt;Regresjoner: Analyse og tolkning&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
