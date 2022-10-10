@@ -42,15 +42,17 @@
 &lt;p&gt;&lt;strong&gt;Sesjon 6&lt;/strong&gt;: &lt;a href=&#34;sesjon6.html&#34;&gt;Beskrivende statistikk&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I denne sesjonen skal vi bruke data fra kapittel 5 i &lt;em&gt;Lær deg R&lt;/em&gt;. Dette er data fra den norske runden av &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap5.rda&#34;&gt;ESS (2014)&lt;/a&gt;. Du kan laste dem ned her.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Sesjon 7-8&lt;/strong&gt;:  &lt;a href=&#34;sesjon7.html&#34;&gt;Tilrettelegging av data&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I denne sesjonen skal vi bruke data fra kapittel 6 i &lt;em&gt;Lær deg R&lt;/em&gt;. Dette er data fra den norske runden av &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap6.rda&#34;&gt;ESS (2014)&lt;/a&gt; samt &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap6b.rda&#34;&gt;Chapel Hill Survey&lt;/a&gt; fra samme år. Du kan laste dem ned her.&lt;/p&gt;
+&lt;p&gt;I denne sesjonen skal vi bruke data fra kapittel 6 i &lt;em&gt;Lær deg R&lt;/em&gt;. Dette er data fra den norske runden av &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap6.rda&#34;&gt;ESS (2014)&lt;/a&gt; samt &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap6b.rda&#34;&gt;Chapel Hill Survey&lt;/a&gt; fra samme år.&lt;/p&gt;
 &lt;h2 id=&#34;andre-workshop-visualisering&#34;&gt;Andre workshop: Visualisering&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Tid:&lt;/strong&gt; kl. 09.30-12.00; 10. oktober 2022&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Sted:&lt;/strong&gt; &lt;a href=&#34;https://use.mazemap.com/#v=1&amp;amp;zlevel=4&amp;amp;center=10.735574,59.919639&amp;amp;zoom=18&amp;amp;sharepoitype=poi&amp;amp;sharepoi=562422&amp;amp;campusid=53&#34;&gt;Pilestredet 35, Ellen Gleditschs hus: PI451&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I denne workshopen fokuserer vi på visualisering. Vi begynner med å lage tabeller.  Deretter går vi gjennom noen av de grafiske mulighetene som R tilbyr.&lt;/p&gt;
 &lt;p&gt;Selv om vi fokuserer på beskrivende statistikk og presentasjon idag, har flere av teknikkene vi bruker mye til felles både med hva vi har sett tidligere og hva vi skal gjøre framover. Vi benytter sjansen til å gjenta noe av hva vi gjorde da vi tilrettela data. Vi varmer også opp til dynamisk rapportering og modellering, som vi skal se neste gang vi møtes.&lt;/p&gt;
-&lt;p&gt;Dataene vi skal bruke idag, finner du &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap7.rda&#34;&gt;her&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;Dataene vi skal bruke idag, kommer også fra ESS (2014). Du finner en tilrettelagt versjon &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap7.rda&#34;&gt;her&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Sesjon 9&lt;/strong&gt;:  &lt;a href=&#34;sesjon9.html&#34;&gt;Tabeller: dplyr, tidyr og kableExtra&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vi begynner dagen med tabeller. I denne sesjonen bruker vi &lt;code&gt;dplyr&lt;/code&gt;-, &lt;code&gt;tidyr&lt;/code&gt;- og &lt;code&gt;kableExtra&lt;/code&gt;-pakkene. Sistnevnte har du muligens ikke installert enda.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Sesjon 10&lt;/strong&gt;:  &lt;a href=&#34;sesjon10.html&#34;&gt;Mer tegning: ggplot2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vi tar et bad i ggplot2: R er blitt populært ikke minst på grunn av visualiseringsmulighetene det tilbyr. &lt;code&gt;ggplot2&lt;/code&gt;-pakken har vært instrumentell i denne utviklingen.&lt;/p&gt;
 &lt;h1 id=&#34;---sesjon-10--regresjoner-analyse-og-tolkningsesjon11html--&#34;&gt;&lt;!-- **Sesjon 10**:  [Regresjoner: Analyse og tolkning](sesjon11.html)--&gt;&lt;/h1&gt;
 </description>
     </item>
