@@ -20,12 +20,6 @@
       <description>&lt;p&gt;The Court of Justice of the European Union (CJEU) is probably the world’s most influential international court, functioning in many respects as a federal supreme court.&lt;/p&gt;
 &lt;p&gt;As of today, little research exists on how judges enter the Court and how its internal organization affects decision making.  This project opens the black box of these decision-making processes to consider governments’ and judges’ strategic behavior.&lt;/p&gt;
 &lt;p&gt;I show that judges&#39; performance and governments&#39; political preferences are intertwined both when judges are appointed and when influence is distributed within the Court.&lt;/p&gt;
-&lt;!-- ## Data collection on decision makers
-The internal organization of the Court has become both more complex and more hierarchical over time. This data collection project maps out the decisions and decision makers within the Court.
-
-![The internal organization of the Court has become both more complex and more hierarchical over time.](Timeline.gif)--&gt;
-&lt;!-- * **&#34;The CJEU Database Platform: Decisions and Decision-Makers&#34;** with Stein Arne Brekke, Joshua Fjelstul and Daniel Naurin.--&gt;
-&lt;!-- This article presents *The CJEU Database Platform: Decisions and Decision-Makers*, which includes data on the universe of cases, decisions, and judges at the Court of Justice of the European Union (CJEU). Cross-referencing data from multiple official sources, the CJEU Database Platform provides political scientists and legal scholars with an extensive collection of easily accessible, research-ready data that is compatible other data-collection projects on the CJEU. It provides a foundation for the broader CJEU Database currently being developed by a new multidisciplinary platform for research on judicial politics in the European Union (EU). In this article, we illustrate how researchers can use data from the CJEU Database Platform to study the internal politics of the Court, opening the door to new areas of theoretical and empirical research on judicial politics in the EU.--&gt;
 &lt;h2 id=&#34;judicial-appointments-to-the-cjeu&#34;&gt;Judicial appointments to the CJEU&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;Holding Judges To Account. Policy, Performance and Impartiality&amp;rdquo;&lt;/strong&gt;  with Daniel Naurin presented at the ECPR Joint Sessions 2019 (Mons)&lt;/li&gt;
@@ -58,6 +52,13 @@ The internal organization of the Court has become both more complex and more hie
 &lt;img src=&#34;Integration_sd_over_time.png&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;The number of judgements with wide legal ambit is low when member state governments have diverse preferences on European integration, and more numerous when government preferences are more homogeneous.&#34;/&gt;
 &lt;p&gt;Literature on judicial independence focuses on direct and explicit threats issued by the political branch. Arguments of legislative override typically predict that political division empowers the judiciary. In contrast, we argue that courts are sensitive even to the potential eruption of conflict because they value their diffuse legitimacy. Effective judicial policy making is thus a question of strategic timing.&lt;/p&gt;
 &lt;p&gt;To test our theory, we study the European Court of Justice. Known as the “dark horse of integration”, it is an independent court with political sway. Yet political considerations profoundly affects its decision making. We draw on unprecedented data mapping out the legal ambit of all preliminary cases relating to the Free movement of people throughout the history. We find that the Court holds back on the legal ambit of rulings, preferring to bolster its institutional authority, in times of political division. Reversely, it broadens the ambit when salience is high and conflict low. Thus, when salience and division combine, they null each other out; leaving traces only in the decision-making process.&lt;/p&gt;
+&lt;h1 id=&#34;html&#34;&gt;&lt;html&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;headtitleplotlytitlehead&#34;&gt;&lt;head&gt;&lt;title&gt;plotly&lt;/title&gt;&lt;/head&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;body&#34;&gt;&lt;body&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;iframe-idlegal-ambit-webpage-srclegal_ambit_trivariatehtml-styleborder-none-width-100-height-600px-frameborder0iframe&#34;&gt;&lt;iframe id=&#34;legal ambit webpage&#34; src=&#34;legal_ambit_trivariate.html&#34; style=&#34;border: none; width: 100%; height: 600px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;body-1&#34;&gt;&lt;/body&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;html-1&#34;&gt;&lt;/html&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;div-include-htmllegal_ambit_trivariatehtmldiv&#34;&gt;&lt;div include-html=&#34;legal_ambit_trivariate.html&#34;&gt;&lt;/div&gt;&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Litigating in the European Court of Justice: Lawyers&#39; influence on supranational decision-making&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz presented at ECPR 2021 (zoom)&lt;/li&gt;
 &lt;/ul&gt;
