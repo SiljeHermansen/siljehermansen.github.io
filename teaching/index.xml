@@ -53,7 +53,13 @@
 &lt;p&gt;Vi begynner dagen med tabeller. I denne sesjonen bruker vi &lt;code&gt;dplyr&lt;/code&gt;-, &lt;code&gt;tidyr&lt;/code&gt;- og &lt;code&gt;kableExtra&lt;/code&gt;-pakkene. Sistnevnte har du muligens ikke installert enda.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Sesjon 10&lt;/strong&gt;:  &lt;a href=&#34;sesjon10.html&#34;&gt;Mer tegning: ggplot2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Vi tar et bad i ggplot2: R er blitt populært ikke minst på grunn av visualiseringsmulighetene det tilbyr. &lt;code&gt;ggplot2&lt;/code&gt;-pakken har vært instrumentell i denne utviklingen.&lt;/p&gt;
-&lt;h1 id=&#34;---sesjon-10--regresjoner-analyse-og-tolkningsesjon11html--&#34;&gt;&lt;!-- **Sesjon 10**:  [Regresjoner: Analyse og tolkning](sesjon11.html)--&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;tredje-workshop-visualisering&#34;&gt;Tredje workshop: Visualisering&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Tid:&lt;/strong&gt; kl. 09.30-12.00; 2. desember 2022&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 11&lt;/strong&gt;:  &lt;a href=&#34;sesjon11.html&#34;&gt;Regresjoner: Analyse og tolkning&lt;/a&gt;
+s
+Data for sesjonen: &lt;a href=&#34;kap10.rda&#34;&gt;kap10&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 12&lt;/strong&gt;:  &lt;a href=&#34;sesjon12.html&#34;&gt;Regresjoner: Logistisk regresjon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Data for sesjonen: &lt;a href=&#34;df_all.rda&#34;&gt;df_all&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
