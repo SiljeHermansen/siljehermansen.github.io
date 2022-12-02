@@ -53,13 +53,25 @@
 &lt;p&gt;Vi begynner dagen med tabeller. I denne sesjonen bruker vi &lt;code&gt;dplyr&lt;/code&gt;-, &lt;code&gt;tidyr&lt;/code&gt;- og &lt;code&gt;kableExtra&lt;/code&gt;-pakkene. Sistnevnte har du muligens ikke installert enda.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Sesjon 10&lt;/strong&gt;:  &lt;a href=&#34;sesjon10.html&#34;&gt;Mer tegning: ggplot2&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Vi tar et bad i ggplot2: R er blitt populært ikke minst på grunn av visualiseringsmulighetene det tilbyr. &lt;code&gt;ggplot2&lt;/code&gt;-pakken har vært instrumentell i denne utviklingen.&lt;/p&gt;
-&lt;h2 id=&#34;tredje-workshop-visualisering&#34;&gt;Tredje workshop: Visualisering&lt;/h2&gt;
+&lt;h2 id=&#34;tredje-workshop-modellering-og-dynamisk-rapportering&#34;&gt;Tredje workshop: Modellering og dynamisk rapportering&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Tid:&lt;/strong&gt; kl. 09.30-12.00; 2. desember 2022&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Sesjon 11&lt;/strong&gt;:  &lt;a href=&#34;sesjon11.html&#34;&gt;Regresjoner: Analyse og tolkning&lt;/a&gt;
-s
-Data for sesjonen: &lt;a href=&#34;kap10.rda&#34;&gt;kap10&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Sesjon 12&lt;/strong&gt;:  &lt;a href=&#34;sesjon12.html&#34;&gt;Regresjoner: Logistisk regresjon&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Data for sesjonen: &lt;a href=&#34;df_all.rda&#34;&gt;df_all&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sted:&lt;/strong&gt; Arbeidsforskningsinstituttet, OsloMet&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kursholder:&lt;/strong&gt; Silje Synnøve Lyder Hermansen, Førsteamuanensis, Universitetet i København&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Epost:&lt;/strong&gt; &lt;a href=&#34;mailto:silje.hermansen@ifs.ku.dk&#34;&gt;silje.hermansen@ifs.ku.dk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Webside:&lt;/strong&gt; &lt;a href=&#34;https://siljehermansen.github.io&#34;&gt;https://siljehermansen.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;!-- ![](figurer/RStudio-Logo.png){width=&#34;20%&#34; align=&#34;right&#34;} --&gt;
+&lt;p&gt;Velkommen til en ny R-workshop! Til nå har vi fokusert på arbeidsflyten i R, datatilrettelegging og beskrivende statistikk. I desember vil vi endelig gå gjennom modellering i R og hvordan vi kan rapportere resultatene.&lt;/p&gt;
+&lt;p&gt;R åpner for mange ulike modelleringer tilgjenglig i ulike pakker. De bygger alle på samme lest. For denne workshopen fokuserer vi derfor på basismodellene: lineære modeller. Vi vil gå gjennom syntaksen for modellen, samt hvordan vi kan presentere resultatene med tall, ord og tegning.&lt;/p&gt;
+&lt;p&gt;Ofte produserer vi liknende dokumenter basert på samme type data og analyser. Dette er typisk for årlige rapporteringer (f.eks. årsstatistikk), men også for nye versjoner av forskningsarbeidene våre (f.eks et nytt konferansepaper). Selve dataene og resultatene endrer seg ofte mellom disse versjonene: Vi har nye data (f.eks. data for et nytt år eller nyinnsamlede/korrigerte data) og dermed endrer også resultatene seg. Derimot er ofte selve analyseteksten og strukturen den samme mellom ulike versjoner. Da er det nyttig å bruke dynamiske rapporter som automatisk integrerer endringene.&lt;/p&gt;
+&lt;p&gt;R kan integreres med tekstbehandling for å produsere Word-, LaTeX- eller html-dokumenter. Da &amp;ldquo;flettes&amp;rdquo; R-kodene sammen med teksten, tabellene og grafikkene og resultatene oppdateres. Dette gjør det mulig å dokumentere og oppdatere hva vi gjør underveis. Løsningen gjør det mulig å skrive papere, rapporter, &amp;ldquo;notatblokker&amp;rdquo;, lysbilder/slides, websider og interaktive &amp;ldquo;apper&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;I denne workshopen går jeg gjennom hovedprinsippene og demonstrerer noen av mulighetene som RStudio åpner for oss. Jeg viser hvordan vi kan lage tekstdokumenter hvor vi integrerer resulattabeller, språklig og visuell tolkning. Dette er enormt arbeidsbesparende! Denne workshopen introduserer nettopp denne arbeidsflyten.&lt;/p&gt;
+&lt;p&gt;Jeg vil basere introduksjonen på rmarkdown-språket og pandoc-løsningen. Du kan få en oversikt over mulighetene her: &lt;a href=&#34;https://rmarkdown.rstudio.com/articles.html&#34;&gt;https://rmarkdown.rstudio.com/articles.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I forkant av workshopen bør du ha installert &lt;code&gt;rmarkdown&lt;/code&gt;. Du kan finne instrukser her: &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown-cookbook/installation.html&#34;&gt;https://bookdown.org/yihui/rmarkdown-cookbook/installation.html&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 11&lt;/strong&gt;:  &lt;a href=&#34;sesjon11.html&#34;&gt;Regresjoner: Analyse og tolkning&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Data for sesjonen: &lt;a href=&#34;kap7.rda&#34;&gt;kap7&lt;/a&gt;&lt;/p&gt;
+&lt;!--**Sesjon 12**:  [Regresjoner: Logistisk regresjon](sesjon12.html)
+
+Data for sesjonen: [df_all](df_all.rda)--&gt;
 </description>
     </item>
     
