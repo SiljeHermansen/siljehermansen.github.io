@@ -6,10 +6,484 @@
     <description>Recent content in Teaching on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hvordan &#34;skrape&#34;&#34; data i R?</title>
+      <link>/teaching/skrape-data/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/skrape-data/</guid>
+      <description>&lt;html&gt;
+&lt;body&gt;
+&lt;p&gt;Vi skal samle inn data fra &lt;a href=&#34;https://eur-lex.europa.eu&#34;&gt;EUR-Lex&lt;/a&gt;. EUR-Lex er nettsiden hvor
+alle EU sine offisielle dokumenter befinner seg for offentlig innsyn.
+Spesifikt, er jeg interessert i å samle inn “metainformasjon” om
+domsavsigelser fra EU-domstolen. Metainformasjon her betyr at jeg
+&lt;em&gt;ikke&lt;/em&gt; er interessert i selve dommen, men informasjon rundt den.
+Hva er tittelen på dommen og når ble den publisert?&lt;/p&gt;
+&lt;p&gt;Et eksempel er &lt;a href=&#34;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673&#34;&gt;Coman-saken&lt;/a&gt;
+hvor EU-domstolen gikk langt i å annerkjenne homoekteskap for alle
+EU-borgere (2016).&lt;/p&gt;
+&lt;p&gt;Vi kan dele arbeidet inn i flere faser:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Jeg legger en &lt;strong&gt;strategi&lt;/strong&gt; hvor jeg definerer målet
+mitt presist (strukturen til en datamatrise) og en skisse over veien dit
+(hvilken informasjon jeg skal bruke og hvor den befinner seg). Dette er
+en kartleggingsfase.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Jeg arbeider fram en konkret &lt;strong&gt;taktikk&lt;/strong&gt; for hvordan
+informasjonen skal hentes ut. Teksten jeg skraper (rådataene) kan være
+strukturert ulikt, derfor trenger jeg ulike taktikker for ulike
+variabler. Hvis informasjonen jeg er ute etter, er plassert ulikt i
+ulike dokumenter, vil jeg også ha alternative taktikker for ulike
+observasjoner i samme variabel. Hver taktikk er en egen kodesnutt som
+henter informasjonen jeg trenger. Det er dette arbeidet som tar mest
+tid, og jeg begynner alltid med ett eksempel (en observasjon på en
+variabel).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Jeg &lt;strong&gt;skraper&lt;/strong&gt; (samler inn) alle dataene
+(datapunktene). Nå går jeg fra ett eksempel til å samle inn informasjon
+fra alle dokumentene/sidene jeg er interessert i. Denne delen av
+arbeidsprosessen innebærer å gå fram og tilbake mellom skraping og
+korrigering av taktikken min. I prosessen vil jeg &lt;em&gt;generalisere&lt;/em&gt;
+R-koden min slik at den er funksjonell for alle dokumenter. Ofte vil jeg
+møte på problemer som krever nye taktikker og/eller en justering av den
+gamle. Dette er når jeg &lt;em&gt;luker feil&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div id=&#34;legg-en-strategi-hva-vil-jeg-oppnå&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Legg en strategi: Hva vil jeg oppnå?&lt;/h1&gt;
+&lt;div id=&#34;kartlegging&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Kartlegging&lt;/h3&gt;
+&lt;p&gt;Første skritt i en datainnsamlingsprosess er å kartlegge hvilken
+informasjon jeg ønsker og hvilken som finnes. For å finne ut mer,
+begynner jeg med å surfe nettet på vanlig vis. Et viktig poeng er å
+finne ut om informasjonen jeg ønsker faktisk er tilgjengelig for alle
+observasjoner/nettsider.&lt;/p&gt;
+&lt;p&gt;Jeg bestemmer meg så for datastrukturen jeg ønsker for matrisen min
+(sluttproduktet). I vårt eksempel, ønsker jeg en matrise hvor hver
+observasjon (linje) er en domsavsigelse, og hver variabel gir en
+spesifikk type informasjon om avsigelsen. I dette tilfellet er jeg
+interessert i datoen for dokumentet.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;spesifiser-en-taktikk-jobb-med-eksempler&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Spesifiser en taktikk: Jobb med eksempler&lt;/h1&gt;
+&lt;p&gt;Selv om målet med datainnsamlingen er en datamatrise med flere
+variabler og mange observasjoner, men jeg begynner alltid med en
+observasjon og en variabel. Det vil si at jeg jobber med et &lt;em&gt;typisk
+eksempel&lt;/em&gt; på dokumentene jeg skal samle data fra. “Typisk” betyr her
+at dokumentet følger strukturen til flest mulig av dokumentene jeg skal
+skrape fra.&lt;/p&gt;
+&lt;p&gt;Jeg har valgt meg Coman-dommen som et typisk eksempel. Den finnes
+her: &lt;a href=&#34;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673&#34; class=&#34;uri&#34;&gt;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vi ser at teksten på siden er strukturert. Blant annet ser vi at
+datoet på dokumentet (“Date of document”) er annsert i tykk blå skrift
+etterfulgt av selve datoen i svart skrift. For nettsider er denne
+strukturen definert av html-koder. Html blir brukt for å definere
+layouten i en tekst.&lt;/p&gt;
+&lt;p&gt;For å se html-strukturen, kan du høyreklikke på siden og velge “View
+page source”. Et nytt vindu åpner seg, og vi kan se hvordan dokumentet
+ser ut bak kulissene. Nå blir det klart for oss at teksten vi ser på
+selve nettsiden egentlig er en liste hvor all informasjon er lagt inn
+som egne punkter. Html-lista er ikke egentlig laget for å strukturere
+data, men vi kan bruke html-strukturen til vår fordel.&lt;/p&gt;
+&lt;p&gt;Nå kan vi finne fram til informasjonen vi ønsker og identifisere hvor
+i lista den ligger. Punkter i denne lista heter “noder”. Noder kan ha
+ulike navn avhengig av hvordan man ønsker at teksten ser ut. Dette er
+det vi bruker for å finne fram til våre data.&lt;/p&gt;
+&lt;p&gt;For å finne nodenavnet til datoen til dommsavsigelsen, gjør jeg et
+tekstsøk. Tast “Ctrl+F” og skriv inn “Date of document”. Vi ser at “Date
+of document” ligger i en node som er kalt &lt;code&gt;dt&lt;/code&gt; og at selve
+datoen ligger i en node kalt “dd”. Begge hører til en node kalt “dl”.
+Disse er “søsken” fordi de har samme forelder. Vi ser også at det finnes
+andre søsken i flokken (“Date lodged”).&lt;/p&gt;
+&lt;p&gt;Vi ønsker bare å samle inn datoen for selve dokumentet, så første
+utfordring er å gjøre samme søk i R. La oss åpne R studio.&lt;/p&gt;
+&lt;p&gt;Jeg begynner med å hente inn `rvest``-pakken for skraping i R fra
+biblioteket. Om du ikke har installert den enda, må du gjøre dette
+først.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(rvest)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Det først jeg må gjøre er å definere nettadressen for siden jeg
+ønsker å skrape.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;url &amp;lt;- &amp;quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(rvest)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nå kan jeg la R lese inn html-filen fra denne adressen. Jeg lagrer
+resultatet i et objekt kalt &lt;code&gt;doc&lt;/code&gt;. Vi kan ta en titt på
+&lt;code&gt;doc&lt;/code&gt;, men R-studio vil ikke vise oss hele dokumentet. Da
+ville korttidsminnet i RStudio bli “spist opp” og programmet
+“henger”.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;doc &amp;lt;- read_html(url)
+doc&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## {html_document}
+## &amp;lt;html lang=&amp;quot;en&amp;quot; class=&amp;quot;no-js&amp;quot; xml:lang=&amp;quot;en&amp;quot;&amp;gt;
+## [1] &amp;lt;head&amp;gt;\n&amp;lt;meta http-equiv=&amp;quot;Content-Type&amp;quot; content=&amp;quot;text/html; charset=UTF-8 ...
+## [2] &amp;lt;body&amp;gt; \n        &amp;lt;script type=&amp;quot;application/json&amp;quot;&amp;gt;{\n            &amp;quot;utility&amp;quot; ...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Objektet er av typen “xml_document”; en liste med mange noder.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;class(doc)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;xml_document&amp;quot; &amp;quot;xml_node&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Jeg kan hente alle noder fram ved å bruke nodenavnet.&lt;/p&gt;
+&lt;div id=&#34;enkelt-men-litt-for-spesifikt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Enkelt, men litt for spesifikt&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;html_nodes()&lt;/code&gt; henter fram alle noder i et
+xml_document-objekt ved hjelp av navnet deres. Vi noterte oss at datoen
+er lagret i “dd”.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;node &amp;lt;- 
+  doc %&amp;gt;%
+  html_nodes(&amp;quot;dd&amp;quot;)
+node&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## {xml_nodeset (18)}
+##  [1] &amp;lt;dd xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Romanian&amp;lt;/dd&amp;gt;
+##  [2] &amp;lt;dd xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;05/06/2018&amp;lt;/dd&amp;gt;
+##  [3] &amp;lt;dd xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;30/12/2016&amp;lt;/dd&amp;gt;
+##  [4] &amp;lt;dd xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;\n                  &amp;lt;ul&amp;gt;\n&amp;lt;li&amp;gt;  ...
+##  [5] &amp;lt;dd xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;\n                  &amp;lt;span lang= ...
+##  [6] &amp;lt;dd xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;\n                  &amp;lt;span lang= ...
+##  [7] &amp;lt;dd xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;\n                  &amp;lt;span lang= ...
+##  [8] &amp;lt;dd xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;\n                  &amp;lt;span lang= ...
+##  [9] &amp;lt;dd xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;\n                  &amp;lt;span lang= ...
+## [10] &amp;lt;dd xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Ilešič&amp;lt;/dd&amp;gt;
+## [11] &amp;lt;dd xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Wathelet&amp;lt;/dd&amp;gt;
+## [12] &amp;lt;dd xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;\n                  &amp;lt;span lang= ...
+## [13] &amp;lt;dd xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;\n                  &amp;lt;ul&amp;gt;\n&amp;lt;li&amp;gt;3 ...
+## [14] &amp;lt;dd&amp;gt;\n               &amp;lt;span lang=&amp;quot;en&amp;quot;&amp;gt;Treaty establishing the European Ec ...
+## [15] &amp;lt;dd&amp;gt;\n               &amp;lt;a href=&amp;quot;./../../../search.html?type=advanced&amp;amp;amp;D ...
+## [16] &amp;lt;dd&amp;gt;\n               &amp;lt;ul&amp;gt;\n&amp;lt;li&amp;gt;Interprets &amp;lt;a href=&amp;quot;./../../../legal-cont ...
+## [17] &amp;lt;dd&amp;gt;\n               &amp;lt;ul&amp;gt;\n&amp;lt;li&amp;gt;Related judicial information &amp;lt;a href=&amp;quot;./. ...
+## [18] &amp;lt;dd&amp;gt;\n               &amp;lt;ul&amp;gt;\n&amp;lt;li&amp;gt;\n                     &amp;lt;a href=&amp;quot;./../../. ...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nå kan jeg bruke indekseringsverktøyet for å hente riktig “dd”. Jeg
+ser at denne ligger i observasjon 2.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;node[2]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## {xml_nodeset (1)}
+## [1] &amp;lt;dd xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;05/06/2018&amp;lt;/dd&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Det eneste som gjenstår, er å fjerne html-koden for kun å beholde
+teksten/informasjonen. Det gjør vi med &lt;code&gt;html_text()&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;node[2] %&amp;gt;%
+  html_text()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;05/06/2018&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Er vi fornøyd med resultatet, kan i ta vare på det.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dato &amp;lt;- 
+  node[2] %&amp;gt;%
+  html_text()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nå har jeg én observasjon på én variabel. Hurra! Nå kan jeg legge
+dette inn i et datasett. Det er lurt å finne en “nøkkelvariabel” som
+identifiserer hver observasjon. Da kan jeg lett koble resultatet fra
+ulike skrapeprosesser med hverandre slik at jeg til sist får mange
+variabler i datasettet mitt. Foreløpig kan jeg bruke nettadressen (url)
+som en slik nøkkel.&lt;/p&gt;
+&lt;p&gt;Til dette bruker jeg &lt;code&gt;cbind()&lt;/code&gt;: Jeg binder de to
+variablene sammen kolonnevis.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Opprett et datasett
+&lt;p&gt;tmp &amp;lt;- cbind(dato, url)
+tmp&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;##      dato        
+## [1,] &amp;quot;05/06/2018&amp;quot;
+##      url                                                                    
+## [1,] &amp;quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nå har jeg en matrise med en linje og to variabler. Senere skal vi
+lage et datasett (en datamatrise) av denne og alle andre observasjoner
+vi samler inn (fra andre sider). Men foreløpig har vi et potensielt
+problem. Hva om informasjonen vi ønsker ikke ligger i node 2 hver
+gang?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;generalisere-med-indeksering&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Generalisere med indeksering&lt;/h2&gt;
+&lt;p&gt;Det er en fordel å bruke mer generelt språk når vi skraper. Da kan vi
+bruke html-strukturen.&lt;/p&gt;
+&lt;p&gt;Jeg begynner med å hente ut alle familier som har en “forelder” med
+navnet “dl”. Dette lagrer jeg i et nytt objekt jeg kaller
+&lt;code&gt;familie&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;familier &amp;lt;- doc %&amp;gt;%
+  html_nodes(&amp;quot;dl&amp;quot;)
+familier&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## {xml_nodeset (7)}
+## [1] &amp;lt;dl class=&amp;quot;NMetadata&amp;quot;&amp;gt;\n&amp;lt;dt xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Authenti ...
+## [2] &amp;lt;dl class=&amp;quot;NMetadata&amp;quot;&amp;gt;\n&amp;lt;dt xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Date of  ...
+## [3] &amp;lt;dl class=&amp;quot;NMetadata&amp;quot;&amp;gt;\n&amp;lt;dt xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Subject  ...
+## [4] &amp;lt;dl class=&amp;quot;NMetadata&amp;quot;&amp;gt;\n&amp;lt;dt xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Author:  ...
+## [5] &amp;lt;dl class=&amp;quot;NMetadata&amp;quot;&amp;gt;\n&amp;lt;dt xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Type of  ...
+## [6] &amp;lt;dl class=&amp;quot;NMetadata&amp;quot;&amp;gt;\n&amp;lt;dt xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Notes re ...
+## [7] &amp;lt;dl class=&amp;quot;NMetadata&amp;quot;&amp;gt;\n&amp;lt;dt&amp;gt;Treaty: &amp;lt;/dt&amp;gt;\n            &amp;lt;dd&amp;gt;\n             ...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Det er flere slike “familier”. Derfor “tar jeg tak” i familien jeg er
+interessert i. Da bruker jeg &lt;code&gt;grep()&lt;/code&gt; -funksjonen for å finne
+nodenummeret til familien med et barn som inneholder info om “Date of
+document”.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;grep(&amp;quot;Date of document&amp;quot;, familier)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 2&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Jeg får til svar at det er node (“forelder”) 2 som har et slikt barn.
+Nå kan jeg indeksere. Det kan jeg gjøre på ulikt vis.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Dette er synonymer
+familier[2]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## {xml_nodeset (1)}
+## [1] &amp;lt;dl class=&amp;quot;NMetadata&amp;quot;&amp;gt;\n&amp;lt;dt xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Date of  ...&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;familier[grep(&amp;quot;Date of document&amp;quot;, familier)]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## {xml_nodeset (1)}
+## [1] &amp;lt;dl class=&amp;quot;NMetadata&amp;quot;&amp;gt;\n&amp;lt;dt xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Date of  ...&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;id &amp;lt;- grep(&amp;quot;Date of document&amp;quot;, familier)
+familier[id]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## {xml_nodeset (1)}
+## [1] &amp;lt;dl class=&amp;quot;NMetadata&amp;quot;&amp;gt;\n&amp;lt;dt xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Date of  ...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ved å lagre indekseringen i &lt;code&gt;id&lt;/code&gt; kan jeg bruke koden selv
+for tilfeller hvor det ikke er andre familie-node som er den
+riktige.&lt;/p&gt;
+&lt;p&gt;Jeg lagrer riktig familie i en node.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;familie &amp;lt;- familier[id]
+familie&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## {xml_nodeset (1)}
+## [1] &amp;lt;dl class=&amp;quot;NMetadata&amp;quot;&amp;gt;\n&amp;lt;dt xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Date of  ...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nå inneholder &lt;code&gt;familie&lt;/code&gt; barna i den riktige familien, men
+jeg ønsker bare ett av barna. Det betyr en ny omgang med
+indeksering.&lt;/p&gt;
+&lt;p&gt;“dd” og “dt” kommer i par. “dt” inneholder datotittelen, mens “dt”
+inneholder selve datoen. Jeg bruker “dt” til å finne indeksnummeret…&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Trekk ut barn med dato
+tittel.barn &amp;lt;- familie %&amp;gt;% 
+  html_nodes(&amp;quot;dt&amp;quot;)
+tittel.barn&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## {xml_nodeset (2)}
+## [1] &amp;lt;dt xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Date of document: &amp;lt;/dt&amp;gt;
+## [2] &amp;lt;dt xmlns=&amp;quot;http://www.w3.org/1999/xhtml&amp;quot;&amp;gt;Date lodged: &amp;lt;/dt&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Indeks for dato
+id2 &amp;lt;- grep(&amp;quot;Date of document&amp;quot;, tittel.barn)
+id2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 1&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;… men jeg henter ut informasjon fra “dd”. Det gjør jeg ved å gå ett
+skritt tilbake, så et fram, denne gangen i retning av “dd”.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Trekk ut dato fra familien
+dato.barn &amp;lt;- familie %&amp;gt;% 
+  html_nodes(&amp;quot;dd&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Til sist, trekker jeg ut teksten vekk fra html-koden ved hjelp av
+&lt;code&gt;html_text()&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Trekk ut teksten
+dato &amp;lt;- dato.barn[id2] %&amp;gt;%
+  html_text()
+&lt;p&gt;dato&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;05/06/2018&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Voilà!&lt;/p&gt;
+&lt;p&gt;Nå kan jeg lage den samme matrisen som i stad.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tmp &amp;lt;- cbind(url, dato)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Hva har jeg vunnet? Jeg har generalisert koden min, slik at jeg skal
+kunne skrape flere sider uten å behøve å endre koden for hver gang.
+Etter å ha generalisert koden min, vil jeg mangfoldiggjøre den.&lt;/p&gt;
+&lt;!-- ## Lagre kodesnutten i en funksjon --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mangfoldiggjør-skriv-en-løkke&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Mangfoldiggjør: skriv en løkke&lt;/h1&gt;
+&lt;p&gt;Å skrape én enkelt nettside/dokument tar mye tid. Stordriftsfordelen
+kommer av at jeg kan bruke den samme koden på neste side. Det betyr at
+jeg må oppgi adressen til neste nettside som skal skrapes og kjøre den
+samme koden igjen.&lt;/p&gt;
+&lt;div id=&#34;definer-et-r-objekt-for-datamatrisen&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Definer et R-objekt for datamatrisen&lt;/h2&gt;
+&lt;p&gt;Før jeg skraper første gang, oppretter jeg et tomt R-objekt som jeg
+har kalt &lt;code&gt;df&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;df &amp;lt;- NULL&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Dette er objektet jeg kommer til å lagre dataene mine i.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;fra-én-til-to-observasjoner&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Fra én til to observasjoner&lt;/h2&gt;
+&lt;p&gt;Nå kommer første test. Vil koden min fungere på neste domsavsigelse?
+For å teste dette, samler jeg hele kodesnutten. Det eneste jeg endrer er
+url-adressen.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;url &amp;lt;- &amp;quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62014CJ0438&amp;quot;
+&lt;p&gt;#Les inn nettsiden
+doc &amp;lt;- read_html(url)&lt;/p&gt;
+&lt;p&gt;#Finn alle familier
+familier &amp;lt;- doc %&amp;gt;%
+html_nodes(&amp;quot;dl&amp;quot;)&lt;/p&gt;
+&lt;p&gt;#Finn familien med riktig barn
+id &amp;lt;- grep(&amp;quot;Date of document&amp;quot;, familier)
+familie &amp;lt;- familier[id]&lt;/p&gt;
+&lt;p&gt;#To parallelle operasjoner&lt;/p&gt;
+&lt;p&gt;#1. finn noden med riktig datotittel
+tittel.barn &amp;lt;- familie %&amp;gt;% 
+html_nodes(&amp;quot;dt&amp;quot;)&lt;/p&gt;
+&lt;p&gt;id2 &amp;lt;- grep(&amp;quot;Date of document&amp;quot;, tittel.barn)&lt;/p&gt;
+&lt;p&gt;#2. finn noden med datoinformasjon
+dato.barn &amp;lt;- familie %&amp;gt;% 
+html_nodes(&amp;quot;dd&amp;quot;)&lt;/p&gt;
+&lt;p&gt;#Trekk ut teksten
+dato &amp;lt;- dato.barn[id2] %&amp;gt;%
+html_text()&lt;/p&gt;
+&lt;p&gt;#Lag en matrise med en linje for observasjonen
+tmp &amp;lt;- cbind(url, dato)&lt;/p&gt;
+&lt;p&gt;tmp&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;##      url                                                                    
+## [1,] &amp;quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62014CJ0438&amp;quot;
+##      dato        
+## [1,] &amp;quot;02/06/2016&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Det ser ut til å fungere! I en vanlig arbeisflyt, vil jeg ofte gå
+fram og tilbake på dette stadiet for å tilpasse koden min slik at den
+kan håndere stadig flere typer eksempler. Dette blir tema for siste
+seksjon.&lt;/p&gt;
+&lt;p&gt;Nå må jeg ta vare på informasjonen i &lt;code&gt;df&lt;/code&gt;-objektet. For
+hvert eksempel/nettside jeg har skrapet, har jeg opprettet en
+minimatrise som jeg har kalt &lt;code&gt;tmp&lt;/code&gt;. &lt;code&gt;tmp&lt;/code&gt;-objektet
+blir overskrevet hver gang jeg skraper en ny side. Derfor skriver jeg en
+ny linje i kodesnutten min, hvor jeg overfører all informasjonen fra det
+nylig skrapte siden til en matrise med alle tidligere skrapte sider. Det
+gjør jeg ved å binde de gamle dataene sammen med de nye hjelp av
+&lt;code&gt;rbind()&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;df &amp;lt;- rbind(df, tmp)
+df&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##      url                                                                    
+## [1,] &amp;quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62014CJ0438&amp;quot;
+##      dato        
+## [1,] &amp;quot;02/06/2016&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Foreløpig er &lt;code&gt;df&lt;/code&gt; ganske stusselig, men det vil snart
+endre seg.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;skriv-en-løkke&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Skriv en løkke&lt;/h2&gt;
+&lt;p&gt;Nå kan jeg mangfoldiggjøre. Måten man får R til å gjøre den samme
+tingen flere ganger, er å skrive en løkke (en “loop”). Det gjør jeg i
+tre skritt.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Sett opp en universliste&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jeg må ha en vektor med alle nettsidene jeg skal skrape. Her har jeg
+en vektor med to observasjoner.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;url &amp;lt;- c(&amp;quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62014CJ0438&amp;quot;,
+         &amp;quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;2. Jeg indekserer&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nå kan jeg indeksere url-objektet mitt. Her trekker jeg ut første
+observasjon i det som skal bli datasettet mitt.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;url[1]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62014CJ0438&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Jeg kan selvsagt gjøre indekseringen ved hjelp av et objekt. Det har
+vi jo allerede gjort.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;i = 1
+url[i]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62014CJ0438&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Her har jeg definert &lt;code&gt;i&lt;/code&gt; som 1, slik at vi ser den første
+filadressen. Men jeg kan også endre verdien til 2 uten å endre resten av
+koden min.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;i = 2
+url[i]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;… og det er nettopp det løkker gjør.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Jeg skriver en løkke&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jeg kan be R om å endre verdien til &lt;code&gt;i&lt;/code&gt; for meg. Her
+forteller jeg R at &lt;code&gt;i&lt;/code&gt; skal suksessivt ha alle verdier i
+vektoren &lt;code&gt;1:10&lt;/code&gt;. I krølle-parentesen befinner R-koden som du
+ønsker å kjøre flere ganger.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;for(i in 1:10){
+  cat(i)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 12345678910&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Vanligvis vil du ikke se hva som foregår i løkken (alt går veldig
+fort). Derfor bruker jeg &lt;code&gt;cat()&lt;/code&gt;-funksjonen i dette
+eksempelet for printe ut hva som skjer.&lt;/p&gt;
+&lt;p&gt;Nå kan jeg samle alt jeg har gjort og pakke kodesnutten inn i løkka.
+Jeg klipper og limer fra tidligere. Merk deg hvordan jeg a) indekserer
+&lt;code&gt;url[i]&lt;/code&gt; (på to steder i koden) og b) limer &lt;code&gt;tmp&lt;/code&gt;
+sammen med &lt;code&gt;df&lt;/code&gt; for hver gang jeg skraper en ny
+observasjon.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Et tomt R-objekt før løkken
+df = NULL
+&lt;p&gt;#&amp;hellip; så en løkke
+for(i in 1:2){&lt;/p&gt;
+&lt;p&gt;#Les inn nettsiden
+doc &amp;lt;- read_html(url[i])&lt;/p&gt;
+&lt;p&gt;#Finn alle familier
+familier &amp;lt;- doc %&amp;gt;%
+html_nodes(&amp;quot;dl&amp;quot;)&lt;/p&gt;
+&lt;p&gt;#Finn familien med riktig barn
+id &amp;lt;- grep(&amp;quot;Date of document&amp;quot;, familier)
+familie &amp;lt;- familier[id]&lt;/p&gt;
+&lt;p&gt;#To parallelle operasjoner&lt;/p&gt;
+&lt;p&gt;#1. finn noden med riktig datotittel
+tittel.barn &amp;lt;- familie %&amp;gt;%
+html_nodes(&amp;quot;dt&amp;quot;)&lt;/p&gt;
+&lt;p&gt;id2 &amp;lt;- grep(&amp;quot;Date of document&amp;quot;, tittel.barn)&lt;/p&gt;
+&lt;p&gt;#2. finn noden med datoinformasjon
+dato.barn &amp;lt;- familie %&amp;gt;%
+html_nodes(&amp;quot;dd&amp;quot;)&lt;/p&gt;
+&lt;p&gt;#Trekk ut teksten
+dato &amp;lt;- dato.barn[id2] %&amp;gt;%
+html_text()&lt;/p&gt;
+&lt;p&gt;#Lag en matrise med en linje for observasjonen
+tmp &amp;lt;- cbind(url[i], dato)&lt;/p&gt;
+&lt;p&gt;df &amp;lt;- rbind(df,
+tmp)
+}&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;load(&amp;quot;df.rda&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Tadaaa! Jeg har samlet in TO observasjoner. Verden ligger for mine
+føtter.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;df&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##                                                                             
+## [1,] &amp;quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62014CJ0438&amp;quot;
+## [2,] &amp;quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673&amp;quot;
+##      dato        
+## [1,] &amp;quot;02/06/2016&amp;quot;
+## [2,] &amp;quot;05/06/2018&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- # Feilsøk og andre tips og triks på veien --&gt;
+&lt;!-- ### Litt mer komplisert: to variabler, nytt observasjonsnivå --&gt;
+&lt;!-- Når nasjonale domstoler sender et prejudisielt spørsmål til EU-domstolen, slik den rumenske grunnlovsdomstolen gjorde i Coman-saken, har medlemslandenes regjeringer og ulike EU institusjoner rett til å sende sin mening om saken før dommerne tar en avgjørelse. Disse kalles &#34;observasjoner&#34;. Politisk viktige saker tiltrekker seg mange slike observasjoner.   --&gt;
+&lt;!-- La oss samle inn en ny variabel som lister opp hvem som leverte observasjoner i Coman-saken. På nettsiden står disse landene listet opp etter &#34;Observations&#34; (i tykk blå skrift). Tittelen er lagret i en node kalt &#34;dt&#34;, mens informasjonen er lagret i &#34;dd&#34;. Begge noder hører til under &#34;dl&#34;. Til forskjell fra hva vi nettopp gjorde, er det flere &#34;dt&#34;-er under &#34;dl&#34;. --&gt;
+&lt;!-- Jeg begynner --&gt;
+&lt;!-- ```{r, eval = F, echo = F} --&gt;
+&lt;!-- nodes[grep(&#34;Observations:&#34;, nodes)] %&gt;% --&gt;
+&lt;!--   html_children()  --&gt;
+&lt;!-- nodes[grep(&#34;Observations&#34;, nodes)] %&gt;% --&gt;
+&lt;!-- #  html_nodes(&#34;dd&#34;) %&gt;% --&gt;
+&lt;!--   html_nodes(&#34;dd&#34;) %&gt;% --&gt;
+&lt;!--   html_text() --&gt;
+&lt;!-- id &lt;- grep(&#34;Observations&#34;, nodes) --&gt;
+&lt;!-- id2 &lt;- grep(&#34;Observations&#34;, nodes[id] %&gt;% --&gt;
+&lt;!--        html_nodes(&#34;dt&#34;)) --&gt;
+&lt;!-- text &lt;- nodes[id] %&gt;% --&gt;
+&lt;!--   html_nodes(&#34;dd&#34;) --&gt;
+&lt;!-- observasjoner &lt;- text[id2] %&gt;% --&gt;
+&lt;!--   html_nodes(&#34;span&#34;) %&gt;% --&gt;
+&lt;!--   html_text() --&gt;
+&lt;!-- observasjoner --&gt;
+&lt;!-- tmp &lt;- cbind(url, dato, observasjoner) --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- #### Oppgave --&gt;
+&lt;!-- EUR-Lex rapporterer alle de akademiske artiklene som er publisert om hver enkelt sak i EU-domstolen. Du finner informasjon om dette under overskriften &#34;Notes relating to the decision:&#34;. Legg disse til i et datasett slik at observasjonsnivået nå blir  --&gt;
+&lt;!-- Datamaskiner elsker å gjøre den samme tingen mange ganger. Det er fint, for da kan den gjøre unna det kjedelige arbeidet, mens jeg gjør andre ting. --&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script&gt;
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $(&#39;tr.odd&#39;).parent(&#39;tbody&#39;).parent(&#39;table&#39;).addClass(&#39;table table-condensed&#39;);
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+&lt;/script&gt;
+&lt;!-- tabsets --&gt;
+&lt;script&gt;
+$(document).ready(function () {
+  window.buildTabsets(&#34;TOC&#34;);
+});
+
+$(document).ready(function () {
+  $(&#39;.tabset-dropdown &gt; .nav-tabs &gt; li&#39;).click(function () {
+    $(this).parent().toggleClass(&#39;nav-tabs-open&#39;);
+  });
+});
+&lt;/script&gt;
+&lt;!-- code folding --&gt;
+&lt;!-- dynamically load mathjax for compatibility with self-contained --&gt;
+&lt;script&gt;
+  (function () {
+    var script = document.createElement(&#34;script&#34;);
+    script.type = &#34;text/javascript&#34;;
+    script.src  = &#34;https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;;
+    document.getElementsByTagName(&#34;head&#34;)[0].appendChild(script);
+  })();
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
     
     <item>
       <title>Introduksjon til R</title>

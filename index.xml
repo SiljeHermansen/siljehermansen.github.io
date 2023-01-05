@@ -6,10 +6,37 @@
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Teaching</title>
+      <link>/teaching/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/</guid>
+      <description>&lt;p&gt;These pages provide supplementary information to students. For a comprehensive overview of my teaching activities, please refer to my CV.&lt;/p&gt;
+&lt;h2 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefchoose_glmwhat-glm-model-should-i-choosea&#34;&gt;&lt;a href=&#34;choose_glm&#34;&gt;What GLM model should I choose?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of model choice criteria, given the data generating process that produced my dependent variable. Play around with my decision tree for Generalized Linear Models (GLMs).&lt;/p&gt;
+&lt;h3 id=&#34;a-hrefskrape-datahvordan-skrape-data-i-ra&#34;&gt;&lt;a href=&#34;skrape-data&#34;&gt;Hvordan &amp;ldquo;skrape&amp;rdquo; data i R?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Det finnes et hav av digital informasjon der ute som vi kan bruke som data. Da er &#34;skraping&#34; (automatisert datainnsamling) gull verdt. Her finner du en gjennomgang av hvordan vi bruker R for å samle inn data fra nettet.&lt;/p&gt;
+&lt;h3 id=&#34;a-hreflatexpdfr--latex--santa&#34;&gt;&lt;a href=&#34;LaTeX.pdf&#34;&gt;R + LaTeX = Sant&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Latex og R arbeider godt sammen. Her finner du en kjapp gjennomgang av hvordan du kan jobbe med begge i RStudio.&lt;/p&gt;
+&lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefstv4020bstatistical-analysis-stv4020ba&#34;&gt;&lt;a href=&#34;stv4020b&#34;&gt;Statistical analysis (STV4020B)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Master&#39;s/PhD level. &lt;i&gt;University of Oslo. Department of Political Science.&lt;/i&gt; 
+&lt;a href = &#34;https://siljehermansen.github.io/teaching/stv4020b_2019/&#34;&gt;2019&lt;/a&gt;, 
+&lt;a href = &#34;https://siljehermansen.github.io/teaching/stv4020b/&#34;&gt;2020&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Advanced statistical analysis for social scientists. We go through the fundamental principals of causal inference as well as the most common generalized linear models (GLMs). Course given together with Øyvind Stiansen.&lt;/p&gt;
+&lt;h3 id=&#34;a-hrefsfs10207samfunnsvitenskapelig-forskningsmetode--sfs10207a&#34;&gt;&lt;a href=&#34;sfs10207&#34;&gt;Samfunnsvitenskapelig forskningsmetode  (SFS10207)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Bachelor&#39;s level. &lt;i&gt;Østfold University College. Faculty of Business, Languages, and Social Sciences. &lt;/i&gt; 2013&lt;/p&gt;
+&lt;p&gt;Introduction to research methods. Course given together with Mathias Johannessen.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Projects</title>
@@ -31,31 +58,6 @@
  alt = &#34;The European Parliament in Strasbourg&#34;/&gt;
 &lt;/a&gt;
 &lt;p&gt;Political parties obtain influence through their choice of representatives. Outside of parliament, they gain sway through the candidates for whom they secure election. Inside parliament party groups shape policies through the allocation of tasks to competent members. This project delves into the mutual influence of parliamentary group allocations and the choices made by extra-parliamentary party organizations. In the center are members of Parliament whose political careers are shaped by both actors.&lt;p/&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>/teaching/</link>
-      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/teaching/</guid>
-      <description>&lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
-&lt;p&gt;These pages provide supplementary information to students. For a comprehensive overview of my teaching activities, please refer to my CV.&lt;/p&gt;
-&lt;h3 id=&#34;a-hrefstv4020bstatistical-analysis-stv4020ba&#34;&gt;&lt;a href=&#34;stv4020b&#34;&gt;Statistical analysis (STV4020B)&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Master&#39;s/PhD level. &lt;i&gt;University of Oslo. Department of Political Science.&lt;/i&gt; 
-&lt;a href = &#34;https://siljehermansen.github.io/teaching/stv4020b_2019/&#34;&gt;2019&lt;/a&gt;, 
-&lt;a href = &#34;https://siljehermansen.github.io/teaching/stv4020b/&#34;&gt;2020&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Advanced statistical analysis for social scientists. We go through the fundamental principals of causal inference as well as the most common generalized linear models (GLMs). Course given together with Øyvind Stiansen.&lt;/p&gt;
-&lt;h3 id=&#34;a-hrefsfs10207samfunnsvitenskapelig-forskningsmetode--sfs10207a&#34;&gt;&lt;a href=&#34;sfs10207&#34;&gt;Samfunnsvitenskapelig forskningsmetode  (SFS10207)&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Bachelor&#39;s level. &lt;i&gt;Østfold University College. Faculty of Business, Languages, and Social Sciences. &lt;/i&gt; 2013&lt;/p&gt;
-&lt;p&gt;Introduction to research methods. Course given together with Mathias Johannessen.&lt;/p&gt;
-&lt;h2 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefchoose_glmwhat-glm-model-should-i-choosea&#34;&gt;&lt;a href=&#34;choose_glm&#34;&gt;What GLM model should I choose?&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of model choice criteria, given the data generating process that produced my dependent variable. Play around with my decision tree for Generalized Linear Models (GLMs).&lt;/p&gt;
-&lt;h3 id=&#34;a-hreflatexpdfr--latex--santa&#34;&gt;&lt;a href=&#34;LaTeX.pdf&#34;&gt;R + LaTeX = Sant&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Latex og R arbeider godt sammen. Her finner du en kjapp gjennomgang av hvordan du kan jobbe med begge i RStudio.&lt;/p&gt;
 </description>
     </item>
     
