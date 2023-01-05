@@ -12,13 +12,22 @@
     
     
     <item>
-      <title>Hvordan &#34;skrape&#34;&#34; data i R?</title>
+      <title>Hvordan &#34;skrape&#34; data i R?</title>
       <link>/teaching/skrape-data/</link>
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>/teaching/skrape-data/</guid>
       <description>&lt;html&gt;
 &lt;body&gt;
+&lt;em&gt;
+&lt;p&gt;Datamaskiner elsker å gjøre den samme tingen mange ganger. Det er
+fint, for da kan R gjøre unna det kjedelige arbeidet, mens jeg gjør
+andre ting.&lt;/p&gt;
+&lt;p&gt;Automatisert datainnsamling er ikke vanskelig, men det kan være en
+tålmodighetsprøve. Så lenge informasjonen vi er ute etter er
+strukturert med tekst eller i en html-liste, vil vi kunne fortelle en
+datamaskin hvordan dataene skal hentes ut og sorteres. Skraping er stordriftsøkonomi. Det krever en del tid å finne datastrukturen, men når dette er gjort, kan vi sette R til å jobbe for oss. Det er magisk!&lt;/p&gt;
+&lt;/em&gt;
 &lt;p&gt;Vi skal samle inn data fra &lt;a href=&#34;https://eur-lex.europa.eu&#34;&gt;EUR-Lex&lt;/a&gt;. EUR-Lex er nettsiden hvor
 alle EU sine offisielle dokumenter befinner seg for offentlig innsyn.
 Spesifikt, er jeg interessert i å samle inn “metainformasjon” om
