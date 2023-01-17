@@ -137,9 +137,9 @@ Velkommen til R workshop! Formålet med denne workshopen er å gi deg den grunnl
 Dette er en workshop. Det betyr at vi jobber aktivt i R sammen gjennom hele kurset."><meta property="og:image" content="/img/silje_hermansen.jpg">
   <meta property="twitter:image" content="/img/silje_hermansen.jpg"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2022-08-26T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2023-01-06T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2022-08-26T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2023-01-06T00:00:00&#43;00:00">
   
 
   
@@ -404,8 +404,8 @@ Dette er en workshop. Det betyr at vi jobber aktivt i R sammen gjennom hele kurs
 
 
 
-<meta content="2022-08-26 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2022-08-26 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2023-01-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-01-06 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -430,7 +430,7 @@ Dette er en workshop. Det betyr at vi jobber aktivt i R sammen gjennom hele kurs
     
       
     
-    <time>2022-08-26</time>
+    <time>2023-01-06</time>
   </span>
   
 
@@ -610,6 +610,27 @@ Dette er en workshop. Det betyr at vi jobber aktivt i R sammen gjennom hele kurs
 <p><em>I forkant av workshopen bør du ha installert <code>rmarkdown</code>. Du kan finne instrukser her: <a href="https://bookdown.org/yihui/rmarkdown-cookbook/installation.html">https://bookdown.org/yihui/rmarkdown-cookbook/installation.html</a></em></p>
 <p><strong>Sesjon 11</strong>:  <a href="sesjon11.html">Regresjoner: Analyse og tolkning</a></p>
 <p>Data for sesjonen: <a href="kap7.rda">kap7</a></p>
+<h3 id="fjerde-workshop-skraping-i-r-automatisert-datainnsamling">Fjerde workshop: Skraping i R (Automatisert datainnsamling)</h3>
+<p><strong>Tid:</strong> kl. 09.00-12.00; 6. januar 2023</p>
+<p><strong>Sted:</strong> Arbeidsforskningsinstituttet, OsloMet (Pilestredet 46, Clara Holst hus: <a href="https://link.mazemap.com/snTI0QWH">PA314</a>)</p>
+<!-- ![](figurer/RStudio-Logo.png){width="20%" align="right"} -->
+<p>Det finnes et hav av digital informasjon der ute som vi kan bruke som data. Da er &ldquo;skraping&rdquo; (automatisert datainnsamling) gull verdt. Automatisert datainnsamling er noe av det smarteste jeg lærte under doktorgraden. Dataene jeg bruker i forskningen min kommer i all hovedsak fra digitale dokumenter som R har prosessert for meg.</p>
+<p>Automatisert datainnsamling er ikke vanskelig, men det kan være en tålmodighetsprøve. Så lenge informasjonen vi er ute etter er strukturert med tekst eller i en html-liste, vil vi kunne fortelle en datamaskin hvordan dataene skal hentes ut og sorteres. Skraping er stordriftsøkonomi. Det krever en del tid å finne datastrukturen, men når dette er gjort, kan vi sette R til å jobbe for oss. Det er magisk!</p>
+<p>I denne workshopen skal vi gå gjennom hovedprinsippene for hvordan vi leser tekst fra nettsider og hvordan vi kan hente ut informasjon fra denne teksten og legge den inn i en datamatrise. I prosessen får vi bruk for indekseringen og de regelmessige uttrykkene vi har lært tidligere. Vi kommer også til å gå gjennom tips og triks for stordriftsøkonomi i R ved hjelp av funksjoner og løkker.</p>
+<p>Du kan komme til workshopen med varierende ambisjonsnivå. Vi skal gå gjennom en typisk arbeidsprosess for automatisert datainnsamling. I tillegg vil jeg gi noen indikasjoner på hvilke avveininger som er lure å gjøre når vi lager en innsamlingsstratgi. På slutten av workshopen, vil du kjenne til hovedprinsippene for slik datainnsamling og kan begynne med ditt eget prosjekt. Men du kan også bruke workshopen som en demonstrasjon av R-triks vi allerede er blitt kjent med og hanke inn ekstra tips for hvordan gjøre R-kodingen mer effektiv når du tilrettelegger data.</p>
+<!-- Det vil si, vi kommer til å bruke mange av byggesteinene vi har sett tidligere i høst: regelmessige uttrykk og indeksering. -->
+<!-- I forkant av kurset, kan du installere hovedpakkene vi skal bruke `rvest` og `stringr`. -->
+<p>Jeg vil dele r-notatene mine gjennom kurset. De vil dere finne på denne linken: <a href="https://siljehermansen.github.io/teaching)">https://siljehermansen.github.io/teaching)</a>.</p>
+<p><strong>Hente ut data fra tekst</strong></p>
+<p>Vi begynner med å surfe nettet. Første skritt er å legge en strategi: Hvilken informasjon er vi ute etter? Hvordan tenker vi at datamatrisen vår skal se ut? Hvilken informasjon er tilgjengelig? Selv om vi til slutt vil lese inn informasjon fra mange ulike nettsider, vil vi begynne med et typisk eksempel på én observasjon (ett dokument).</p>
+<p>Deretter begynner arbeidet. Vi leser nettsiden for det første eksempelet inn i R og bruker indekseringsverktøyet for å hente ut dataene vi ønsker oss. For å gjøre dette, ser vi etter regelmessigheter i tekstdokumentet.</p>
+<p><strong>Mangfoldiggjøring</strong></p>
+<p>Neste skritt er mangfoldiggjøring. Vi har skrevet en R-kode som henter ut informasjon for én observasjon. R-koden vil som oftest innebære flere operasjoner som skal gjøres etter hverandre mange ganger. Da er det nyttig å skrive en løkke (en &ldquo;loop&rdquo;).</p>
+<p>På dette tidspunktet vi jobbe fram og tilbake mellom eksempler og mangfoldiggjøring. Det vil si, ofte finnes det enten uregelmessigheter i kildene våre eller flere alternative tekststrukturer. Da er det praktisk å skrive en algoritme. En algoritme bygger på en enkel logikk hvor vi skriver ulike kodesnutter for ulike tekststrukturer og starter hver kodesnutt med et &ldquo;hvis/hvis-ikke&rdquo;-spørsmål.</p>
+<p>For de som er interessert, vil vi til sist skrive vår egen funksjon. Det gjør at R arbeider fortere, og gjør R-kodene våre lettere å lese.</p>
+<p><strong>Postprosessering og andre triks</strong></p>
+<p>Til sist, vil vi gå gjennom ulike tips og triks for arbeid i R. Dette er nyttig uansett om vi har skrapet dataene selv, eller bare har data og filer vi ønsker å tilrettelegge.</p>
+<p>Når dataene er samlet inn, gjenstår det vanlige arbeidet med å rense dem. Da vil vi nok en gang få bruk for de regelmessige uttrykkene vi har sett i løpet av høsten.</p>
 <!--**Sesjon 12**:  [Regresjoner: Logistisk regresjon](sesjon12.html)
 
 Data for sesjonen: [df_all](df_all.rda)-->
@@ -745,6 +766,8 @@ Data for sesjonen: [df_all](df_all.rda)-->
         <h3>Related</h3>
         <ul>
           
+          <li><a href="/teaching/skrape-data/">Hvordan &#34;skrape&#34; data i R?</a></li>
+          
           <li><a href="/teaching/choose_glm/">What GLM should I choose?</a></li>
           
           <li><a href="/teaching/stv4020b/">Statistical analysis (STV4020B)</a></li>
@@ -752,8 +775,6 @@ Data for sesjonen: [df_all](df_all.rda)-->
           <li><a href="/data/laerdegr/">Installere R-pakken</a></li>
           
           <li><a href="/publication/laerdegr/">Lær deg R</a></li>
-          
-          <li><a href="/teaching/sfs10207/">Samfunnsvitenskapelig forskningsmetode (SFS10207)</a></li>
           
         </ul>
       </div>

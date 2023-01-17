@@ -6,10 +6,95 @@
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Introduksjon til R</title>
+      <link>/teaching/oslomet/</link>
+      <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/oslomet/</guid>
+      <description>&lt;a&gt;
+&lt;img src=&#34;RStudio-Logo.png&#34; width=&#34;45%&#34; align=&#34;right&#34; caption = &#34;RStudio&#34;  alt = &#34;RStudio&#34;/&gt;
+&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;Sted:&lt;/strong&gt; Arbeidsforskningsinstituttet, OsloMet&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kursholder:&lt;/strong&gt; Silje Synnøve Lyder Hermansen&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Epost:&lt;/strong&gt; &lt;a href=&#34;mailto:silje.hermansen@ifs.ku.dk&#34;&gt;silje.hermansen@ifs.ku.dk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Velkommen til R workshop! Formålet med denne workshopen er å gi deg den grunnleggende kunnskapen du trenger for å navigere R på egenhånd. Du blir ingen ekspert, men etter våre to dager sammen, vil du ha et innblikk i &amp;ndash; og førstehånds erfaring med &amp;ndash; hvordan R fungerer.&lt;/p&gt;
+&lt;p&gt;Dette er en workshop. Det betyr at vi jobber aktivt i R sammen gjennom hele kurset. Ta med deg laptop-en din og gjør deg klar til å skrive! &lt;em&gt;I forkant bør du allerede ha installert R&lt;/em&gt; (&lt;a href=&#34;https://www.r-project.org/;&#34;&gt;https://www.r-project.org/;&lt;/a&gt; statistikkprogrammet) &lt;em&gt;og RStudio&lt;/em&gt; (&lt;a href=&#34;https://www.rstudio.com/products/rstudio/;&#34;&gt;https://www.rstudio.com/products/rstudio/;&lt;/a&gt; brukergrensesnittet). Om du møter på problemer, kan du også møte opp en halvtime tidligere på tirsdag.&lt;/p&gt;
+&lt;p&gt;Alle skal med! Derfor kan vi justere på programmet underveis. Jeg vil dele r-notatene mine gjennom kurset. De vil dere finne på denne linken: &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet)&#34;&gt;https://siljehermansen.github.io/teaching/oslomet)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;første-workshop-introduksjon-til-r&#34;&gt;Første workshop: Introduksjon til R&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Tid:&lt;/strong&gt; kl. 09.30-15.00; 30.-31. august 2022&lt;/p&gt;
+&lt;h3 id=&#34;dag-1-de-første-byggesteinene&#34;&gt;Dag 1: De første byggesteinene&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Sted:&lt;/strong&gt; &lt;a href=&#34;https://link.mazemap.com/kdBalZU6&#34;&gt;Ingeniørhuset, rom PH424&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Første dag jobber vi i base-R. Fokuset er på å bli kjent med R-språket og få på plass gode arbeidsrutiner.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 1&lt;/strong&gt;: &lt;a href=&#34;sesjon1.html&#34;&gt;Kom i gang&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 2-3&lt;/strong&gt;: &lt;a href=&#34;sesjon2.html&#34;&gt;Datatyper, objekter og funksjoner&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 4&lt;/strong&gt;: &lt;a href=&#34;sesjon4.html&#34;&gt;R som tegneprogram&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 5&lt;/strong&gt;: Arbeidsflyt&lt;/p&gt;
+&lt;h3 id=&#34;dag-2-analyse-i-r&#34;&gt;Dag 2: Analyse i R&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Sted:&lt;/strong&gt; &lt;a href=&#34;https://link.mazemap.com/smWfgHM7&#34;&gt;Sykepleierhuset, rom N040.012&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Andre dag begynner vi med analyser. Nå introduserer jeg også andre R-dialekter.&lt;/p&gt;
+&lt;p&gt;I forkant av workshopen, kan du installere de følgende R-pakkene: &lt;code&gt;tidyverse&lt;/code&gt; (denne kan ta tid), &lt;code&gt;dplyr&lt;/code&gt;, &lt;code&gt;ggplot2&lt;/code&gt;, &lt;code&gt;kableExtra&lt;/code&gt;. &lt;code&gt;stargazer&lt;/code&gt; og &lt;code&gt;MASS&lt;/code&gt;.  Dette gjør du ved å skrive &lt;code&gt;install.packages(&amp;quot;tidyverse&amp;quot;)&lt;/code&gt; i R-konsollen.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 6&lt;/strong&gt;: &lt;a href=&#34;sesjon6.html&#34;&gt;Beskrivende statistikk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I denne sesjonen skal vi bruke data fra kapittel 5 i &lt;em&gt;Lær deg R&lt;/em&gt;. Dette er data fra den norske runden av &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap5.rda&#34;&gt;ESS (2014)&lt;/a&gt;. Du kan laste dem ned her.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 7-8&lt;/strong&gt;:  &lt;a href=&#34;sesjon7.html&#34;&gt;Tilrettelegging av data&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I denne sesjonen skal vi bruke data fra kapittel 6 i &lt;em&gt;Lær deg R&lt;/em&gt;. Dette er data fra den norske runden av &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap6.rda&#34;&gt;ESS (2014)&lt;/a&gt; samt &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap6b.rda&#34;&gt;Chapel Hill Survey&lt;/a&gt; fra samme år.&lt;/p&gt;
+&lt;h2 id=&#34;andre-workshop-visualisering&#34;&gt;Andre workshop: Visualisering&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Tid:&lt;/strong&gt; kl. 09.30-12.00; 10. oktober 2022&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sted:&lt;/strong&gt; &lt;a href=&#34;https://use.mazemap.com/#v=1&amp;amp;zlevel=4&amp;amp;center=10.735574,59.919639&amp;amp;zoom=18&amp;amp;sharepoitype=poi&amp;amp;sharepoi=562422&amp;amp;campusid=53&#34;&gt;Pilestredet 35, Ellen Gleditschs hus: PI451&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I denne workshopen fokuserer vi på visualisering. Vi begynner med å lage tabeller.  Deretter går vi gjennom noen av de grafiske mulighetene som R tilbyr.&lt;/p&gt;
+&lt;p&gt;Selv om vi fokuserer på beskrivende statistikk og presentasjon idag, har flere av teknikkene vi bruker mye til felles både med hva vi har sett tidligere og hva vi skal gjøre framover. Vi benytter sjansen til å gjenta noe av hva vi gjorde da vi tilrettela data. Vi varmer også opp til dynamisk rapportering og modellering, som vi skal se neste gang vi møtes.&lt;/p&gt;
+&lt;p&gt;Dataene vi skal bruke idag, kommer også fra ESS (2014). Jeg bruker en tilrettelagt versjon for Norge i &lt;a href=&#34;https://siljehermansen.github.io/teaching/oslomet/kap7.rda&#34;&gt;Lær deg R (kapittel 7)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 9&lt;/strong&gt;:  &lt;a href=&#34;sesjon9.html&#34;&gt;Tabeller: dplyr, tidyr og kableExtra&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vi begynner dagen med tabeller. I denne sesjonen bruker vi &lt;code&gt;dplyr&lt;/code&gt;-, &lt;code&gt;tidyr&lt;/code&gt;- og &lt;code&gt;kableExtra&lt;/code&gt;-pakkene. Sistnevnte har du muligens ikke installert enda.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 10&lt;/strong&gt;:  &lt;a href=&#34;sesjon10.html&#34;&gt;Mer tegning: ggplot2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vi tar et bad i ggplot2: R er blitt populært ikke minst på grunn av visualiseringsmulighetene det tilbyr. &lt;code&gt;ggplot2&lt;/code&gt;-pakken har vært instrumentell i denne utviklingen.&lt;/p&gt;
+&lt;h2 id=&#34;tredje-workshop-modellering-og-dynamisk-rapportering&#34;&gt;Tredje workshop: Modellering og dynamisk rapportering&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Tid:&lt;/strong&gt; kl. 09.30-12.00; 2. desember 2022&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sted:&lt;/strong&gt; Arbeidsforskningsinstituttet, OsloMet&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kursholder:&lt;/strong&gt; Silje Synnøve Lyder Hermansen, Førsteamuanensis, Universitetet i København&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Epost:&lt;/strong&gt; &lt;a href=&#34;mailto:silje.hermansen@ifs.ku.dk&#34;&gt;silje.hermansen@ifs.ku.dk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Webside:&lt;/strong&gt; &lt;a href=&#34;https://siljehermansen.github.io&#34;&gt;https://siljehermansen.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;!-- ![](figurer/RStudio-Logo.png){width=&#34;20%&#34; align=&#34;right&#34;} --&gt;
+&lt;p&gt;Velkommen til en ny R-workshop! Til nå har vi fokusert på arbeidsflyten i R, datatilrettelegging og beskrivende statistikk. I desember vil vi endelig gå gjennom modellering i R og hvordan vi kan rapportere resultatene.&lt;/p&gt;
+&lt;p&gt;R åpner for mange ulike modelleringer tilgjenglig i ulike pakker. De bygger alle på samme lest. For denne workshopen fokuserer vi derfor på basismodellene: lineære modeller. Vi vil gå gjennom syntaksen for modellen, samt hvordan vi kan presentere resultatene med tall, ord og tegning.&lt;/p&gt;
+&lt;p&gt;Ofte produserer vi liknende dokumenter basert på samme type data og analyser. Dette er typisk for årlige rapporteringer (f.eks. årsstatistikk), men også for nye versjoner av forskningsarbeidene våre (f.eks et nytt konferansepaper). Selve dataene og resultatene endrer seg ofte mellom disse versjonene: Vi har nye data (f.eks. data for et nytt år eller nyinnsamlede/korrigerte data) og dermed endrer også resultatene seg. Derimot er ofte selve analyseteksten og strukturen den samme mellom ulike versjoner. Da er det nyttig å bruke dynamiske rapporter som automatisk integrerer endringene.&lt;/p&gt;
+&lt;p&gt;R kan integreres med tekstbehandling for å produsere Word-, LaTeX- eller html-dokumenter. Da &amp;ldquo;flettes&amp;rdquo; R-kodene sammen med teksten, tabellene og grafikkene og resultatene oppdateres. Dette gjør det mulig å dokumentere og oppdatere hva vi gjør underveis. Løsningen gjør det mulig å skrive papere, rapporter, &amp;ldquo;notatblokker&amp;rdquo;, lysbilder/slides, websider og interaktive &amp;ldquo;apper&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;I denne workshopen går jeg gjennom hovedprinsippene og demonstrerer noen av mulighetene som RStudio åpner for oss. Jeg viser hvordan vi kan lage tekstdokumenter hvor vi integrerer resulattabeller, språklig og visuell tolkning. Dette er enormt arbeidsbesparende! Denne workshopen introduserer nettopp denne arbeidsflyten.&lt;/p&gt;
+&lt;p&gt;Jeg vil basere introduksjonen på rmarkdown-språket og pandoc-løsningen. Du kan få en oversikt over mulighetene her: &lt;a href=&#34;https://rmarkdown.rstudio.com/articles.html&#34;&gt;https://rmarkdown.rstudio.com/articles.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I forkant av workshopen bør du ha installert &lt;code&gt;rmarkdown&lt;/code&gt;. Du kan finne instrukser her: &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown-cookbook/installation.html&#34;&gt;https://bookdown.org/yihui/rmarkdown-cookbook/installation.html&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sesjon 11&lt;/strong&gt;:  &lt;a href=&#34;sesjon11.html&#34;&gt;Regresjoner: Analyse og tolkning&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Data for sesjonen: &lt;a href=&#34;kap7.rda&#34;&gt;kap7&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;fjerde-workshop-skraping-i-r-automatisert-datainnsamling&#34;&gt;Fjerde workshop: Skraping i R (Automatisert datainnsamling)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Tid:&lt;/strong&gt; kl. 09.00-12.00; 6. januar 2023&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sted:&lt;/strong&gt; Arbeidsforskningsinstituttet, OsloMet (Pilestredet 46, Clara Holst hus: &lt;a href=&#34;https://link.mazemap.com/snTI0QWH&#34;&gt;PA314&lt;/a&gt;)&lt;/p&gt;
+&lt;!-- ![](figurer/RStudio-Logo.png){width=&#34;20%&#34; align=&#34;right&#34;} --&gt;
+&lt;p&gt;Det finnes et hav av digital informasjon der ute som vi kan bruke som data. Da er &amp;ldquo;skraping&amp;rdquo; (automatisert datainnsamling) gull verdt. Automatisert datainnsamling er noe av det smarteste jeg lærte under doktorgraden. Dataene jeg bruker i forskningen min kommer i all hovedsak fra digitale dokumenter som R har prosessert for meg.&lt;/p&gt;
+&lt;p&gt;Automatisert datainnsamling er ikke vanskelig, men det kan være en tålmodighetsprøve. Så lenge informasjonen vi er ute etter er strukturert med tekst eller i en html-liste, vil vi kunne fortelle en datamaskin hvordan dataene skal hentes ut og sorteres. Skraping er stordriftsøkonomi. Det krever en del tid å finne datastrukturen, men når dette er gjort, kan vi sette R til å jobbe for oss. Det er magisk!&lt;/p&gt;
+&lt;p&gt;I denne workshopen skal vi gå gjennom hovedprinsippene for hvordan vi leser tekst fra nettsider og hvordan vi kan hente ut informasjon fra denne teksten og legge den inn i en datamatrise. I prosessen får vi bruk for indekseringen og de regelmessige uttrykkene vi har lært tidligere. Vi kommer også til å gå gjennom tips og triks for stordriftsøkonomi i R ved hjelp av funksjoner og løkker.&lt;/p&gt;
+&lt;p&gt;Du kan komme til workshopen med varierende ambisjonsnivå. Vi skal gå gjennom en typisk arbeidsprosess for automatisert datainnsamling. I tillegg vil jeg gi noen indikasjoner på hvilke avveininger som er lure å gjøre når vi lager en innsamlingsstratgi. På slutten av workshopen, vil du kjenne til hovedprinsippene for slik datainnsamling og kan begynne med ditt eget prosjekt. Men du kan også bruke workshopen som en demonstrasjon av R-triks vi allerede er blitt kjent med og hanke inn ekstra tips for hvordan gjøre R-kodingen mer effektiv når du tilrettelegger data.&lt;/p&gt;
+&lt;!-- Det vil si, vi kommer til å bruke mange av byggesteinene vi har sett tidligere i høst: regelmessige uttrykk og indeksering. --&gt;
+&lt;!-- I forkant av kurset, kan du installere hovedpakkene vi skal bruke `rvest` og `stringr`. --&gt;
+&lt;p&gt;Jeg vil dele r-notatene mine gjennom kurset. De vil dere finne på denne linken: &lt;a href=&#34;https://siljehermansen.github.io/teaching)&#34;&gt;https://siljehermansen.github.io/teaching)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hente ut data fra tekst&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Vi begynner med å surfe nettet. Første skritt er å legge en strategi: Hvilken informasjon er vi ute etter? Hvordan tenker vi at datamatrisen vår skal se ut? Hvilken informasjon er tilgjengelig? Selv om vi til slutt vil lese inn informasjon fra mange ulike nettsider, vil vi begynne med et typisk eksempel på én observasjon (ett dokument).&lt;/p&gt;
+&lt;p&gt;Deretter begynner arbeidet. Vi leser nettsiden for det første eksempelet inn i R og bruker indekseringsverktøyet for å hente ut dataene vi ønsker oss. For å gjøre dette, ser vi etter regelmessigheter i tekstdokumentet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mangfoldiggjøring&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Neste skritt er mangfoldiggjøring. Vi har skrevet en R-kode som henter ut informasjon for én observasjon. R-koden vil som oftest innebære flere operasjoner som skal gjøres etter hverandre mange ganger. Da er det nyttig å skrive en løkke (en &amp;ldquo;loop&amp;rdquo;).&lt;/p&gt;
+&lt;p&gt;På dette tidspunktet vi jobbe fram og tilbake mellom eksempler og mangfoldiggjøring. Det vil si, ofte finnes det enten uregelmessigheter i kildene våre eller flere alternative tekststrukturer. Da er det praktisk å skrive en algoritme. En algoritme bygger på en enkel logikk hvor vi skriver ulike kodesnutter for ulike tekststrukturer og starter hver kodesnutt med et &amp;ldquo;hvis/hvis-ikke&amp;rdquo;-spørsmål.&lt;/p&gt;
+&lt;p&gt;For de som er interessert, vil vi til sist skrive vår egen funksjon. Det gjør at R arbeider fortere, og gjør R-kodene våre lettere å lese.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Postprosessering og andre triks&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Til sist, vil vi gå gjennom ulike tips og triks for arbeid i R. Dette er nyttig uansett om vi har skrapet dataene selv, eller bare har data og filer vi ønsker å tilrettelegge.&lt;/p&gt;
+&lt;p&gt;Når dataene er samlet inn, gjenstår det vanlige arbeidet med å rense dem. Da vil vi nok en gang få bruk for de regelmessige uttrykkene vi har sett i løpet av høsten.&lt;/p&gt;
+&lt;!--**Sesjon 12**:  [Regresjoner: Logistisk regresjon](sesjon12.html)
+
+Data for sesjonen: [df_all](df_all.rda)--&gt;
+</description>
+    </item>
     
     <item>
       <title>Hvordan &#34;skrape&#34; data i R?</title>
@@ -22,12 +107,11 @@
 &lt;em&gt;
 &lt;p&gt;Datamaskiner elsker å gjøre den samme tingen mange ganger. Det er
 fint, for da kan R gjøre unna det kjedelige arbeidet, mens jeg gjør
-andre ting.&lt;/p&gt;
+andre ting.&lt;/p&gt;&lt;/em&gt;
 &lt;p&gt;Automatisert datainnsamling er ikke vanskelig, men det kan være en
 tålmodighetsprøve. Så lenge informasjonen vi er ute etter er
 strukturert med tekst eller i en html-liste, vil vi kunne fortelle en
 datamaskin hvordan dataene skal hentes ut og sorteres. Skraping er stordriftsøkonomi. Det krever en del tid å finne datastrukturen, men når dette er gjort, kan vi sette R til å jobbe for oss. Det er magisk!&lt;/p&gt;
-&lt;/em&gt;
 &lt;p&gt;Vi skal samle inn data fra &lt;a href=&#34;https://eur-lex.europa.eu&#34;&gt;EUR-Lex&lt;/a&gt;. EUR-Lex er nettsiden hvor
 alle EU sine offisielle dokumenter befinner seg for offentlig innsyn.
 Spesifikt, er jeg interessert i å samle inn “metainformasjon” om
