@@ -25,8 +25,17 @@
     
     <item>
       <title></title>
-      <link>/authors/brekke/</link>
+      <link>/authors/pegan/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/pegan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/brekke/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>/authors/brekke/</guid>
       <description></description>
@@ -35,7 +44,7 @@
     <item>
       <title></title>
       <link>/authors/fjelstul/</link>
-      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>/authors/fjelstul/</guid>
       <description></description>
@@ -44,18 +53,9 @@
     <item>
       <title></title>
       <link>/authors/naurin/</link>
-      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>/authors/naurin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/pegan/</link>
-      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/pegan/</guid>
       <description></description>
     </item>
     
