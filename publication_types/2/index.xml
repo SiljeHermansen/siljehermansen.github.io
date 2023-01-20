@@ -35,6 +35,30 @@
     </item>
     
     <item>
+      <title>The CJEU Database Platform: Decisions and Decision-Makers</title>
+      <link>/publication/jlc2023/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/jlc2023/</guid>
+      <description>&lt;!---
+&lt;a href=&#34;&#34;&gt;
+&lt;img src=&#34;EffectOfSpecialization.png&#34; alt=&#34;The positive effect of staying in the same committee decreases over time.&#34;&gt;
+&lt;/a&gt;
+---&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This article presents the CJEU Database Platform, which provides scholars with an extensive collection of easily accessible, research-ready data on the the universe of cases, decisions, and judges at the Court of Justice of the European Union (CJEU). The CJEU Database Platform provides a foundation for the broader CJEU Database currently being developed by The IUROPA Project, a multidisciplinary group of scholars researching judicial politics in the European Union (EU). In this article, we illustrate how the CJEU Database Platform opens the door to new areas of theoretical and empirical research
+on judicial politics in the EU.&lt;/p&gt; 
+&lt;!---
+**Replication files** can be downloaded [here](https://github.com/SiljeHermansen/Replication-files)
+---&gt;
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brekke, Stein-Arne, Joshua Fjelstul, Silje Synnøve Lyder Hermansen, Daniel Naurin (forthcoming) &amp;ldquo;The CJEU Database Platform: Decisions and Decision-Makers&amp;rdquo; &lt;em&gt;The Journal of Law and Courts&lt;/em&gt;, 0 (0), 1-35.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Introducing COMEPELDA: Comprehensive European Parliament electoral data covering rules, parties and candidates</title>
       <link>/publication/eup2022/</link>
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
@@ -53,30 +77,6 @@
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Däubler, Thomas, Mihail Chiru, Silje Synnøve Lyder Hermansen (2022) &amp;ldquo;Introducing COMEPELDA: Comprehensive European Parliament electoral data covering rules, parties and candidates&amp;rdquo; &lt;em&gt;European Union Politics&lt;/em&gt;, 23(2), 351-371.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The CJEU Database Platform: Decisions and Decision-Makers</title>
-      <link>/publication/jlc2023/</link>
-      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/jlc2023/</guid>
-      <description>&lt;!---
-&lt;a href=&#34;&#34;&gt;
-&lt;img src=&#34;EffectOfSpecialization.png&#34; alt=&#34;The positive effect of staying in the same committee decreases over time.&#34;&gt;
-&lt;/a&gt;
----&gt;
-&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This article presents the CJEU Database Platform, which provides scholars with an extensive collection of easily accessible, research-ready data on the the universe of cases, decisions, and judges at the Court of Justice of the European Union (CJEU). The CJEU Database Platform provides a foundation for the broader CJEU Database currently being developed by The IUROPA Project, a multidisciplinary group of scholars researching judicial politics in the European Union (EU). In this article, we illustrate how the CJEU Database Platform opens the door to new areas of theoretical and empirical research
-on judicial politics in the EU.&lt;/p&gt; 
-&lt;!---
-**Replication files** can be downloaded [here](https://github.com/SiljeHermansen/Replication-files)
----&gt;
-&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Brekke, Stein-Arne, Joshua Fjelstul, Silje Synnøve Lyder Hermansen, Daniel Naurin (forthcoming) &amp;ldquo;The CJEU Database Platform: Decisions and Decision-Makers&amp;rdquo; &lt;em&gt;The Journal of Law and Courts&lt;/em&gt;, 0(0), 1-35.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
