@@ -6,10 +6,33 @@
     <description>Recent content in Election seeking on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/election-seeking/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blurred lines between electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament</title>
+      <link>/publication/eup2024/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/eup2024/</guid>
+      <description>&lt;!---
+&lt;a href=&#34;&#34;&gt;
+&lt;img src=&#34;EffectOfSpecialization.png&#34; alt=&#34;The positive effect of staying in the same committee decreases over time.&#34;&gt;
+&lt;/a&gt;
+---&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Parliamentarians receive public funding to employ staff in the constituency helping them execute their representative mandate. However, local staff is also an electoral asset. We draw on theories of personal-vote seeking to study local staff as an example of constituency service. Modelling within-individual changes in local-staff size among 1174 Members of the European Parliament (MEPs), we find that staff size increases before both European and national elections and more so in candidate-centred systems. This leads us to conclude that - despite a single staff system for all MEPs - EU citizens are represented differently depending on where they elect their members. The attempt to mend EU&#39;s democratic deficit by financing members&#39; contact with citizens further implies funding incumbent European candidates and challengers in national campaigns.&lt;/p&gt; 
+&lt;!---
+**Replication files** can be downloaded [here](https://github.com/SiljeHermansen/Replication-files)
+---&gt;
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hermansen, Silje Synnøve Lyder and Andreja Pegan (forthcoming) &amp;ldquo;Blurred lines between electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament&amp;rdquo; &lt;em&gt;European Union Politics&lt;/em&gt;, 0 (0), 1-34.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Decision makers in the European Parliament (EP)</title>
@@ -25,16 +48,22 @@
 &lt;p&gt;National parties do not have institutionalized presence in the EP. They enter
 into an outcome-based contract similar to voters. MEPs are either rewarded by reselection or kicked out of office. Report allocations dissipate uncertainty about MEPs’ ability. They thus improve MEPs’ career prospects to the extent that parties need new information about agent quality, and to the extent that parliamentary groups can provide it.&lt;/p&gt;
 &lt;h4 id=&#34;ongoing-work&#34;&gt;Ongoing work&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Blurred lines between electoral and parliamentary representation:  The use of constituency staff among European Members of Parliament&amp;rdquo;&lt;/strong&gt; with &lt;a href=&#34;http://www.pegan.org/&#34;&gt;Andreja Pegan&lt;/a&gt;. Working paper.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Political actors receive public funding to execute their mandate. Spending that money for electoral purposes, however, undermines democratic representation.&lt;/p&gt;
-&lt;p&gt;We investigate to what extent parliamentary spending increases during campaign periods and how the electoral system affects such behavior. Specifically, we model within-individual changes in constituency-staff size among 1174 Members of the European Parliament. We find that local spending increases prior to both European and national elections and more so in candidate-centered systems.&lt;/p&gt;
+&lt;!--
+* **&#34;Blurred lines between electoral and parliamentary representation:  The use of constituency staff among European Members of Parliament&#34;** with [Andreja Pegan](http://www.pegan.org/). Working paper.
+
+Political actors receive public funding to execute their mandate. Spending that money for electoral purposes, however, undermines democratic representation.
+
+We investigate to what extent parliamentary spending increases during campaign periods and how the electoral system affects such behavior. Specifically, we model within-individual changes in constituency-staff size among 1174 Members of the European Parliament. We find that local spending increases prior to both European and national elections and more so in candidate-centered systems.
+
 &lt;figure&gt;
 &lt;img src=&#34;Coefplot_ElectoralSystem.jpeg&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;Coefplot displaying the predicted number of local assistants by electoral system.&#34;/&gt;
 &lt;/figure&gt;
-&lt;p&gt;We conclude that EU citizens are represented differently depending on their nationality. Insofar as constituency staff creates an incumbency advantage, the system also generates inequalities between candidates which public funding aims to equalize. Moreover, the attempt to mend Parliament’s democratic deficit by financing members’ contact with citizens also implies funding national electoral campaigns.&lt;/p&gt;
-&lt;p&gt;A draft version can be found &lt;a href=&#34;BlurredLines.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+
+We conclude that EU citizens are represented differently depending on their nationality. Insofar as constituency staff creates an incumbency advantage, the system also generates inequalities between candidates which public funding aims to equalize. Moreover, the attempt to mend Parliament’s democratic deficit by financing members’ contact with citizens also implies funding national electoral campaigns.
+
+A draft version can be found [here](BlurredLines.pdf).
+--&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;How Do Legislated Gender Quotas Impact Representation?&amp;quot;&lt;/strong&gt; Working paper.&lt;/li&gt;
 &lt;/ul&gt;
@@ -45,7 +74,10 @@ into an outcome-based contract similar to voters. MEPs are either rewarded by re
 &lt;h4 id=&#34;published-work&#34;&gt;Published work&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/eup2021/&#34;&gt;&amp;ldquo;Introducing COMEPELDA: Comprehensive European Parliament electoral data covering rules, parties and candidates&amp;rdquo;&lt;/a&gt; with Thomas Däubler and Mihail Chiru   (2021) &lt;em&gt;European Union Politics&lt;/em&gt; 23 (2), 351-371.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/eup2024/&#34;&gt;&amp;ldquo;Blurred lines between electoral and parliamentary representation:  The use of constituency staff among Members of the European Parliament&amp;rdquo;&lt;/a&gt; with &lt;a href=&#34;http://www.pegan.org/&#34;&gt;Andreja Pegan&lt;/a&gt; (2023) &lt;em&gt;European Union Politics&lt;/em&gt; 0 (0), 1-34.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/eup2022/&#34;&gt;&amp;ldquo;Introducing COMEPELDA: Comprehensive European Parliament electoral data covering rules, parties and candidates&amp;rdquo;&lt;/a&gt; with Thomas Däubler and Mihail Chiru   (2022) &lt;em&gt;European Union Politics&lt;/em&gt; 23 (2), 351-371.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/pp2018/&#34;&gt;&amp;ldquo;Striving for influence: The effect of performance on candidate selection&amp;rdquo;&lt;/a&gt;  (2018) &lt;em&gt;Party Politics&lt;/em&gt; 24 (4), 382-396.&lt;/p&gt;
@@ -71,10 +103,10 @@ into an outcome-based contract similar to voters. MEPs are either rewarded by re
     
     <item>
       <title>Introducing COMEPELDA: Comprehensive European Parliament electoral data covering rules, parties and candidates</title>
-      <link>/publication/eup2021/</link>
+      <link>/publication/eup2022/</link>
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>/publication/eup2021/</guid>
+      <guid>/publication/eup2022/</guid>
       <description>&lt;!---
 &lt;a href=&#34;&#34;&gt;
 &lt;img src=&#34;EffectOfSpecialization.png&#34; alt=&#34;The positive effect of staying in the same committee decreases over time.&#34;&gt;
