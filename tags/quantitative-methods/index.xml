@@ -6,10 +6,63 @@
     <description>Recent content in Quantitative methods on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/quantitative-methods/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>R i praksis</title>
+      <link>/publication/r-i-praksis/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/r-i-praksis/</guid>
+      <description>&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;
+&lt;img src=&#34;r-i-praksis.png&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
+&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som ønsker et godt arbeidsverktøy for statistisk analyse.  R har vokst enormt i popularitet de siste årene, og med god grunn. R er gratis og dekker analysebehovene til nybegynnere så vel som eksperter.&lt;/p&gt;  
+&lt;p&gt;Velkommen til R-universet! Programmet R er med god grund blevet mere og mere populært. Det er gratis og dækker analysebehovet hos såvel nybegyndere som eksperter i kvantitativ metode.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;R i praksis&lt;/em&gt; er en introduktion til dig, der ønsker et godt arbejdsværktøj til statistisk analyse. Silje Synnøve Lyder Hermansen og R i praksis hjælper dig med at tage dine første skridt i R-universet. Bogen giver en praktisk indføring i dataanalyse ved hjælp af R. Det vil sige, at den bedste måde at læse den på er ved tastaturet. Leg med eksemplerne, indtil du forstår, hvad der foregår! Den giver dig et simpelt R-vokabular, som kan bringe dig langt. Hensigten er at lære kernen i R-sproget og forstå de svar, R giver.&lt;/p&gt;
+&lt;p&gt;Bogen er forsynet med en ekstra ressource i form af en “R-pakke” (RiPraksis). Dér finder du de datasæt, der benyttes i eksemplerne. Den indeholder også løsningsforslag til de opgaver, som hører til hvert kapitel.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Omtale&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Øyvind Stiansen har anmeldt den norske version af bogen i &lt;a href=&#34;https://www.idunn.no/tfs/2020/02/silje_synnoeve_lyder_hermansen_laer_deg_r_en_innfoering_i_st&#34;&gt;Tidsskrift for samfunnsforskning&lt;/a&gt;.&lt;/p&gt;
+&lt;!--
+**Lær deg R-pakken**
+
+Lær deg R-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Du kan laste ned pakken som .tar.gz-fil eller som .zip-fil:
+
+&lt;div&gt;
+&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.tar.gz&lt;/button&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.zip&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.zip&lt;/button&gt;
+&lt;/a&gt; 
+&lt;/div&gt;
+ 
+Det kan være lurt å lese instruksene om hvordan du kan [laste ned og installere laerdegR](https://siljehermansen.github.io/data/laerdegr)- pakken.
+
+**Innholdsfortegnelse**
+
+Boka tar deg skritt for skritt gjennom en typisk forskningsprosess. 
+
+Vi begynner med å laste inn og tilrettelegge data, før vi går videre med beskrivende analyser. I siste del av boka kjører vi så regresjonsanalyser: OLS og logistisk regresjon. Vi har fokus på å forstå og tolke resultatene. Dette inkluderer også å vurdere modellens troverdighet gjennom ulike former for modellstatistikk.
+
+&lt;div&gt;
+&lt;object data=&#34;Innholdsfortegnelse.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
+&lt;a href=&#34;Innholdsfortegnelse.pdf&#34;&gt;Innholdsfortegnelsen til Lær deg R (2019)&lt;/a&gt;
+&lt;/object&gt;
+&lt;/div&gt;
+---&gt;
+&lt;!---&lt;embed src=&#34;Innholdsfortegnelse.pdf&#34; width=&#34;700&#34; height=&#34;950&#34; alt=&#34;Innholdsfortegnelse til Lær deg R&#34; pluginspage=&#34;http://www.adobe.com/products/acrobat/readstep2.html&#34;&gt;
+---&gt;
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hermansen, Silje Synnøve Lyder (2023) &lt;a href=&#34;Innhold_bibliografi.pdf&#34;&gt;&lt;em&gt;R i praksis: En introduktion for samfundsvidenskaberne&lt;/em&gt;&lt;/a&gt;, Copenhagen: DJØF. 224 pages.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Introduksjon til R</title>
