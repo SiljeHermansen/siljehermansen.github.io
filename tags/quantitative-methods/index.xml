@@ -6,10 +6,66 @@
     <description>Recent content in Quantitative methods on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/quantitative-methods/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Installere R-pakken</title>
+      <link>/data/ripraksis/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/data/ripraksis/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;&amp;ldquo;R i praksis&amp;rdquo;&lt;/a&gt; er en introduktionsbog til statistikprogrammet R udgivet af DJØF (2023). Bogen leveres med datasæt, øvelsesopgaver og løsningsforslag, så du kan prøve dig selv. Her kan du downloade denne online ressource. Det kommer som en separat R-pakke.&lt;/p&gt;
+&lt;p&gt;Pakken kan installeres fra en lokal fil eller direkte fra GitHub.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;
+&lt;img src=&#34;r-i-praksis.png&#34; width=&#34;35%&#34; align=&#34;right&#34; alt=&#34;R i praksis. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;installation-fra-lokal-fil&#34;&gt;Installation fra lokal fil&lt;/h2&gt;
+&lt;p&gt;Denne løsning består af to trin.&lt;/p&gt;
+&lt;p&gt;På denne side kan du downloade pakken ved at trykke på en af følgende links:&lt;/p&gt;
+&lt;p&gt;For alle operativsystemer:&lt;/p&gt;
+&lt;a href=&#34;https://github.com/SiljeHermansen/RiPraksis/raw/master/RiPraksis_0.1.0.tar.gz&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; RiPraksis_0.1.0.tar.gz&lt;/button&gt;
+&lt;/a&gt;
+&lt;p&gt;Windows-brugere kan også bruge denne:&lt;/p&gt;
+&lt;a href=&#34;https://github.com/SiljeHermansen/RiPraksis/raw/master/RiPraksis_0.1.0.zip&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; RiPraksis_0.1.0.zip&lt;/button&gt;
+&lt;/a&gt; 
+&lt;p&gt;Filen vil så blive downloaded til din computer. Hvis du ikke har angivet andet, vil den være placeret i mappen kaldet &amp;ldquo;Downloads&amp;rdquo; på din computer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I RStudio&lt;/strong&gt; installerer du filen i R-biblioteket.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Klik på fanebladet kaldet &amp;ldquo;Packages&amp;rdquo; i vindue nederst til højre.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Klik derefter på &amp;ldquo;Install&amp;rdquo;. I kommunikationsvinduet, der derefter åbner sig, skal du vælge &amp;ldquo;Install from: Package Archive File&amp;rdquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Under &amp;ldquo;Package archive:&amp;rdquo; skal du derefter klikke på &amp;ldquo;Browse&amp;rdquo; og navigere frem til filen, du lige har downloadet.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Klik derefter på &amp;ldquo;Install&amp;rdquo;. Nu vil R skrive installationskommandoen, og R vil hurtigt fortælle dig i rød skrift, at pakken installeres, og i sort skrift at &amp;lsquo;package &amp;lsquo;RiPraksis&amp;rsquo; successfully unpacked and MD5 sums checked&amp;rsquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hvis du støder på fejlmeddelelser, bør du tjekke, om de ekstra argumenter i installationskoden er korrekte. Filadressen (C:/Downloads/) vil naturligvis variere fra computer til computer.&lt;/p&gt;
+&lt;p&gt;Hvis du har valgt tar.gz-filen, skal koden se sådan ud.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;C:/Downloads/RiPraksis_0.1.0.tar.gz&amp;quot;, repos = NULL, type = &amp;quot;source&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Hvis du har valgt zip-filen, skal koden se sådan ud.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;C:/Downloads/RiPraksis_0.1.0.zip&amp;quot;, repos = NULL, type = &amp;quot;binary&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;installation-fra-github&#34;&gt;Installation fra GitHub&lt;/h2&gt;
+&lt;p&gt;Hvis du vil installere direkte fra GitHub, kræver det lidt mere avancerede trin.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I nettleseren:&lt;/strong&gt; Begynd med at downloade og installere &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34;&gt;RTools&lt;/a&gt; uden at åbne RStudio.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I RStudio:&lt;/strong&gt; installer &lt;code&gt;devtools&lt;/code&gt;-pakken og hent den ind fra biblioteket.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;devtools&amp;quot;)
+library(devtools)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Nu kan du downloade og installere nettressourcen direkte fra GitHubs sider.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;install_github(&amp;quot;SiljeHermansen/RiPraksis&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
     
     <item>
       <title>Statistical models beyond linear regression</title>
