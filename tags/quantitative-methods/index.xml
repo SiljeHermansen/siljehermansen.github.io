@@ -91,7 +91,7 @@ library(devtools)
 &lt;p&gt;Notebooks:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;week2_data_manipulation.html&#34;&gt;data manipulation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;week2_data_exploration.pdf&#34;&gt;descriptive statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;week2_data_exploration.html&#34;&gt;descriptive statistics&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;If you haven&amp;rsquo;t installed the &lt;code&gt;RiPraksis&lt;/code&gt; package, you may fetch the data here: &lt;a href=&#34;kap6.rda&#34;&gt;kap6.rda&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;complete-syllabus&#34;&gt;Complete syllabus&lt;/h1&gt;
