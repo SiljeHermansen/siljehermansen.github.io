@@ -41,10 +41,11 @@
 &lt;h4 id=&#34;week-3-lab-week&#34;&gt;Week 3 (lab week)&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Hermansen 2023, ch. 7-9, p. 123-194&lt;/em&gt;; &lt;em&gt;Gelman (2007), ch 3-4, p. 29-79&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We will be working on linear models (OLS) in R. Our focus is on interpretation. Using the R codes and concepts from last week, we will be making visual and textual interpretations of different model results.&lt;/p&gt;
-&lt;p&gt;The data we will be working on are a subset of the replication data for &lt;a href=&#34;https://journals.sagepub.com/doi/pdf/10.1177/14651165221149900&#34;&gt;&amp;ldquo;Blurred Lines betwen electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament&amp;rdquo;&lt;/a&gt; &lt;em&gt;European Union Politics&lt;/em&gt; (2023). You can download them here: &lt;a href=&#34;MEP2014.rda&#34;&gt;MEP2014.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The data we will be working on are a subset of the replication data for &amp;ldquo;Blurred Lines betwen electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament&amp;rdquo; &lt;a href=&#34;https://journals.sagepub.com/doi/pdf/10.1177/14651165221149900&#34;&gt;&lt;em&gt;European Union Politics&lt;/em&gt;&lt;/a&gt; (2023).&lt;/p&gt;
+&lt;p&gt;You can download the data here: &lt;a href=&#34;MEP2014.rda&#34;&gt;MEP2014.rda&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Notebook:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;week3_interpretation.html&#34;&gt;data manipulation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;week3_interpretation.html&#34;&gt;linear models: estimation and interpretation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;complete-syllabus&#34;&gt;Complete syllabus&lt;/h1&gt;
 &lt;p&gt;Please familiarize with the &lt;a href=&#34;syllabus_beyond-linear-regression.pdf&#34;&gt;syllabus&lt;/a&gt; before our first meeting.&lt;/p&gt;
