@@ -103,7 +103,7 @@ library(devtools)
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;week3_interpretation.html&#34;&gt;linear models: estimation and interpretation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;week-4-theory-week&#34;&gt;Week 4 (theory week)&lt;/h4&gt;
+&lt;h4 id=&#34;week-4-theory-week-binary-outcomes&#34;&gt;Week 4 (theory week): Binary outcomes&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Ward (2018), ch. 3, p. 43-78; ch. 6, p. 119-132&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We will be working on how to model binary outcomes using a logit model. Our focus is on two different ways of understanding the logit model: As a regression on a latent variable or as a regression on a recoded dependent variable (logodds).&lt;/p&gt;
 &lt;p&gt;The data I will be examplifying with are a subset of the replication data for &amp;ldquo;Blurred Lines betwen electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament&amp;rdquo; &lt;a href=&#34;https://journals.sagepub.com/doi/pdf/10.1177/14651165221149900&#34;&gt;&lt;em&gt;European Union Politics&lt;/em&gt;&lt;/a&gt; (2023).&lt;/p&gt;
@@ -120,6 +120,12 @@ library(devtools)
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;week5_problem_set_logit.html&#34;&gt;Problem set: binomial logistic (logit) models&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;week5_logit.html&#34;&gt;Binomial logistic (logit) models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;week-6-theory-week-categorical-and-ordered-outcomes&#34;&gt;Week 6 (theory week): Categorical and ordered outcomes&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Ward (2018), ch. 8-9, p. 141-189&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Slides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;week6_problem_set_logit2.html&#34;&gt;Problem set: binomial logistic (logit) models&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;complete-syllabus&#34;&gt;Complete syllabus&lt;/h1&gt;
 &lt;p&gt;Please familiarize with the &lt;a href=&#34;syllabus_beyond-linear-regression.pdf&#34;&gt;syllabus&lt;/a&gt; before our first meeting.&lt;/p&gt;
