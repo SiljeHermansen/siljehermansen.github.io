@@ -134,7 +134,7 @@ library(devtools)
 &lt;p&gt;Slides/notebook:&lt;/p&gt;
 &lt;!-- - [Problem set: binomial logistic (logit) models](week6_problem_set_logit2.html)--&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;week6_count.pdf&#34;&gt;Slides: models for count outcomes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;week7_count.pdf&#34;&gt;Slides: models for count outcomes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;complete-syllabus&#34;&gt;Complete syllabus&lt;/h1&gt;
 &lt;p&gt;Please familiarize with the &lt;a href=&#34;syllabus_beyond-linear-regression.pdf&#34;&gt;syllabus&lt;/a&gt; before our first meeting.&lt;/p&gt;
