@@ -58,7 +58,7 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;week-5-r-week&#34;&gt;Week 5 (R week)&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Ward (2018), ch. 3, p. 43-78; ch. 6, p. 119-132.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Suggested supplementary reading Hermansen (2023), ch 10; Gelman and Hill (2007), ch 5&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Suggested supplementary reading &lt;em&gt;Hermansen (2023), ch 10; Gelman and Hill (2007), ch 5&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We will continue our work on binary outcomes using the logit model. The notebook covers R codes for model interpretation, but our focus will be on model evaluation. Be prepared to share your answers to the problem set.&lt;/p&gt;
 &lt;p&gt;Notebook:&lt;/p&gt;
 &lt;ul&gt;
@@ -71,6 +71,14 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;week6_problem_set_logit2.html&#34;&gt;Problem set: binomial logistic (logit) models&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;week6_ordered_categorical.pdf&#34;&gt;Slides: models for ordered and categorical outcomes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;week-7-theory-week-event-count-outcomes&#34;&gt;Week 7 (theory week): Event count outcomes&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Ward (2018), ch. 10, p. 190-216&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Suggested supplementary reading &lt;em&gt;Gelman and Hill (2007), ch 6.2 p. 110-116&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Slides/notebook:&lt;/p&gt;
+&lt;!-- - [Problem set: binomial logistic (logit) models](week6_problem_set_logit2.html)--&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;week6_count.pdf&#34;&gt;Slides: models for count outcomes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;complete-syllabus&#34;&gt;Complete syllabus&lt;/h1&gt;
 &lt;p&gt;Please familiarize with the &lt;a href=&#34;syllabus_beyond-linear-regression.pdf&#34;&gt;syllabus&lt;/a&gt; before our first meeting.&lt;/p&gt;
