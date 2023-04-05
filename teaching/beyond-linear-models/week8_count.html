@@ -2809,6 +2809,14 @@ margin-left: 0 !important;
           <li><a href="#hurdle-models" id="toc-hurdle-models">Hurdle
           models</a></li>
           </ul></li>
+          <li><a href="#robust-standard-errors-when-observations-are-clustered-in-groups" id="toc-robust-standard-errors-when-observations-are-clustered-in-groups">Robust
+          standard errors: when observations are clustered in groups</a>
+          <ul>
+          <li><a href="#normal-standard-errors" id="toc-normal-standard-errors">Normal standard
+          errors</a></li>
+          <li><a href="#clustered-standard-errors" id="toc-clustered-standard-errors">Clustered standard
+          errors</a></li>
+          </ul></li>
           <li><a href="#literature" id="toc-literature">Literature</a></li>
           </ul>
         </nav>
@@ -2841,6 +2849,22 @@ Synnøve Lyder Hermansen</span></li>
 the base-line poisson model, test for overdispersion and adress
 potential problems.</p>
 </blockquote>
+<p>We will familiarize with:</p>
+<ul>
+<li><p>how to estimate different <strong>count models</strong></p>
+<ul>
+<li>poisson and quasi-poisson models from baseR</li>
+<li>negative binomial models from <code>MASS</code></li>
+<li>zero-inflated and hurdle models from <code>pscl</code></li>
+</ul></li>
+<li><p><strong>clustered standard errors</strong> from
+<code>sandwich</code></p>
+<ul>
+<li>while these are not specific to count models, we sometimes need to
+cluster our standard errors because our observations are clustered.
+You’ll find an example at the end of the script.</li>
+</ul></li>
+</ul>
 <p>We will be working with data from <span class="citation">Yoshinaka,
 Mcelroy, and Bowler (2010)</span> on report allocation in the European
 Parliament (EP). All legislative proposals are handled by a member of
@@ -5774,7 +5798,7 @@ Log Likelihood
 </td>
 </tr>
 </table>
-<div class="sourceCode" id="cb49"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="fu">stargazer</span>(mod1.zero.pois,mod2.zero.pois, mod1.zero.nb, mod1.hurdle,</span>
+<div class="sourceCode" id="cb49"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="fu">stargazer</span>(mod1.zero.pois, mod2.zero.pois, mod1.zero.nb, mod1.hurdle,</span>
 <span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>           <span class="at">omit =</span> <span class="st">&quot;committee&quot;</span>,</span>
 <span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>          <span class="at">title =</span> <span class="st">&quot;The COUNT PART of the zero-inflated models: poisson vs. the negative binomial model&quot;</span>,</span>
 <span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a>          <span class="at">dep.var.caption =</span> <span class="st">&quot;Number of reports&quot;</span>,</span>
@@ -6165,6 +6189,988 @@ Log Likelihood
 </td>
 </tr>
 </table>
+</div>
+</div>
+<div id="robust-standard-errors-when-observations-are-clustered-in-groups" class="section level1">
+<h1>Robust standard errors: when observations are clustered in
+groups</h1>
+<p>The standard errors reported in regression models assume that
+observations are independently drawn, i.e. that all observations have an
+equal probability of getting the outcome we observe. This is NOT a
+particular assumption for count models, it is an assumption most models
+share.</p>
+<p>However, this is not always the case. Sometimes, our observations
+share some common features. We may, for example think that the count
+number of legislative proposals are determined by the committee that the
+MEP is a member of. This creates – potentially – two problems: One is
+that committee membership may be a confounder for the relationship
+between MEPs ideology and their probability of garnering legislative
+proposals. This could happen, for example, if MEPs with extreme
+political views were assigned to committees with little legislative
+activity (as a way for the leadership to side-line the extremists). We
+can address this by controlling for committee membership the way we did
+in the previous section. This will potentially change the regression
+parameter, if – indeed – there is such a relationship.</p>
+<p>Another problem is that the MEPs are in fact clustered in committee
+and therefore are not independently drawn. This has an impact on how we
+calculate the standard error (i.e. the statistical significance) of our
+effects, but doesn’t imply any change in the parameter as such. We can
+address this by clustering the standard errors. They are a way of
+adjusting the standard errors of regression coefficients to account for
+correlation within clusters (here: committees), while assuming
+independence between clusters (here: between committees). In other
+words, we assume that MEPs that sit on the same committee have a similar
+base-line probability of getting legislative proposals.</p>
+<div id="normal-standard-errors" class="section level4">
+<h4>Normal standard errors</h4>
+<p>We can estimate normal standard errors by using the
+variance-covariance matrix from the model object using the
+<code>vcov()</code> function. It reports how the regression parameters
+vary/covary.</p>
+<div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="fu">vcov</span>(mod2.zero.pois)</span></code></pre></div>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:right;">
+count_(Intercept)
+</th>
+<th style="text-align:right;">
+count_nom_dist1_ep
+</th>
+<th style="text-align:right;">
+count_nom_dist1_nat
+</th>
+<th style="text-align:right;">
+count_ctee_expert
+</th>
+<th style="text-align:right;">
+count_chair
+</th>
+<th style="text-align:right;">
+count_attendance
+</th>
+<th style="text-align:right;">
+zero_(Intercept)
+</th>
+<th style="text-align:right;">
+zero_nom_dist1_ep
+</th>
+<th style="text-align:right;">
+zero_nom_dist1_nat
+</th>
+<th style="text-align:right;">
+zero_ctee_expert
+</th>
+<th style="text-align:right;">
+zero_chair
+</th>
+<th style="text-align:right;">
+zero_attendance
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+count_(Intercept)
+</td>
+<td style="text-align:right;">
+0.010
+</td>
+<td style="text-align:right;">
+-0.005
+</td>
+<td style="text-align:right;">
+-0.008
+</td>
+<td style="text-align:right;">
+-0.001
+</td>
+<td style="text-align:right;">
+-0.001
+</td>
+<td style="text-align:right;">
+-0.013
+</td>
+<td style="text-align:right;">
+0.011
+</td>
+<td style="text-align:right;">
+-0.005
+</td>
+<td style="text-align:right;">
+-0.015
+</td>
+<td style="text-align:right;">
+-0.003
+</td>
+<td style="text-align:right;">
+-0.003
+</td>
+<td style="text-align:right;">
+-0.011
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+count_nom_dist1_ep
+</td>
+<td style="text-align:right;">
+-0.005
+</td>
+<td style="text-align:right;">
+0.116
+</td>
+<td style="text-align:right;">
+-0.024
+</td>
+<td style="text-align:right;">
+0.001
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+-0.002
+</td>
+<td style="text-align:right;">
+-0.002
+</td>
+<td style="text-align:right;">
+0.092
+</td>
+<td style="text-align:right;">
+0.030
+</td>
+<td style="text-align:right;">
+0.002
+</td>
+<td style="text-align:right;">
+-0.003
+</td>
+<td style="text-align:right;">
+-0.015
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+count_nom_dist1_nat
+</td>
+<td style="text-align:right;">
+-0.008
+</td>
+<td style="text-align:right;">
+-0.024
+</td>
+<td style="text-align:right;">
+0.204
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.008
+</td>
+<td style="text-align:right;">
+-0.015
+</td>
+<td style="text-align:right;">
+-0.003
+</td>
+<td style="text-align:right;">
+0.292
+</td>
+<td style="text-align:right;">
+0.011
+</td>
+<td style="text-align:right;">
+-0.014
+</td>
+<td style="text-align:right;">
+0.012
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+count_ctee_expert
+</td>
+<td style="text-align:right;">
+-0.001
+</td>
+<td style="text-align:right;">
+0.001
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.003
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+-0.002
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.006
+</td>
+<td style="text-align:right;">
+0.006
+</td>
+<td style="text-align:right;">
+-0.001
+</td>
+<td style="text-align:right;">
+0.002
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+count_chair
+</td>
+<td style="text-align:right;">
+-0.001
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.005
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.003
+</td>
+<td style="text-align:right;">
+-0.002
+</td>
+<td style="text-align:right;">
+-0.001
+</td>
+<td style="text-align:right;">
+0.002
+</td>
+<td style="text-align:right;">
+-0.003
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+count_attendance
+</td>
+<td style="text-align:right;">
+-0.013
+</td>
+<td style="text-align:right;">
+-0.002
+</td>
+<td style="text-align:right;">
+0.008
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.019
+</td>
+<td style="text-align:right;">
+-0.014
+</td>
+<td style="text-align:right;">
+-0.005
+</td>
+<td style="text-align:right;">
+0.010
+</td>
+<td style="text-align:right;">
+0.001
+</td>
+<td style="text-align:right;">
+0.003
+</td>
+<td style="text-align:right;">
+0.022
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+zero_(Intercept)
+</td>
+<td style="text-align:right;">
+0.011
+</td>
+<td style="text-align:right;">
+-0.002
+</td>
+<td style="text-align:right;">
+-0.015
+</td>
+<td style="text-align:right;">
+-0.002
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+-0.014
+</td>
+<td style="text-align:right;">
+0.107
+</td>
+<td style="text-align:right;">
+-0.040
+</td>
+<td style="text-align:right;">
+-0.189
+</td>
+<td style="text-align:right;">
+-0.034
+</td>
+<td style="text-align:right;">
+0.007
+</td>
+<td style="text-align:right;">
+-0.181
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+zero_nom_dist1_ep
+</td>
+<td style="text-align:right;">
+-0.005
+</td>
+<td style="text-align:right;">
+0.092
+</td>
+<td style="text-align:right;">
+-0.003
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.003
+</td>
+<td style="text-align:right;">
+-0.005
+</td>
+<td style="text-align:right;">
+-0.040
+</td>
+<td style="text-align:right;">
+1.592
+</td>
+<td style="text-align:right;">
+-0.545
+</td>
+<td style="text-align:right;">
+-0.003
+</td>
+<td style="text-align:right;">
+0.030
+</td>
+<td style="text-align:right;">
+-0.217
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+zero_nom_dist1_nat
+</td>
+<td style="text-align:right;">
+-0.015
+</td>
+<td style="text-align:right;">
+0.030
+</td>
+<td style="text-align:right;">
+0.292
+</td>
+<td style="text-align:right;">
+0.006
+</td>
+<td style="text-align:right;">
+-0.002
+</td>
+<td style="text-align:right;">
+0.010
+</td>
+<td style="text-align:right;">
+-0.189
+</td>
+<td style="text-align:right;">
+-0.545
+</td>
+<td style="text-align:right;">
+5.187
+</td>
+<td style="text-align:right;">
+0.102
+</td>
+<td style="text-align:right;">
+-0.244
+</td>
+<td style="text-align:right;">
+0.200
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+zero_ctee_expert
+</td>
+<td style="text-align:right;">
+-0.003
+</td>
+<td style="text-align:right;">
+0.002
+</td>
+<td style="text-align:right;">
+0.011
+</td>
+<td style="text-align:right;">
+0.006
+</td>
+<td style="text-align:right;">
+-0.001
+</td>
+<td style="text-align:right;">
+0.001
+</td>
+<td style="text-align:right;">
+-0.034
+</td>
+<td style="text-align:right;">
+-0.003
+</td>
+<td style="text-align:right;">
+0.102
+</td>
+<td style="text-align:right;">
+0.144
+</td>
+<td style="text-align:right;">
+-0.035
+</td>
+<td style="text-align:right;">
+0.005
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+zero_chair
+</td>
+<td style="text-align:right;">
+-0.003
+</td>
+<td style="text-align:right;">
+-0.003
+</td>
+<td style="text-align:right;">
+-0.014
+</td>
+<td style="text-align:right;">
+-0.001
+</td>
+<td style="text-align:right;">
+0.002
+</td>
+<td style="text-align:right;">
+0.003
+</td>
+<td style="text-align:right;">
+0.007
+</td>
+<td style="text-align:right;">
+0.030
+</td>
+<td style="text-align:right;">
+-0.244
+</td>
+<td style="text-align:right;">
+-0.035
+</td>
+<td style="text-align:right;">
+94400.207
+</td>
+<td style="text-align:right;">
+-0.056
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+zero_attendance
+</td>
+<td style="text-align:right;">
+-0.011
+</td>
+<td style="text-align:right;">
+-0.015
+</td>
+<td style="text-align:right;">
+0.012
+</td>
+<td style="text-align:right;">
+0.002
+</td>
+<td style="text-align:right;">
+-0.003
+</td>
+<td style="text-align:right;">
+0.022
+</td>
+<td style="text-align:right;">
+-0.181
+</td>
+<td style="text-align:right;">
+-0.217
+</td>
+<td style="text-align:right;">
+0.200
+</td>
+<td style="text-align:right;">
+0.005
+</td>
+<td style="text-align:right;">
+-0.056
+</td>
+<td style="text-align:right;">
+0.527
+</td>
+</tr>
+</tbody>
+</table>
+<p>Standard errors are calculated as the square root from the diagonal
+of that matrix.</p>
+<div class="sourceCode" id="cb51"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Variance-covariance matrix</span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="fu">vcov</span>(mod2.zero.pois) <span class="sc">%&gt;%</span></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Diagonal</span></span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>  diag <span class="sc">%&gt;%</span></span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Square root</span></span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>  sqrt</span></code></pre></div>
+<pre><code>##   count_(Intercept)  count_nom_dist1_ep count_nom_dist1_nat   count_ctee_expert 
+##          0.10079098          0.34019014          0.45140501          0.05283447 
+##         count_chair    count_attendance    zero_(Intercept)   zero_nom_dist1_ep 
+##          0.07137039          0.13777445          0.32682849          1.26191966 
+##  zero_nom_dist1_nat    zero_ctee_expert          zero_chair     zero_attendance 
+##          2.27742363          0.37903328        307.24616665          0.72611315</code></pre>
+<p>Can you recognize the results from <code>mod1.zero</code>?</p>
+</div>
+<div id="clustered-standard-errors" class="section level4">
+<h4>Clustered standard errors</h4>
+<p>We can estimate <em>clustered</em> standard errors by using the
+<code>sandwich</code> package in R.</p>
+<div class="sourceCode" id="cb53"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="co">#install.packages(&quot;sandwich&quot;)</span></span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sandwich)</span></code></pre></div>
+<p>The relevant function is <code>vcovCL()</code>. It requires an
+additional argument <code>clustered=</code> where we provide the
+variable we want to cluster the errors on. Here, I cluster by committee.
+In GLMs the standard <code>type=</code> of errors is “HC0”. This is done
+automatically.</p>
+<div class="sourceCode" id="cb54"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Variance-covariance matrix</span></span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a><span class="fu">vcovCL</span>(mod2.zero.pois,</span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>     <span class="co">#Cluster according to committee membership</span></span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>     <span class="at">cluster =</span> df<span class="sc">$</span>committee,</span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>     <span class="at">type =</span> <span class="st">&quot;HC0&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb54-6"><a href="#cb54-6" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Diagonal</span></span>
+<span id="cb54-7"><a href="#cb54-7" aria-hidden="true" tabindex="-1"></a>  diag <span class="sc">%&gt;%</span></span>
+<span id="cb54-8"><a href="#cb54-8" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Square root</span></span>
+<span id="cb54-9"><a href="#cb54-9" aria-hidden="true" tabindex="-1"></a>  sqrt</span></code></pre></div>
+<p>Be mindful that if you have NAs in your model (as I do here), you
+would have to subset the data so that the NAs dissappear. My hack is to
+subset using the predict function.</p>
+<div class="sourceCode" id="cb55"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="co">#predict</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>preds <span class="ot">&lt;-</span> <span class="fu">predict</span>(mod2.zero.pois, df)</span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a><span class="co">#Variance-covariance matrix</span></span>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a><span class="fu">vcov</span>(mod2.zero.pois,</span>
+<span id="cb55-6"><a href="#cb55-6" aria-hidden="true" tabindex="-1"></a>     <span class="co">#Subset, then cluster</span></span>
+<span id="cb55-7"><a href="#cb55-7" aria-hidden="true" tabindex="-1"></a>     <span class="at">cluster =</span> df<span class="sc">$</span>committee[<span class="sc">!</span><span class="fu">is.na</span>(df<span class="sc">$</span>preds)],</span>
+<span id="cb55-8"><a href="#cb55-8" aria-hidden="true" tabindex="-1"></a>     <span class="at">type =</span> <span class="st">&quot;HC0&quot;</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb55-9"><a href="#cb55-9" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Diagonal</span></span>
+<span id="cb55-10"><a href="#cb55-10" aria-hidden="true" tabindex="-1"></a>  diag <span class="sc">%&gt;%</span></span>
+<span id="cb55-11"><a href="#cb55-11" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Square root</span></span>
+<span id="cb55-12"><a href="#cb55-12" aria-hidden="true" tabindex="-1"></a>  sqrt</span></code></pre></div>
+<pre><code>##   count_(Intercept)  count_nom_dist1_ep count_nom_dist1_nat   count_ctee_expert 
+##          0.10079098          0.34019014          0.45140501          0.05283447 
+##         count_chair    count_attendance    zero_(Intercept)   zero_nom_dist1_ep 
+##          0.07137039          0.13777445          0.32682849          1.26191966 
+##  zero_nom_dist1_nat    zero_ctee_expert          zero_chair     zero_attendance 
+##          2.27742363          0.37903328        307.24616665          0.72611315</code></pre>
+<p>I now have regression coefficients from the model object and standard
+errors estimated separately.</p>
+<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Copy standard errors to a separate object</span></span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>ses.clustered <span class="ot">&lt;-</span></span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">vcovCL</span>(mod2.zero.pois,</span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>     <span class="co">#Subset, then cluster</span></span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>     <span class="at">cluster =</span> df<span class="sc">$</span>committee[<span class="sc">!</span><span class="fu">is.na</span>(df<span class="sc">$</span>preds)]) <span class="sc">%&gt;%</span></span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Diagonal</span></span>
+<span id="cb57-7"><a href="#cb57-7" aria-hidden="true" tabindex="-1"></a>  diag <span class="sc">%&gt;%</span></span>
+<span id="cb57-8"><a href="#cb57-8" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Square root</span></span>
+<span id="cb57-9"><a href="#cb57-9" aria-hidden="true" tabindex="-1"></a>  sqrt</span>
+<span id="cb57-10"><a href="#cb57-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-11"><a href="#cb57-11" aria-hidden="true" tabindex="-1"></a><span class="co">#summary statsitics from the original model (for comparison)</span></span>
+<span id="cb57-12"><a href="#cb57-12" aria-hidden="true" tabindex="-1"></a>summary.mod1.zero <span class="ot">&lt;-</span> <span class="fu">summary</span>(mod2.zero.pois)</span>
+<span id="cb57-13"><a href="#cb57-13" aria-hidden="true" tabindex="-1"></a><span class="co">#Extract the standard errors of the count part of the model</span></span>
+<span id="cb57-14"><a href="#cb57-14" aria-hidden="true" tabindex="-1"></a>ses.normal <span class="ot">&lt;-</span> summary.mod1.zero<span class="sc">$</span>coefficient<span class="sc">$</span>count[,<span class="st">&quot;Std. Error&quot;</span>]</span></code></pre></div>
+<p>We usually do this by adding a list of named standard errors. These
+names must be the same as the names of the regression coefficients.</p>
+<p>Here we see that the names of the standard errors are prefixed by
+<code>count_</code> for the count model and <code>zero_</code> for the
+zero hurdle.</p>
+<div class="sourceCode" id="cb58"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>ses.clustered</span></code></pre></div>
+<pre><code>##   count_(Intercept)  count_nom_dist1_ep count_nom_dist1_nat   count_ctee_expert 
+##           0.1999302           0.3590123           0.7006974           0.1399392 
+##         count_chair    count_attendance    zero_(Intercept)   zero_nom_dist1_ep 
+##           0.1522670           0.2343490           0.4476172           1.3484687 
+##  zero_nom_dist1_nat    zero_ctee_expert          zero_chair     zero_attendance 
+##           1.8209910           0.4929240           0.5422434           1.2752056</code></pre>
+<p>… however, the coefficients do not have these names.</p>
+<div class="sourceCode" id="cb60"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a>mod2.zero.pois<span class="sc">$</span>coefficients</span></code></pre></div>
+<pre><code>## $count
+##   (Intercept)  nom_dist1_ep nom_dist1_nat   ctee_expert         chair 
+##   -3.39832253   -0.02883625   -0.63717556    0.07216832    1.33814804 
+##    attendance 
+##    0.66311572 
+## 
+## $zero
+##   (Intercept)  nom_dist1_ep nom_dist1_nat   ctee_expert         chair 
+##    -2.4234745     3.9084822    -1.9573037    -0.4873135   -12.7187862 
+##    attendance 
+##    -6.1911903</code></pre>
+<p>I will have to change the names to get the stargazer to understand my
+objects and link coefficients and errors correctly. I use the
+<code>gsub()</code> function (from our session on recoding of variables)
+to replace the string <code>count_</code> with nothing
+<code>&quot;&quot;</code>.</p>
+<div class="sourceCode" id="cb62"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(ses.clustered) <span class="ot">&lt;-</span> <span class="fu">names</span>(ses.clustered) <span class="sc">%&gt;%</span></span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gsub</span>(<span class="st">&quot;count_&quot;</span>, <span class="st">&quot;&quot;</span>, .)</span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a>ses.clustered</span></code></pre></div>
+<pre><code>##        (Intercept)       nom_dist1_ep      nom_dist1_nat        ctee_expert 
+##          0.1999302          0.3590123          0.7006974          0.1399392 
+##              chair         attendance   zero_(Intercept)  zero_nom_dist1_ep 
+##          0.1522670          0.2343490          0.4476172          1.3484687 
+## zero_nom_dist1_nat   zero_ctee_expert         zero_chair    zero_attendance 
+##          1.8209910          0.4929240          0.5422434          1.2752056</code></pre>
+<p>Now, I can finally make my regression table. Here, I report the
+results from the original model and the results with the clustered
+errors.</p>
+<div class="sourceCode" id="cb64"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="fu">stargazer</span>(mod2.zero.pois, mod2.zero.pois,</span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a>          <span class="at">se =</span> <span class="fu">list</span>(ses.normal, ses.clustered),</span>
+<span id="cb64-3"><a href="#cb64-3" aria-hidden="true" tabindex="-1"></a>          <span class="at">title =</span> <span class="st">&quot;Normal vs. clustered standard errors&quot;</span>,</span>
+<span id="cb64-4"><a href="#cb64-4" aria-hidden="true" tabindex="-1"></a>          <span class="at">type =</span> <span class="st">&quot;html&quot;</span>)</span></code></pre></div>
+<table style="text-align:center">
+<caption>
+<strong>Normal vs. clustered standard errors</strong>
+</caption>
+<tr>
+<td colspan="3" style="border-bottom: 1px solid black">
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td colspan="2">
+<em>Dependent variable:</em>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2" style="border-bottom: 1px solid black">
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td colspan="2">
+nreports
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+(1)
+</td>
+<td>
+(2)
+</td>
+</tr>
+<tr>
+<td colspan="3" style="border-bottom: 1px solid black">
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+nom_dist1_ep
+</td>
+<td>
+-0.029
+</td>
+<td>
+-0.029
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+(0.340)
+</td>
+<td>
+(0.359)
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+nom_dist1_nat
+</td>
+<td>
+-0.637
+</td>
+<td>
+-0.637
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+(0.451)
+</td>
+<td>
+(0.701)
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+ctee_expert
+</td>
+<td>
+0.072
+</td>
+<td>
+0.072
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+(0.053)
+</td>
+<td>
+(0.140)
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+chair
+</td>
+<td>
+1.338<sup>***</sup>
+</td>
+<td>
+1.338<sup>***</sup>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+(0.071)
+</td>
+<td>
+(0.152)
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+attendance
+</td>
+<td>
+0.663<sup>***</sup>
+</td>
+<td>
+0.663<sup>***</sup>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+(0.138)
+</td>
+<td>
+(0.234)
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+Constant
+</td>
+<td>
+-3.398<sup>***</sup>
+</td>
+<td>
+-3.398<sup>***</sup>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+(0.101)
+</td>
+<td>
+(0.200)
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="border-bottom: 1px solid black">
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+Observations
+</td>
+<td>
+885
+</td>
+<td>
+885
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+Log Likelihood
+</td>
+<td>
+-1,536.608
+</td>
+<td>
+-1,536.608
+</td>
+</tr>
+<tr>
+<td colspan="3" style="border-bottom: 1px solid black">
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+<em>Note:</em>
+</td>
+<td colspan="2" style="text-align:right">
+<sup><em></sup>p&lt;0.1; <sup><strong></sup>p&lt;0.05;
+<sup></strong></em></sup>p&lt;0.01
+</td>
+</tr>
+</table>
+<p>I always check the results: My clustered errors should be larger than
+the normal errors, since the whole point of this is to account for the
+fact that my number of observations doesn’t reflect the uncertainty in
+the data (i.e. I have less variation than what we might think, because
+outcomes depend on committee membership).</p>
+<hr />
+<p><strong>Need a brush-up on robust/clustered standard errors?</strong>
+Robust standard errors and clustered standard errors are both methods
+for estimating standard errors that are robust to violations of the
+assumption of homoscedasticity (i.e., equal variance) in linear
+regression models. However, they are used in different contexts and with
+different assumptions.</p>
+<p>Robust standard errors are used when the errors are believed to be
+heteroscedastic, but the source of the heteroscedasticity is unknown. In
+this case, the robust standard errors adjust the standard errors of the
+regression coefficients to account for the potential heteroscedasticity
+of the errors. Robust standard errors can be estimated using various
+methods, such as the sandwich estimator or the White estimator, and do
+not require any additional information about the structure of the
+data.</p>
+<p>Clustered standard errors, on the other hand, are used when the
+errors are believed to be heteroscedastic and correlated within groups,
+but uncorrelated between groups. In this case, the groups can be defined
+in various ways, such as geographic regions, schools, or firms, and the
+clustered standard errors adjust the standard errors of the regression
+coefficients to account for the correlation of the errors within each
+group. The clustered standard errors can be estimated using the same
+methods as the robust standard errors, but they require information
+about the grouping structure of the data.</p>
+<hr />
 </div>
 </div>
 <div id="literature" class="section level1 unnumbered">
