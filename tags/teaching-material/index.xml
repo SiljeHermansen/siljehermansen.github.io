@@ -151,6 +151,13 @@ library(devtools)
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;week9_event.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4 id=&#34;week-10-r-week-event-count-outcomes&#34;&gt;Week 10 (R week): Event count outcomes&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Ward (2018), ch. 11, p. 190-216&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We will be working with a classical dataset on duration models used by &lt;a href=&#34;https://www.jstor.org/stable/2111628&#34;&gt;Box-Steffensmaier&lt;/a&gt;&amp;rsquo;s 1996 study of candidates&#39; campaign funding and the entry of challengers. You can find the R-version of the data for the notebook here: &lt;a href=&#34;warchest.rda&#34;&gt;warchest.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Slides/notebook:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;week10_event.pdf&#34;&gt;Notebook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;complete-syllabus&#34;&gt;Complete syllabus&lt;/h1&gt;
 &lt;p&gt;Please familiarize with the &lt;a href=&#34;syllabus_beyond-linear-regression.pdf&#34;&gt;syllabus&lt;/a&gt; before our first meeting.&lt;/p&gt;
 &lt;div&gt;
