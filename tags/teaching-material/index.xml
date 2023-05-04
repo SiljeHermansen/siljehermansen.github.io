@@ -167,7 +167,7 @@ library(devtools)
 &lt;/ul&gt;
 &lt;h4 id=&#34;week-12-r-week-hierarchical-models&#34;&gt;Week 12 (R week): Hierarchical models&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Gelman and Hill (2007), ch 11-12, p. 235-278&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;You can find the data for the slides here: &lt;a href=&#34;MEP_panel.rda&#34;&gt;MEP_panel.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can find the data for the slides here: &lt;a href=&#34;MEP.rda&#34;&gt;MEP.rda&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Slides/notebook:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;week12_hierarchical.html&#34;&gt;Notebook&lt;/a&gt;&lt;/li&gt;
