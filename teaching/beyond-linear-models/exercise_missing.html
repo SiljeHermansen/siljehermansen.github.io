@@ -398,36 +398,42 @@ variable is mostly missing; it comes from a survey.</p>
 interaction term between the MEP’s ambition and electoral system. You
 can find the data online
 <code>https://siljehermansen.github.io/teaching/beyond-linear-models/MEP.rda</code>.</p>
+<p><em>Be prepared to share the table/codes/thoughts on padlet:</em> <a href="https://padlet.com/siljesynnove/exercise-1-simple-na-fixes-df5ppo9n2x0a4wuc" class="uri">https://padlet.com/siljesynnove/exercise-1-simple-na-fixes-df5ppo9n2x0a4wuc</a></p>
 <div id="exercise-1-simple-fixes." class="section level1">
 <h1>Exercise 1: Simple fixes.</h1>
 <p>Consult <span class="citation">Gelman and Hill (2007)</span>
 p. 532-34 and follow their descriptions for simple fixes.</p>
 <ol style="list-style-type: lower-alpha">
 <li>estimate a base-line model where you proceed to a list-wise
-exclusion</li>
+exclusion with an interaction term between <code>FutureInEP</code> and
+<code>ClosedList</code>. Personally, I used OLS estimation for this
+one.</li>
 <li>use the <code>EPGroup</code> variable to weigh the observations in
 an alternative model:</li>
 </ol>
 <ul>
 <li>create a dummy indicator for whether or not an observation is
-missing</li>
-<li>predict the probability of a missing observation</li>
+missing on <code>FutureInEP</code>.</li>
+<li>predict the probability of a missing observation on
+<code>FutureInEP</code> using <code>EPGroup</code> as a predictor.</li>
 <li>refit the main model with an inverse weight specified in the weights
 argument (<code>weights = 1/preds</code>)</li>
 </ul>
 <ol start="3" style="list-style-type: lower-alpha">
-<li>estimate a model where you also control for the missing variable
-using a dummy indicator for whether the information is missing.</li>
 <li>replace the <code>NA</code> by the mean of the
 <code>FutureInEP</code> variable</li>
-<li>replace thee <code>NA</code> by the group mean of the
+<li>replace the <code>NA</code> by the group mean of the
 <code>FutureInEP</code> variable. Use the <code>EPGroup</code> as a
 grouping variable.</li>
+<li>estimate a model where you include your imputed variable from d),
+but now you also control for the whether there is missing in your
+observations using the dummy indicator you created. What do Gelman and
+Hill say about this technique? When do you think it might be
+useful?</li>
 <li>put all your models in a single table (e.g. in stargazer) and
 compare. What happened to your estimates? And what about the standard
 error? Thoughts?</li>
 </ol>
-<p><em>Be prepared to share the table/codes/thoughts on padlet:</em> <a href="https://padlet.com/siljesynnove/exercise-1-simple-na-fixes-df5ppo9n2x0a4wuc" class="uri">https://padlet.com/siljesynnove/exercise-1-simple-na-fixes-df5ppo9n2x0a4wuc</a></p>
 </div>
 <div id="exercise-2-sampling" class="section level1">
 <h1>Exercise 2: Sampling</h1>
@@ -444,9 +450,10 @@ machine is not allowed to draw the same observation twice.</p>
 sample(x = x,
        size = 4,
        replace = F)</code></pre>
-<p>[1] 1 7 4 3 After having randomly samples, you’d have to replace only
-the <code>NA</code>s in <code>FutureInEP</code> with your imputed
-values, while keeping the observed values intact.</p>
+<p>[1] 8 7 5 1</p>
+<p>After having randomly sampled, you’d have to replace only the
+<code>NA</code>s in <code>FutureInEP</code> with your imputed values,
+while keeping the observed values intact.</p>
 <ol start="2" style="list-style-type: lower-alpha">
 <li>Re-estimate the main model with your new – partially sampled –
 predictor. Compare with the previous models. What happened? Why?</li>
@@ -457,7 +464,10 @@ predictor. Compare with the previous models. What happened? Why?</li>
 <p>Can you impute the missing values using regression? Here are a few
 suggestions for predictors <code>Age</code> (of the MEP),
 <code>TermsInOffice</code> (of the MEP), <code>position</code> (of
-national party towards EU inegration).</p>
+national party towards EU integration). The variable
+<code>ParlGovID</code> identifies the national parties, while
+<code>Nationality</code> and <code>Period</code> flag the MEP’s member
+state and the period of study (one of 10 semesters).</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>fit the regression model of your choice</p></li>
 <li><p>use the <code>predict()</code> function to extract predicted
@@ -472,14 +482,16 @@ sampling?</p>
 <code>rnorm()</code> function</li>
 </ul></li>
 </ol>
-<p>Here, I draw randomly twice from two normal distributions; in the
-first one the mean is 1 and the standard error is 0.1.</p>
+<p>Here, I draw randomly twice from a vector of two normal
+distributions; in the first one the mean is 1 and the standard error is
+0.1; in the second the mean is 2 and the standard error 0.1.</p>
 <pre class="r"><code>mean &lt;- c(1,2)
 se &lt;- c(0.1, 0.1)
 
 rnorm(n = 2,
       mean = mean,
       sd = se)</code></pre>
+<p>[1] 1.024479 1.980594</p>
 </div>
 <div id="literature" class="section level1 unnumbered">
 <h1 class="unnumbered">Literature</h1>
