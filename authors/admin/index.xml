@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Silje Synnøve Lyder Hermansen</title>
-    <link>/authors/admin/</link>
+    <link>https://siljehermansen.github.io/authors/admin/</link>
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://siljehermansen.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blurred lines between electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament</title>
-      <link>/publication/eup2024/</link>
+      <link>https://siljehermansen.github.io/publication/eup2024/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/publication/eup2024/</guid>
+      <guid>https://siljehermansen.github.io/publication/eup2024/</guid>
       <description>&lt;!---
 &lt;a href=&#34;&#34;&gt;
 &lt;img src=&#34;EffectOfSpecialization.png&#34; alt=&#34;The positive effect of staying in the same committee decreases over time.&#34;&gt;
@@ -36,10 +36,10 @@
     
     <item>
       <title>Installere R-pakken</title>
-      <link>/data/ripraksis/</link>
+      <link>https://siljehermansen.github.io/data/ripraksis/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/data/ripraksis/</guid>
+      <guid>https://siljehermansen.github.io/data/ripraksis/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;&amp;ldquo;R i praksis&amp;rdquo;&lt;/a&gt; er en introduktionsbog til statistikprogrammet R udgivet af DJØF (2023). Bogen leveres med datasæt, øvelsesopgaver og løsningsforslag, så du kan prøve dig selv. Her kan du downloade denne online ressource. Det kommer som en separat R-pakke.&lt;/p&gt;
 &lt;p&gt;Pakken kan installeres fra en lokal fil eller direkte fra GitHub.&lt;/p&gt;
 &lt;figure&gt;
@@ -76,26 +76,26 @@
 &lt;/ul&gt;
 &lt;p&gt;Hvis du støder på fejlmeddelelser, bør du tjekke, om de ekstra argumenter i installationskoden er korrekte. Filadressen (C:/Downloads/) vil naturligvis variere fra computer til computer.&lt;/p&gt;
 &lt;p&gt;Hvis du har valgt tar.gz-filen, skal koden se sådan ud.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;C:/Downloads/RiPraksis_0.1.0.tar.gz&amp;quot;, repos = NULL, type = &amp;quot;source&amp;quot;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;C:/Downloads/RiPraksis_0.1.0.tar.gz&amp;#34;, repos = NULL, type = &amp;#34;source&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Hvis du har valgt zip-filen, skal koden se sådan ud.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;C:/Downloads/RiPraksis_0.1.0.zip&amp;quot;, repos = NULL, type = &amp;quot;binary&amp;quot;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;C:/Downloads/RiPraksis_0.1.0.zip&amp;#34;, repos = NULL, type = &amp;#34;binary&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;installation-fra-github&#34;&gt;Installation fra GitHub&lt;/h2&gt;
 &lt;p&gt;Hvis du vil installere direkte fra GitHub, kræver det lidt mere avancerede trin.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I nettleseren:&lt;/strong&gt; Begynd med at downloade og installere &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34;&gt;RTools&lt;/a&gt; uden at åbne RStudio.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I RStudio:&lt;/strong&gt; installer &lt;code&gt;devtools&lt;/code&gt;-pakken og hent den ind fra biblioteket.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;devtools&amp;quot;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;devtools&amp;#34;)
 library(devtools)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Nu kan du downloade og installere nettressourcen direkte fra GitHubs sider.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install_github(&amp;quot;SiljeHermansen/RiPraksis&amp;quot;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install_github(&amp;#34;SiljeHermansen/RiPraksis&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
       <title>Lær deg R/R i praksis</title>
-      <link>/data/</link>
+      <link>https://siljehermansen.github.io/data/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/data/</guid>
+      <guid>https://siljehermansen.github.io/data/</guid>
       <description>&lt;p&gt;Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som lærer statistisk analyse.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
@@ -136,10 +136,10 @@ Her kan du finde instruktioner om, hvordan du downloader den online ressource, d
     
     <item>
       <title>The CJEU Database Platform: Decisions and Decision-Makers</title>
-      <link>/publication/jlc2023/</link>
+      <link>https://siljehermansen.github.io/publication/jlc2023/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/publication/jlc2023/</guid>
+      <guid>https://siljehermansen.github.io/publication/jlc2023/</guid>
       <description>&lt;!---
 &lt;a href=&#34;&#34;&gt;
 &lt;img src=&#34;EffectOfSpecialization.png&#34; alt=&#34;The positive effect of staying in the same committee decreases over time.&#34;&gt;
@@ -164,10 +164,10 @@ the door to new areas of theoretical and empirical research on judicial politics
     
     <item>
       <title>Statistical models beyond linear regression</title>
-      <link>/teaching/beyond-linear-models/</link>
+      <link>https://siljehermansen.github.io/teaching/beyond-linear-models/</link>
       <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/beyond-linear-models/</guid>
+      <guid>https://siljehermansen.github.io/teaching/beyond-linear-models/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s level. &lt;em&gt;University of Copenhagen. Department of Political Science.&lt;/em&gt; 2023&lt;/p&gt;
 &lt;p&gt;Here you can find the slides and other material used for the different lectures.&lt;/p&gt;
 &lt;h2 id=&#34;learning-r&#34;&gt;Learning R&lt;/h2&gt;
@@ -248,7 +248,7 @@ the door to new areas of theoretical and empirical research on judicial politics
 &lt;/ul&gt;
 &lt;h4 id=&#34;week-10-r-week-event-count-outcomes&#34;&gt;Week 10 (R week): Event count outcomes&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Ward (2018), ch. 11, p. 190-216&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;We will be working with a classical dataset on duration models used by &lt;a href=&#34;https://www.jstor.org/stable/2111628&#34;&gt;Box-Steffensmaier&lt;/a&gt;&amp;rsquo;s 1996 study of candidates&#39; campaign funding and the entry of challengers. You can find the R-version of the data for the notebook here: &lt;a href=&#34;warchest.rda&#34;&gt;warchest.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We will be working with a classical dataset on duration models used by &lt;a href=&#34;https://www.jstor.org/stable/2111628&#34;&gt;Box-Steffensmaier&lt;/a&gt;&amp;rsquo;s 1996 study of candidates&amp;rsquo; campaign funding and the entry of challengers. You can find the R-version of the data for the notebook here: &lt;a href=&#34;warchest.rda&#34;&gt;warchest.rda&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Slides/notebook:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;week10_event.html&#34;&gt;Notebook&lt;/a&gt;&lt;/li&gt;
@@ -553,20 +553,18 @@ Or, if you are creating a software documentation site, you can rename the `cours
 ## Update the docs menu
 
 If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.&lt;NewFolderName&gt;]`.
----&gt;&lt;blockquote&gt;
-&lt;/blockquote&gt;
-</description>
+---&gt;</description>
     </item>
     
     <item>
       <title>Decision makers in the Court of Justice of the European Union (CJEU)</title>
-      <link>/project/court-of-justice-of-the-european-union/</link>
+      <link>https://siljehermansen.github.io/project/court-of-justice-of-the-european-union/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/project/court-of-justice-of-the-european-union/</guid>
+      <guid>https://siljehermansen.github.io/project/court-of-justice-of-the-european-union/</guid>
       <description>&lt;p&gt;The Court of Justice of the European Union (CJEU) is probably the world’s most influential international court, functioning in many respects as a federal supreme court.&lt;/p&gt;
 &lt;p&gt;As of today, little research exists on how judges enter the Court and how its internal organization affects decision making.  This project opens the black box of these decision-making processes to consider governments’ and judges’ strategic behavior.&lt;/p&gt;
-&lt;p&gt;I show that judges&#39; performance and governments&#39; political preferences are intertwined both when judges are appointed and when influence is distributed within the Court.&lt;/p&gt;
+&lt;p&gt;I show that judges&amp;rsquo; performance and governments&amp;rsquo; political preferences are intertwined both when judges are appointed and when influence is distributed within the Court.&lt;/p&gt;
 &lt;h2 id=&#34;judicial-appointments-to-the-cjeu&#34;&gt;Judicial appointments to the CJEU&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;Holding Judges To Account. Policy, Performance and Impartiality&amp;rdquo;&lt;/strong&gt;  with Daniel Naurin presented at the ECPR Joint Sessions 2019 (Mons)&lt;/li&gt;
@@ -579,7 +577,7 @@ If you use the *docs* layout, note that the name of the menu in the front matter
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;How do merit commissions affect judicial behavior? Evidence from the Court of Justice of the European Union&amp;rdquo;&lt;/strong&gt;  with Sivaram Cheruvu, Joshua Fjelstul, and Daniel Naurin presented at APSA 2022 (Montréal)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;img src=&#34;Coefplot_panel255.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;.&#34;/&gt;
-&lt;p&gt;Governments create monitoring entities to ensure that policymakers are working effectively. Monitors&#39; control over retaining and selecting policymakers, however, may create incentives that lead to sub-optimal outcomes. One such entity is a merit commission (also known as a judicial council) that evaluates judges subject to retention and (or) selection. How do merit commissions affect judicial behavior? We construct a formal model arguing that lower competence incumbent judges only subject to merit retention will complete cases more quickly at the expense of quality opinion-writing, as their productivity is a signal of their effort investment to the commission. Conversely, judges subject to merit selection and subsequent retention will not make the same tradeoff, as the commission&amp;rsquo;s initial selection of them makes it more costly for the commission to negatively evaluate them upon retention. We provide evidence leveraging the Article 255 panel for (re)appointments to the Court of Justice of the European Union.&lt;/p&gt;
+&lt;p&gt;Governments create monitoring entities to ensure that policymakers are working effectively. Monitors&amp;rsquo; control over retaining and selecting policymakers, however, may create incentives that lead to sub-optimal outcomes. One such entity is a merit commission (also known as a judicial council) that evaluates judges subject to retention and (or) selection. How do merit commissions affect judicial behavior? We construct a formal model arguing that lower competence incumbent judges only subject to merit retention will complete cases more quickly at the expense of quality opinion-writing, as their productivity is a signal of their effort investment to the commission. Conversely, judges subject to merit selection and subsequent retention will not make the same tradeoff, as the commission&amp;rsquo;s initial selection of them makes it more costly for the commission to negatively evaluate them upon retention. We provide evidence leveraging the Article 255 panel for (re)appointments to the Court of Justice of the European Union.&lt;/p&gt;
 &lt;h2 id=&#34;strategic-decision-making-in-the-cjeu&#34;&gt;Strategic decision making in the CJEU&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;Leveling and Spotlighting: How International Courts Refract Private Litigation to Build Institutional Legitimacy&amp;rdquo;&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz  presented at EUSA 2022 (Miami)&lt;/li&gt;
@@ -610,9 +608,9 @@ If you use the *docs* layout, note that the name of the menu in the front matter
 # &lt;div include-html=&#34;legal_ambit_trivariate.html&#34;&gt;&lt;/div&gt;
 --&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Litigating in the European Court of Justice: Lawyers&#39; influence on supranational decision-making&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz presented at ECPR 2021 (zoom)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Litigating in the European Court of Justice: Lawyers&amp;rsquo; influence on supranational decision-making&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz presented at ECPR 2021 (zoom)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This paper assesses how private litigants’ propensity to win cases before international courts is conditioned by the quality of their legal counsel and by the constraints of intergovernmental politics. Building on legal mobilization and party capability theories, we argue that quality legal counsel bolsters a private party’s capacity to convey legal information to judges that is relevant to deciding the case in their favor. At the same time, we build on intergovernmentalist theories of international adjudication positing that judges will also be sensitive to political signals by national governments. As a result, we hypothesize that the influence of quality legal counsel on international judges is conditioned by the political support that member states&#39; express.&lt;/p&gt;
+&lt;p&gt;This paper assesses how private litigants’ propensity to win cases before international courts is conditioned by the quality of their legal counsel and by the constraints of intergovernmental politics. Building on legal mobilization and party capability theories, we argue that quality legal counsel bolsters a private party’s capacity to convey legal information to judges that is relevant to deciding the case in their favor. At the same time, we build on intergovernmentalist theories of international adjudication positing that judges will also be sensitive to political signals by national governments. As a result, we hypothesize that the influence of quality legal counsel on international judges is conditioned by the political support that member states&amp;rsquo; express.&lt;/p&gt;
 &lt;p&gt;To assess these claims, we exploit an original dataset of parties and lawyers involved in disputes before the European Court of Justice (ECJ) – arguably the most successful and influential international court procuring access to private litigants. We find being represented by a lawyer bolsters the probability that litigants submit observations and win cases before the ECJ, yet this effect is the highest in the minority of cases where a majority of more member state governments intervene in favor of the applicant. We conclude by highlighting the necessity of combining theories of legal mobilization and intergovernmental politics in order to explain judicial decision-making in international courts.&lt;/p&gt;
 &lt;!--* **&#34;Measuring the evolution of CJEU case law using word embeddings&#34;** presented at Big Insight - a center for research-based innovation, Norwegian Computing Center 2019 (Oslo)
 
@@ -643,10 +641,10 @@ A draft version can be found [here](WordEmbeddings_Hermansen.pdf).
     
     <item>
       <title>R i praksis</title>
-      <link>/publication/r-i-praksis/</link>
+      <link>https://siljehermansen.github.io/publication/r-i-praksis/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/publication/r-i-praksis/</guid>
+      <guid>https://siljehermansen.github.io/publication/r-i-praksis/</guid>
       <description>&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;
 &lt;img src=&#34;r-i-praksis.png&#34; alt=&#34;R i praksis: En introduktion for samfundsvidenskaberne. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
 &lt;/a&gt;
@@ -696,10 +694,10 @@ Vi begynner med å laste inn og tilrettelegge data, før vi går videre med besk
     
     <item>
       <title>Introduksjon til R</title>
-      <link>/teaching/oslomet/</link>
+      <link>https://siljehermansen.github.io/teaching/oslomet/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/oslomet/</guid>
+      <guid>https://siljehermansen.github.io/teaching/oslomet/</guid>
       <description>&lt;a&gt;
 &lt;img src=&#34;RStudio-Logo.png&#34; width=&#34;45%&#34; align=&#34;right&#34; caption = &#34;RStudio&#34;  alt = &#34;RStudio&#34;/&gt;
 &lt;/a&gt;
@@ -781,10 +779,10 @@ Data for sesjonen: [df_all](df_all.rda)--&gt;
     
     <item>
       <title>Hvordan &#34;skrape&#34; data i R?</title>
-      <link>/teaching/skrape-data/</link>
+      <link>https://siljehermansen.github.io/teaching/skrape-data/</link>
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/skrape-data/</guid>
+      <guid>https://siljehermansen.github.io/teaching/skrape-data/</guid>
       <description>&lt;html&gt;
 &lt;body&gt;
 &lt;em&gt;
@@ -1074,11 +1072,11 @@ id &amp;lt;- grep(&amp;quot;Date of document&amp;quot;, familier)
 familie &amp;lt;- familier[id]&lt;/p&gt;
 &lt;p&gt;#To parallelle operasjoner&lt;/p&gt;
 &lt;p&gt;#1. finn noden med riktig datotittel
-tittel.barn &amp;lt;- familie %&amp;gt;% 
+tittel.barn &amp;lt;- familie %&amp;gt;%
 html_nodes(&amp;quot;dt&amp;quot;)&lt;/p&gt;
 &lt;p&gt;id2 &amp;lt;- grep(&amp;quot;Date of document&amp;quot;, tittel.barn)&lt;/p&gt;
 &lt;p&gt;#2. finn noden med datoinformasjon
-dato.barn &amp;lt;- familie %&amp;gt;% 
+dato.barn &amp;lt;- familie %&amp;gt;%
 html_nodes(&amp;quot;dd&amp;quot;)&lt;/p&gt;
 &lt;p&gt;#Trekk ut teksten
 dato &amp;lt;- dato.barn[id2] %&amp;gt;%
@@ -1263,10 +1261,10 @@ $(document).ready(function () {
     
     <item>
       <title>Introducing COMEPELDA: Comprehensive European Parliament electoral data covering rules, parties and candidates</title>
-      <link>/publication/eup2022/</link>
+      <link>https://siljehermansen.github.io/publication/eup2022/</link>
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>/publication/eup2022/</guid>
+      <guid>https://siljehermansen.github.io/publication/eup2022/</guid>
       <description>&lt;!---
 &lt;a href=&#34;&#34;&gt;
 &lt;img src=&#34;EffectOfSpecialization.png&#34; alt=&#34;The positive effect of staying in the same committee decreases over time.&#34;&gt;
@@ -1286,10 +1284,10 @@ $(document).ready(function () {
     
     <item>
       <title>What GLM should I choose?</title>
-      <link>/teaching/choose_glm/</link>
+      <link>https://siljehermansen.github.io/teaching/choose_glm/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/choose_glm/</guid>
+      <guid>https://siljehermansen.github.io/teaching/choose_glm/</guid>
       <description>&lt;p&gt;&lt;em&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of choice criteria when I consider what Generalized Linear Model (GLM) to rely on.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Let&#39;s assume I want to describe the relationship (&amp;beta;) between an independent variable (&lt;em&gt;x&lt;/em&gt;) and a dependent variable (&lt;em&gt;y&lt;/em&gt;) in the form of:
 &lt;/p&gt;
@@ -1310,16 +1308,16 @@ $(document).ready(function () {
     
     <item>
       <title>Statistical analysis (STV4020B)</title>
-      <link>/teaching/stv4020b/</link>
+      <link>https://siljehermansen.github.io/teaching/stv4020b/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/stv4020b/</guid>
+      <guid>https://siljehermansen.github.io/teaching/stv4020b/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2020&lt;/p&gt;
 &lt;!---Here you can find the slides and other material used for the different lectures.---&gt;
 &lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them.&lt;/p&gt;
 &lt;p&gt;The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).&lt;/p&gt;
 &lt;h2 id=&#34;describing-data-generalized-linear-models&#34;&gt;Describing data (generalized linear models)&lt;/h2&gt;
-&lt;p&gt;Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&#39; choice of party, number of violent incidences in a time span, or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.&lt;/p&gt;
+&lt;p&gt;Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&amp;rsquo; choice of party, number of violent incidences in a time span, or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.&lt;/p&gt;
 &lt;h4 id=&#34;lecture-1-maximum-likelihood&#34;&gt;Lecture 1: Maximum likelihood&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 1, 2, 5-7)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We introduce maximum likelihood as a framework for statistical modeling.&lt;/p&gt;
@@ -1338,7 +1336,7 @@ We go through how to model binary outcomes, how to interpret the results from a 
 &lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 11)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We can leverage information both from the fact that an event occured or not (binary outcome) and the time it took for the event to take place (count outcome). These models are made to describe a duration until an outcome occurs.&lt;/p&gt;
 &lt;h2 id=&#34;causal-inference&#34;&gt;Causal inference&lt;/h2&gt;
-&lt;p&gt;Beyond statistical description, researchers&#39; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework helps us understand the conditions under which we can identify causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.&lt;/p&gt;
+&lt;p&gt;Beyond statistical description, researchers&amp;rsquo; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework helps us understand the conditions under which we can identify causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.&lt;/p&gt;
 &lt;h4 id=&#34;causal-inferencecausal_inference_stv4020bpdf&#34;&gt;&lt;a href=&#34;causal_inference_stv4020b.pdf&#34;&gt;Causal inference&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;(Morgan and Winship, 2015, ch 1-3; Samii 2016)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We go through the idea of potential outcomes. What are the comparisons we would we like to make? And what is actually possible to compare with?&lt;/p&gt;
@@ -1435,17 +1433,15 @@ Or, if you are creating a software documentation site, you can rename the `cours
 ## Update the docs menu
 
 If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.&lt;NewFolderName&gt;]`.
----&gt;&lt;blockquote&gt;
-&lt;/blockquote&gt;
-</description>
+---&gt;</description>
     </item>
     
     <item>
       <title>Delegation of committee reports in the European Parliament</title>
-      <link>/publication/eup2020/</link>
+      <link>https://siljehermansen.github.io/publication/eup2020/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/eup2020/</guid>
+      <guid>https://siljehermansen.github.io/publication/eup2020/</guid>
       <description>&lt;!---
 &lt;a href=&#34;&#34;&gt;
 &lt;img src=&#34;EffectOfSpecialization.png&#34; alt=&#34;The positive effect of staying in the same committee decreases over time.&#34;&gt;
@@ -1467,10 +1463,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Building legitimacy: strategic case allocations in the Court of Justice of the European Union</title>
-      <link>/publication/jepp2020/</link>
+      <link>https://siljehermansen.github.io/publication/jepp2020/</link>
       <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/jepp2020/</guid>
+      <guid>https://siljehermansen.github.io/publication/jepp2020/</guid>
       <description>&lt;!---
 &lt;figure&gt;
 &lt;img src=&#34;MarginalEffect_First_B_item_Current_government_-_weighted0.jpeg&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;No effect of government preferences in non-politicized cases.&#34;/&gt;
@@ -1497,15 +1493,15 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Statistical analysis (STV4020B)</title>
-      <link>/teaching/stv4020b_2019/</link>
+      <link>https://siljehermansen.github.io/teaching/stv4020b_2019/</link>
       <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/stv4020b_2019/</guid>
+      <guid>https://siljehermansen.github.io/teaching/stv4020b_2019/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2019&lt;/p&gt;
 &lt;h3 id=&#34;course-description&#34;&gt;Course description&lt;/h3&gt;
 &lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We go through the statistical theory behind models, but we emphasize understanding when models are useful and how to employ them. The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).&lt;/p&gt;
-&lt;p&gt;Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&#39; choice of party, number of violent incidences in a time span or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.&lt;/p&gt;
-&lt;p&gt;Beyond statistical description, researchers&#39; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework provides a useful heuristic for assessing causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.&lt;/p&gt;
+&lt;p&gt;Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&amp;rsquo; choice of party, number of violent incidences in a time span or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.&lt;/p&gt;
+&lt;p&gt;Beyond statistical description, researchers&amp;rsquo; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework provides a useful heuristic for assessing causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Learning outcome&lt;/strong&gt; Students will get hands-on practice by learning how to implement the various techniques and by replicating existing studies in R. Students will also learn how to present results in a manner that is understandable to a general audience, for example by using graphs and other visual tools.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;More information&lt;/strong&gt; about the course is available at the &lt;a href=&#34;https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/&#34;&gt;University of Oslo&amp;rsquo;s webpages&lt;/a&gt;.&lt;/p&gt;
 &lt;div&gt;
@@ -1598,17 +1594,15 @@ Or, if you are creating a software documentation site, you can rename the `cours
 ## Update the docs menu
 
 If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.&lt;NewFolderName&gt;]`.
----&gt;&lt;blockquote&gt;
-&lt;/blockquote&gt;
-</description>
+---&gt;</description>
     </item>
     
     <item>
       <title>Installere R-pakken</title>
-      <link>/data/laerdegr/</link>
+      <link>https://siljehermansen.github.io/data/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/data/laerdegr/</guid>
+      <guid>https://siljehermansen.github.io/data/laerdegr/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;&amp;ldquo;Lær deg R&amp;rdquo;&lt;/a&gt; er en innføringsbok i statistikkprogrammet R utgitt av Fagbokforlaget (2019). Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Her kan du laste ned denne nettressursen. Den kommer som en egen R-pakke.&lt;/p&gt;
 &lt;p&gt;Pakken kan installeres fra lokal fil eller rett fra GitHub.&lt;/p&gt;
 &lt;figure&gt;
@@ -1639,27 +1633,27 @@ If you use the *docs* layout, note that the name of the menu in the front matter
 &lt;/ul&gt;
 &lt;p&gt;Om du møter på feilmeldinger, bør du sjekke at tilleggsargumentene i installasjonskoden er korrekte. Filadressa (&lt;code&gt;C:/Downloads/&lt;/code&gt;) vil åpenbart variere fra maskin til maskin.&lt;/p&gt;
 &lt;p&gt;Om du har valgt tar.gz-fil, må koden se slik ut.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;C:/Downloads/laerdegR_0.1.0.tar.gz&amp;quot;, repos = NULL, type = &amp;quot;source&amp;quot;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;C:/Downloads/laerdegR_0.1.0.tar.gz&amp;#34;, repos = NULL, type = &amp;#34;source&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Om du har valgt zip-fil, må koden se slik ut.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;C:/Downloads/laerdegR_0.1.0.zip&amp;quot;, repos = NULL, type = &amp;quot;binary&amp;quot;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;C:/Downloads/laerdegR_0.1.0.zip&amp;#34;, repos = NULL, type = &amp;#34;binary&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
 &lt;h2 id=&#34;installere-direkte-fra-github&#34;&gt;Installere direkte fra GitHub&lt;/h2&gt;
 &lt;p&gt;Denne løsningen krever mer manøvrering.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I nettleseren:&lt;/strong&gt; Begynn med å laste ned og installere &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34;&gt;RTools&lt;/a&gt; uten å åpne RStudio.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I RStudio:&lt;/strong&gt; installere &lt;code&gt;devtools&lt;/code&gt;-pakken og hent den inn fra biblioteket.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install.packages(&#39;devtools&#39;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#39;devtools&amp;#39;)
 library(devtools)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Nå kan du laste ned og installere nettressursen direkte fra GitHubs sider.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install_github(&amp;quot;SiljeHermansen/laerdegR&amp;quot;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install_github(&amp;#34;SiljeHermansen/laerdegR&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
       <title>Lær deg R</title>
-      <link>/publication/laerdegr/</link>
+      <link>https://siljehermansen.github.io/publication/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/laerdegr/</guid>
+      <guid>https://siljehermansen.github.io/publication/laerdegr/</guid>
       <description>&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
 &lt;img src=&#34;laerdegr.jpg&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
 &lt;/a&gt;
@@ -1699,10 +1693,10 @@ library(devtools)
     
     <item>
       <title>Striving for influence: The effect of performance on candidate selection</title>
-      <link>/publication/pp2018/</link>
+      <link>https://siljehermansen.github.io/publication/pp2018/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/pp2018/</guid>
+      <guid>https://siljehermansen.github.io/publication/pp2018/</guid>
       <description>&lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/1354068816663036&#34;&gt;
 &lt;img src=&#34;reselection_performance.jpg&#34; alt=&#34;Effect of signals of performance on incumbent candidate selection to the European Parliament. Author: Silje Hermansen.&#34;&gt;
 &lt;/a&gt;
@@ -1719,10 +1713,10 @@ library(devtools)
     
     <item>
       <title>(Self-)selection and expertise among decision-makers in the European Parliament</title>
-      <link>/publication/jls2018/</link>
+      <link>https://siljehermansen.github.io/publication/jls2018/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/jls2018/</guid>
+      <guid>https://siljehermansen.github.io/publication/jls2018/</guid>
       <description>&lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/13572334.2018.1444631&#34;&gt;
 &lt;img src=&#34;coefplot_expertise.png&#34; alt=&#34;Coefplot reporting effect of policy expertise on allocation of codecision reports. Author: Silje Hermansen.&#34;&gt;
 &lt;/a&gt;
@@ -1740,10 +1734,10 @@ library(devtools)
     
     <item>
       <title>Choosing Agents: Members of the European Parliament and their Political Organizations Seen through Report Allocation</title>
-      <link>/publication/phd2017/</link>
+      <link>https://siljehermansen.github.io/publication/phd2017/</link>
       <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/phd2017/</guid>
+      <guid>https://siljehermansen.github.io/publication/phd2017/</guid>
       <description>&lt;a href=&#34;https://www.duo.uio.no/bitstream/handle/10852/69004/PhD-LyderHermansen-2017.pdf?sequence=4&amp;isAllowed=y&#34;&gt;
 &lt;img src=&#34;committee_activity.jpg&#34; alt=&#34;Graphic illustrating the variation in committee activity in the European Parliament (1999-2014). Author: Silje Synnøve Lyder Hermansen&#34;&gt;
 &lt;/a&gt;
@@ -1752,7 +1746,7 @@ library(devtools)
 &lt;p&gt;Parliamentary groups face a trade-off between the need for expertise and the risk of agency drift. Groups allocate reports to maximize the value added by the rapporteur while limiting the drift. They prefer policy experts to generalists and -- up to a point -- experienced MEPs to newcomers. Groups also balance individual demands with the collective need.&lt;/p&gt;
 &lt;p&gt;National parties do not have institutionalized presence in the EP. They enter into an outcome-based contract similar to voters. MEPs are either rewarded by reselection or kicked out of office. Report alloca-tions dissipate uncertainty about MEPs’ ability. They thus improve MEPs’ career prospects to the extent that parties need new information about agent quality, and to the extent that parliamentary groups can provide it.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Outreach&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;A popularized presentation in Norwegian on the effect of gender quotas on legislative behavior and parties&#39; candidate selection can be found here: &lt;a href=&#34;https://www.sv.uio.no/isv/forskning/aktuelt/aktuelle-saker/2017/et-forsvar-for-kvinnekvotering-.html&#34;&gt;&amp;ldquo;Et forsvar for kvinnekvotering&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A popularized presentation in Norwegian on the effect of gender quotas on legislative behavior and parties&amp;rsquo; candidate selection can be found here: &lt;a href=&#34;https://www.sv.uio.no/isv/forskning/aktuelt/aktuelle-saker/2017/et-forsvar-for-kvinnekvotering-.html&#34;&gt;&amp;ldquo;Et forsvar for kvinnekvotering&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Hermansen, Silje Synnøve Lyder (2017) &lt;em&gt;Choosing Agents: Members of the European Parliament and their Political Organizations Seen through Report Allocation&lt;/em&gt;. Doctoral dissertation. University of Oslo. 323 p.&lt;/li&gt;
@@ -1762,10 +1756,10 @@ library(devtools)
     
     <item>
       <title></title>
-      <link>/about/</link>
+      <link>https://siljehermansen.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://siljehermansen.github.io/about/</guid>
       <description>&lt;p&gt;Welcome to my website! I currently work at &lt;a href=&#34;https://jura.ku.dk/icourts/&#34;&gt;&lt;em&gt;iCourts&lt;/em&gt;&lt;/a&gt;, a centre of excellence dedicated to the study of international courts at the University of Copenhagen.&lt;/p&gt;
 </description>
     </item>

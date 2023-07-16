@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching material on Silje Synnøve Lyder Hermansen</title>
-    <link>/tags/teaching-material/</link>
+    <link>https://siljehermansen.github.io/tags/teaching-material/</link>
     <description>Recent content in Teaching material on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/teaching-material/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://siljehermansen.github.io/tags/teaching-material/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Installere R-pakken</title>
-      <link>/data/ripraksis/</link>
+      <link>https://siljehermansen.github.io/data/ripraksis/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/data/ripraksis/</guid>
+      <guid>https://siljehermansen.github.io/data/ripraksis/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;&amp;ldquo;R i praksis&amp;rdquo;&lt;/a&gt; er en introduktionsbog til statistikprogrammet R udgivet af DJØF (2023). Bogen leveres med datasæt, øvelsesopgaver og løsningsforslag, så du kan prøve dig selv. Her kan du downloade denne online ressource. Det kommer som en separat R-pakke.&lt;/p&gt;
 &lt;p&gt;Pakken kan installeres fra en lokal fil eller direkte fra GitHub.&lt;/p&gt;
 &lt;figure&gt;
@@ -53,26 +53,26 @@
 &lt;/ul&gt;
 &lt;p&gt;Hvis du støder på fejlmeddelelser, bør du tjekke, om de ekstra argumenter i installationskoden er korrekte. Filadressen (C:/Downloads/) vil naturligvis variere fra computer til computer.&lt;/p&gt;
 &lt;p&gt;Hvis du har valgt tar.gz-filen, skal koden se sådan ud.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;C:/Downloads/RiPraksis_0.1.0.tar.gz&amp;quot;, repos = NULL, type = &amp;quot;source&amp;quot;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;C:/Downloads/RiPraksis_0.1.0.tar.gz&amp;#34;, repos = NULL, type = &amp;#34;source&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Hvis du har valgt zip-filen, skal koden se sådan ud.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;C:/Downloads/RiPraksis_0.1.0.zip&amp;quot;, repos = NULL, type = &amp;quot;binary&amp;quot;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;C:/Downloads/RiPraksis_0.1.0.zip&amp;#34;, repos = NULL, type = &amp;#34;binary&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;installation-fra-github&#34;&gt;Installation fra GitHub&lt;/h2&gt;
 &lt;p&gt;Hvis du vil installere direkte fra GitHub, kræver det lidt mere avancerede trin.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I nettleseren:&lt;/strong&gt; Begynd med at downloade og installere &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34;&gt;RTools&lt;/a&gt; uden at åbne RStudio.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I RStudio:&lt;/strong&gt; installer &lt;code&gt;devtools&lt;/code&gt;-pakken og hent den ind fra biblioteket.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;devtools&amp;quot;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;devtools&amp;#34;)
 library(devtools)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Nu kan du downloade og installere nettressourcen direkte fra GitHubs sider.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install_github(&amp;quot;SiljeHermansen/RiPraksis&amp;quot;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install_github(&amp;#34;SiljeHermansen/RiPraksis&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
       <title>Statistical models beyond linear regression</title>
-      <link>/teaching/beyond-linear-models/</link>
+      <link>https://siljehermansen.github.io/teaching/beyond-linear-models/</link>
       <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/beyond-linear-models/</guid>
+      <guid>https://siljehermansen.github.io/teaching/beyond-linear-models/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s level. &lt;em&gt;University of Copenhagen. Department of Political Science.&lt;/em&gt; 2023&lt;/p&gt;
 &lt;p&gt;Here you can find the slides and other material used for the different lectures.&lt;/p&gt;
 &lt;h2 id=&#34;learning-r&#34;&gt;Learning R&lt;/h2&gt;
@@ -153,7 +153,7 @@ library(devtools)
 &lt;/ul&gt;
 &lt;h4 id=&#34;week-10-r-week-event-count-outcomes&#34;&gt;Week 10 (R week): Event count outcomes&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Ward (2018), ch. 11, p. 190-216&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;We will be working with a classical dataset on duration models used by &lt;a href=&#34;https://www.jstor.org/stable/2111628&#34;&gt;Box-Steffensmaier&lt;/a&gt;&amp;rsquo;s 1996 study of candidates&#39; campaign funding and the entry of challengers. You can find the R-version of the data for the notebook here: &lt;a href=&#34;warchest.rda&#34;&gt;warchest.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We will be working with a classical dataset on duration models used by &lt;a href=&#34;https://www.jstor.org/stable/2111628&#34;&gt;Box-Steffensmaier&lt;/a&gt;&amp;rsquo;s 1996 study of candidates&amp;rsquo; campaign funding and the entry of challengers. You can find the R-version of the data for the notebook here: &lt;a href=&#34;warchest.rda&#34;&gt;warchest.rda&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Slides/notebook:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;week10_event.html&#34;&gt;Notebook&lt;/a&gt;&lt;/li&gt;
@@ -458,17 +458,15 @@ Or, if you are creating a software documentation site, you can rename the `cours
 ## Update the docs menu
 
 If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.&lt;NewFolderName&gt;]`.
----&gt;&lt;blockquote&gt;
-&lt;/blockquote&gt;
-</description>
+---&gt;</description>
     </item>
     
     <item>
       <title>R i praksis</title>
-      <link>/publication/r-i-praksis/</link>
+      <link>https://siljehermansen.github.io/publication/r-i-praksis/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/publication/r-i-praksis/</guid>
+      <guid>https://siljehermansen.github.io/publication/r-i-praksis/</guid>
       <description>&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;
 &lt;img src=&#34;r-i-praksis.png&#34; alt=&#34;R i praksis: En introduktion for samfundsvidenskaberne. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
 &lt;/a&gt;
@@ -518,10 +516,10 @@ Vi begynner med å laste inn og tilrettelegge data, før vi går videre med besk
     
     <item>
       <title>Introduksjon til R</title>
-      <link>/teaching/oslomet/</link>
+      <link>https://siljehermansen.github.io/teaching/oslomet/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/oslomet/</guid>
+      <guid>https://siljehermansen.github.io/teaching/oslomet/</guid>
       <description>&lt;a&gt;
 &lt;img src=&#34;RStudio-Logo.png&#34; width=&#34;45%&#34; align=&#34;right&#34; caption = &#34;RStudio&#34;  alt = &#34;RStudio&#34;/&gt;
 &lt;/a&gt;
@@ -603,10 +601,10 @@ Data for sesjonen: [df_all](df_all.rda)--&gt;
     
     <item>
       <title>Hvordan &#34;skrape&#34; data i R?</title>
-      <link>/teaching/skrape-data/</link>
+      <link>https://siljehermansen.github.io/teaching/skrape-data/</link>
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/skrape-data/</guid>
+      <guid>https://siljehermansen.github.io/teaching/skrape-data/</guid>
       <description>&lt;html&gt;
 &lt;body&gt;
 &lt;em&gt;
@@ -896,11 +894,11 @@ id &amp;lt;- grep(&amp;quot;Date of document&amp;quot;, familier)
 familie &amp;lt;- familier[id]&lt;/p&gt;
 &lt;p&gt;#To parallelle operasjoner&lt;/p&gt;
 &lt;p&gt;#1. finn noden med riktig datotittel
-tittel.barn &amp;lt;- familie %&amp;gt;% 
+tittel.barn &amp;lt;- familie %&amp;gt;%
 html_nodes(&amp;quot;dt&amp;quot;)&lt;/p&gt;
 &lt;p&gt;id2 &amp;lt;- grep(&amp;quot;Date of document&amp;quot;, tittel.barn)&lt;/p&gt;
 &lt;p&gt;#2. finn noden med datoinformasjon
-dato.barn &amp;lt;- familie %&amp;gt;% 
+dato.barn &amp;lt;- familie %&amp;gt;%
 html_nodes(&amp;quot;dd&amp;quot;)&lt;/p&gt;
 &lt;p&gt;#Trekk ut teksten
 dato &amp;lt;- dato.barn[id2] %&amp;gt;%
@@ -1085,10 +1083,10 @@ $(document).ready(function () {
     
     <item>
       <title>What GLM should I choose?</title>
-      <link>/teaching/choose_glm/</link>
+      <link>https://siljehermansen.github.io/teaching/choose_glm/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/choose_glm/</guid>
+      <guid>https://siljehermansen.github.io/teaching/choose_glm/</guid>
       <description>&lt;p&gt;&lt;em&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of choice criteria when I consider what Generalized Linear Model (GLM) to rely on.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Let&#39;s assume I want to describe the relationship (&amp;beta;) between an independent variable (&lt;em&gt;x&lt;/em&gt;) and a dependent variable (&lt;em&gt;y&lt;/em&gt;) in the form of:
 &lt;/p&gt;
@@ -1109,16 +1107,16 @@ $(document).ready(function () {
     
     <item>
       <title>Statistical analysis (STV4020B)</title>
-      <link>/teaching/stv4020b/</link>
+      <link>https://siljehermansen.github.io/teaching/stv4020b/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/stv4020b/</guid>
+      <guid>https://siljehermansen.github.io/teaching/stv4020b/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2020&lt;/p&gt;
 &lt;!---Here you can find the slides and other material used for the different lectures.---&gt;
 &lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them.&lt;/p&gt;
 &lt;p&gt;The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).&lt;/p&gt;
 &lt;h2 id=&#34;describing-data-generalized-linear-models&#34;&gt;Describing data (generalized linear models)&lt;/h2&gt;
-&lt;p&gt;Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&#39; choice of party, number of violent incidences in a time span, or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.&lt;/p&gt;
+&lt;p&gt;Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&amp;rsquo; choice of party, number of violent incidences in a time span, or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.&lt;/p&gt;
 &lt;h4 id=&#34;lecture-1-maximum-likelihood&#34;&gt;Lecture 1: Maximum likelihood&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 1, 2, 5-7)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We introduce maximum likelihood as a framework for statistical modeling.&lt;/p&gt;
@@ -1137,7 +1135,7 @@ We go through how to model binary outcomes, how to interpret the results from a 
 &lt;p&gt;&lt;em&gt;(Ward and Ahlquist, 2018, ch 11)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We can leverage information both from the fact that an event occured or not (binary outcome) and the time it took for the event to take place (count outcome). These models are made to describe a duration until an outcome occurs.&lt;/p&gt;
 &lt;h2 id=&#34;causal-inference&#34;&gt;Causal inference&lt;/h2&gt;
-&lt;p&gt;Beyond statistical description, researchers&#39; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework helps us understand the conditions under which we can identify causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.&lt;/p&gt;
+&lt;p&gt;Beyond statistical description, researchers&amp;rsquo; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework helps us understand the conditions under which we can identify causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.&lt;/p&gt;
 &lt;h4 id=&#34;causal-inferencecausal_inference_stv4020bpdf&#34;&gt;&lt;a href=&#34;causal_inference_stv4020b.pdf&#34;&gt;Causal inference&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;(Morgan and Winship, 2015, ch 1-3; Samii 2016)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We go through the idea of potential outcomes. What are the comparisons we would we like to make? And what is actually possible to compare with?&lt;/p&gt;
@@ -1234,17 +1232,15 @@ Or, if you are creating a software documentation site, you can rename the `cours
 ## Update the docs menu
 
 If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.&lt;NewFolderName&gt;]`.
----&gt;&lt;blockquote&gt;
-&lt;/blockquote&gt;
-</description>
+---&gt;</description>
     </item>
     
     <item>
       <title>Installere R-pakken</title>
-      <link>/data/laerdegr/</link>
+      <link>https://siljehermansen.github.io/data/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/data/laerdegr/</guid>
+      <guid>https://siljehermansen.github.io/data/laerdegr/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;&amp;ldquo;Lær deg R&amp;rdquo;&lt;/a&gt; er en innføringsbok i statistikkprogrammet R utgitt av Fagbokforlaget (2019). Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Her kan du laste ned denne nettressursen. Den kommer som en egen R-pakke.&lt;/p&gt;
 &lt;p&gt;Pakken kan installeres fra lokal fil eller rett fra GitHub.&lt;/p&gt;
 &lt;figure&gt;
@@ -1275,27 +1271,27 @@ If you use the *docs* layout, note that the name of the menu in the front matter
 &lt;/ul&gt;
 &lt;p&gt;Om du møter på feilmeldinger, bør du sjekke at tilleggsargumentene i installasjonskoden er korrekte. Filadressa (&lt;code&gt;C:/Downloads/&lt;/code&gt;) vil åpenbart variere fra maskin til maskin.&lt;/p&gt;
 &lt;p&gt;Om du har valgt tar.gz-fil, må koden se slik ut.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;C:/Downloads/laerdegR_0.1.0.tar.gz&amp;quot;, repos = NULL, type = &amp;quot;source&amp;quot;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;C:/Downloads/laerdegR_0.1.0.tar.gz&amp;#34;, repos = NULL, type = &amp;#34;source&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Om du har valgt zip-fil, må koden se slik ut.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;C:/Downloads/laerdegR_0.1.0.zip&amp;quot;, repos = NULL, type = &amp;quot;binary&amp;quot;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;C:/Downloads/laerdegR_0.1.0.zip&amp;#34;, repos = NULL, type = &amp;#34;binary&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
 &lt;h2 id=&#34;installere-direkte-fra-github&#34;&gt;Installere direkte fra GitHub&lt;/h2&gt;
 &lt;p&gt;Denne løsningen krever mer manøvrering.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I nettleseren:&lt;/strong&gt; Begynn med å laste ned og installere &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34;&gt;RTools&lt;/a&gt; uten å åpne RStudio.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I RStudio:&lt;/strong&gt; installere &lt;code&gt;devtools&lt;/code&gt;-pakken og hent den inn fra biblioteket.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install.packages(&#39;devtools&#39;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#39;devtools&amp;#39;)
 library(devtools)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Nå kan du laste ned og installere nettressursen direkte fra GitHubs sider.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;install_github(&amp;quot;SiljeHermansen/laerdegR&amp;quot;)
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install_github(&amp;#34;SiljeHermansen/laerdegR&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
     <item>
       <title>Lær deg R</title>
-      <link>/publication/laerdegr/</link>
+      <link>https://siljehermansen.github.io/publication/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/laerdegr/</guid>
+      <guid>https://siljehermansen.github.io/publication/laerdegr/</guid>
       <description>&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
 &lt;img src=&#34;laerdegr.jpg&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
 &lt;/a&gt;
@@ -1335,10 +1331,10 @@ library(devtools)
     
     <item>
       <title>Samfunnsvitenskapelig forskningsmetode (SFS10207)</title>
-      <link>/teaching/sfs10207/</link>
+      <link>https://siljehermansen.github.io/teaching/sfs10207/</link>
       <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/sfs10207/</guid>
+      <guid>https://siljehermansen.github.io/teaching/sfs10207/</guid>
       <description>&lt;p&gt;Bachelornivå. &lt;em&gt;Høgskolen i Østfold. Avdeling for økonomi, språk og samfunnsfag.&lt;/em&gt; 2013&lt;/p&gt;
 &lt;p&gt;Formålet med dette faget er å gi deg en introduksjon til hvordan vi oppnår kunnskap om samfunnet vi lever i. Samfunnsvitenskapelig forskningsmetode er et obligatorisk emne for studenter som ønsker en bachelor i statsvitenskap ved Høgskolen i Østfold.&lt;/p&gt;
 &lt;p&gt;Lysark fra forelseningene finnes her:&lt;/p&gt;

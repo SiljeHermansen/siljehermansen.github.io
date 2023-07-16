@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Silje Synnøve Lyder Hermansen</title>
-    <link>/project/</link>
+    <link>https://siljehermansen.github.io/project/</link>
     <description>Recent content in Projects on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://siljehermansen.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Decision makers in the Court of Justice of the European Union (CJEU)</title>
-      <link>/project/court-of-justice-of-the-european-union/</link>
+      <link>https://siljehermansen.github.io/project/court-of-justice-of-the-european-union/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/project/court-of-justice-of-the-european-union/</guid>
+      <guid>https://siljehermansen.github.io/project/court-of-justice-of-the-european-union/</guid>
       <description>&lt;p&gt;The Court of Justice of the European Union (CJEU) is probably the world’s most influential international court, functioning in many respects as a federal supreme court.&lt;/p&gt;
 &lt;p&gt;As of today, little research exists on how judges enter the Court and how its internal organization affects decision making.  This project opens the black box of these decision-making processes to consider governments’ and judges’ strategic behavior.&lt;/p&gt;
-&lt;p&gt;I show that judges&#39; performance and governments&#39; political preferences are intertwined both when judges are appointed and when influence is distributed within the Court.&lt;/p&gt;
+&lt;p&gt;I show that judges&amp;rsquo; performance and governments&amp;rsquo; political preferences are intertwined both when judges are appointed and when influence is distributed within the Court.&lt;/p&gt;
 &lt;h2 id=&#34;judicial-appointments-to-the-cjeu&#34;&gt;Judicial appointments to the CJEU&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;Holding Judges To Account. Policy, Performance and Impartiality&amp;rdquo;&lt;/strong&gt;  with Daniel Naurin presented at the ECPR Joint Sessions 2019 (Mons)&lt;/li&gt;
@@ -32,7 +32,7 @@
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;How do merit commissions affect judicial behavior? Evidence from the Court of Justice of the European Union&amp;rdquo;&lt;/strong&gt;  with Sivaram Cheruvu, Joshua Fjelstul, and Daniel Naurin presented at APSA 2022 (Montréal)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;img src=&#34;Coefplot_panel255.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;.&#34;/&gt;
-&lt;p&gt;Governments create monitoring entities to ensure that policymakers are working effectively. Monitors&#39; control over retaining and selecting policymakers, however, may create incentives that lead to sub-optimal outcomes. One such entity is a merit commission (also known as a judicial council) that evaluates judges subject to retention and (or) selection. How do merit commissions affect judicial behavior? We construct a formal model arguing that lower competence incumbent judges only subject to merit retention will complete cases more quickly at the expense of quality opinion-writing, as their productivity is a signal of their effort investment to the commission. Conversely, judges subject to merit selection and subsequent retention will not make the same tradeoff, as the commission&amp;rsquo;s initial selection of them makes it more costly for the commission to negatively evaluate them upon retention. We provide evidence leveraging the Article 255 panel for (re)appointments to the Court of Justice of the European Union.&lt;/p&gt;
+&lt;p&gt;Governments create monitoring entities to ensure that policymakers are working effectively. Monitors&amp;rsquo; control over retaining and selecting policymakers, however, may create incentives that lead to sub-optimal outcomes. One such entity is a merit commission (also known as a judicial council) that evaluates judges subject to retention and (or) selection. How do merit commissions affect judicial behavior? We construct a formal model arguing that lower competence incumbent judges only subject to merit retention will complete cases more quickly at the expense of quality opinion-writing, as their productivity is a signal of their effort investment to the commission. Conversely, judges subject to merit selection and subsequent retention will not make the same tradeoff, as the commission&amp;rsquo;s initial selection of them makes it more costly for the commission to negatively evaluate them upon retention. We provide evidence leveraging the Article 255 panel for (re)appointments to the Court of Justice of the European Union.&lt;/p&gt;
 &lt;h2 id=&#34;strategic-decision-making-in-the-cjeu&#34;&gt;Strategic decision making in the CJEU&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;Leveling and Spotlighting: How International Courts Refract Private Litigation to Build Institutional Legitimacy&amp;rdquo;&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz  presented at EUSA 2022 (Miami)&lt;/li&gt;
@@ -63,9 +63,9 @@
 # &lt;div include-html=&#34;legal_ambit_trivariate.html&#34;&gt;&lt;/div&gt;
 --&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Litigating in the European Court of Justice: Lawyers&#39; influence on supranational decision-making&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz presented at ECPR 2021 (zoom)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Litigating in the European Court of Justice: Lawyers&amp;rsquo; influence on supranational decision-making&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz presented at ECPR 2021 (zoom)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This paper assesses how private litigants’ propensity to win cases before international courts is conditioned by the quality of their legal counsel and by the constraints of intergovernmental politics. Building on legal mobilization and party capability theories, we argue that quality legal counsel bolsters a private party’s capacity to convey legal information to judges that is relevant to deciding the case in their favor. At the same time, we build on intergovernmentalist theories of international adjudication positing that judges will also be sensitive to political signals by national governments. As a result, we hypothesize that the influence of quality legal counsel on international judges is conditioned by the political support that member states&#39; express.&lt;/p&gt;
+&lt;p&gt;This paper assesses how private litigants’ propensity to win cases before international courts is conditioned by the quality of their legal counsel and by the constraints of intergovernmental politics. Building on legal mobilization and party capability theories, we argue that quality legal counsel bolsters a private party’s capacity to convey legal information to judges that is relevant to deciding the case in their favor. At the same time, we build on intergovernmentalist theories of international adjudication positing that judges will also be sensitive to political signals by national governments. As a result, we hypothesize that the influence of quality legal counsel on international judges is conditioned by the political support that member states&amp;rsquo; express.&lt;/p&gt;
 &lt;p&gt;To assess these claims, we exploit an original dataset of parties and lawyers involved in disputes before the European Court of Justice (ECJ) – arguably the most successful and influential international court procuring access to private litigants. We find being represented by a lawyer bolsters the probability that litigants submit observations and win cases before the ECJ, yet this effect is the highest in the minority of cases where a majority of more member state governments intervene in favor of the applicant. We conclude by highlighting the necessity of combining theories of legal mobilization and intergovernmental politics in order to explain judicial decision-making in international courts.&lt;/p&gt;
 &lt;!--* **&#34;Measuring the evolution of CJEU case law using word embeddings&#34;** presented at Big Insight - a center for research-based innovation, Norwegian Computing Center 2019 (Oslo)
 
@@ -96,10 +96,10 @@ A draft version can be found [here](WordEmbeddings_Hermansen.pdf).
     
     <item>
       <title>Decision makers in the European Parliament (EP)</title>
-      <link>/project/european-parliament/</link>
+      <link>https://siljehermansen.github.io/project/european-parliament/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>/project/european-parliament/</guid>
+      <guid>https://siljehermansen.github.io/project/european-parliament/</guid>
       <description>&lt;!---
 &lt;img src=&#34;EP.jpg&#34; align=&#34;centre&#34;, caption = &#34;The European Parliament in Strasbourg&#34;/&gt;
 ---&gt;
@@ -125,7 +125,7 @@ We conclude that EU citizens are represented differently depending on their nati
 A draft version can be found [here](BlurredLines.pdf).
 --&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;How Do Legislated Gender Quotas Impact Representation?&amp;quot;&lt;/strong&gt; Working paper.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;How Do Legislated Gender Quotas Impact Representation?&amp;rdquo;&lt;/strong&gt; Working paper.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;How does biased political recruitment – and the subsequent legislation of quotas – affect the quality of women’s performance as representatives in Parliament? I draw on insights from the literature on political agency to distinguish between the effects of selection and sanction.  First, if recruitment in the absence of quotas implies higher requirements for women, then selected women are of higher quality. Second, when quotas lower the bar, new women enter office.  However, parties are less certain about the quality of these women and react by increasing accountability.&lt;/p&gt;
 &lt;p&gt;I investigate representation in the European Parliament (1999-2014) before and after the legislation of quotas in several member states.  Absent quotas, I find that biased selection leads to female representatives who pursue longer careers and perform better at equal levels of effort. When quotas are legislated, parties emphasize women’s service records during reselection.  Women are thus incentivized to put in more effort.&lt;/p&gt;
@@ -152,7 +152,7 @@ A draft version can be found [here](BlurredLines.pdf).
 &lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/eup2020/&#34;&gt;&amp;ldquo;Delegation of committee reports in the European Parliament&amp;rdquo;&lt;/a&gt; with Fang-Yi Chiou and Bjørn Høyland (2020) &lt;em&gt;European Union Politics&lt;/em&gt; 21 (2), 233-254.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/jls2018/&#34;&gt;&amp;quot;(Self-)selection and expertise among decision-makers in the European Parliament&amp;rdquo;&lt;/a&gt; (2018) &lt;em&gt;The Journal of Legislative Studies&lt;/em&gt; 24 (1), 148-172.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/jls2018/&#34;&gt;&amp;quot;(Self-)selection and expertise among decision-makers in the European Parliament&amp;quot;&lt;/a&gt; (2018) &lt;em&gt;The Journal of Legislative Studies&lt;/em&gt; 24 (1), 148-172.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.duo.uio.no/bitstream/handle/10852/69004/PhD-LyderHermansen-2017.pdf?sequence=4&amp;amp;isAllowed=y&#34;&gt;&amp;ldquo;Choosing Agents: Members of the European Parliament and their political organizations seen through report allocation&amp;rdquo;&lt;/a&gt; (2017) Doctoral dissertation, &lt;em&gt;University of Oslo&lt;/em&gt;.&lt;/p&gt;

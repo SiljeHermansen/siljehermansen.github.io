@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Court of Justice of the European Union (CJEU) on Silje Synnøve Lyder Hermansen</title>
-    <link>/tags/court-of-justice-of-the-european-union-cjeu/</link>
+    <link>https://siljehermansen.github.io/tags/court-of-justice-of-the-european-union-cjeu/</link>
     <description>Recent content in Court of Justice of the European Union (CJEU) on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 30 Jan 2023 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/court-of-justice-of-the-european-union-cjeu/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://siljehermansen.github.io/tags/court-of-justice-of-the-european-union-cjeu/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The CJEU Database Platform: Decisions and Decision-Makers</title>
-      <link>/publication/jlc2023/</link>
+      <link>https://siljehermansen.github.io/publication/jlc2023/</link>
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/publication/jlc2023/</guid>
+      <guid>https://siljehermansen.github.io/publication/jlc2023/</guid>
       <description>&lt;!---
 &lt;a href=&#34;&#34;&gt;
 &lt;img src=&#34;EffectOfSpecialization.png&#34; alt=&#34;The positive effect of staying in the same committee decreases over time.&#34;&gt;
@@ -41,13 +41,13 @@ the door to new areas of theoretical and empirical research on judicial politics
     
     <item>
       <title>Decision makers in the Court of Justice of the European Union (CJEU)</title>
-      <link>/project/court-of-justice-of-the-european-union/</link>
+      <link>https://siljehermansen.github.io/project/court-of-justice-of-the-european-union/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/project/court-of-justice-of-the-european-union/</guid>
+      <guid>https://siljehermansen.github.io/project/court-of-justice-of-the-european-union/</guid>
       <description>&lt;p&gt;The Court of Justice of the European Union (CJEU) is probably the world’s most influential international court, functioning in many respects as a federal supreme court.&lt;/p&gt;
 &lt;p&gt;As of today, little research exists on how judges enter the Court and how its internal organization affects decision making.  This project opens the black box of these decision-making processes to consider governments’ and judges’ strategic behavior.&lt;/p&gt;
-&lt;p&gt;I show that judges&#39; performance and governments&#39; political preferences are intertwined both when judges are appointed and when influence is distributed within the Court.&lt;/p&gt;
+&lt;p&gt;I show that judges&amp;rsquo; performance and governments&amp;rsquo; political preferences are intertwined both when judges are appointed and when influence is distributed within the Court.&lt;/p&gt;
 &lt;h2 id=&#34;judicial-appointments-to-the-cjeu&#34;&gt;Judicial appointments to the CJEU&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;Holding Judges To Account. Policy, Performance and Impartiality&amp;rdquo;&lt;/strong&gt;  with Daniel Naurin presented at the ECPR Joint Sessions 2019 (Mons)&lt;/li&gt;
@@ -60,7 +60,7 @@ the door to new areas of theoretical and empirical research on judicial politics
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;How do merit commissions affect judicial behavior? Evidence from the Court of Justice of the European Union&amp;rdquo;&lt;/strong&gt;  with Sivaram Cheruvu, Joshua Fjelstul, and Daniel Naurin presented at APSA 2022 (Montréal)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;img src=&#34;Coefplot_panel255.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;.&#34;/&gt;
-&lt;p&gt;Governments create monitoring entities to ensure that policymakers are working effectively. Monitors&#39; control over retaining and selecting policymakers, however, may create incentives that lead to sub-optimal outcomes. One such entity is a merit commission (also known as a judicial council) that evaluates judges subject to retention and (or) selection. How do merit commissions affect judicial behavior? We construct a formal model arguing that lower competence incumbent judges only subject to merit retention will complete cases more quickly at the expense of quality opinion-writing, as their productivity is a signal of their effort investment to the commission. Conversely, judges subject to merit selection and subsequent retention will not make the same tradeoff, as the commission&amp;rsquo;s initial selection of them makes it more costly for the commission to negatively evaluate them upon retention. We provide evidence leveraging the Article 255 panel for (re)appointments to the Court of Justice of the European Union.&lt;/p&gt;
+&lt;p&gt;Governments create monitoring entities to ensure that policymakers are working effectively. Monitors&amp;rsquo; control over retaining and selecting policymakers, however, may create incentives that lead to sub-optimal outcomes. One such entity is a merit commission (also known as a judicial council) that evaluates judges subject to retention and (or) selection. How do merit commissions affect judicial behavior? We construct a formal model arguing that lower competence incumbent judges only subject to merit retention will complete cases more quickly at the expense of quality opinion-writing, as their productivity is a signal of their effort investment to the commission. Conversely, judges subject to merit selection and subsequent retention will not make the same tradeoff, as the commission&amp;rsquo;s initial selection of them makes it more costly for the commission to negatively evaluate them upon retention. We provide evidence leveraging the Article 255 panel for (re)appointments to the Court of Justice of the European Union.&lt;/p&gt;
 &lt;h2 id=&#34;strategic-decision-making-in-the-cjeu&#34;&gt;Strategic decision making in the CJEU&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;Leveling and Spotlighting: How International Courts Refract Private Litigation to Build Institutional Legitimacy&amp;rdquo;&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz  presented at EUSA 2022 (Miami)&lt;/li&gt;
@@ -91,9 +91,9 @@ the door to new areas of theoretical and empirical research on judicial politics
 # &lt;div include-html=&#34;legal_ambit_trivariate.html&#34;&gt;&lt;/div&gt;
 --&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Litigating in the European Court of Justice: Lawyers&#39; influence on supranational decision-making&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz presented at ECPR 2021 (zoom)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Litigating in the European Court of Justice: Lawyers&amp;rsquo; influence on supranational decision-making&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz presented at ECPR 2021 (zoom)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This paper assesses how private litigants’ propensity to win cases before international courts is conditioned by the quality of their legal counsel and by the constraints of intergovernmental politics. Building on legal mobilization and party capability theories, we argue that quality legal counsel bolsters a private party’s capacity to convey legal information to judges that is relevant to deciding the case in their favor. At the same time, we build on intergovernmentalist theories of international adjudication positing that judges will also be sensitive to political signals by national governments. As a result, we hypothesize that the influence of quality legal counsel on international judges is conditioned by the political support that member states&#39; express.&lt;/p&gt;
+&lt;p&gt;This paper assesses how private litigants’ propensity to win cases before international courts is conditioned by the quality of their legal counsel and by the constraints of intergovernmental politics. Building on legal mobilization and party capability theories, we argue that quality legal counsel bolsters a private party’s capacity to convey legal information to judges that is relevant to deciding the case in their favor. At the same time, we build on intergovernmentalist theories of international adjudication positing that judges will also be sensitive to political signals by national governments. As a result, we hypothesize that the influence of quality legal counsel on international judges is conditioned by the political support that member states&amp;rsquo; express.&lt;/p&gt;
 &lt;p&gt;To assess these claims, we exploit an original dataset of parties and lawyers involved in disputes before the European Court of Justice (ECJ) – arguably the most successful and influential international court procuring access to private litigants. We find being represented by a lawyer bolsters the probability that litigants submit observations and win cases before the ECJ, yet this effect is the highest in the minority of cases where a majority of more member state governments intervene in favor of the applicant. We conclude by highlighting the necessity of combining theories of legal mobilization and intergovernmental politics in order to explain judicial decision-making in international courts.&lt;/p&gt;
 &lt;!--* **&#34;Measuring the evolution of CJEU case law using word embeddings&#34;** presented at Big Insight - a center for research-based innovation, Norwegian Computing Center 2019 (Oslo)
 
@@ -124,10 +124,10 @@ A draft version can be found [here](WordEmbeddings_Hermansen.pdf).
     
     <item>
       <title>Building legitimacy: strategic case allocations in the Court of Justice of the European Union</title>
-      <link>/publication/jepp2020/</link>
+      <link>https://siljehermansen.github.io/publication/jepp2020/</link>
       <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/jepp2020/</guid>
+      <guid>https://siljehermansen.github.io/publication/jepp2020/</guid>
       <description>&lt;!---
 &lt;figure&gt;
 &lt;img src=&#34;MarginalEffect_First_B_item_Current_government_-_weighted0.jpeg&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;No effect of government preferences in non-politicized cases.&#34;/&gt;

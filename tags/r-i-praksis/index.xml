@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R i praksis on Silje Synnøve Lyder Hermansen</title>
-    <link>/tags/r-i-praksis/</link>
+    <link>https://siljehermansen.github.io/tags/r-i-praksis/</link>
     <description>Recent content in R i praksis on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Jan 2023 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/r-i-praksis/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://siljehermansen.github.io/tags/r-i-praksis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Statistical models beyond linear regression</title>
-      <link>/teaching/beyond-linear-models/</link>
+      <link>https://siljehermansen.github.io/teaching/beyond-linear-models/</link>
       <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/beyond-linear-models/</guid>
+      <guid>https://siljehermansen.github.io/teaching/beyond-linear-models/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s level. &lt;em&gt;University of Copenhagen. Department of Political Science.&lt;/em&gt; 2023&lt;/p&gt;
 &lt;p&gt;Here you can find the slides and other material used for the different lectures.&lt;/p&gt;
 &lt;h2 id=&#34;learning-r&#34;&gt;Learning R&lt;/h2&gt;
@@ -97,7 +97,7 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;week-10-r-week-event-count-outcomes&#34;&gt;Week 10 (R week): Event count outcomes&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Ward (2018), ch. 11, p. 190-216&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;We will be working with a classical dataset on duration models used by &lt;a href=&#34;https://www.jstor.org/stable/2111628&#34;&gt;Box-Steffensmaier&lt;/a&gt;&amp;rsquo;s 1996 study of candidates&#39; campaign funding and the entry of challengers. You can find the R-version of the data for the notebook here: &lt;a href=&#34;warchest.rda&#34;&gt;warchest.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We will be working with a classical dataset on duration models used by &lt;a href=&#34;https://www.jstor.org/stable/2111628&#34;&gt;Box-Steffensmaier&lt;/a&gt;&amp;rsquo;s 1996 study of candidates&amp;rsquo; campaign funding and the entry of challengers. You can find the R-version of the data for the notebook here: &lt;a href=&#34;warchest.rda&#34;&gt;warchest.rda&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Slides/notebook:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;week10_event.html&#34;&gt;Notebook&lt;/a&gt;&lt;/li&gt;
@@ -402,17 +402,15 @@ Or, if you are creating a software documentation site, you can rename the `cours
 ## Update the docs menu
 
 If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.&lt;NewFolderName&gt;]`.
----&gt;&lt;blockquote&gt;
-&lt;/blockquote&gt;
-</description>
+---&gt;</description>
     </item>
     
     <item>
       <title>R i praksis</title>
-      <link>/publication/r-i-praksis/</link>
+      <link>https://siljehermansen.github.io/publication/r-i-praksis/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/publication/r-i-praksis/</guid>
+      <guid>https://siljehermansen.github.io/publication/r-i-praksis/</guid>
       <description>&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;
 &lt;img src=&#34;r-i-praksis.png&#34; alt=&#34;R i praksis: En introduktion for samfundsvidenskaberne. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
 &lt;/a&gt;
