@@ -6,10 +6,48 @@
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Oct 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://siljehermansen.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://siljehermansen.github.io/teaching/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/teaching/</guid>
+      <description>&lt;p&gt;These pages provide supplementary information to students. For a comprehensive overview of my teaching activities, please refer to my CV.&lt;/p&gt;
+&lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefbeyond-linear-modelsstatistical-models-beyond-linear-regression-astk18414ua&#34;&gt;&lt;a href=&#34;beyond-linear-models&#34;&gt;Statistical models beyond linear regression (ASTK18414U)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Master&#39;s level. &lt;i&gt;University of Copenhagen. Department of Political Science.&lt;/i&gt; 
+&lt;a&gt;2023&lt;/a&gt;
+&lt;/p&gt; 
+&lt;p&gt;
+Applied statistics class for political scientists.
+&lt;/p&gt;
+&lt;h3 id=&#34;a-hrefstv4020bstatistical-analysis-stv4020ba&#34;&gt;&lt;a href=&#34;stv4020b&#34;&gt;Statistical analysis (STV4020B)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Master&#39;s/PhD level. &lt;i&gt;University of Oslo. Department of Political Science.&lt;/i&gt; 
+&lt;a href = &#34;https://siljehermansen.github.io/teaching/stv4020b_2019/&#34;&gt;2019&lt;/a&gt;, 
+&lt;a href = &#34;https://siljehermansen.github.io/teaching/stv4020b/&#34;&gt;2020&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Advanced statistical analysis for social scientists. We go through the fundamental principals of causal inference as well as the most common generalized linear models (GLMs). Course given together with Øyvind Stiansen.&lt;/p&gt;
+&lt;h3 id=&#34;a-hrefsfs10207samfunnsvitenskapelig-forskningsmetode--sfs10207a&#34;&gt;&lt;a href=&#34;sfs10207&#34;&gt;Samfunnsvitenskapelig forskningsmetode  (SFS10207)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Bachelor&#39;s level. &lt;i&gt;Østfold University College. Faculty of Business, Languages, and Social Sciences. &lt;/i&gt; 2013&lt;/p&gt;
+&lt;p&gt;Introduction to research methods. Course given together with Mathias Johannessen.&lt;/p&gt;
+&lt;h2 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefchoose_glmwhat-glm-model-should-i-choosea&#34;&gt;&lt;a href=&#34;choose_glm&#34;&gt;What GLM model should I choose?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of model choice criteria, given the data generating process that produced my dependent variable. Play around with my decision tree for Generalized Linear Models (GLMs).&lt;/p&gt;
+&lt;h3 id=&#34;a-hrefskrape-datahvordan-skrape-data-i-ra&#34;&gt;&lt;a href=&#34;skrape-data&#34;&gt;Hvordan &amp;ldquo;skrape&amp;rdquo; data i R?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Det finnes et hav av digital informasjon der ute som vi kan bruke som data. Da er &#34;skraping&#34; (automatisert datainnsamling) gull verdt. Her finner du en gjennomgang av hvordan vi bruker R for å samle inn data fra nettet.&lt;/p&gt;
+&lt;h3 id=&#34;a-hreflatexpdfr--latex--santa&#34;&gt;&lt;a href=&#34;LaTeX.pdf&#34;&gt;R + LaTeX = Sant&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Latex og R arbeider godt sammen. Her finner du en kjapp gjennomgang av hvordan du kan jobbe med begge i RStudio.&lt;/p&gt;
+&lt;h2 id=&#34;single-lectures&#34;&gt;Single lectures&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefsocial-science-methods-for-interdisciplinary-legal-studiessocial-science-methods-for-interdisciplinary-legal-studiesa&#34;&gt;&lt;a href=&#34;social-science-methods-for-interdisciplinary-legal-studies&#34;&gt;Social Science Methods for Interdisciplinary Legal Studies&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;PhD level. &lt;i&gt;University of Copenhagen. Faculty of Law. &lt;/i&gt; 2023&lt;/p&gt;
+&lt;p&gt;Introduction to R.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Lær deg R/R i praksis</title>
@@ -65,54 +103,26 @@ Her kan du finde instruktioner om, hvordan du downloader den online ressource, d
     </item>
     
     <item>
-      <title>Teaching</title>
-      <link>https://siljehermansen.github.io/teaching/</link>
-      <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://siljehermansen.github.io/teaching/</guid>
-      <description>&lt;p&gt;These pages provide supplementary information to students. For a comprehensive overview of my teaching activities, please refer to my CV.&lt;/p&gt;
-&lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefbeyond-linear-modelsstatistical-models-beyond-linear-regression-astk18414ua&#34;&gt;&lt;a href=&#34;beyond-linear-models&#34;&gt;Statistical models beyond linear regression (ASTK18414U)&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Master&#39;s level. &lt;i&gt;University of Copenhagen. Department of Political Science.&lt;/i&gt; 
-&lt;a&gt;2023&lt;/a&gt;
-&lt;/p&gt; 
-&lt;p&gt;
-Applied statistics class for political scientists.
-&lt;/p&gt;
-&lt;h3 id=&#34;a-hrefstv4020bstatistical-analysis-stv4020ba&#34;&gt;&lt;a href=&#34;stv4020b&#34;&gt;Statistical analysis (STV4020B)&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Master&#39;s/PhD level. &lt;i&gt;University of Oslo. Department of Political Science.&lt;/i&gt; 
-&lt;a href = &#34;https://siljehermansen.github.io/teaching/stv4020b_2019/&#34;&gt;2019&lt;/a&gt;, 
-&lt;a href = &#34;https://siljehermansen.github.io/teaching/stv4020b/&#34;&gt;2020&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Advanced statistical analysis for social scientists. We go through the fundamental principals of causal inference as well as the most common generalized linear models (GLMs). Course given together with Øyvind Stiansen.&lt;/p&gt;
-&lt;h3 id=&#34;a-hrefsfs10207samfunnsvitenskapelig-forskningsmetode--sfs10207a&#34;&gt;&lt;a href=&#34;sfs10207&#34;&gt;Samfunnsvitenskapelig forskningsmetode  (SFS10207)&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Bachelor&#39;s level. &lt;i&gt;Østfold University College. Faculty of Business, Languages, and Social Sciences. &lt;/i&gt; 2013&lt;/p&gt;
-&lt;p&gt;Introduction to research methods. Course given together with Mathias Johannessen.&lt;/p&gt;
-&lt;h2 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h2&gt;
-&lt;h3 id=&#34;a-hrefchoose_glmwhat-glm-model-should-i-choosea&#34;&gt;&lt;a href=&#34;choose_glm&#34;&gt;What GLM model should I choose?&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of model choice criteria, given the data generating process that produced my dependent variable. Play around with my decision tree for Generalized Linear Models (GLMs).&lt;/p&gt;
-&lt;h3 id=&#34;a-hrefskrape-datahvordan-skrape-data-i-ra&#34;&gt;&lt;a href=&#34;skrape-data&#34;&gt;Hvordan &amp;ldquo;skrape&amp;rdquo; data i R?&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Det finnes et hav av digital informasjon der ute som vi kan bruke som data. Da er &#34;skraping&#34; (automatisert datainnsamling) gull verdt. Her finner du en gjennomgang av hvordan vi bruker R for å samle inn data fra nettet.&lt;/p&gt;
-&lt;h3 id=&#34;a-hreflatexpdfr--latex--santa&#34;&gt;&lt;a href=&#34;LaTeX.pdf&#34;&gt;R + LaTeX = Sant&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Latex og R arbeider godt sammen. Her finner du en kjapp gjennomgang av hvordan du kan jobbe med begge i RStudio.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Projects</title>
       <link>https://siljehermansen.github.io/project/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://siljehermansen.github.io/project/</guid>
       <description>&lt;p&gt;How do our representatives behave given how we select them? And how does information about their behavior affect who we retain in office?&lt;/p&gt;
-&lt;h2 id=&#34;a-hrefcourt-of-justice-of-the-european-uniondecision-makers-in-the-court-of-justice-of-the-european-union-cjeua&#34;&gt;&lt;a href=&#34;court-of-justice-of-the-european-union&#34;&gt;Decision makers in the Court of Justice of the European Union (CJEU)&lt;/a&gt;&lt;/h2&gt;
-&lt;a href=&#34;https://siljehermansen.github.io/project/court-of-justice-of-the-european-union&#34;&gt;
+&lt;h2 id=&#34;the-court-of-justice-of-the-european-union-cjeu&#34;&gt;The Court of Justice of the European Union (CJEU)&lt;/h2&gt;
+&lt;a href=&#34;https://siljehermansen.github.io/project/judicial-behavior&#34;&gt;
 &lt;img src=&#34;CJEU.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; caption = &#34;The Court of Justice of the EU in Luxembourg&#34;  alt = &#34;The Court of Justice of the EU in Luxembourg&#34;/&gt;
 &lt;/a&gt;
-&lt;p&gt;The Court of Justice of the European Union (CJEU) is probably the world’s most influential international court, functioning in many respects as a federal supreme court. 
-&lt;p&gt;Yet little research exists on how judges enter the Court and how its internal organization affects decision making. This project considers governments’ and judges’ strategic behavior in an environment where performance and political preferences matter.&lt;/p&gt;
- &lt;/p&gt;
-&lt;h2 id=&#34;a-hrefeuropean-parliamentdecision-makers-in-the-european-parliament-epa&#34;&gt;&lt;a href=&#34;european-parliament&#34;&gt;Decision makers in the European Parliament (EP)&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The CJEU is probably the world’s most influential international court, functioning in many respects as a federal supreme court.&lt;/p&gt; 
+&lt;p&gt;Yet little research exists on how judges enter the Court and how its internal organization affects decision making.&lt;/p&gt; 
+&lt;!--
+#### &lt;a href=&#34;judicial-behavior&#34;&gt;Judicial behavior: the Court&#39;s decision makers&lt;/a&gt;
+&lt;p&gt;How do judges acquire their position?&lt;/p&gt;
+
+#### &lt;a href=&#34;court-strategies&#34;&gt;Court strategies: the Court&#39;s relations with external actors&lt;/a&gt;
+&lt;p&gt;&lt;/p&gt;
+--&gt;
+&lt;h2 id=&#34;decision-makers-in-the-european-parliament-ep&#34;&gt;Decision makers in the European Parliament (EP)&lt;/h2&gt;
 &lt;a href=&#34;https://siljehermansen.github.io/project/european-parliament&#34;&gt;
 &lt;img src=&#34;EP.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; caption = &#34;The European Parliament in Strasbourg&#34;
  alt = &#34;The European Parliament in Strasbourg&#34;/&gt;

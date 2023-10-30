@@ -6,10 +6,74 @@
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Oct 2023 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://siljehermansen.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Introduction to R</title>
+      <link>https://siljehermansen.github.io/teaching/social-science-methods-for-interdisciplinary-legal-studies/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/teaching/social-science-methods-for-interdisciplinary-legal-studies/</guid>
+      <description>&lt;p&gt;PhD level. &lt;em&gt;University of Copenhagen. Faculty of Law.&lt;/em&gt; 2023&lt;/p&gt;
+&lt;p&gt;Welcome to the R workshop! The purpose of this workshop is to provide you with the basic knowledge you need to navigate R independently. You won’t become an expert, but after our two days together, you will have an insight into - and firsthand experience with - how R operates.&lt;/p&gt;
+&lt;p&gt;This is a workshop. It means that we will be actively working in R together throughout the course. Bring your laptop and get ready to write! &lt;em&gt;Please install R&lt;/em&gt; (&lt;a href=&#34;https://www.r-project.org/;&#34;&gt;https://www.r-project.org/;&lt;/a&gt; the statistical program) &lt;em&gt;and RStudio&lt;/em&gt; (&lt;a href=&#34;https://www.rstudio.com/products/rstudio/;&#34;&gt;https://www.rstudio.com/products/rstudio/;&lt;/a&gt; the user interface) before the workshop begins.&lt;/p&gt;
+&lt;p&gt;Here you can find the slides and other material used for the lecture.&lt;/p&gt;
+&lt;p&gt;Slides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;intro_to_R.pdf&#34;&gt;Introduction to R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notebooks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;take1---r_intro.html&#34;&gt;Introduction to R: our first encounter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;take2---data-manipulation&#34;&gt;Dialects and data manipulation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Data:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ESS 2014: Denmark &lt;a href=&#34;kap6.rda&#34;&gt;kap6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!---## Flexibility
+This feature can be used for publishing content such as:
+
+* **Online courses**
+* **Project or software documentation**
+* **Tutorials**
+
+The `courses` folder may be renamed. For example, we can rename it to `docs` for software/project documentation or `tutorials` for creating an online course.
+
+## Delete tutorials
+
+**To remove these pages, delete the `courses` folder and see below to delete the associated menu link.**
+
+## Update site menu
+
+After renaming or deleting the `courses` folder, you may wish to update any `[[main]]` menu links to it by editing your menu configuration at `config/_default/menus.toml`.
+
+For example, if you delete this folder, you can remove the following from your menu configuration:
+
+```toml
+[[main]]
+  name = &#34;Courses&#34;
+  url = &#34;courses/&#34;
+  weight = 50
+```
+
+Or, if you are creating a software documentation site, you can rename the `courses` folder to `docs` and update the associated *Courses* menu configuration to:
+
+```toml
+[[main]]
+  name = &#34;Docs&#34;
+  url = &#34;docs/&#34;
+  weight = 50
+```
+
+## Update the docs menu
+
+If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.&lt;NewFolderName&gt;]`.
+---&gt;</description>
+    </item>
     
     <item>
       <title>Blurred lines between electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament</title>
@@ -557,13 +621,12 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     </item>
     
     <item>
-      <title>Decision makers in the Court of Justice of the European Union (CJEU)</title>
-      <link>https://siljehermansen.github.io/project/court-of-justice-of-the-european-union/</link>
+      <title>Judicial behavior: Decision makers in the CJEU</title>
+      <link>https://siljehermansen.github.io/project/judicial-behavior/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/project/court-of-justice-of-the-european-union/</guid>
-      <description>&lt;p&gt;The Court of Justice of the European Union (CJEU) is probably the world’s most influential international court, functioning in many respects as a federal supreme court.&lt;/p&gt;
-&lt;p&gt;As of today, little research exists on how judges enter the Court and how its internal organization affects decision making.  This project opens the black box of these decision-making processes to consider governments’ and judges’ strategic behavior.&lt;/p&gt;
+      <guid>https://siljehermansen.github.io/project/judicial-behavior/</guid>
+      <description>&lt;p&gt;Little research exists on how judges enter the Court and how its internal organization affects decision making.  This project opens the black box of these decision-making processes to consider governments’ and judges’ strategic behavior.&lt;/p&gt;
 &lt;p&gt;I show that judges&amp;rsquo; performance and governments&amp;rsquo; political preferences are intertwined both when judges are appointed and when influence is distributed within the Court.&lt;/p&gt;
 &lt;h2 id=&#34;judicial-appointments-to-the-cjeu&#34;&gt;Judicial appointments to the CJEU&lt;/h2&gt;
 &lt;ul&gt;
@@ -578,54 +641,6 @@ If you use the *docs* layout, note that the name of the menu in the front matter
 &lt;/ul&gt;
 &lt;img src=&#34;Coefplot_panel255.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;.&#34;/&gt;
 &lt;p&gt;Governments create monitoring entities to ensure that policymakers are working effectively. Monitors&amp;rsquo; control over retaining and selecting policymakers, however, may create incentives that lead to sub-optimal outcomes. One such entity is a merit commission (also known as a judicial council) that evaluates judges subject to retention and (or) selection. How do merit commissions affect judicial behavior? We construct a formal model arguing that lower competence incumbent judges only subject to merit retention will complete cases more quickly at the expense of quality opinion-writing, as their productivity is a signal of their effort investment to the commission. Conversely, judges subject to merit selection and subsequent retention will not make the same tradeoff, as the commission&amp;rsquo;s initial selection of them makes it more costly for the commission to negatively evaluate them upon retention. We provide evidence leveraging the Article 255 panel for (re)appointments to the Court of Justice of the European Union.&lt;/p&gt;
-&lt;h2 id=&#34;strategic-decision-making-in-the-cjeu&#34;&gt;Strategic decision making in the CJEU&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Leveling and Spotlighting: How International Courts Refract Private Litigation to Build Institutional Legitimacy&amp;rdquo;&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz  presented at EUSA 2022 (Miami)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Private actors are increasingly turning to international courts (ICs). We argue that ICs can refract private litigation to build legitimacy and mitigate intergovernmental backlash. By leveling the odds for individuals and spotlighting their claims over those of more resourceful litigants, ICs cultivate civil society support and legitimate judicial policymaking in intergovernmental polities where individuals are disempowered. We evaluate this argument by scrutinizing the first IC with private access: the European Court of Justice (ECJ). We trace how ECJ judges privilege individuals in their advocacy and assess if they match words with deeds. Leveraging an original dataset, we find that the ECJ &amp;ldquo;levels&amp;rdquo;, supporting individual claims over businesses boasting larger and more experienced legal teams. The ECJ also &amp;ldquo;spotlights&amp;rdquo; its support for individuals through press releases that get amplified in law reviews. Our findings challenge the view that ICs build legitimacy by stealth and the ``haves&amp;rsquo;&amp;rsquo; come out ahead in litigation.&lt;/p&gt;
-&lt;html&gt;
-&lt;head&gt;&lt;title&gt;Shiny App Iframe&lt;/title&gt;&lt;/head&gt;
-&lt;body&gt;
-&lt;iframe id=&#34;lawyers shiny app&#34; src=&#34;https://siljehermansen.shinyapps.io/Lawyers/&#34; style=&#34;border: none; width: 100%; height: 950px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-&lt;p&gt;A draft of the paper can be found &lt;a href=&#34;Leveling_and_spotlighting_HermansenPavoneBoulaziz.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Judicious judging: The effects of political division on decision making in the European Court of Justice&lt;/strong&gt; with &lt;a href=&#34;https://www.eui.eu/people?id=urska-sadl&#34;&gt;Urska Sadl&lt;/a&gt; presented at APSA 2022 (Montréal)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;How do courts react to political debate? Their legitimacy hinges on their ability to uphold the law impervious to political pressure. The authority of the ruling follows from the court&amp;rsquo;s reputation as apolitical. Politicization – understood as salient questions that divide stakeholders – threatens to erode this image. It imposes conflicting demands: Courts can prove their worth by solving questions for which there is a demand for a legal solution, but they risk their reputation in a politically divided environment.&lt;/p&gt;
-&lt;img src=&#34;Integration_sd_over_time.png&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;The number of judgements with wide legal ambit is low when member state governments have diverse preferences on European integration, and more numerous when government preferences are more homogeneous.&#34;/&gt;
-&lt;p&gt;Literature on judicial independence focuses on direct and explicit threats issued by the political branch. Arguments of legislative override typically predict that political division empowers the judiciary. In contrast, we argue that courts are sensitive even to the potential eruption of conflict because they value their diffuse legitimacy. Effective judicial policy making is thus a question of strategic timing.&lt;/p&gt;
-&lt;p&gt;To test our theory, we study the European Court of Justice. Known as the “dark horse of integration”, it is an independent court with political sway. Yet political considerations profoundly affects its decision making. We draw on unprecedented data mapping out the legal ambit of all preliminary cases relating to the Free movement of people throughout the history. We find that the Court holds back on the legal ambit of rulings, preferring to bolster its institutional authority, in times of political division. Reversely, it broadens the ambit when salience is high and conflict low. Thus, when salience and division combine, they null each other out; leaving traces only in the decision-making process.&lt;/p&gt;
-&lt;!--
-# &lt;html&gt;
-# &lt;head&gt;&lt;title&gt;plotly&lt;/title&gt;&lt;/head&gt;
-# &lt;body&gt;
-# &lt;iframe id=&#34;legal ambit webpage&#34; src=&#34;legal_ambit_trivariate.html&#34; style=&#34;border: none; width: 100%; height: 600px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
-# &lt;/body&gt;
-# &lt;/html&gt;
- 
-# &lt;div include-html=&#34;legal_ambit_trivariate.html&#34;&gt;&lt;/div&gt;
---&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Litigating in the European Court of Justice: Lawyers&amp;rsquo; influence on supranational decision-making&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz presented at ECPR 2021 (zoom)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This paper assesses how private litigants’ propensity to win cases before international courts is conditioned by the quality of their legal counsel and by the constraints of intergovernmental politics. Building on legal mobilization and party capability theories, we argue that quality legal counsel bolsters a private party’s capacity to convey legal information to judges that is relevant to deciding the case in their favor. At the same time, we build on intergovernmentalist theories of international adjudication positing that judges will also be sensitive to political signals by national governments. As a result, we hypothesize that the influence of quality legal counsel on international judges is conditioned by the political support that member states&amp;rsquo; express.&lt;/p&gt;
-&lt;p&gt;To assess these claims, we exploit an original dataset of parties and lawyers involved in disputes before the European Court of Justice (ECJ) – arguably the most successful and influential international court procuring access to private litigants. We find being represented by a lawyer bolsters the probability that litigants submit observations and win cases before the ECJ, yet this effect is the highest in the minority of cases where a majority of more member state governments intervene in favor of the applicant. We conclude by highlighting the necessity of combining theories of legal mobilization and intergovernmental politics in order to explain judicial decision-making in international courts.&lt;/p&gt;
-&lt;!--* **&#34;Measuring the evolution of CJEU case law using word embeddings&#34;** presented at Big Insight - a center for research-based innovation, Norwegian Computing Center 2019 (Oslo)
-
-To study the conditions for judicial activism – self-restraint, initiation or expansion of case law – we need a consistent and comparable measure of court output. Can machine learning help us in this respect? This research note discusses ways of comparing court documents in order to obtain such measures. The focus is on word embeddings, which allow researchers to identify similar – but not identical – terms and use them as building blocks for document-level comparisons.
-
-&lt;figure&gt;
-&lt;img src=&#34;Effect_of_judgment_similarity_on_academic_attention.png&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;Effect of judgment similarity on academic attention (annotations in legal journals).&#34;/&gt;
-&lt;/figure&gt;
-
-Analyzing the evolution of case law requires researchers to read and compare judgments. It is a resource-intensive process both in terms of competence and number of working hours. Assessing the outcome of a case typically requires familiarity with legal precedent in the court, the doctrines under- pinning rulings as well at the type of cases brought before the tribunal. In other words, - depending on the task – the researcher needs a good grasp of similar cases in the past (i.e. legal precedent) and/or the future (i.e. its value as a precedent) as well as the field-specific vocabulary.
-
-The purpose of this research note is to train a model to make such comparisons for us. To obtain word embeddings, I apply a word2vec algorithm on 30999 (machine-readable) legal texts produced by the members of the Court of Justice of the European Union (CJEU) itself. I use these to construct a do- main specific vocabulary of similar words. The similarities can then be used to identify and compare relevant documents based on their word occurrences.
-
-A draft version can be found [here](WordEmbeddings_Hermansen.pdf).
---&gt;
 &lt;h4 id=&#34;published-work&#34;&gt;Published work&lt;/h4&gt;
 &lt;p&gt;If who makes decisions within courts matters for the outcome of cases and their reception, then studying how cases and judges are matched is essential to understanding judicial independence.&lt;/p&gt;
 &lt;ul&gt;
@@ -689,6 +704,65 @@ Vi begynner med å laste inn og tilrettelegge data, før vi går videre med besk
 &lt;ul&gt;
 &lt;li&gt;Hermansen, Silje Synnøve Lyder (2023) &lt;a href=&#34;Innhold_bibliografi.pdf&#34;&gt;&lt;em&gt;R i praksis: En introduktion for samfundsvidenskaberne&lt;/em&gt;&lt;/a&gt;, Copenhagen: DJØF. 224 pages.&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Strategic decision making by the Court of Justice of the European Union (CJEU)</title>
+      <link>https://siljehermansen.github.io/project/court-strategies/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/project/court-strategies/</guid>
+      <description>&lt;p&gt;How does the CJEU relate to its external interlocutors; litigants, the legal community and governments? These projects argue that the CJEU actively seeks alliance partners beyond governments. They also explore how the Court pursues its own interests without running against member states&amp;rsquo; wishes.&lt;/p&gt;
+&lt;h3 id=&#34;courting-litigants-relationship-with-civil-society&#34;&gt;Courting litigants: relationship with civil society&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Leveling and Spotlighting: How International Courts Refract Private Litigation to Build Institutional Legitimacy&amp;rdquo;&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz  presented at EUSA 2022 (Miami)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Private actors are increasingly turning to international courts (ICs). We argue that ICs can refract private litigation to build legitimacy and mitigate intergovernmental backlash. By leveling the odds for individuals and spotlighting their claims over those of more resourceful litigants, ICs cultivate civil society support and legitimate judicial policymaking in intergovernmental polities where individuals are disempowered. We evaluate this argument by scrutinizing the first IC with private access: the European Court of Justice (ECJ). We trace how ECJ judges privilege individuals in their advocacy and assess if they match words with deeds. Leveraging an original dataset, we find that the ECJ &amp;ldquo;levels&amp;rdquo;, supporting individual claims over businesses boasting larger and more experienced legal teams. The ECJ also &amp;ldquo;spotlights&amp;rdquo; its support for individuals through press releases that get amplified in law reviews. Our findings challenge the view that ICs build legitimacy by stealth and the ``haves&amp;rsquo;&amp;rsquo; come out ahead in litigation.&lt;/p&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;title&gt;Shiny App Iframe&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;
+&lt;iframe id=&#34;lawyers shiny app&#34; src=&#34;https://siljehermansen.shinyapps.io/Lawyers/&#34; style=&#34;border: none; width: 100%; height: 950px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;p&gt;A draft of the paper can be found &lt;a href=&#34;Leveling_and_spotlighting_HermansenPavoneBoulaziz.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;the-courts-relationship-with-governments&#34;&gt;The Court&amp;rsquo;s relationship with governments&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Judicious judging: The effects of political division on decision making in the European Court of Justice&lt;/strong&gt; with &lt;a href=&#34;https://www.eui.eu/people?id=urska-sadl&#34;&gt;Urska Sadl&lt;/a&gt; presented at APSA 2022 (Montréal)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How do courts react to political debate? Their legitimacy hinges on their ability to uphold the law impervious to political pressure. The authority of the ruling follows from the court&amp;rsquo;s reputation as apolitical. Politicization – understood as salient questions that divide stakeholders – threatens to erode this image. It imposes conflicting demands: Courts can prove their worth by solving questions for which there is a demand for a legal solution, but they risk their reputation in a politically divided environment.&lt;/p&gt;
+&lt;img src=&#34;Integration_sd_over_time.png&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;The number of judgements with wide legal ambit is low when member state governments have diverse preferences on European integration, and more numerous when government preferences are more homogeneous.&#34;/&gt;
+&lt;p&gt;Literature on judicial independence focuses on direct and explicit threats issued by the political branch. Arguments of legislative override typically predict that political division empowers the judiciary. In contrast, we argue that courts are sensitive even to the potential eruption of conflict because they value their diffuse legitimacy. Effective judicial policy making is thus a question of strategic timing.&lt;/p&gt;
+&lt;p&gt;To test our theory, we study the European Court of Justice. Known as the “dark horse of integration”, it is an independent court with political sway. Yet political considerations profoundly affects its decision making. We draw on unprecedented data mapping out the legal ambit of all preliminary cases relating to the Free movement of people throughout the history. We find that the Court holds back on the legal ambit of rulings, preferring to bolster its institutional authority, in times of political division. Reversely, it broadens the ambit when salience is high and conflict low. Thus, when salience and division combine, they null each other out; leaving traces only in the decision-making process.&lt;/p&gt;
+&lt;!--
+# &lt;html&gt;
+# &lt;head&gt;&lt;title&gt;plotly&lt;/title&gt;&lt;/head&gt;
+# &lt;body&gt;
+# &lt;iframe id=&#34;legal ambit webpage&#34; src=&#34;legal_ambit_trivariate.html&#34; style=&#34;border: none; width: 100%; height: 600px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+# &lt;/body&gt;
+# &lt;/html&gt;
+ 
+# &lt;div include-html=&#34;legal_ambit_trivariate.html&#34;&gt;&lt;/div&gt;
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Litigating in the European Court of Justice: Lawyers&amp;rsquo; influence on supranational decision-making&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz presented at ECPR 2021 (zoom)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This paper assesses how private litigants’ propensity to win cases before international courts is conditioned by the quality of their legal counsel and by the constraints of intergovernmental politics. Building on legal mobilization and party capability theories, we argue that quality legal counsel bolsters a private party’s capacity to convey legal information to judges that is relevant to deciding the case in their favor. At the same time, we build on intergovernmentalist theories of international adjudication positing that judges will also be sensitive to political signals by national governments. As a result, we hypothesize that the influence of quality legal counsel on international judges is conditioned by the political support that member states&amp;rsquo; express.&lt;/p&gt;
+&lt;p&gt;To assess these claims, we exploit an original dataset of parties and lawyers involved in disputes before the European Court of Justice (ECJ) – arguably the most successful and influential international court procuring access to private litigants. We find being represented by a lawyer bolsters the probability that litigants submit observations and win cases before the ECJ, yet this effect is the highest in the minority of cases where a majority of more member state governments intervene in favor of the applicant. We conclude by highlighting the necessity of combining theories of legal mobilization and intergovernmental politics in order to explain judicial decision-making in international courts.&lt;/p&gt;
+&lt;!--* **&#34;Measuring the evolution of CJEU case law using word embeddings&#34;** presented at Big Insight - a center for research-based innovation, Norwegian Computing Center 2019 (Oslo)
+
+To study the conditions for judicial activism – self-restraint, initiation or expansion of case law – we need a consistent and comparable measure of court output. Can machine learning help us in this respect? This research note discusses ways of comparing court documents in order to obtain such measures. The focus is on word embeddings, which allow researchers to identify similar – but not identical – terms and use them as building blocks for document-level comparisons.
+
+&lt;figure&gt;
+&lt;img src=&#34;Effect_of_judgment_similarity_on_academic_attention.png&#34; width=&#34;50%&#34; align=&#34;left&#34; alt=&#34;Effect of judgment similarity on academic attention (annotations in legal journals).&#34;/&gt;
+&lt;/figure&gt;
+
+Analyzing the evolution of case law requires researchers to read and compare judgments. It is a resource-intensive process both in terms of competence and number of working hours. Assessing the outcome of a case typically requires familiarity with legal precedent in the court, the doctrines under- pinning rulings as well at the type of cases brought before the tribunal. In other words, - depending on the task – the researcher needs a good grasp of similar cases in the past (i.e. legal precedent) and/or the future (i.e. its value as a precedent) as well as the field-specific vocabulary.
+
+The purpose of this research note is to train a model to make such comparisons for us. To obtain word embeddings, I apply a word2vec algorithm on 30999 (machine-readable) legal texts produced by the members of the Court of Justice of the European Union (CJEU) itself. I use these to construct a do- main specific vocabulary of similar words. The similarities can then be used to identify and compare relevant documents based on their word occurrences.
+
+A draft version can be found [here](WordEmbeddings_Hermansen.pdf).
+--&gt;
 </description>
     </item>
     
