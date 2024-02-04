@@ -6,7 +6,7 @@
     <description>Recent content in R i praksis on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://siljehermansen.github.io/tags/r-i-praksis/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,27 +14,23 @@
     <item>
       <title>Statistical models beyond linear regression</title>
       <link>https://siljehermansen.github.io/teaching/beyond-linear-models/</link>
-      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://siljehermansen.github.io/teaching/beyond-linear-models/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s level. &lt;em&gt;University of Copenhagen. Department of Political Science.&lt;/em&gt; 2024&lt;/p&gt;
 &lt;p&gt;Here you can find the slides and other material used for the different lectures.&lt;/p&gt;
+&lt;h2 id=&#34;learning-the-basics&#34;&gt;Learning the basics&lt;/h2&gt;
+&lt;p&gt;We will spend our first weeks familiarizing with R and linear models (OLS).&lt;/p&gt;
+&lt;h4 id=&#34;week-1&#34;&gt;Week 1&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Hermansen 2023, ch. 1-4, p. 19-70&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We start by familiarizing with the topic of statistical models when the main assumptions underlying linear models (OLS) are not present. We then move on to R.&lt;/p&gt;
+&lt;p&gt;Slides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;intro_to_BLR.pdf&#34;&gt;Introduction to models beyond linear regressions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;intro_to_R.pdf&#34;&gt;Introduction to R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The best way to follow the class, is to code along. You can find info on how to install R (the statistical software) and RStudio (the interface) &lt;a href=&#34;https://www.dataquest.io/blog/installing-r-on-your-computer/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;!--
-## Learning R
-
-We will spend our first weeks familiarizing with R.
-
-
-#### Week 1 (theory)
-
-*Hermansen 2023, ch. 1-4, p. 19-70*
-
-We start by familiarizing with the topic of statistical models when the main assumptions underlying linear models (OLS) are not present. We then move on to R.
-
-Slides:
- - [Introduction to models beyond linear regressions](intro_to_BLR.pdf)
- - [Introduction to R](intro_to_R.pdf)
-
 #### Week 2 (lab week)
 
 *Hermansen 2023, ch. 5-6, p. 73-119*
@@ -174,7 +170,7 @@ Slides/notebook:
 
 --&gt;
 &lt;h1 id=&#34;complete-syllabus&#34;&gt;Complete syllabus&lt;/h1&gt;
-&lt;p&gt;Please familiarize with the &lt;a href=&#34;syllabus_beyond-linear-regression.pdf&#34;&gt;syllabus&lt;/a&gt; before our first meeting.&lt;/p&gt;
+&lt;p&gt;Please familiarize with the &lt;a href=&#34;syllabus_beyond-linear-regression.pdf&#34;&gt;syllabus&lt;/a&gt;.&lt;/p&gt;
 &lt;div&gt;
 &lt;object data=&#34;syllabus_beyond-linear-regression.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
 &lt;a href=&#34;syllabus_beyond-linear-regression.pdf&#34;&gt;Download the syllabus&lt;/a&gt;
@@ -194,19 +190,19 @@ Slides/notebook:
 &lt;tr&gt;
 &lt;td&gt;1&lt;/td&gt;
 &lt;td&gt;Introduction to R as a statistics software&lt;/td&gt;
-&lt;td&gt;05.02&lt;/td&gt;
+&lt;td&gt;05.02; 07.02&lt;/td&gt;
 &lt;td&gt;Hermansen2023, ch. 1-4, p. 19-70&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;2&lt;/td&gt;
 &lt;td&gt;Descriptive statistics and graphical display&lt;/td&gt;
-&lt;td&gt;12.02&lt;/td&gt;
+&lt;td&gt;12.02; 14.02&lt;/td&gt;
 &lt;td&gt;Hermansen2023, ch. 5-6, p. 73-119&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;3&lt;/td&gt;
 &lt;td&gt;Linear regression&lt;/td&gt;
-&lt;td&gt;19.02&lt;/td&gt;
+&lt;td&gt;19.02; 21.02&lt;/td&gt;
 &lt;td&gt;Hermansen2023, ch. 7-9, p. 123-194&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -228,15 +224,21 @@ Slides/notebook:
 &lt;td&gt;King2000 (supplementary reading)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;4-5&lt;/td&gt;
 &lt;td&gt;Hierarchical data structures&lt;/td&gt;
-&lt;td&gt;26.02; 04.03&lt;/td&gt;
+&lt;td&gt;26.02; 28.03&lt;/td&gt;
 &lt;td&gt;Gelman2007, ch 11-12, p. 235-278&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;04.03; 06.03&lt;/td&gt;
 &lt;td&gt;Gelman2007, ch 13, p. 279-300&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -254,7 +256,7 @@ Slides/notebook:
 &lt;tr&gt;
 &lt;td&gt;6&lt;/td&gt;
 &lt;td&gt;Binary outcomes (logistic regression)&lt;/td&gt;
-&lt;td&gt;11.03&lt;/td&gt;
+&lt;td&gt;11.03; 13.03&lt;/td&gt;
 &lt;td&gt;Ward2018, ch. 3, p. 43-78&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -270,9 +272,15 @@ Slides/notebook:
 &lt;td&gt;Gelman2007, ch. 6, p. 109-134 (supplementary reading)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;7-8&lt;/td&gt;
 &lt;td&gt;Categorical outcomes (multinomial and ordered logistic regression)&lt;/td&gt;
-&lt;td&gt;18.03; 01.04&lt;/td&gt;
+&lt;td&gt;18.03; 20.03; 03.04&lt;/td&gt;
 &lt;td&gt;Ward2018, ch. 8-9, p. 141-189&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -282,9 +290,45 @@ Slides/notebook:
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;9-10&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Assignment 1 is given&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;03.04&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Workshop week&lt;/td&gt;
+&lt;td&gt;08.04; 10.04&lt;/td&gt;
+&lt;td&gt;Assignment 1 presentation, Assignment helpdesk, Dynamic reporting&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Assignment due (optional)&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;14.04&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10-11&lt;/td&gt;
 &lt;td&gt;Count outcomes (poisson, negative binomial and hurdle models)&lt;/td&gt;
-&lt;td&gt;08.04; 15.04&lt;/td&gt;
+&lt;td&gt;15.04; 17.04&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;http://lineardigressions.com/episodes/2020/3/1/better-know-a-distribution-the-poisson-distribution&#34;&gt;Linear Digressions:&lt;/a&gt; podcast on poisson distribution&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -306,21 +350,9 @@ Slides/notebook:
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;Assignment due&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;21.04&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;11-12&lt;/td&gt;
 &lt;td&gt;Event history data (survival models)&lt;/td&gt;
-&lt;td&gt;22.04; 29.04&lt;/td&gt;
+&lt;td&gt;22.04; 24.04; 29.04&lt;/td&gt;
 &lt;td&gt;Ward2018, ch. 11, p. 190-216&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -331,8 +363,8 @@ Slides/notebook:
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;em&gt;Assignment due&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;05.05&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Assignment 2 is given&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;29.04&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -342,7 +374,19 @@ Slides/notebook:
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;13-14&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;Workshop week&lt;/td&gt;
+&lt;td&gt;06.05; 08.05&lt;/td&gt;
+&lt;td&gt;Assignment 2 presentation, Assignment helpdesk, &lt;code&gt;shiny&lt;/code&gt;-app&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
 &lt;td&gt;Missing data&lt;/td&gt;
 &lt;td&gt;06.05; 13.05&lt;/td&gt;
 &lt;td&gt;Ward2018, ch 12, p. 249-270&lt;/td&gt;
