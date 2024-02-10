@@ -29,10 +29,10 @@
 &lt;li&gt;Day 1: &lt;a href=&#34;intro_to_BLR.pdf&#34;&gt;Introduction to models beyond linear regressions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Day 2: &lt;a href=&#34;intro_to_R.pdf&#34;&gt;Introduction to R&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The best way to follow the class, is to code along. You can find info on how to install R (the statistical software) and RStudio (the interface) &lt;a href=&#34;https://www.dataquest.io/blog/installing-r-on-your-computer/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The best way to follow the class, is to code along. You can find info on how to install R (the statistical software) and RStudio (the interface) &lt;a href=&#34;https://intro2r.com/chap1.html&#34;&gt;here&lt;/a&gt; or &lt;a href=&#34;https://www.dataquest.io/blog/installing-r-on-your-computer/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h4 id=&#34;week-2-descriptive-statistics-and-graphical-display&#34;&gt;Week 2: Descriptive statistics and graphical display&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Hermansen 2023, ch. 5-6, p. 73-119&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;You have had the time to familiarize with base R, functions and objects. Let&amp;rsquo;s piece this together, and explore two new dialects: &lt;code&gt;ggplot2&lt;/code&gt; for plotting and &lt;code&gt;tidyverse&lt;/code&gt; for data manipulation.&lt;/p&gt;
+&lt;p&gt;You have had the time to familiarize with base R, functions and objects. Let&amp;rsquo;s piece this together, and explore two new dialects: &lt;code&gt;ggplot2&lt;/code&gt; for graphical display and &lt;code&gt;tidyverse&lt;/code&gt; for data manipulation.&lt;/p&gt;
 &lt;p&gt;Notebooks:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;week2_data_manipulation.html&#34;&gt;Data manipulation&lt;/a&gt;&lt;/li&gt;
