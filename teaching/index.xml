@@ -51,9 +51,11 @@
 &lt;h4 id=&#34;week-4-hierarchicalmultilevel-models&#34;&gt;Week 4: Hierarchical/multilevel models&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Gelman and Hill (2007), ch 11-13, p. 235-299&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We will start the next two weeks by going through the assumptions of the linear model in order to transition to instances where observations may share common characteristics.&lt;/p&gt;
-&lt;p&gt;You can find the data for the hierarchical slides here: &lt;a href=&#34;MEP.rda&#34;&gt;MEP.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can download the data on linear assumptions here: &lt;a href=&#34;MEP2014.rda&#34;&gt;MEP2014.rda&lt;/a&gt;
+You can download the data for the hierarchical slides here: &lt;a href=&#34;MEP.rda&#34;&gt;MEP.rda&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Slides and notes:&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;week4_1_hierarchical.pdf&#34;&gt;Slides: assumptions of the linear model and grouped variation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;problem_set_1_linear_assumptions.html&#34;&gt;Problem set 1: assumptions of the linear model&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!--
