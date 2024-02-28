@@ -433,6 +433,11 @@ regression for each MEP nationality. You can remove the uncertainty by
 adding <code>se = FALSE</code> if the shaded lines makes it hard to read
 the plot. Compare the new plot with the plot from 1b. What
 happened?</p></li>
+<li><p>Ok. Calculate the grouped averages of both x and y using
+<code>group_by()</code> and <code>reframe()</code>. You now have a new
+data frame with 28 observations. Plot x and y against each other in a
+scatterplot. Using geom_smooth(aes(x,y), method = “lm”) you can also fit
+a regression line to the data. What do you see?</p></li>
 <li><p>Fit a fixed-effects model where you control for
 <code>Nationality</code>.</p></li>
 <li><p>Use <code>stargazer()</code> to compare your pooled model with
