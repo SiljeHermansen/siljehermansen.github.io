@@ -13,7 +13,7 @@
 
 <meta name="date" content="2024-03-11" />
 
-<title>Problem set: Logistic regression</title>
+<title>Problem set: Back and forth in the logistic regression</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -372,7 +372,8 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Problem set: Logistic regression</h1>
+<h1 class="title toc-ignore">Problem set: Back and forth in the logistic
+regression</h1>
 <h4 class="author">Silje Synnøve Lyder Hermansen</h4>
 <h4 class="date">2024-03-11</h4>
 
@@ -394,26 +395,57 @@ constituency-based (local) assistant with a fellow party member. The
 hypothesis is that MEPs that compete in candidate-centered systems
 (<code>OpenList</code> == 1) will have fewer incentives to share
 resources with party colleagues, since they compete against each other
-during the election (i.e. there is an intra-party compatition).</p>
+during the election (i.e. there is an intra-party competition).</p>
 <p>The first exercise focuses on interpretation of the results from a
-model that is already estimated. The second excercise allows you to see
-how those estimates are calculated.</p>
-<div id="exercise-1-predicted-point-estimatesfirst-difference-text" class="section level1">
-<h1>Exercise 1: Predicted point estimates/first difference (text)</h1>
-<p>What is the predicted effect of changing electoral system on MEPs’
-propensity to share local assistants …</p>
-<ul>
-<li>In Bulgaria (Labor cost == 4.4); when the party is small (Seat share
-== 0.1).</li>
-<li>In Denmark (Labor cost == 42); when the party is small (Seat share
-== 0.1).</li>
-<li>Is this a realistic set of scenarios?</li>
-</ul>
-<p>Compare the two predicted probabilities for each pairs of scenarios
-by calculating the first differences (<span class="citation">Ward and
+model that is already estimated (<span class="citation">Ward and
 Ahlquist (2018)</span>, ch 3; <span class="citation">Hermansen
-(2023)</span>, ch 7 and 10).</p>
+(2023)</span>, ch 7 and 10).. The second exercise allows you to see how
+those estimates are calculated.</p>
 <p><em>Be prepared to share on padlet:</em> <a href="https://padlet.com/siljesynnove/blr" class="uri">https://padlet.com/siljesynnove/blr</a></p>
+<div id="exercise-1-interpretation-the-logistic-transformation" class="section level1">
+<h1>Exercise 1: Interpretation (the logistic transformation)</h1>
+<p>Fit a model with the following predictors.</p>
+<pre class="r"><code>mod &lt;- glm(PoolsLocal ~
+             #Candidate-centered system (x = 1) vs party-centered (x = 0)
+             OpenList 
+           #Party size: share of seats in national parliament
+           + SeatsNatPal.prop
+           #Cost of hiring an assistant in member state
+           + LaborCost,
+           #Recoding strategy (logit-transformation) and binomial probability distribution
+           family = binomial(link = &quot;logit&quot;),
+           #Data
+           df)</code></pre>
+<ol style="list-style-type: lower-alpha">
+<li><p>What is the marginal effect of changing the electoral
+system?</p></li>
+<li><p>What is the predicted probability of sharing assistants when x is
+0 and 1, respectively (OpenList)?</p></li>
+</ol>
+<ul>
+<li>In Bulgaria (Labor cost == 4.4) when the party is small (Seat share
+== 0.1).</li>
+<li>In Denmark (Labor cost == 42) when the party is small (Seat share ==
+0.1).</li>
+</ul>
+<p>To do so, fill in the equation to get the logodds (z):</p>
+<p><span class="math display">\[z = -1.09 + -1.12x_1 + -1.93x_2 + 0.06
+x_3\]</span></p>
+<p>Then, use the logistic transformation to back-transform:</p>
+<p><span class="math display">\[\frac{e^z}{1+e^z} =
+\frac{exp(z)}{1+exp(z)}\]</span></p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>What is the first difference/absolute change in probabilities in the
+two countries?</li>
+</ol>
+<p>Compare the two predicted probabilities for each pairs of scenarios
+by calculating the first differences.</p>
+<ol start="4" style="list-style-type: lower-alpha">
+<li>What is the difference in absolute effect between the two countries
+(difference between the two first-differences)? Do you think this is a
+realistic estimate of the effect of changing electoral system in the two
+countries?</li>
+</ol>
 <table style="text-align:center">
 <caption>
 <strong>MEPs’ propensity to share local assistants (a binomial
@@ -574,8 +606,8 @@ Akaike Inf. Crit.
 </tr>
 </table>
 </div>
-<div id="the-recoding-of-the-dependent-variable-binomial-logit" class="section level1">
-<h1>The recoding of the dependent variable (binomial logit)</h1>
+<div id="the-recoding-of-the-dependent-variable-logit-transformation" class="section level1">
+<h1>The recoding of the dependent variable (logit transformation)</h1>
 <p>To obtain a continuous and unbounded dependent variable on which to
 run a regression, we recode the 0s and 1s. We do this by making
 comparisons between observations that have a successful outcome (1s) and
@@ -589,17 +621,20 @@ are reported as logodds and change in logodds (oddsratio).</p>
 <div id="exercise-2-base-line-model-without-predictors." class="section level2">
 <h2>Exercise 2: Base-line model without predictors.</h2>
 <p>We’ll start out by calculating the intercept in an intercept-only
-model. <span class="math inline">\(y\)</span> reports the logodds that
-MEPs share resources.</p>
-<blockquote>
-<p><span class="math inline">\(y_i = \alpha\)</span></p>
-</blockquote>
-<p>In an intercept-only model, there is no change, so the only
-comparison is between the number of successes and failures in the
+model. <span class="math inline">\(y\)</span> reports whether each MEP
+shared an assistant or not, while <span class="math inline">\(z\)</span>
+reports the logodds that MEPs share resources.</p>
+<p><span class="math display">\[y = \alpha\]</span> <span class="math display">\[z = \alpha\]</span></p>
+<p><span class="math display">\[ z = logit(p) =
+\frac{p}{1-p}\]</span></p>
+<p>In an intercept-only model, there is no change between groups, so the
+only comparison is between the number of successes and failures in the
 data.</p>
 <p><strong>a. Calculate the intercept</strong></p>
 <p>Calculate the probability, then the odds, then the logodds that an
-MEP will pool resources.</p>
+MEP will pool resources (<code>PoolsLocal</code>). To do so, you will
+have to calculate the number of MEPs that share resources (successes)
+and the number of MEPs that don’t share (failures).</p>
 <p><strong>b. Run a binomial regression with only an
 intercept.</strong></p>
 <p>How do your logodds compare with the regression coefficients?</p>
@@ -609,23 +644,36 @@ intercept.</strong></p>
 </div>
 <div id="exercise-3-model-with-one-predictor" class="section level2">
 <h2>Exercise 3: Model with one predictor</h2>
-<p>Now, let’s expand the analysis to a predictor. We want to describe
-the likelihood that an MEP will share at least one local assistant as a
-function of the electoral system.</p>
+<p>Now, let’s expand the analysis to a binary predictor. We want to
+describe the likelihood that an MEP will share at least one local
+assistant as a function of the electoral system.</p>
 <blockquote>
 <p><span class="math inline">\(y = \alpha + \beta x\)</span></p>
 </blockquote>
 <p>In a model with predictors, we add a second comparison between the
-groups. In this example, we hve a binary predictor
+groups. In this example, we have a binary predictor
 (<code>OpenList</code>).</p>
-<p><strong>a. Calculate the slope parameter.</strong></p>
-<p>First, divide the data in two according to the values of the
-predictor. Second, calculate the odds of sharing assistants in each
-group. Third, calculate the ratio between the two odds. Fourth,
-logtransform.</p>
-<p><strong>b. Calculate the intercept.</strong> The intercept (<span class="math inline">\(\alpha\)</span>) is defined as the value of <span class="math inline">\(y\)</span> when all the <span class="math inline">\(x\)</span>s are 0. In our model, it reports the
-logodds when <code>PoolsLocal == 0</code>.</p>
+<p><strong>a. Calculate the odds of pooling resources in each electoral
+system</strong></p>
+<ul>
+<li>First, divide the data in two groups according to the values of the
+predictor (<code>OpenList</code>).</li>
+<li>Second, calculate the odds of sharing assistants in each group in
+the same way as you did in exercise 2.</li>
+</ul>
+<p><strong>b. Calculate the intercept.</strong></p>
+<p>The intercept (<span class="math inline">\(\alpha\)</span>) is
+defined as the value of <span class="math inline">\(y\)</span> when all
+the <span class="math inline">\(x\)</span>s are 0. In our model, it
+reports the logodds when <code>PoolsLocal == 0</code>.</p>
+<p><strong>c. Calculate the slope parameter.</strong></p>
+<ul>
+<li>Calculate the ratio between the two odds (odds of x == 1 vs. odds of
+x == 1).</li>
+<li>Logtransform.</li>
+</ul>
 <p><strong>c. Run the model in R and compare.</strong></p>
+<p>Did you find the same thing?</p>
 <pre class="r"><code>mod1 &lt;- glm(PoolsLocal ~
               OpenList,
             family = &quot;binomial&quot;,
