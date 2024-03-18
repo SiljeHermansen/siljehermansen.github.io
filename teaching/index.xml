@@ -85,6 +85,15 @@
 &lt;ul&gt;
 &lt;li&gt;Day 2: &lt;a href=&#34;week6_notebook_logit_workflow.html&#34;&gt;R workflow for binomial logistic models&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4 id=&#34;week-7-categorical-outcomes&#34;&gt;Week 7: Categorical outcomes&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Ward 2018, ch. 8-9, p. 141-189&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We will continue to work on data that can be recoded as&lt;/p&gt;
+&lt;p&gt;The data I will be exemplifying with is drawn from the European Social Survey.&lt;/p&gt;
+&lt;p&gt;You can download the data here: &lt;a href=&#34;kap6.rda&#34;&gt;kap6.rda&lt;/a&gt; and &lt;a href=&#34;kap10.rda&#34;&gt;kap10.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Slides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Day 1-2: &lt;a href=&#34;week7_ordered_categorical.pdf&#34;&gt;Multinomial and ordinal logistic regression&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;!--
 #### Week 3 (lab week)
 
