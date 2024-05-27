@@ -6,10 +6,19 @@
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://siljehermansen.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Publications</title>
+      <link>https://siljehermansen.github.io/publication/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/publication/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Teaching</title>
@@ -49,6 +58,35 @@ Applied statistics class for political scientists.
 &lt;h3 id=&#34;a-hrefsocial-science-methods-for-interdisciplinary-legal-studiessocial-science-methods-for-interdisciplinary-legal-studiesa&#34;&gt;&lt;a href=&#34;social-science-methods-for-interdisciplinary-legal-studies&#34;&gt;Social Science Methods for Interdisciplinary Legal Studies&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;PhD level. &lt;i&gt;University of Copenhagen. Faculty of Law. &lt;/i&gt; 2023&lt;/p&gt;
 &lt;p&gt;Introduction to R.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://siljehermansen.github.io/project/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/project/</guid>
+      <description>&lt;p&gt;How do our representatives behave given how we select them? And how does information about their behavior affect who we retain in office?&lt;/p&gt;
+&lt;h2 id=&#34;the-court-of-justice-of-the-european-union-cjeu&#34;&gt;The Court of Justice of the European Union (CJEU)&lt;/h2&gt;
+&lt;a href=&#34;https://siljehermansen.github.io/project/judicial-behavior&#34;&gt;
+&lt;img src=&#34;CJEU.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; caption = &#34;The Court of Justice of the EU in Luxembourg&#34;  alt = &#34;The Court of Justice of the EU in Luxembourg&#34;/&gt;
+&lt;/a&gt;
+&lt;p&gt;The CJEU is probably the world’s most influential international court, functioning in many respects as a federal supreme court.&lt;/p&gt; 
+&lt;p&gt;Yet little research exists on how judges enter the Court and how its internal organization affects decision making.&lt;/p&gt; 
+&lt;!--
+#### &lt;a href=&#34;judicial-behavior&#34;&gt;Judicial behavior: the Court&#39;s decision makers&lt;/a&gt;
+&lt;p&gt;How do judges acquire their position?&lt;/p&gt;
+
+#### &lt;a href=&#34;court-strategies&#34;&gt;Court strategies: the Court&#39;s relations with external actors&lt;/a&gt;
+&lt;p&gt;&lt;/p&gt;
+--&gt;
+&lt;h2 id=&#34;decision-makers-in-the-european-parliament-ep&#34;&gt;Decision makers in the European Parliament (EP)&lt;/h2&gt;
+&lt;a href=&#34;https://siljehermansen.github.io/project/european-parliament&#34;&gt;
+&lt;img src=&#34;EP.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; caption = &#34;The European Parliament in Strasbourg&#34;
+ alt = &#34;The European Parliament in Strasbourg&#34;/&gt;
+&lt;/a&gt;
+&lt;p&gt;Political parties obtain influence through their choice of representatives. Outside of parliament, they gain sway through the candidates for whom they secure election. Inside parliament party groups shape policies through the allocation of tasks to competent members. This project delves into the mutual influence of parliamentary group allocations and the choices made by extra-parliamentary party organizations. In the center are members of Parliament whose political careers are shaped by both actors.&lt;p/&gt;
 </description>
     </item>
     
@@ -94,44 +132,6 @@ Applied statistics class for political scientists.
 &lt;p&gt;
 Her kan du finde instruktioner om, hvordan du downloader den online ressource, der er en del af &#34;R i praksis&#34;. Det giver dig adgang til datasæt og opgaveløsninger.
 &lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://siljehermansen.github.io/publication/</link>
-      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://siljehermansen.github.io/publication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://siljehermansen.github.io/project/</link>
-      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://siljehermansen.github.io/project/</guid>
-      <description>&lt;p&gt;How do our representatives behave given how we select them? And how does information about their behavior affect who we retain in office?&lt;/p&gt;
-&lt;h2 id=&#34;the-court-of-justice-of-the-european-union-cjeu&#34;&gt;The Court of Justice of the European Union (CJEU)&lt;/h2&gt;
-&lt;a href=&#34;https://siljehermansen.github.io/project/judicial-behavior&#34;&gt;
-&lt;img src=&#34;CJEU.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; caption = &#34;The Court of Justice of the EU in Luxembourg&#34;  alt = &#34;The Court of Justice of the EU in Luxembourg&#34;/&gt;
-&lt;/a&gt;
-&lt;p&gt;The CJEU is probably the world’s most influential international court, functioning in many respects as a federal supreme court.&lt;/p&gt; 
-&lt;p&gt;Yet little research exists on how judges enter the Court and how its internal organization affects decision making.&lt;/p&gt; 
-&lt;!--
-#### &lt;a href=&#34;judicial-behavior&#34;&gt;Judicial behavior: the Court&#39;s decision makers&lt;/a&gt;
-&lt;p&gt;How do judges acquire their position?&lt;/p&gt;
-
-#### &lt;a href=&#34;court-strategies&#34;&gt;Court strategies: the Court&#39;s relations with external actors&lt;/a&gt;
-&lt;p&gt;&lt;/p&gt;
---&gt;
-&lt;h2 id=&#34;decision-makers-in-the-european-parliament-ep&#34;&gt;Decision makers in the European Parliament (EP)&lt;/h2&gt;
-&lt;a href=&#34;https://siljehermansen.github.io/project/european-parliament&#34;&gt;
-&lt;img src=&#34;EP.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; caption = &#34;The European Parliament in Strasbourg&#34;
- alt = &#34;The European Parliament in Strasbourg&#34;/&gt;
-&lt;/a&gt;
-&lt;p&gt;Political parties obtain influence through their choice of representatives. Outside of parliament, they gain sway through the candidates for whom they secure election. Inside parliament party groups shape policies through the allocation of tasks to competent members. This project delves into the mutual influence of parliamentary group allocations and the choices made by extra-parliamentary party organizations. In the center are members of Parliament whose political careers are shaped by both actors.&lt;p/&gt;
-</description>
     </item>
     
     <item>

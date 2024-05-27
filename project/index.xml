@@ -6,49 +6,15 @@
     <description>Recent content in Projects on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://siljehermansen.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Judicial behavior: Decision makers in the CJEU</title>
-      <link>https://siljehermansen.github.io/project/judicial-behavior/</link>
-      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://siljehermansen.github.io/project/judicial-behavior/</guid>
-      <description>&lt;p&gt;Little research exists on how judges enter the Court and how its internal organization affects decision making.  This project opens the black box of these decision-making processes to consider governments’ and judges’ strategic behavior.&lt;/p&gt;
-&lt;p&gt;I show that judges&amp;rsquo; performance and governments&amp;rsquo; political preferences are intertwined both when judges are appointed and when influence is distributed within the Court.&lt;/p&gt;
-&lt;h2 id=&#34;judicial-appointments-to-the-cjeu&#34;&gt;Judicial appointments to the CJEU&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;Shaping the Bench: The Effect of Ideology, Impact, and Information Quality on Judicial Reappointments&amp;rdquo;&lt;/strong&gt;  with Daniel Naurin presented at the ECPR Joint Sessions 2019 (Mons)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;img src=&#34;Effectplot_preferences_economy_CJ.jpeg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;Graphic showing that the likelihood of replacing a sitting judge increases with the distance between the economic preferences of the appointing and reappointing government.&#34;/&gt;
-&lt;p&gt;Courts’ institutional design has significant implications for judicial independence and accountability, particularly when terms are renewable. Policy-seeking selectors often consider judges’ past service to predict their future policy impact. However, the same judicial record may carry more or less weight in the assessment, depending on the court’s case-management process.&lt;/p&gt;
-&lt;p&gt;Drawing on original data on reappointments to the Court of Justice of the European Union, we show that reappointments are made based on both ideology and impact. Transparent, selective allocation of influential positions in the court favors the retention of high-impact judges, while non-selective allocations do not. Secret voting &amp;ndash; conventionally seen as safeguarding judicial independence &amp;ndash; also does not shield judges against ideological deselection. Our analysis unveils new insights into when judicial accountability incentivizes effort. It also challenges the prevailing belief that renewable terms decrease judicial independence, instead suggesting that selectors partially rely on evaluations by court members for reappointment decisions.&lt;/p&gt;
-&lt;p&gt;A draft version can be found &lt;a href=&#34;Shaping_the_bench_HermansenNaurin.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;How do merit commissions affect judicial behavior? Evidence from the Court of Justice of the European Union&amp;rdquo;&lt;/strong&gt;  with Sivaram Cheruvu, Joshua Fjelstul, and Daniel Naurin presented at APSA 2022 (Montréal)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;img src=&#34;Coefplot_panel255.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;.&#34;/&gt;
-&lt;p&gt;Governments create monitoring entities to ensure that policymakers are working effectively. Monitors&amp;rsquo; control over retaining and selecting policymakers, however, may create incentives that lead to sub-optimal outcomes. One such entity is a merit commission (also known as a judicial council) that evaluates judges subject to retention and (or) selection. How do merit commissions affect judicial behavior? We construct a formal model arguing that lower competence incumbent judges only subject to merit retention will complete cases more quickly at the expense of quality opinion-writing, as their productivity is a signal of their effort investment to the commission. Conversely, judges subject to merit selection and subsequent retention will not make the same tradeoff, as the commission&amp;rsquo;s initial selection of them makes it more costly for the commission to negatively evaluate them upon retention. We provide evidence leveraging the Article 255 panel for (re)appointments to the Court of Justice of the European Union.&lt;/p&gt;
-&lt;h4 id=&#34;published-work&#34;&gt;Published work&lt;/h4&gt;
-&lt;p&gt;If who makes decisions within courts matters for the outcome of cases and their reception, then studying how cases and judges are matched is essential to understanding judicial independence.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/jlc2023/&#34;&gt;&amp;ldquo;The CJEU Database Platform: Decisions and Decision-Makers&amp;rdquo;&lt;/a&gt;  (2023)  with Stein Arne Brekke, Joshua Fjelstul and Daniel Naurin. &lt;em&gt;Journal of Law and Courts&lt;/em&gt; 0(0), 1-22.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/jepp2020/&#34;&gt;&amp;ldquo;Building legitimacy: strategic case allocations in the Court of Justice of the European Union&amp;rdquo;&lt;/a&gt;  (2020) &lt;em&gt;Journal of European Public Policy&lt;/em&gt; 27 (8), 1215-1235.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Strategic decision making by the Court of Justice of the European Union (CJEU)</title>
+      <title>External strategic interactions - the CJEU in relation with other actors</title>
       <link>https://siljehermansen.github.io/project/court-strategies/</link>
-      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://siljehermansen.github.io/project/court-strategies/</guid>
       <description>&lt;p&gt;How does the CJEU relate to its external interlocutors; litigants, the legal community and governments? These projects argue that the CJEU actively seeks alliance partners beyond governments. They also explore how the Court pursues its own interests without running against member states&amp;rsquo; wishes.&lt;/p&gt;
@@ -57,13 +23,15 @@
 &lt;li&gt;&lt;strong&gt;&amp;ldquo;Leveling and Spotlighting: How International Courts Refract Private Litigation to Build Institutional Legitimacy&amp;rdquo;&lt;/strong&gt; with &lt;a href=&#34;https://www.tommasopavone.com/&#34;&gt;Tommaso Pavone&lt;/a&gt; and Louisa Boulaziz  presented at EUSA 2022 (Miami)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Private actors are increasingly turning to international courts (ICs). We argue that ICs can refract private litigation to build legitimacy and mitigate intergovernmental backlash. By leveling the odds for individuals and spotlighting their claims over those of more resourceful litigants, ICs cultivate civil society support and legitimate judicial policymaking in intergovernmental polities where individuals are disempowered. We evaluate this argument by scrutinizing the first IC with private access: the European Court of Justice (ECJ). We trace how ECJ judges privilege individuals in their advocacy and assess if they match words with deeds. Leveraging an original dataset, we find that the ECJ &amp;ldquo;levels&amp;rdquo;, supporting individual claims over businesses boasting larger and more experienced legal teams. The ECJ also &amp;ldquo;spotlights&amp;rdquo; its support for individuals through press releases that get amplified in law reviews. Our findings challenge the view that ICs build legitimacy by stealth and the ``haves&amp;rsquo;&amp;rsquo; come out ahead in litigation.&lt;/p&gt;
+&lt;!---
 &lt;html&gt;
 &lt;head&gt;&lt;title&gt;Shiny App Iframe&lt;/title&gt;&lt;/head&gt;
 &lt;body&gt;
 &lt;iframe id=&#34;lawyers shiny app&#34; src=&#34;https://siljehermansen.shinyapps.io/Lawyers/&#34; style=&#34;border: none; width: 100%; height: 950px&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-&lt;p&gt;A draft of the paper can be found &lt;a href=&#34;Leveling_and_spotlighting_HermansenPavoneBoulaziz.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+--&gt;
+&lt;p&gt;A draft of the paper can be found &lt;a href=&#34;https://preprints.apsanet.org/engage/api-gateway/apsa/assets/orp/resource/item/6614579d91aefa6ce12324d9/original/leveling-and-spotlighting-how-the-european-court-of-justice-favors-the-weak-to-promote-its-legitimacy.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;the-courts-relationship-with-governments&#34;&gt;The Court&amp;rsquo;s relationship with governments&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Judicious judging: The effects of political division on decision making in the European Court of Justice&lt;/strong&gt; with &lt;a href=&#34;https://www.eui.eu/people?id=urska-sadl&#34;&gt;Urska Sadl&lt;/a&gt; presented at APSA 2022 (Montréal)&lt;/li&gt;
@@ -105,6 +73,40 @@ A draft version can be found [here](WordEmbeddings_Hermansen.pdf).
     </item>
     
     <item>
+      <title>Judicial behavior: Decision makers in the CJEU</title>
+      <link>https://siljehermansen.github.io/project/judicial-behavior/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/project/judicial-behavior/</guid>
+      <description>&lt;p&gt;Little research exists on how judges enter the Court and how its internal organization affects decision making.  This project opens the black box of these decision-making processes to consider governments’ and judges’ strategic behavior.&lt;/p&gt;
+&lt;p&gt;I show that judges&amp;rsquo; performance and governments&amp;rsquo; political preferences are intertwined both when judges are appointed and when influence is distributed within the Court.&lt;/p&gt;
+&lt;h2 id=&#34;judicial-appointments-to-the-cjeu&#34;&gt;Judicial appointments to the CJEU&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Shaping the Bench: The Effect of Ideology, Impact, and Information Quality on Judicial Reappointments&amp;rdquo;&lt;/strong&gt;  with Daniel Naurin presented at the ECPR Joint Sessions 2019 (Mons)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&#34;Effectplot_preferences_economy_CJ.jpeg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;Graphic showing that the likelihood of replacing a sitting judge increases with the distance between the economic preferences of the appointing and reappointing government.&#34;/&gt;
+&lt;p&gt;Courts’ institutional design has significant implications for judicial independence and accountability, particularly when terms are renewable. Policy-seeking selectors often consider judges’ past service to predict their future policy impact. However, the same judicial record may carry more or less weight in the assessment, depending on the court’s case-management process.&lt;/p&gt;
+&lt;p&gt;Drawing on original data on reappointments to the Court of Justice of the European Union, we show that reappointments are made based on both ideology and impact. Transparent, selective allocation of influential positions in the court favors the retention of high-impact judges, while non-selective allocations do not. Secret voting &amp;ndash; conventionally seen as safeguarding judicial independence &amp;ndash; also does not shield judges against ideological deselection. Our analysis unveils new insights into when judicial accountability incentivizes effort. It also challenges the prevailing belief that renewable terms decrease judicial independence, instead suggesting that selectors partially rely on evaluations by court members for reappointment decisions.&lt;/p&gt;
+&lt;p&gt;A draft version can be found &lt;a href=&#34;Shaping_the_bench_HermansenNaurin.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;How do merit commissions affect judicial behavior? Evidence from the Court of Justice of the European Union&amp;rdquo;&lt;/strong&gt;  with Sivaram Cheruvu, Joshua Fjelstul, and Daniel Naurin presented at APSA 2022 (Montréal)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&#34;Coefplot_panel255.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; alt=&#34;.&#34;/&gt;
+&lt;p&gt;Governments create monitoring entities to ensure that policymakers are working effectively. Monitors&amp;rsquo; control over retaining and selecting policymakers, however, may create incentives that lead to sub-optimal outcomes. One such entity is a merit commission (also known as a judicial council) that evaluates judges subject to retention and (or) selection. How do merit commissions affect judicial behavior? We construct a formal model arguing that lower competence incumbent judges only subject to merit retention will complete cases more quickly at the expense of quality opinion-writing, as their productivity is a signal of their effort investment to the commission. Conversely, judges subject to merit selection and subsequent retention will not make the same tradeoff, as the commission&amp;rsquo;s initial selection of them makes it more costly for the commission to negatively evaluate them upon retention. We provide evidence leveraging the Article 255 panel for (re)appointments to the Court of Justice of the European Union.&lt;/p&gt;
+&lt;h4 id=&#34;published-work&#34;&gt;Published work&lt;/h4&gt;
+&lt;p&gt;If who makes decisions within courts matters for the outcome of cases and their reception, then studying how cases and judges are matched is essential to understanding judicial independence.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/jlc2023/&#34;&gt;&amp;ldquo;The CJEU Database Platform: Decisions and Decision-Makers&amp;rdquo;&lt;/a&gt;  (2023)  with Stein Arne Brekke, Joshua Fjelstul and Daniel Naurin. &lt;em&gt;Journal of Law and Courts&lt;/em&gt; 0(0), 1-22.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/jepp2020/&#34;&gt;&amp;ldquo;Building legitimacy: strategic case allocations in the Court of Justice of the European Union&amp;rdquo;&lt;/a&gt;  (2020) &lt;em&gt;Journal of European Public Policy&lt;/em&gt; 27 (8), 1215-1235.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Decision makers in the European Parliament (EP)</title>
       <link>https://siljehermansen.github.io/project/european-parliament/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
@@ -113,10 +115,9 @@ A draft version can be found [here](WordEmbeddings_Hermansen.pdf).
       <description>&lt;!---
 &lt;img src=&#34;EP.jpg&#34; align=&#34;centre&#34;, caption = &#34;The European Parliament in Strasbourg&#34;/&gt;
 ---&gt;
-&lt;p&gt;Political parties obtain influence through their choice of representatives. &lt;em&gt;Outside&lt;/em&gt; of parliament, they gain sway through the candidates for whom they secure election. &lt;em&gt;Inside&lt;/em&gt; parliament party groups shape policies through the allocation of tasks to competent members. This project delves into the mutual influence of parliamentary group allocations and the choices made by extra-parliamentary party organizations. In the center are members of Parliament whose political careers are shaped by both actors. In the center are members of Parliament whose political careers are shaped by both actors.&lt;/p&gt;
+&lt;p&gt;Political parties obtain influence through their choice of representatives. &lt;em&gt;Outside&lt;/em&gt; of parliament, they gain sway through the candidates for whom they secure election. &lt;em&gt;Inside&lt;/em&gt; parliament, party groups shape policies through the allocation of tasks to competent members. This project delves into the mutual influence of parliamentary group allocations and the choices made by extra-parliamentary party organizations. In the center are members of Parliament whose political careers are shaped by both actors.&lt;/p&gt;
 &lt;h2 id=&#34;election-seeking&#34;&gt;Election seeking&lt;/h2&gt;
-&lt;p&gt;National parties do not have institutionalized presence in the EP. They enter
-into an outcome-based contract similar to voters. MEPs are either rewarded by reselection or kicked out of office. Report allocations dissipate uncertainty about MEPs’ ability. They thus improve MEPs’ career prospects to the extent that parties need new information about agent quality, and to the extent that parliamentary groups can provide it.&lt;/p&gt;
+&lt;p&gt;National parties do not have institutionalized presence in the EP. Their position is instead close to that of voters: They can hold representatives accountable by observing how they perform in office and either reselect or replace incumbent candidates in the next election. One important source of information for parties is the responsibilities that MEPs obtain from their transnational party leadership. This project looks at how parties&amp;rsquo; uncertainty and access to new information determine the electoral accountability of Members of the European Parliament (MEPs).&lt;/p&gt;
 &lt;h4 id=&#34;ongoing-work&#34;&gt;Ongoing work&lt;/h4&gt;
 &lt;!--
 * **&#34;Blurred lines between electoral and parliamentary representation:  The use of constituency staff among European Members of Parliament&#34;** with [Andreja Pegan](http://www.pegan.org/). Working paper.
@@ -135,10 +136,11 @@ We conclude that EU citizens are represented differently depending on their nati
 A draft version can be found [here](BlurredLines.pdf).
 --&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;How Do Legislated Gender Quotas Impact Representation?&amp;rdquo;&lt;/strong&gt; Working paper.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Lingering bias and representation quality: the effects of legislated gender quotas in the European Parliament&amp;rdquo;&lt;/strong&gt; Working paper.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;How does biased political recruitment – and the subsequent legislation of quotas – affect the quality of women’s performance as representatives in Parliament? I draw on insights from the literature on political agency to distinguish between the effects of selection and sanction.  First, if recruitment in the absence of quotas implies higher requirements for women, then selected women are of higher quality. Second, when quotas lower the bar, new women enter office.  However, parties are less certain about the quality of these women and react by increasing accountability.&lt;/p&gt;
-&lt;p&gt;I investigate representation in the European Parliament (1999-2014) before and after the legislation of quotas in several member states.  Absent quotas, I find that biased selection leads to female representatives who pursue longer careers and perform better at equal levels of effort. When quotas are legislated, parties emphasize women’s service records during reselection.  Women are thus incentivized to put in more effort.&lt;/p&gt;
+&lt;p&gt;How does biased political recruitment &amp;ndash; and the subsequent legislation of quotas &amp;ndash; affect the quality of representation ensured by women in Parliament?&lt;/p&gt;
+&lt;p&gt;I draw on insights from the literature on political agency to distinguish between the effects of selection and sanction. First, if recruitment in the absence of quotas implies higher requirements for women, then selected women are of higher quality. Second, when quotas lower the bar, new women enter office. However, parties are less certain about their quality and react by increasing accountability.&lt;/p&gt;
+&lt;p&gt;I investigate representation in the European Parliament  (1999-2014) before and after the legislation of quotas in several member states. Absent quotas, I find that biased selection leads to female representatives who aim at longer careers and perform better at equal levels of effort. When quotas are legislated, parties emphasize women&amp;rsquo;s record of service during reselection. Women are thus incentivized to provide more effort.&lt;/p&gt;
 &lt;p&gt;A draft version can be found &lt;a href=&#34;Gender.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;A popularized presentation (in Norwegian) can be found &lt;a href=&#34;https://www.sv.uio.no/isv/forskning/aktuelt/aktuelle-saker/2017/et-forsvar-for-kvinnekvotering-.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h4 id=&#34;published-work&#34;&gt;Published work&lt;/h4&gt;
