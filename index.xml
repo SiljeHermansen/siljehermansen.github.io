@@ -6,28 +6,26 @@
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://siljehermansen.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Publications</title>
-      <link>https://siljehermansen.github.io/publication/</link>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://siljehermansen.github.io/publication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Teaching</title>
       <link>https://siljehermansen.github.io/teaching/</link>
-      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>https://siljehermansen.github.io/teaching/</guid>
       <description>&lt;p&gt;These pages provide supplementary information to students. For a comprehensive overview of my teaching activities, please refer to my CV.&lt;/p&gt;
 &lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefimportant-challengesimportant-challenges-in-european-governance-judicialization-of-europe-astk18025ua&#34;&gt;&lt;a href=&#34;important-challenges&#34;&gt;Important challenges in European governance: Judicialization of Europe (ASTK18025U)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Master&#39;s level. &lt;i&gt;University of Copenhagen. Department of Political Science.&lt;/i&gt; 2024.
+&lt;!---&lt;a href = &#34;https://siljehermansen.github.io/teaching/important-challenges/&#34;&gt;2024&lt;/a&gt;, --&gt;
+&lt;/p&gt; 
+&lt;p&gt;
+Core subject in our EU specialization track. Course given together with Stein Arne Brekke.
+&lt;/p&gt;
 &lt;h3 id=&#34;a-hrefbeyond-linear-modelsstatistical-models-beyond-linear-regression-astk18414ua&#34;&gt;&lt;a href=&#34;beyond-linear-models&#34;&gt;Statistical models beyond linear regression (ASTK18414U)&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Master&#39;s level. &lt;i&gt;University of Copenhagen. Department of Political Science.&lt;/i&gt; 
 &lt;a href = &#34;https://siljehermansen.github.io/teaching/beyond-linear-models-2023/&#34;&gt;2023&lt;/a&gt;, 
@@ -59,6 +57,15 @@ Applied statistics class for political scientists.
 &lt;p&gt;PhD level. &lt;i&gt;University of Copenhagen. Faculty of Law. &lt;/i&gt; 2023&lt;/p&gt;
 &lt;p&gt;Introduction to R.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://siljehermansen.github.io/publication/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/publication/</guid>
+      <description></description>
     </item>
     
     <item>
