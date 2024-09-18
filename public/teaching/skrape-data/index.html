@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144587007-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144587007-1');
+  gtag('set', {'user_id': 'USER_ID'}); 
+  
+</script>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Silje Synnøve Lyder Hermansen">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Datamaskiner elsker å gjøre den samme tingen mange ganger. Det erfint, for da kan R gjøre unna det kjedelige arbeidet, mens jeg gjørandre ting.
+Automatisert datainnsamling er ikke vanskelig, men det kan være entålmodighetsprøve. Så lenge informasjonen vi er ute etter erstrukturert med tekst eller i en html-liste, vil vi kunne fortelle endatamaskin hvordan dataene skal hentes ut og sorteres. Skraping er stordriftsøkonomi. Det krever en del tid å finne datastrukturen, men når dette er gjort, kan vi sette R til å jobbe for oss.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://siljehermansen.github.io/teaching/skrape-data/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#4f95b6">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.024329380430d946da27e39ee019d45e.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://siljehermansen.github.io/teaching/skrape-data/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@silje_hermansen">
+  <meta property="twitter:creator" content="@silje_hermansen">
+  
+  <meta property="og:site_name" content="Silje Synnøve Lyder Hermansen">
+  <meta property="og:url" content="https://siljehermansen.github.io/teaching/skrape-data/">
+  <meta property="og:title" content="Hvordan &#34;skrape&#34; data i R? | Silje Synnøve Lyder Hermansen">
+  <meta property="og:description" content="Datamaskiner elsker å gjøre den samme tingen mange ganger. Det erfint, for da kan R gjøre unna det kjedelige arbeidet, mens jeg gjørandre ting.
+Automatisert datainnsamling er ikke vanskelig, men det kan være entålmodighetsprøve. Så lenge informasjonen vi er ute etter erstrukturert med tekst eller i en html-liste, vil vi kunne fortelle endatamaskin hvordan dataene skal hentes ut og sorteres. Skraping er stordriftsøkonomi. Det krever en del tid å finne datastrukturen, men når dette er gjort, kan vi sette R til å jobbe for oss."><meta property="og:image" content="https://siljehermansen.github.io/img/silje_hermansen.jpg">
+  <meta property="twitter:image" content="https://siljehermansen.github.io/img/silje_hermansen.jpg"><meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2023-01-05T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2023-01-05T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Hvordan &#34;skrape&#34; data i R? | Silje Synnøve Lyder Hermansen</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Silje Synnøve Lyder Hermansen</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Silje</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/project/"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/teaching/"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/data/"><span>R</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/CV_Hermansen.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Hvordan &#34;skrape&#34; data i R?</h1>
+
+  
+  <p class="page-subtitle">Automatisert datainnsamling</p>
+  
+
+  
+    
+
+
+
+<meta content="2023-01-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2023-01-05 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Silje Synnøve Lyder Hermansen</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>2023-01-05</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://siljehermansen.github.io/teaching/skrape-data/&amp;text=Hvordan%20&amp;#34;skrape&amp;#34;%20data%20i%20R?" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://siljehermansen.github.io/teaching/skrape-data/&amp;t=Hvordan%20&amp;#34;skrape&amp;#34;%20data%20i%20R?" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Hvordan%20&amp;#34;skrape&amp;#34;%20data%20i%20R?&amp;body=https://siljehermansen.github.io/teaching/skrape-data/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://siljehermansen.github.io/teaching/skrape-data/&amp;title=Hvordan%20&amp;#34;skrape&amp;#34;%20data%20i%20R?" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Hvordan%20&amp;#34;skrape&amp;#34;%20data%20i%20R?%20https://siljehermansen.github.io/teaching/skrape-data/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://siljehermansen.github.io/teaching/skrape-data/&amp;title=Hvordan%20&amp;#34;skrape&amp;#34;%20data%20i%20R?" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <html>
+<body>
+<em>
+<p>Datamaskiner elsker å gjøre den samme tingen mange ganger. Det er
+fint, for da kan R gjøre unna det kjedelige arbeidet, mens jeg gjør
+andre ting.</p></em>
+<p>Automatisert datainnsamling er ikke vanskelig, men det kan være en
+tålmodighetsprøve. Så lenge informasjonen vi er ute etter er
+strukturert med tekst eller i en html-liste, vil vi kunne fortelle en
+datamaskin hvordan dataene skal hentes ut og sorteres. Skraping er stordriftsøkonomi. Det krever en del tid å finne datastrukturen, men når dette er gjort, kan vi sette R til å jobbe for oss. Det er magisk!</p>
+<p>Vi skal samle inn data fra <a href="https://eur-lex.europa.eu">EUR-Lex</a>. EUR-Lex er nettsiden hvor
+alle EU sine offisielle dokumenter befinner seg for offentlig innsyn.
+Spesifikt, er jeg interessert i å samle inn “metainformasjon” om
+domsavsigelser fra EU-domstolen. Metainformasjon her betyr at jeg
+<em>ikke</em> er interessert i selve dommen, men informasjon rundt den.
+Hva er tittelen på dommen og når ble den publisert?</p>
+<p>Et eksempel er <a href="https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673">Coman-saken</a>
+hvor EU-domstolen gikk langt i å annerkjenne homoekteskap for alle
+EU-borgere (2016).</p>
+<p>Vi kan dele arbeidet inn i flere faser:</p>
+<ol style="list-style-type: decimal">
+<li><p>Jeg legger en <strong>strategi</strong> hvor jeg definerer målet
+mitt presist (strukturen til en datamatrise) og en skisse over veien dit
+(hvilken informasjon jeg skal bruke og hvor den befinner seg). Dette er
+en kartleggingsfase.</p></li>
+<li><p>Jeg arbeider fram en konkret <strong>taktikk</strong> for hvordan
+informasjonen skal hentes ut. Teksten jeg skraper (rådataene) kan være
+strukturert ulikt, derfor trenger jeg ulike taktikker for ulike
+variabler. Hvis informasjonen jeg er ute etter, er plassert ulikt i
+ulike dokumenter, vil jeg også ha alternative taktikker for ulike
+observasjoner i samme variabel. Hver taktikk er en egen kodesnutt som
+henter informasjonen jeg trenger. Det er dette arbeidet som tar mest
+tid, og jeg begynner alltid med ett eksempel (en observasjon på en
+variabel).</p></li>
+<li><p>Jeg <strong>skraper</strong> (samler inn) alle dataene
+(datapunktene). Nå går jeg fra ett eksempel til å samle inn informasjon
+fra alle dokumentene/sidene jeg er interessert i. Denne delen av
+arbeidsprosessen innebærer å gå fram og tilbake mellom skraping og
+korrigering av taktikken min. I prosessen vil jeg <em>generalisere</em>
+R-koden min slik at den er funksjonell for alle dokumenter. Ofte vil jeg
+møte på problemer som krever nye taktikker og/eller en justering av den
+gamle. Dette er når jeg <em>luker feil</em>.</p></li>
+</ol>
+<div id="legg-en-strategi-hva-vil-jeg-oppnå" class="section level1">
+<h1>Legg en strategi: Hva vil jeg oppnå?</h1>
+<div id="kartlegging" class="section level3">
+<h3>Kartlegging</h3>
+<p>Første skritt i en datainnsamlingsprosess er å kartlegge hvilken
+informasjon jeg ønsker og hvilken som finnes. For å finne ut mer,
+begynner jeg med å surfe nettet på vanlig vis. Et viktig poeng er å
+finne ut om informasjonen jeg ønsker faktisk er tilgjengelig for alle
+observasjoner/nettsider.</p>
+<p>Jeg bestemmer meg så for datastrukturen jeg ønsker for matrisen min
+(sluttproduktet). I vårt eksempel, ønsker jeg en matrise hvor hver
+observasjon (linje) er en domsavsigelse, og hver variabel gir en
+spesifikk type informasjon om avsigelsen. I dette tilfellet er jeg
+interessert i datoen for dokumentet.</p>
+</div>
+</div>
+<div id="spesifiser-en-taktikk-jobb-med-eksempler" class="section level1">
+<h1>Spesifiser en taktikk: Jobb med eksempler</h1>
+<p>Selv om målet med datainnsamlingen er en datamatrise med flere
+variabler og mange observasjoner, men jeg begynner alltid med en
+observasjon og en variabel. Det vil si at jeg jobber med et <em>typisk
+eksempel</em> på dokumentene jeg skal samle data fra. “Typisk” betyr her
+at dokumentet følger strukturen til flest mulig av dokumentene jeg skal
+skrape fra.</p>
+<p>Jeg har valgt meg Coman-dommen som et typisk eksempel. Den finnes
+her: <a href="https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673" class="uri">https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673</a></p>
+<p>Vi ser at teksten på siden er strukturert. Blant annet ser vi at
+datoet på dokumentet (“Date of document”) er annsert i tykk blå skrift
+etterfulgt av selve datoen i svart skrift. For nettsider er denne
+strukturen definert av html-koder. Html blir brukt for å definere
+layouten i en tekst.</p>
+<p>For å se html-strukturen, kan du høyreklikke på siden og velge “View
+page source”. Et nytt vindu åpner seg, og vi kan se hvordan dokumentet
+ser ut bak kulissene. Nå blir det klart for oss at teksten vi ser på
+selve nettsiden egentlig er en liste hvor all informasjon er lagt inn
+som egne punkter. Html-lista er ikke egentlig laget for å strukturere
+data, men vi kan bruke html-strukturen til vår fordel.</p>
+<p>Nå kan vi finne fram til informasjonen vi ønsker og identifisere hvor
+i lista den ligger. Punkter i denne lista heter “noder”. Noder kan ha
+ulike navn avhengig av hvordan man ønsker at teksten ser ut. Dette er
+det vi bruker for å finne fram til våre data.</p>
+<p>For å finne nodenavnet til datoen til dommsavsigelsen, gjør jeg et
+tekstsøk. Tast “Ctrl+F” og skriv inn “Date of document”. Vi ser at “Date
+of document” ligger i en node som er kalt <code>dt</code> og at selve
+datoen ligger i en node kalt “dd”. Begge hører til en node kalt “dl”.
+Disse er “søsken” fordi de har samme forelder. Vi ser også at det finnes
+andre søsken i flokken (“Date lodged”).</p>
+<p>Vi ønsker bare å samle inn datoen for selve dokumentet, så første
+utfordring er å gjøre samme søk i R. La oss åpne R studio.</p>
+<p>Jeg begynner med å hente inn `rvest``-pakken for skraping i R fra
+biblioteket. Om du ikke har installert den enda, må du gjøre dette
+først.</p>
+<pre class="r"><code>library(rvest)</code></pre>
+<p>Det først jeg må gjøre er å definere nettadressen for siden jeg
+ønsker å skrape.</p>
+<pre class="r"><code>url &lt;- &quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673&quot;</code></pre>
+<pre class="r"><code>library(rvest)</code></pre>
+<p>Nå kan jeg la R lese inn html-filen fra denne adressen. Jeg lagrer
+resultatet i et objekt kalt <code>doc</code>. Vi kan ta en titt på
+<code>doc</code>, men R-studio vil ikke vise oss hele dokumentet. Da
+ville korttidsminnet i RStudio bli “spist opp” og programmet
+“henger”.</p>
+<pre class="r"><code>doc &lt;- read_html(url)
+doc</code></pre>
+<pre><code>## {html_document}
+## &lt;html lang=&quot;en&quot; class=&quot;no-js&quot; xml:lang=&quot;en&quot;&gt;
+## [1] &lt;head&gt;\n&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8 ...
+## [2] &lt;body&gt; \n        &lt;script type=&quot;application/json&quot;&gt;{\n            &quot;utility&quot; ...</code></pre>
+<p>Objektet er av typen “xml_document”; en liste med mange noder.</p>
+<pre class="r"><code>class(doc)</code></pre>
+<pre><code>## [1] &quot;xml_document&quot; &quot;xml_node&quot;</code></pre>
+<p>Jeg kan hente alle noder fram ved å bruke nodenavnet.</p>
+<div id="enkelt-men-litt-for-spesifikt" class="section level2">
+<h2>Enkelt, men litt for spesifikt</h2>
+<p><code>html_nodes()</code> henter fram alle noder i et
+xml_document-objekt ved hjelp av navnet deres. Vi noterte oss at datoen
+er lagret i “dd”.</p>
+<pre class="r"><code>node &lt;- 
+  doc %&gt;%
+  html_nodes(&quot;dd&quot;)
+node</code></pre>
+<pre><code>## {xml_nodeset (18)}
+##  [1] &lt;dd xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Romanian&lt;/dd&gt;
+##  [2] &lt;dd xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;05/06/2018&lt;/dd&gt;
+##  [3] &lt;dd xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;30/12/2016&lt;/dd&gt;
+##  [4] &lt;dd xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n                  &lt;ul&gt;\n&lt;li&gt;  ...
+##  [5] &lt;dd xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n                  &lt;span lang= ...
+##  [6] &lt;dd xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n                  &lt;span lang= ...
+##  [7] &lt;dd xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n                  &lt;span lang= ...
+##  [8] &lt;dd xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n                  &lt;span lang= ...
+##  [9] &lt;dd xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n                  &lt;span lang= ...
+## [10] &lt;dd xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Ilešič&lt;/dd&gt;
+## [11] &lt;dd xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Wathelet&lt;/dd&gt;
+## [12] &lt;dd xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n                  &lt;span lang= ...
+## [13] &lt;dd xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;\n                  &lt;ul&gt;\n&lt;li&gt;3 ...
+## [14] &lt;dd&gt;\n               &lt;span lang=&quot;en&quot;&gt;Treaty establishing the European Ec ...
+## [15] &lt;dd&gt;\n               &lt;a href=&quot;./../../../search.html?type=advanced&amp;amp;D ...
+## [16] &lt;dd&gt;\n               &lt;ul&gt;\n&lt;li&gt;Interprets &lt;a href=&quot;./../../../legal-cont ...
+## [17] &lt;dd&gt;\n               &lt;ul&gt;\n&lt;li&gt;Related judicial information &lt;a href=&quot;./. ...
+## [18] &lt;dd&gt;\n               &lt;ul&gt;\n&lt;li&gt;\n                     &lt;a href=&quot;./../../. ...</code></pre>
+<p>Nå kan jeg bruke indekseringsverktøyet for å hente riktig “dd”. Jeg
+ser at denne ligger i observasjon 2.</p>
+<pre class="r"><code>node[2]</code></pre>
+<pre><code>## {xml_nodeset (1)}
+## [1] &lt;dd xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;05/06/2018&lt;/dd&gt;</code></pre>
+<p>Det eneste som gjenstår, er å fjerne html-koden for kun å beholde
+teksten/informasjonen. Det gjør vi med <code>html_text()</code></p>
+<pre class="r"><code>node[2] %&gt;%
+  html_text()</code></pre>
+<pre><code>## [1] &quot;05/06/2018&quot;</code></pre>
+<p>Er vi fornøyd med resultatet, kan i ta vare på det.</p>
+<pre class="r"><code>dato &lt;- 
+  node[2] %&gt;%
+  html_text()</code></pre>
+<p>Nå har jeg én observasjon på én variabel. Hurra! Nå kan jeg legge
+dette inn i et datasett. Det er lurt å finne en “nøkkelvariabel” som
+identifiserer hver observasjon. Da kan jeg lett koble resultatet fra
+ulike skrapeprosesser med hverandre slik at jeg til sist får mange
+variabler i datasettet mitt. Foreløpig kan jeg bruke nettadressen (url)
+som en slik nøkkel.</p>
+<p>Til dette bruker jeg <code>cbind()</code>: Jeg binder de to
+variablene sammen kolonnevis.</p>
+<pre class="r"><code>#Opprett et datasett
+<p>tmp &lt;- cbind(dato, url)
+tmp</code></pre></p>
+<pre><code>##      dato        
+## [1,] &quot;05/06/2018&quot;
+##      url                                                                    
+## [1,] &quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673&quot;</code></pre>
+<p>Nå har jeg en matrise med en linje og to variabler. Senere skal vi
+lage et datasett (en datamatrise) av denne og alle andre observasjoner
+vi samler inn (fra andre sider). Men foreløpig har vi et potensielt
+problem. Hva om informasjonen vi ønsker ikke ligger i node 2 hver
+gang?</p>
+</div>
+<div id="generalisere-med-indeksering" class="section level2">
+<h2>Generalisere med indeksering</h2>
+<p>Det er en fordel å bruke mer generelt språk når vi skraper. Da kan vi
+bruke html-strukturen.</p>
+<p>Jeg begynner med å hente ut alle familier som har en “forelder” med
+navnet “dl”. Dette lagrer jeg i et nytt objekt jeg kaller
+<code>familie</code>.</p>
+<pre class="r"><code>familier &lt;- doc %&gt;%
+  html_nodes(&quot;dl&quot;)
+familier</code></pre>
+<pre><code>## {xml_nodeset (7)}
+## [1] &lt;dl class=&quot;NMetadata&quot;&gt;\n&lt;dt xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Authenti ...
+## [2] &lt;dl class=&quot;NMetadata&quot;&gt;\n&lt;dt xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Date of  ...
+## [3] &lt;dl class=&quot;NMetadata&quot;&gt;\n&lt;dt xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Subject  ...
+## [4] &lt;dl class=&quot;NMetadata&quot;&gt;\n&lt;dt xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Author:  ...
+## [5] &lt;dl class=&quot;NMetadata&quot;&gt;\n&lt;dt xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Type of  ...
+## [6] &lt;dl class=&quot;NMetadata&quot;&gt;\n&lt;dt xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Notes re ...
+## [7] &lt;dl class=&quot;NMetadata&quot;&gt;\n&lt;dt&gt;Treaty: &lt;/dt&gt;\n            &lt;dd&gt;\n             ...</code></pre>
+<p>Det er flere slike “familier”. Derfor “tar jeg tak” i familien jeg er
+interessert i. Da bruker jeg <code>grep()</code> -funksjonen for å finne
+nodenummeret til familien med et barn som inneholder info om “Date of
+document”.</p>
+<pre class="r"><code>grep(&quot;Date of document&quot;, familier)</code></pre>
+<pre><code>## [1] 2</code></pre>
+<p>Jeg får til svar at det er node (“forelder”) 2 som har et slikt barn.
+Nå kan jeg indeksere. Det kan jeg gjøre på ulikt vis.</p>
+<pre class="r"><code>#Dette er synonymer
+familier[2]</code></pre>
+<pre><code>## {xml_nodeset (1)}
+## [1] &lt;dl class=&quot;NMetadata&quot;&gt;\n&lt;dt xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Date of  ...</code></pre>
+<pre class="r"><code>familier[grep(&quot;Date of document&quot;, familier)]</code></pre>
+<pre><code>## {xml_nodeset (1)}
+## [1] &lt;dl class=&quot;NMetadata&quot;&gt;\n&lt;dt xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Date of  ...</code></pre>
+<pre class="r"><code>id &lt;- grep(&quot;Date of document&quot;, familier)
+familier[id]</code></pre>
+<pre><code>## {xml_nodeset (1)}
+## [1] &lt;dl class=&quot;NMetadata&quot;&gt;\n&lt;dt xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Date of  ...</code></pre>
+<p>Ved å lagre indekseringen i <code>id</code> kan jeg bruke koden selv
+for tilfeller hvor det ikke er andre familie-node som er den
+riktige.</p>
+<p>Jeg lagrer riktig familie i en node.</p>
+<pre class="r"><code>familie &lt;- familier[id]
+familie</code></pre>
+<pre><code>## {xml_nodeset (1)}
+## [1] &lt;dl class=&quot;NMetadata&quot;&gt;\n&lt;dt xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Date of  ...</code></pre>
+<p>Nå inneholder <code>familie</code> barna i den riktige familien, men
+jeg ønsker bare ett av barna. Det betyr en ny omgang med
+indeksering.</p>
+<p>“dd” og “dt” kommer i par. “dt” inneholder datotittelen, mens “dt”
+inneholder selve datoen. Jeg bruker “dt” til å finne indeksnummeret…</p>
+<pre class="r"><code>#Trekk ut barn med dato
+tittel.barn &lt;- familie %&gt;% 
+  html_nodes(&quot;dt&quot;)
+tittel.barn</code></pre>
+<pre><code>## {xml_nodeset (2)}
+## [1] &lt;dt xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Date of document: &lt;/dt&gt;
+## [2] &lt;dt xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Date lodged: &lt;/dt&gt;</code></pre>
+<pre class="r"><code>#Indeks for dato
+id2 &lt;- grep(&quot;Date of document&quot;, tittel.barn)
+id2</code></pre>
+<pre><code>## [1] 1</code></pre>
+<p>… men jeg henter ut informasjon fra “dd”. Det gjør jeg ved å gå ett
+skritt tilbake, så et fram, denne gangen i retning av “dd”.</p>
+<pre class="r"><code>#Trekk ut dato fra familien
+dato.barn &lt;- familie %&gt;% 
+  html_nodes(&quot;dd&quot;)</code></pre>
+<p>Til sist, trekker jeg ut teksten vekk fra html-koden ved hjelp av
+<code>html_text()</code></p>
+<pre class="r"><code>#Trekk ut teksten
+dato &lt;- dato.barn[id2] %&gt;%
+  html_text()
+<p>dato</code></pre></p>
+<pre><code>## [1] &quot;05/06/2018&quot;</code></pre>
+<p>Voilà!</p>
+<p>Nå kan jeg lage den samme matrisen som i stad.</p>
+<pre class="r"><code>tmp &lt;- cbind(url, dato)</code></pre>
+<p>Hva har jeg vunnet? Jeg har generalisert koden min, slik at jeg skal
+kunne skrape flere sider uten å behøve å endre koden for hver gang.
+Etter å ha generalisert koden min, vil jeg mangfoldiggjøre den.</p>
+<!-- ## Lagre kodesnutten i en funksjon -->
+</div>
+</div>
+<div id="mangfoldiggjør-skriv-en-løkke" class="section level1">
+<h1>Mangfoldiggjør: skriv en løkke</h1>
+<p>Å skrape én enkelt nettside/dokument tar mye tid. Stordriftsfordelen
+kommer av at jeg kan bruke den samme koden på neste side. Det betyr at
+jeg må oppgi adressen til neste nettside som skal skrapes og kjøre den
+samme koden igjen.</p>
+<div id="definer-et-r-objekt-for-datamatrisen" class="section level2">
+<h2>Definer et R-objekt for datamatrisen</h2>
+<p>Før jeg skraper første gang, oppretter jeg et tomt R-objekt som jeg
+har kalt <code>df</code>.</p>
+<pre class="r"><code>df &lt;- NULL</code></pre>
+<p>Dette er objektet jeg kommer til å lagre dataene mine i.</p>
+</div>
+<div id="fra-én-til-to-observasjoner" class="section level2">
+<h2>Fra én til to observasjoner</h2>
+<p>Nå kommer første test. Vil koden min fungere på neste domsavsigelse?
+For å teste dette, samler jeg hele kodesnutten. Det eneste jeg endrer er
+url-adressen.</p>
+<pre class="r"><code>url &lt;- &quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62014CJ0438&quot;
+<p>#Les inn nettsiden
+doc &lt;- read_html(url)</p>
+<p>#Finn alle familier
+familier &lt;- doc %&gt;%
+html_nodes(&quot;dl&quot;)</p>
+<p>#Finn familien med riktig barn
+id &lt;- grep(&quot;Date of document&quot;, familier)
+familie &lt;- familier[id]</p>
+<p>#To parallelle operasjoner</p>
+<p>#1. finn noden med riktig datotittel
+tittel.barn &lt;- familie %&gt;%
+html_nodes(&quot;dt&quot;)</p>
+<p>id2 &lt;- grep(&quot;Date of document&quot;, tittel.barn)</p>
+<p>#2. finn noden med datoinformasjon
+dato.barn &lt;- familie %&gt;%
+html_nodes(&quot;dd&quot;)</p>
+<p>#Trekk ut teksten
+dato &lt;- dato.barn[id2] %&gt;%
+html_text()</p>
+<p>#Lag en matrise med en linje for observasjonen
+tmp &lt;- cbind(url, dato)</p>
+<p>tmp</code></pre></p>
+<pre><code>##      url                                                                    
+## [1,] &quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62014CJ0438&quot;
+##      dato        
+## [1,] &quot;02/06/2016&quot;</code></pre>
+<p>Det ser ut til å fungere! I en vanlig arbeisflyt, vil jeg ofte gå
+fram og tilbake på dette stadiet for å tilpasse koden min slik at den
+kan håndere stadig flere typer eksempler. Dette blir tema for siste
+seksjon.</p>
+<p>Nå må jeg ta vare på informasjonen i <code>df</code>-objektet. For
+hvert eksempel/nettside jeg har skrapet, har jeg opprettet en
+minimatrise som jeg har kalt <code>tmp</code>. <code>tmp</code>-objektet
+blir overskrevet hver gang jeg skraper en ny side. Derfor skriver jeg en
+ny linje i kodesnutten min, hvor jeg overfører all informasjonen fra det
+nylig skrapte siden til en matrise med alle tidligere skrapte sider. Det
+gjør jeg ved å binde de gamle dataene sammen med de nye hjelp av
+<code>rbind()</code>.</p>
+<pre class="r"><code>df &lt;- rbind(df, tmp)
+df</code></pre>
+<pre><code>##      url                                                                    
+## [1,] &quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62014CJ0438&quot;
+##      dato        
+## [1,] &quot;02/06/2016&quot;</code></pre>
+<p>Foreløpig er <code>df</code> ganske stusselig, men det vil snart
+endre seg.</p>
+</div>
+<div id="skriv-en-løkke" class="section level2">
+<h2>Skriv en løkke</h2>
+<p>Nå kan jeg mangfoldiggjøre. Måten man får R til å gjøre den samme
+tingen flere ganger, er å skrive en løkke (en “loop”). Det gjør jeg i
+tre skritt.</p>
+<p><strong>1. Sett opp en universliste</strong></p>
+<p>Jeg må ha en vektor med alle nettsidene jeg skal skrape. Her har jeg
+en vektor med to observasjoner.</p>
+<pre class="r"><code>url &lt;- c(&quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62014CJ0438&quot;,
+         &quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673&quot;)</code></pre>
+<p><strong>2. Jeg indekserer</strong></p>
+<p>Nå kan jeg indeksere url-objektet mitt. Her trekker jeg ut første
+observasjon i det som skal bli datasettet mitt.</p>
+<pre class="r"><code>url[1]</code></pre>
+<pre><code>## [1] &quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62014CJ0438&quot;</code></pre>
+<p>Jeg kan selvsagt gjøre indekseringen ved hjelp av et objekt. Det har
+vi jo allerede gjort.</p>
+<pre class="r"><code>i = 1
+url[i]</code></pre>
+<pre><code>## [1] &quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62014CJ0438&quot;</code></pre>
+<p>Her har jeg definert <code>i</code> som 1, slik at vi ser den første
+filadressen. Men jeg kan også endre verdien til 2 uten å endre resten av
+koden min.</p>
+<pre class="r"><code>i = 2
+url[i]</code></pre>
+<pre><code>## [1] &quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673&quot;</code></pre>
+<p>… og det er nettopp det løkker gjør.</p>
+<p><strong>3. Jeg skriver en løkke</strong></p>
+<p>Jeg kan be R om å endre verdien til <code>i</code> for meg. Her
+forteller jeg R at <code>i</code> skal suksessivt ha alle verdier i
+vektoren <code>1:10</code>. I krølle-parentesen befinner R-koden som du
+ønsker å kjøre flere ganger.</p>
+<pre class="r"><code>for(i in 1:10){
+  cat(i)
+}</code></pre>
+<pre><code>## 12345678910</code></pre>
+<p>Vanligvis vil du ikke se hva som foregår i løkken (alt går veldig
+fort). Derfor bruker jeg <code>cat()</code>-funksjonen i dette
+eksempelet for printe ut hva som skjer.</p>
+<p>Nå kan jeg samle alt jeg har gjort og pakke kodesnutten inn i løkka.
+Jeg klipper og limer fra tidligere. Merk deg hvordan jeg a) indekserer
+<code>url[i]</code> (på to steder i koden) og b) limer <code>tmp</code>
+sammen med <code>df</code> for hver gang jeg skraper en ny
+observasjon.</p>
+<pre class="r"><code>#Et tomt R-objekt før løkken
+df = NULL
+<p>#&hellip; så en løkke
+for(i in 1:2){</p>
+<p>#Les inn nettsiden
+doc &lt;- read_html(url[i])</p>
+<p>#Finn alle familier
+familier &lt;- doc %&gt;%
+html_nodes(&quot;dl&quot;)</p>
+<p>#Finn familien med riktig barn
+id &lt;- grep(&quot;Date of document&quot;, familier)
+familie &lt;- familier[id]</p>
+<p>#To parallelle operasjoner</p>
+<p>#1. finn noden med riktig datotittel
+tittel.barn &lt;- familie %&gt;%
+html_nodes(&quot;dt&quot;)</p>
+<p>id2 &lt;- grep(&quot;Date of document&quot;, tittel.barn)</p>
+<p>#2. finn noden med datoinformasjon
+dato.barn &lt;- familie %&gt;%
+html_nodes(&quot;dd&quot;)</p>
+<p>#Trekk ut teksten
+dato &lt;- dato.barn[id2] %&gt;%
+html_text()</p>
+<p>#Lag en matrise med en linje for observasjonen
+tmp &lt;- cbind(url[i], dato)</p>
+<p>df &lt;- rbind(df,
+tmp)
+}</code></pre></p>
+<pre class="r"><code>load(&quot;df.rda&quot;)</code></pre>
+<p>Tadaaa! Jeg har samlet in TO observasjoner. Verden ligger for mine
+føtter.</p>
+<pre class="r"><code>df</code></pre>
+<pre><code>##                                                                             
+## [1,] &quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62014CJ0438&quot;
+## [2,] &quot;https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0673&quot;
+##      dato        
+## [1,] &quot;02/06/2016&quot;
+## [2,] &quot;05/06/2018&quot;</code></pre>
+<!-- # Feilsøk og andre tips og triks på veien -->
+<!-- ### Litt mer komplisert: to variabler, nytt observasjonsnivå -->
+<!-- Når nasjonale domstoler sender et prejudisielt spørsmål til EU-domstolen, slik den rumenske grunnlovsdomstolen gjorde i Coman-saken, har medlemslandenes regjeringer og ulike EU institusjoner rett til å sende sin mening om saken før dommerne tar en avgjørelse. Disse kalles "observasjoner". Politisk viktige saker tiltrekker seg mange slike observasjoner.   -->
+<!-- La oss samle inn en ny variabel som lister opp hvem som leverte observasjoner i Coman-saken. På nettsiden står disse landene listet opp etter "Observations" (i tykk blå skrift). Tittelen er lagret i en node kalt "dt", mens informasjonen er lagret i "dd". Begge noder hører til under "dl". Til forskjell fra hva vi nettopp gjorde, er det flere "dt"-er under "dl". -->
+<!-- Jeg begynner -->
+<!-- ```{r, eval = F, echo = F} -->
+<!-- nodes[grep("Observations:", nodes)] %>% -->
+<!--   html_children()  -->
+<!-- nodes[grep("Observations", nodes)] %>% -->
+<!-- #  html_nodes("dd") %>% -->
+<!--   html_nodes("dd") %>% -->
+<!--   html_text() -->
+<!-- id <- grep("Observations", nodes) -->
+<!-- id2 <- grep("Observations", nodes[id] %>% -->
+<!--        html_nodes("dt")) -->
+<!-- text <- nodes[id] %>% -->
+<!--   html_nodes("dd") -->
+<!-- observasjoner <- text[id2] %>% -->
+<!--   html_nodes("span") %>% -->
+<!--   html_text() -->
+<!-- observasjoner -->
+<!-- tmp <- cbind(url, dato, observasjoner) -->
+<!-- ``` -->
+<!-- #### Oppgave -->
+<!-- EUR-Lex rapporterer alle de akademiske artiklene som er publisert om hver enkelt sak i EU-domstolen. Du finner informasjon om dette under overskriften "Notes relating to the decision:". Legg disse til i et datasett slik at observasjonsnivået nå blir  -->
+<!-- Datamaskiner elsker å gjøre den samme tingen mange ganger. Det er fint, for da kan den gjøre unna det kjedelige arbeidet, mens jeg gjør andre ting. -->
+</div>
+</div>
+</div>
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+<!-- code folding -->
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+</html>
+
+    </div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/teaching-material/">Teaching material</a>
+  
+  <a class="badge badge-light" href="/tags/quantitative-methods/">Quantitative methods</a>
+  
+  <a class="badge badge-light" href="/tags/tutorials/">Tutorials</a>
+  
+</div>
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hucb0e6a38a9e02b8fc4ed45af26d54185_994119_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://siljehermansen.github.io/">Silje Synnøve Lyder Hermansen</a></h5>
+      <h6 class="card-subtitle">Assistant Professor</h6>
+      <p class="card-text" itemprop="description">Silje&rsquo;s research concerns democratic representation in courts and parliaments. She also teaches various courses in research methods and comparative politics.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/silje_hermansen" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.no/citations?user=52-UOQcAAAAJ&amp;hl=no" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/SiljeHermansen" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>Related</h3>
+        <ul>
+          
+          <li><a href="/teaching/choose_glm/">What GLM should I choose?</a></li>
+          
+          <li><a href="/teaching/stv4020b/">Statistical analysis (STV4020B)</a></li>
+          
+          <li><a href="/data/laerdegr/">Installere R-pakken</a></li>
+          
+          <li><a href="/publication/laerdegr/">Lær deg R</a></li>
+          
+          <li><a href="/teaching/sfs10207/">Samfunnsvitenskapelig forskningsmetode (SFS10207)</a></li>
+          
+        </ul>
+      </div>
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.b6cfb86512efa8a42ebc0da97f3d6b58.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
