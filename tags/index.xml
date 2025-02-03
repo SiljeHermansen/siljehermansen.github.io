@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://siljehermansen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Quantitative methods</title>
+      <link>https://siljehermansen.github.io/tags/quantitative-methods/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/tags/quantitative-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://siljehermansen.github.io/tags/r/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R i praksis</title>
+      <link>https://siljehermansen.github.io/tags/r-i-praksis/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/tags/r-i-praksis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching material</title>
+      <link>https://siljehermansen.github.io/tags/teaching-material/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/tags/teaching-material/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Candidate selection</title>
@@ -107,42 +143,6 @@
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>https://siljehermansen.github.io/tags/judicial-behavior/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching material</title>
-      <link>https://siljehermansen.github.io/tags/teaching-material/</link>
-      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://siljehermansen.github.io/tags/teaching-material/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quantitative methods</title>
-      <link>https://siljehermansen.github.io/tags/quantitative-methods/</link>
-      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://siljehermansen.github.io/tags/quantitative-methods/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://siljehermansen.github.io/tags/r/</link>
-      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://siljehermansen.github.io/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R i praksis</title>
-      <link>https://siljehermansen.github.io/tags/r-i-praksis/</link>
-      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://siljehermansen.github.io/tags/r-i-praksis/</guid>
       <description></description>
     </item>
     

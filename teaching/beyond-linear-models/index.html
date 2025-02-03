@@ -129,9 +129,9 @@
   <meta property="og:description" content="&lt;p&gt;Master&#39;s level. University of Copenhagen. Department of Political Science. 2024&lt;/p&gt; # &lt;p&gt;Advanced statistical analysis for political scientists. We go through the fundamental principals of causal inference as well as the most common generalized linear models (GLMs). Course given together with Øyvind Stiansen.&lt;/p&gt;"><meta property="og:image" content="https://siljehermansen.github.io/img/silje_hermansen.jpg">
   <meta property="twitter:image" content="https://siljehermansen.github.io/img/silje_hermansen.jpg"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2024-02-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2025-02-03T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2024-02-01T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2025-02-03T00:00:00&#43;00:00">
   
 
   
@@ -396,8 +396,8 @@
 
 
 
-<meta content="2024-02-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2024-02-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2025-02-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2025-02-03 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -422,7 +422,7 @@
     
       
     
-    <time>2024-02-01</time>
+    <time>2025-02-03</time>
   </span>
   
 
@@ -563,174 +563,155 @@
 <li>Day 2: <a href="week1_intro_to_R.pdf">Introduction to R</a></li>
 </ul>
 <p>The best way to follow the class, is to code along. You can find info on how to install R (the statistical software) and RStudio (the interface) <a href="https://intro2r.com/chap1.html">here</a> or <a href="https://www.dataquest.io/blog/installing-r-on-your-computer/">here</a>.</p>
-<h4 id="week-2-descriptive-statistics-and-graphical-display">Week 2: Descriptive statistics and graphical display</h4>
-<p><em>Hermansen 2023, ch. 5-6, p. 73-119</em></p>
-<p>You have had the time to familiarize with base R, functions and objects. Let&rsquo;s piece this together, and explore two new dialects: <code>ggplot2</code> for graphical display and <code>tidyverse</code> for data manipulation/recoding.</p>
-<p>Notebooks:</p>
-<ul>
-<li><a href="week2_data_manipulation.html">Data manipulation: dialects and tidyverse pipes</a></li>
-<li><a href="week2_descriptive_statistics.html">Descriptive statistics: numeric summaries and visuals using ggplot2</a></li>
-</ul>
-<p>If you haven&rsquo;t installed the <code>RiPraksis</code> package, you may fetch the data here: <a href="kap6.rda">kap6.rda</a></p>
-<h4 id="week-3-linear-models-and-non-linear-effects">Week 3: Linear models and non-linear effects</h4>
-<p><em>Hermansen 2023, ch. 7-9, p. 123-194; Gelman 2007, ch 3-4, p. 29-79; Berry 2012, p 653-671</em></p>
-<p>We will spend the week familiarizing with non-linear effects in linear models (interaction effects) and how to interpret model results.</p>
-<p>Notebooks:</p>
-<ul>
-<li><a href="week3_linear_models_interpretation.html">Linear models: interpretation of point estimates</a></li>
-</ul>
-<p>The data we will be working on are a subset of the replication data for &ldquo;Blurred Lines betwen electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament&rdquo; <a href="https://journals.sagepub.com/doi/pdf/10.1177/14651165221149900"><em>European Union Politics</em></a> (2023).</p>
-<p>You can download the data here: <a href="MEP2014.rda">MEP2014.rda</a></p>
-<h2 id="when-data-is-structured">When data is structured</h2>
-<h4 id="week-4-5-hierarchicalmultilevel-models">Week 4-5: Hierarchical/multilevel models</h4>
-<p><em>Gelman and Hill (2007), ch 11-13, p. 235-299</em></p>
-<p>We start by going through the assumptions of the linear model in order to transition to instances where observations share common characteristics (they are not i.i.d.). We then go through the opportunities offered by hierarchical models: varying intercepts, varying slopes, 2-level regression and how these models pool information.</p>
-<p>Slides:</p>
-<ul>
-<li>Day 1: <a href="week4_1_hierarchical.pdf">Assumptions of the linear model and grouped variation</a></li>
-<li>Day 2-3: <a href="week4_2_hierarchical.pdf">Overview over hierarchical models</a></li>
-</ul>
-<p>Problem sets:</p>
-<ul>
-<li>Problem set 1: <a href="week4_1_problem_set_linear_assumptions.html">Assumptions of the linear model</a></li>
-<li>Problem set 2: <a href="week4_2_problem_set_two_level_regression.html">Within- and between-group variation</a></li>
-</ul>
-<p>R-notebook:</p>
-<ul>
-<li>Day 4: <a href="week5_1_notebook_hierarchical_workflow.html">R workflow for hierarchical models</a></li>
-</ul>
-<p>You can download the data I use to exemplify linear assumptions (<a href="MEP2014.rda">MEP2014.rda</a>) and hierarchical structures (<a href="MEP.rda">MEP.rda</a>) here.</p>
-<h2 id="when-outcomes-are-descrete">When outcomes are descrete</h2>
-<h4 id="week-6-binary-outcomes">Week 6: Binary outcomes</h4>
-<p><em>Ward (2018), ch. 3, p. 43-78; ch. 6, p. 119-132</em></p>
-<p>We will be working on how to model binary outcomes using a logit model. Our focus is on two different ways of understanding the logit model: As a regression on a latent variable or as a regression on a recoded dependent variable (logodds).</p>
-<p>The data I will be exemplifying with are a subset of the replication data for &ldquo;Blurred Lines between electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament&rdquo; <a href="https://journals.sagepub.com/doi/pdf/10.1177/14651165221149900"><em>European Union Politics</em></a> (2023).</p>
-<p>You can download the data here: <a href="MEP2016.rda">MEP2016.rda</a></p>
-<p>Slides:</p>
-<ul>
-<li>Day 1-2: <a href="week6_logit_slides.pdf">Binomial logistic regression: estimation and interpretation</a></li>
-</ul>
-<p>Problem set:</p>
-<ul>
-<li>Problem set 3: <a href="week6_problem_set_logit.html">Intuitions from the binomial logistic model</a></li>
-</ul>
-<p>R-notebook:</p>
-<ul>
-<li>Day 2: <a href="week6_notebook_logit_workflow.html">R workflow for binomial logistic models</a></li>
-</ul>
-<h4 id="week-7-8-categorical-outcomes">Week 7-8: Categorical outcomes</h4>
-<p><em>Ward 2018, ch. 8-9, p. 141-189</em></p>
-<p>The data I will be exemplifying with is drawn from the European Social Survey.</p>
-<p>You can download the data here: <a href="kap6.rda">kap6.rda</a> and <a href="kap10.rda">kap10.rda</a></p>
-<p>Slides:</p>
-<ul>
-<li>Day 1-2: <a href="week7_ordered_categorical.pdf">Multinomial and ordered logit regression</a></li>
-</ul>
-<p>Problem set:</p>
-<ul>
-<li>Problem set 4: <a href="week7_problem_set_categorical.html">Interpretation and estimation of multinomial and ordered logit  regression</a></li>
-</ul>
-<p>R-notebook:</p>
-<ul>
-<li>Day 2: <a href="week7_notebook_categorical_workflow.html">Workflow for multinomial and ordered logit  regression</a></li>
-</ul>
-<h4 id="week-10-count-outcomes">Week 10: Count outcomes</h4>
-<p><em>Ward 2018, ch. 10, p. 190-216</em></p>
-<p>Slides:</p>
-<ul>
-<li>Day 1: <a href="week10_slides_count.pdf">Event count models</a></li>
-</ul>
-<p>Problem set:</p>
-<ul>
-<li>Problem set 5: <a href="week10_problem_set_count.html">Interpretation and estimation of poisson regression</a></li>
-</ul>
-<p>Suggested supplementary reading <em>Gelman and Hill (2007), ch 6.2 p. 110-116</em></p>
-<p>We&rsquo;ll use yet another data set on MEPs; this time on the number of legislative proposals they handle during their tenure. You can download the data here: <a href="df_yoshinaka.rda">df_yoshinaka.rda</a></p>
-<p>Notebook:</p>
-<ul>
-<li><a href="week10_count.html">Event count models</a></li>
-</ul>
-<h4 id="week-11-duration-outcome">Week 11: Duration outcome</h4>
-<p><em>Ward (2018), ch. 11, p. 190-216</em></p>
-<p>Slides:</p>
-<ul>
-<li><a href="week11_slides_event.pdf">Event history models</a></li>
-</ul>
-<p>We will be working with a classical dataset on duration models used by <a href="https://www.jstor.org/stable/2111628">Box-Steffensmaier</a>&rsquo;s 1996 study of candidates&rsquo; campaign funding and the entry of challengers. You can find the R-version of the data for the notebook here: <a href="warchest.rda">warchest.rda</a></p>
-<p>Notebook:</p>
-<ul>
-<li><a href="week11_event.html">Workflow for event history models</a></li>
-</ul>
-<h4 id="week-12-event-count-and-history-outcomes-former-exams">Week 12: Event count and history outcomes: former exams</h4>
-<p>We&rsquo;ll be working together on former exams this week. You can find the exam questions and replication data here. You can also find some excellent former student hand-ins for inspiration on Absalon.</p>
-<p>Event count models (Scharpf, 2020):</p>
-<ul>
-<li><a href="portfolio_count.pdf">Portfolio questions</a></li>
-<li>Replication data: <a href="df_scharpf.rda">df_scharpf</a></li>
-<li>Article: <a href="https://academic.oup.com/isq/article/64/3/734/5867529">Scharpf, 2020</a></li>
-</ul>
-<p>Event history models (Fortna, 2015):</p>
-<ul>
-<li><a href="portfolio_event_history.pdf">Portfolio questions</a></li>
-<li>Replication data: <a href="fortna.rda">fortna.rda</a></li>
-<li>Article: <a href="https://www.cambridge.org/core/journals/international-organization/article/abs/do-terrorists-win-rebels-use-of-terrorism-and-civil-war-outcomes/4729B2B926904616190DC38DB3240C8F">Fortna, 2015</a></li>
-</ul>
-<h4 id="week-14-missing-data">Week 14: Missing data</h4>
-<p>Our data frequently contains missing observations. This week, we take the time to reflect and explore what kind of missing observations we have and whether it may bias our results. It can be useful to have an active approach to how to address missing information. We will be using the <a href="MEP.rda">MEP.rda</a> data on the European Parliament.</p>
-<p>Slides:</p>
-<ul>
-<li><a href="week14_missing_slides.pdf">Missing data and imputations</a></li>
-</ul>
-<p>Notebook:</p>
-<ul>
-<li><a href="week14_missing_notebook.html">Missing data and imputations</a></li>
-</ul>
 <!--
 
+#### Week 2: Descriptive statistics and graphical display
+
+*Hermansen 2023, ch. 5-6, p. 73-119*
+
+You have had the time to familiarize with base R, functions and objects. Let's piece this together, and explore two new dialects: `ggplot2` for graphical display and `tidyverse` for data manipulation/recoding.
+
+Notebooks:
+ - [Data manipulation: dialects and tidyverse pipes](week2_data_manipulation.html)
+ - [Descriptive statistics: numeric summaries and visuals using ggplot2](week2_descriptive_statistics.html)
+
+If you haven't installed the `RiPraksis` package, you may fetch the data here: [kap6.rda](kap6.rda)
+
+#### Week 3: Linear models and non-linear effects
+
+*Hermansen 2023, ch. 7-9, p. 123-194; Gelman 2007, ch 3-4, p. 29-79; Berry 2012, p 653-671*
+
+We will spend the week familiarizing with non-linear effects in linear models (interaction effects) and how to interpret model results.
+
+Notebooks:
+ - [Linear models: interpretation of point estimates](week3_linear_models_interpretation.html)
+
+The data we will be working on are a subset of the replication data for "Blurred Lines betwen electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament" [*European Union Politics*](https://journals.sagepub.com/doi/pdf/10.1177/14651165221149900) (2023).
+
+You can download the data here: [MEP2014.rda](MEP2014.rda)
+
+## When data is structured
+
+#### Week 4-5: Hierarchical/multilevel models
+
+*Gelman and Hill (2007), ch 11-13, p. 235-299*
+
+We start by going through the assumptions of the linear model in order to transition to instances where observations share common characteristics (they are not i.i.d.). We then go through the opportunities offered by hierarchical models: varying intercepts, varying slopes, 2-level regression and how these models pool information. 
+
+Slides:
+ - Day 1: [Assumptions of the linear model and grouped variation](week4_1_hierarchical.pdf)
+ - Day 2-3: [Overview over hierarchical models](week4_2_hierarchical.pdf)
+
+Problem sets:
+ - Problem set 1: [Assumptions of the linear model](week4_1_problem_set_linear_assumptions.html)
+ - Problem set 2: [Within- and between-group variation](week4_2_problem_set_two_level_regression.html)
+
+R-notebook:
+  - Day 4: [R workflow for hierarchical models](week5_1_notebook_hierarchical_workflow.html)
+
+You can download the data I use to exemplify linear assumptions ([MEP2014.rda](MEP2014.rda)) and hierarchical structures ([MEP.rda](MEP.rda)) here.
+
+## When outcomes are descrete
+
+#### Week 6: Binary outcomes
+
+*Ward (2018), ch. 3, p. 43-78; ch. 6, p. 119-132*
+
+We will be working on how to model binary outcomes using a logit model. Our focus is on two different ways of understanding the logit model: As a regression on a latent variable or as a regression on a recoded dependent variable (logodds).
+
+The data I will be exemplifying with are a subset of the replication data for "Blurred Lines between electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament" [*European Union Politics*](https://journals.sagepub.com/doi/pdf/10.1177/14651165221149900) (2023).
+
+You can download the data here: [MEP2016.rda](MEP2016.rda)
+
+Slides:
+ - Day 1-2: [Binomial logistic regression: estimation and interpretation](week6_logit_slides.pdf)
+
+Problem set:
+ - Problem set 3: [Intuitions from the binomial logistic model](week6_problem_set_logit.html)
+
+R-notebook:
+  - Day 2: [R workflow for binomial logistic models](week6_notebook_logit_workflow.html)
+
+
+#### Week 7-8: Categorical outcomes
+
+*Ward 2018, ch. 8-9, p. 141-189*
+
+The data I will be exemplifying with is drawn from the European Social Survey.
+
+You can download the data here: [kap6.rda](kap6.rda) and [kap10.rda](kap10.rda)
+
+Slides:
+ - Day 1-2: [Multinomial and ordered logit regression](week7_ordered_categorical.pdf)
+
+Problem set:
+ - Problem set 4: [Interpretation and estimation of multinomial and ordered logit  regression](week7_problem_set_categorical.html)
+ 
+R-notebook:
+ - Day 2: [Workflow for multinomial and ordered logit  regression](week7_notebook_categorical_workflow.html)
 
 
 
-#### Week 11 (Theory week): Hierarchical models
+#### Week 10: Count outcomes
 
-*Gelman and Hill (2007),ch 11-12, p. 235-278*
+*Ward 2018, ch. 10, p. 190-216*
 
- You can find the data for the slides here: [MEP.rda](MEP.rda)
+Slides:
+ - Day 1: [Event count models](week10_slides_count.pdf)
 
-Slides/notebook:
- - [Slides](week11_hierarchical.pdf)
+Problem set:
+ - Problem set 5: [Interpretation and estimation of poisson regression](week10_problem_set_count.html)
 
-#### Week 12 (R week): Hierarchical models
+Suggested supplementary reading *Gelman and Hill (2007), ch 6.2 p. 110-116*
 
-*Gelman and Hill (2007), ch 11-12, p. 235-278*
-
- You can find the data for the slides here: [MEP.rda](MEP.rda)
-
-Slides/notebook:
- - [Notebook](week12_hierarchical.html)
+We'll use yet another data set on MEPs; this time on the number of legislative proposals they handle during their tenure. You can download the data here: [df_yoshinaka.rda](df_yoshinaka.rda)
+ 
+Notebook:
+ - [Event count models](week10_count.html)
 
 
-#### Week 13 (theory week): Missing data
+#### Week 11: Duration outcome
 
-*Ward (2018), ch 12, p. 249-270; Gelman (2007), ch 25, p. 529-545*
+*Ward (2018), ch. 11, p. 190-216*
 
- You can find the data for the all our activities here: [MEP.rda](MEP.rda)
+Slides:
+ - [Event history models](week11_slides_event.pdf)
 
-Slides/notebook:
- - [Problem set](exercise_missing.html)
- - [Slides](week13_missing.pdf)
+We will be working with a classical dataset on duration models used by [Box-Steffensmaier](https://www.jstor.org/stable/2111628)'s 1996 study of candidates' campaign funding and the entry of challengers. You can find the R-version of the data for the notebook here: [warchest.rda](warchest.rda)
 
-#### Week 14 (R week): Missing data
+Notebook:
+ - [Workflow for event history models](week11_event.html)
+ 
 
-*Ward (2018), ch 12, p. 249-270; Gelman (2007), ch 25, p. 529-545*
+#### Week 12: Event count and history outcomes: former exams
 
- You can find the data for the all our activities here: [MEP.rda](MEP.rda)
+We'll be working together on former exams this week. You can find the exam questions and replication data here. You can also find some excellent former student hand-ins for inspiration on Absalon.
 
-Slides/notebook:
- - [Notebook](week14_missing.html)
+Event count models (Scharpf, 2020): 
+  - [Portfolio questions](portfolio_count.pdf)
+  - Replication data: [df_scharpf](df_scharpf.rda)
+  - Article: [Scharpf, 2020](https://academic.oup.com/isq/article/64/3/734/5867529)
+  
+Event history models (Fortna, 2015): 
+  - [Portfolio questions](portfolio_event_history.pdf)
+  - Replication data: [fortna.rda](fortna.rda)
+  - Article: [Fortna, 2015](https://www.cambridge.org/core/journals/international-organization/article/abs/do-terrorists-win-rebels-use-of-terrorism-and-civil-war-outcomes/4729B2B926904616190DC38DB3240C8F)
+
+
+#### Week 14: Missing data
+
+Our data frequently contains missing observations. This week, we take the time to reflect and explore what kind of missing observations we have and whether it may bias our results. It can be useful to have an active approach to how to address missing information. We will be using the [MEP.rda](MEP.rda) data on the European Parliament.
+
+Slides:
+  - [Missing data and imputations](week14_missing_slides.pdf)
+
+Notebook:
+  - [Missing data and imputations](week14_missing_notebook.html)
+
 
 -->
 <h1 id="complete-syllabus">Complete syllabus</h1>
-<p>Please familiarize with the <a href="syllabus_beyond-linear-regression.pdf">syllabus</a>.</p>
+<p>Please familiarize with the <a href="blm_syllabus_2025.pdf">syllabus</a>.</p>
 <div>
 <object data="syllabus_beyond-linear-regression.pdf" type="application/pdf" width="700" height="950">
 <a href="syllabus_beyond-linear-regression.pdf">Download the syllabus</a>
@@ -750,38 +731,38 @@ Slides/notebook:
 <tr>
 <td>1</td>
 <td>Introduction to R as a statistics software</td>
-<td>05.02; 07.02</td>
-<td>Hermansen 2023, ch. 1-4, p. 19-70</td>
+<td>03.02; 05.02</td>
+<td>@Hermansen2023, ch. 1-4, p. 19-70</td>
 </tr>
 <tr>
 <td>2</td>
 <td>Descriptive statistics and graphical display</td>
-<td>12.02; 14.02</td>
-<td>Hermansen 2023, ch. 5-6, p. 73-119</td>
+<td>10.02; 12.02</td>
+<td>@Hermansen2023, ch. 5-6, p. 73-119</td>
 </tr>
 <tr>
 <td>3</td>
 <td>Linear regression</td>
-<td>19.02; 21.02</td>
-<td>Hermansen 2023, ch. 7-9, p. 123-194</td>
+<td>17.02; 19.02</td>
+<td>@Hermansen2023, ch. 7-9, p. 123-194</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 <td></td>
-<td>Gelman 2007, ch 3-4, p. 29-79</td>
+<td>@Gelman2007, ch 3-4, p. 29-79</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 <td></td>
-<td>Berry 2012</td>
+<td>@Berry2012</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 <td></td>
-<td>King 2000 (supplementary reading)</td>
+<td>@King2000</td>
 </tr>
 <tr>
 <td></td>
@@ -792,20 +773,20 @@ Slides/notebook:
 <tr>
 <td>4-5</td>
 <td>Hierarchical data structures</td>
-<td>26.02; 28.03</td>
-<td>Gelman 2007, ch 11-12, p. 235-278</td>
+<td>24.02; 26.03</td>
+<td>@Gelman2007, ch 11-12, p. 235-278</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
-<td>04.03; 06.03</td>
-<td>Gelman 2007, ch 13, p. 279-300</td>
+<td>03.03; 05.03</td>
+<td>@Gelman2007, ch 13, p. 279-300</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 <td></td>
-<td>Gelman 2007, ch 14-15, p. 301-342  (supplementary reading)</td>
+<td>@Gelman2007, ch 14-15, p. 301-342</td>
 </tr>
 <tr>
 <td></td>
@@ -816,20 +797,20 @@ Slides/notebook:
 <tr>
 <td>6</td>
 <td>Binary outcomes (logistic regression)</td>
-<td>11.03; 13.03</td>
-<td>Ward 2018, ch. 3, p. 43-78</td>
+<td>10.03; 12.03</td>
+<td>@Ward2018, ch. 3, p. 43-78</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 <td></td>
-<td>Ward2018, ch. 6, p. 119-132</td>
+<td>@Ward2018, ch. 6, p. 119-132</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 <td></td>
-<td>Gelman2007, ch. 6, p. 109-134 (supplementary reading)</td>
+<td>@Gelman2007, ch. 6, p. 109-134 (supplementary reading)</td>
 </tr>
 <tr>
 <td></td>
@@ -840,8 +821,8 @@ Slides/notebook:
 <tr>
 <td>7-8</td>
 <td>Categorical outcomes (multinomial and ordered logistic regression)</td>
-<td>18.03; 20.03; 03.04</td>
-<td>Ward 2018, ch. 8-9, p. 141-189</td>
+<td>17.03; 19.03; 24.03; 26.03</td>
+<td>@Ward2018, ch. 8-9, p. 141-189</td>
 </tr>
 <tr>
 <td></td>
@@ -852,7 +833,7 @@ Slides/notebook:
 <tr>
 <td></td>
 <td><em>Assignment 1 is given</em></td>
-<td>03.04</td>
+<td>26.03</td>
 <td></td>
 </tr>
 <tr>
@@ -864,20 +845,8 @@ Slides/notebook:
 <tr>
 <td>9</td>
 <td>Workshop week</td>
-<td>08.04; 10.04</td>
+<td>31.03; 02.04</td>
 <td>Assignment 1 presentation, Assignment helpdesk, Dynamic reporting</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td><em>Assignment due (optional)</em></td>
-<td>14.04</td>
-<td></td>
 </tr>
 <tr>
 <td></td>
@@ -888,20 +857,44 @@ Slides/notebook:
 <tr>
 <td>10-11</td>
 <td>Count outcomes (poisson, negative binomial and hurdle models)</td>
-<td>15.04; 17.04</td>
+<td>07.04; 09.04</td>
 <td><a href="http://lineardigressions.com/episodes/2020/3/1/better-know-a-distribution-the-poisson-distribution">Linear Digressions:</a> podcast on poisson distribution</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 <td></td>
-<td>Ward 2018, ch. 10, p. 190-216</td>
+<td>@Ward2018, ch. 10, p. 190-216</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 <td></td>
-<td>Gelman2007, ch. 6, p. 109-134 (supplementary reading)</td>
+<td>@Gelman2007, ch. 6, p. 109-134 (supplementary reading)</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><em>Assignment 1 due (optional)</em></td>
+<td>11.04</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Spring break</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td></td>
@@ -912,8 +905,8 @@ Slides/notebook:
 <tr>
 <td>11-12</td>
 <td>Event history data (survival models)</td>
-<td>22.04; 24.04; 29.04</td>
-<td>Ward 2018, ch. 11, p. 190-216</td>
+<td>23.04; 28.04; 30.04</td>
+<td>@Ward2018, ch. 11, p. 190-216</td>
 </tr>
 <tr>
 <td></td>
@@ -924,7 +917,7 @@ Slides/notebook:
 <tr>
 <td></td>
 <td><em>Assignment 2 is given</em></td>
-<td>29.04</td>
+<td>30.04</td>
 <td></td>
 </tr>
 <tr>
@@ -936,8 +929,8 @@ Slides/notebook:
 <tr>
 <td>13</td>
 <td>Workshop week</td>
-<td>06.05; 08.05</td>
-<td>Assignment 2 presentation, Assignment helpdesk, <code>shiny</code>-app</td>
+<td>05.05; 07.05</td>
+<td>Practitioner visit (Epinion); helpdesk postponed  SUBJECT TO CHANGE</td>
 </tr>
 <tr>
 <td></td>
@@ -948,14 +941,38 @@ Slides/notebook:
 <tr>
 <td>14</td>
 <td>Missing data</td>
-<td>06.05; 13.05</td>
-<td>Ward 2018, ch 12, p. 249-270</td>
+<td>12.05; 14.05</td>
+<td>@Ward2018, ch 12, p. 249-270</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 <td></td>
-<td>Gelman 2007, ch 25, p. 529-545</td>
+<td>@Gelman2007, ch 25, p. 529-545</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><em>Assignment 2 is due</em></td>
+<td>16.05</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Recap</td>
+<td>19.05</td>
+<td></td>
 </tr>
 <tr>
 <td></td>
@@ -1271,6 +1288,8 @@ If you use the *docs* layout, note that the name of the menu in the front matter
         <h3>Related</h3>
         <ul>
           
+          <li><a href="/teaching/beyond-linear-models-2024/">Statistical models beyond linear regression</a></li>
+          
           <li><a href="/teaching/social-science-methods-for-interdisciplinary-legal-studies/">Introduction to R</a></li>
           
           <li><a href="/teaching/beyond-linear-models-2023/">Statistical models beyond linear regression (2023)</a></li>
@@ -1278,8 +1297,6 @@ If you use the *docs* layout, note that the name of the menu in the front matter
           <li><a href="/publication/r-i-praksis/">R i praksis</a></li>
           
           <li><a href="/data/ripraksis/">Installere R-pakken</a></li>
-          
-          <li><a href="/teaching/stv4020b/">Statistical analysis (STV4020B)</a></li>
           
         </ul>
       </div>
