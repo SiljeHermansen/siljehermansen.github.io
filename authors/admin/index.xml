@@ -54,19 +54,16 @@ While research in both contexts suggests that it is the “haves” (businesses 
 &lt;li&gt;Day 2: &lt;a href=&#34;week1_intro_to_R.pdf&#34;&gt;Introduction to R&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The best way to follow the class, is to code along. You can find info on how to install R (the statistical software) and RStudio (the interface) &lt;a href=&#34;https://intro2r.com/chap1.html&#34;&gt;here&lt;/a&gt; or &lt;a href=&#34;https://www.dataquest.io/blog/installing-r-on-your-computer/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;week-2-descriptive-statistics-and-graphical-display&#34;&gt;Week 2: Descriptive statistics and graphical display&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Hermansen 2023, ch. 5-6, p. 73-119&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You have had the time to familiarize with base R, functions and objects. Let&amp;rsquo;s piece this together, and explore two new dialects: &lt;code&gt;ggplot2&lt;/code&gt; for graphical display and &lt;code&gt;tidyverse&lt;/code&gt; for data manipulation/recoding.&lt;/p&gt;
+&lt;p&gt;Notebooks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;week2_data_manipulation.html&#34;&gt;Data manipulation: dialects and tidyverse pipes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;week2_descriptive_statistics.html&#34;&gt;Descriptive statistics: numeric summaries and visuals using ggplot2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you haven&amp;rsquo;t installed the &lt;code&gt;RiPraksis&lt;/code&gt; package, you may fetch the data here: &lt;a href=&#34;kap6.rda&#34;&gt;kap6.rda&lt;/a&gt;&lt;/p&gt;
 &lt;!--
-
-#### Week 2: Descriptive statistics and graphical display
-
-*Hermansen 2023, ch. 5-6, p. 73-119*
-
-You have had the time to familiarize with base R, functions and objects. Let&#39;s piece this together, and explore two new dialects: `ggplot2` for graphical display and `tidyverse` for data manipulation/recoding.
-
-Notebooks:
- - [Data manipulation: dialects and tidyverse pipes](week2_data_manipulation.html)
- - [Descriptive statistics: numeric summaries and visuals using ggplot2](week2_descriptive_statistics.html)
-
-If you haven&#39;t installed the `RiPraksis` package, you may fetch the data here: [kap6.rda](kap6.rda)
 
 #### Week 3: Linear models and non-linear effects
 
