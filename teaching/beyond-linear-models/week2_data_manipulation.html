@@ -2988,7 +2988,7 @@ variables) and variable names.</p>
 <p>In base-R, you communicate by first specifying the function you want
 to use, then the object name in parentheses, as well as
 arguments/additional arguments separated by a comma.</p>
-<p>Here, I calculate the mean of the variable “Skepsis” among ESS
+<p>Here, I calculate the mean of the variable “Skepsis” among Danish ESS
 respondents. The additional argument <code>na.rm = TRUE</code> addresses
 the problem of some respondents not having responded.</p>
 <div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a><span class="fu">mean</span>(df<span class="sc">$</span>Skepsis, <span class="at">na.rm =</span> T)</span></code></pre></div>
@@ -2998,11 +2998,14 @@ each comma.</p>
 <div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a><span class="fu">mean</span>(df<span class="sc">$</span>Skepsis, </span>
 <span id="cb17-2"><a href="#cb17-2" tabindex="-1"></a>     <span class="at">na.rm =</span> T)</span></code></pre></div>
 <pre><code>## [1] 5.009241</code></pre>
+<p>It has no effect on how R reads the script, but the human eye finds
+it easier to navigate. You can automatically indent the code chunk by
+marking the line, and hit “Ctrl + I”.</p>
 <p><strong>In tidyverse:</strong> pipes</p>
-<p>In the tidyverse, we use “pipes” to link different arguments
-together. We do this with “%&gt;%” (percent, greater-than, percent). We
-can use functions from base-R or from the tidyverse together with the
-pipes.</p>
+<p>In tidyverse, we use “pipes” to link different commmands together:
+the object, the verb/function. We do this with “%&gt;%” (percent,
+greater-than, percent). We can use functions from base-R or from the
+tidyverse together with the pipes.</p>
 <p>We specify the object first, then the function. All arguments that do
 not specify the object must be added in the “old-fashioned” way. We
 indicate where the object should have been with “.”.</p>
@@ -3021,24 +3024,38 @@ chronologically (first operation first). We can do it in three ways:</p>
 <li>one operation at a time. We can do each operation separately and
 save them in separate objects.</li>
 </ul>
-<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" tabindex="-1"></a>na <span class="ot">&lt;-</span> <span class="fu">is.na</span>(df<span class="sc">$</span>Skepsis)</span>
-<span id="cb23-2"><a href="#cb23-2" tabindex="-1"></a>n_na <span class="ot">&lt;-</span> <span class="fu">sum</span>(na)</span>
-<span id="cb23-3"><a href="#cb23-3" tabindex="-1"></a>n_na</span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" tabindex="-1"></a><span class="co">#First operation: which observations are missing?</span></span>
+<span id="cb23-2"><a href="#cb23-2" tabindex="-1"></a>na <span class="ot">&lt;-</span> <span class="fu">is.na</span>(df<span class="sc">$</span>Skepsis)</span>
+<span id="cb23-3"><a href="#cb23-3" tabindex="-1"></a><span class="co">#Second operation: sum over the number of missing observations</span></span>
+<span id="cb23-4"><a href="#cb23-4" tabindex="-1"></a>n_na <span class="ot">&lt;-</span> <span class="fu">sum</span>(na)</span>
+<span id="cb23-5"><a href="#cb23-5" tabindex="-1"></a><span class="co">#Inspect the information contained in the object</span></span>
+<span id="cb23-6"><a href="#cb23-6" tabindex="-1"></a>n_na</span></code></pre></div>
 <pre><code>## [1] 5</code></pre>
-<p>We have 5 missing values in the variable.</p>
+<p>We have 5 missing values in the variable. This is useful when you’re
+uncertain about whether each operation performs the task you want and is
+easier for error probing.</p>
 <div id="two-operations-at-a-time" class="section level3">
 <h3>two operations at a time</h3>
 <p><strong>base-R:</strong> We can put parentheses in parentheses. The
 last one comes first. The object comes last.</p>
 <div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" tabindex="-1"></a><span class="fu">sum</span>(<span class="fu">is.na</span>(df<span class="sc">$</span>Skepsis))</span></code></pre></div>
 <pre><code>## [1] 5</code></pre>
-<p><strong>tidyverse:</strong> We can create a pipe: The object first,
-then the first operation, then the operation we want to perform on the
-result of this operation.</p>
-<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" tabindex="-1"></a>df<span class="sc">$</span>Skepsis <span class="sc">%&gt;%</span></span>
-<span id="cb27-2"><a href="#cb27-2" tabindex="-1"></a>  <span class="fu">is.na</span>(.) <span class="sc">%&gt;%</span> </span>
-<span id="cb27-3"><a href="#cb27-3" tabindex="-1"></a>  <span class="fu">sum</span>()</span></code></pre></div>
+<p>This saves time, but given the reverse order of the observations, it
+is less reflective of how we think insofar as we usually consider the
+first operation first.</p>
+<p><strong>tidyverse:</strong> We can create a pipe that performs
+several tasks successively: The object first, then the first operation,
+then the operation we want to perform on the result of this operation
+etc..</p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" tabindex="-1"></a><span class="co">#Object</span></span>
+<span id="cb27-2"><a href="#cb27-2" tabindex="-1"></a>df<span class="sc">$</span>Skepsis <span class="sc">%&gt;%</span></span>
+<span id="cb27-3"><a href="#cb27-3" tabindex="-1"></a>  <span class="co">#First operation</span></span>
+<span id="cb27-4"><a href="#cb27-4" tabindex="-1"></a>  <span class="fu">is.na</span>(.) <span class="sc">%&gt;%</span> </span>
+<span id="cb27-5"><a href="#cb27-5" tabindex="-1"></a>  <span class="co">#Second operation</span></span>
+<span id="cb27-6"><a href="#cb27-6" tabindex="-1"></a>  <span class="fu">sum</span>()</span></code></pre></div>
 <pre><code>## [1] 5</code></pre>
+<p>If you want to store the result, you’d have to save it in a separate
+object as we did in the previous example, e.g. <code>n_na</code></p>
 <p>There are no rules for what is best. You decide!</p>
 </div>
 </div>
@@ -3055,8 +3072,8 @@ measurement level by aggregating.</p>
 <p>We can do the manipulations in both base and in tidyverse.</p>
 <div id="making-indexes" class="section level2">
 <h2>Making indexes</h2>
-<p>Here, I examplify by creating an additive index.</p>
-<p><strong>In base</strong> We can do this by hand, by i) summating the
+<p>Here, I exemplify by creating an additive index.</p>
+<p><strong>In base</strong> We can do this by hand, by i) summing the
 values of the three survey question for each respondent.</p>
 <div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" tabindex="-1"></a>df<span class="sc">$</span>TagerJobs <span class="sc">+</span> df<span class="sc">$</span>TagerSkat <span class="sc">+</span> df<span class="sc">$</span>Belastning</span></code></pre></div>
 <p>Now the scale goes from 0 to 30. That’s not very intuitive. Let’s
@@ -3071,7 +3088,7 @@ me.</p>
 <div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" tabindex="-1"></a>df <span class="sc">%&gt;%</span></span>
 <span id="cb32-2"><a href="#cb32-2" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="st">&quot;index&quot;</span> <span class="ot">=</span> (TagerJobs <span class="sc">+</span> TagerSkat <span class="sc">+</span> Belastning)<span class="sc">/</span><span class="dv">3</span>)</span></code></pre></div>
 <p>If I’m happy with the outcome, I overwrite <em>the entire
-dataframe</em>.</p>
+dataframe</em> by storing it in the old object.</p>
 <div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" tabindex="-1"></a>df <span class="ot">&lt;-</span> </span>
 <span id="cb33-2"><a href="#cb33-2" tabindex="-1"></a>  df <span class="sc">%&gt;%</span></span>
 <span id="cb33-3"><a href="#cb33-3" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="st">&quot;index&quot;</span> <span class="ot">=</span> (TagerJobs <span class="sc">+</span> TagerSkat <span class="sc">+</span> Belastning)<span class="sc">/</span><span class="dv">3</span>)</span></code></pre></div>
@@ -3087,7 +3104,7 @@ variables correlate as they should.</p>
 </div>
 <div id="conditional-recoding" class="section level2">
 <h2>Conditional recoding</h2>
-<p>Often, our recoding involved going down a notch on the measurement
+<p>Often, our recoding involves going down a notch on the measurement
 level. This is when we aggregate information. To do so, we need to tell
 R what our rules are for what to aggregate.</p>
 <p>Remember the guessing game?</p>
@@ -3115,12 +3132,14 @@ making a rule: People who earn less than than the median income are
 </div>
 <div id="tidyverse-1" class="section level4">
 <h4>tidyverse</h4>
-<p>In tidyverse, we use the <code>case_when()</code>-function to express
-the conditioning.</p>
+<p>In tidyverse, we can use the <code>case_when()</code>-function to
+express the conditioning.</p>
 <div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" tabindex="-1"></a>df <span class="sc">%&gt;%</span></span>
 <span id="cb44-2"><a href="#cb44-2" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="st">&quot;Poor&quot;</span> <span class="ot">=</span> <span class="fu">case_when</span>(Indtaegt <span class="sc">&lt;</span> <span class="dv">5</span> <span class="sc">~</span> <span class="dv">1</span>,</span>
 <span id="cb44-3"><a href="#cb44-3" tabindex="-1"></a>                            Indtaegt <span class="sc">&gt;=</span> <span class="dv">5</span> <span class="sc">~</span> <span class="dv">0</span>)</span>
 <span id="cb44-4"><a href="#cb44-4" tabindex="-1"></a>         )</span></code></pre></div>
+<p>On my Danish keyboard, the sim character (<code>~</code>) is to the
+right of my lineshift key. I get it by typing “AltGr + ¨”.</p>
 <p>If this looks ok, then we can store the outcome.</p>
 <div class="sourceCode" id="cb45"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1" tabindex="-1"></a>df <span class="ot">&lt;-</span> </span>
 <span id="cb45-2"><a href="#cb45-2" tabindex="-1"></a>  df <span class="sc">%&gt;%</span></span>
@@ -3200,25 +3219,42 @@ know…</p>
 <h2>Remove variables or data points</h2>
 <div id="base-2" class="section level4">
 <h4>base</h4>
-<p>I can remove data points using the indexing.</p>
+<p>I can remove or retain data points using the indexing. Here, I retain
+only observations of respondents that are categorized as poor and store
+the result in a new data frame.</p>
 <div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span> df[df<span class="sc">$</span>Poor <span class="sc">==</span> <span class="dv">1</span>,]</span></code></pre></div>
-<p>I can also remove variables using the same indexing.</p>
-<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb57-1"><a href="#cb57-1" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span> df_poor[, <span class="sc">-</span><span class="dv">3</span>]</span></code></pre></div>
+<p>I can also remove variables using the same indexing. Here, I remove
+the third variable.</p>
+<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb57-1"><a href="#cb57-1" tabindex="-1"></a><span class="co">#Take 1</span></span>
+<span id="cb57-2"><a href="#cb57-2" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span> df_poor[, <span class="sc">-</span><span class="dv">3</span>]</span></code></pre></div>
+<p>It is often more precise to do this by calling variables by their
+name, as the third variable might change (by definition, once I’ve
+removed it, the third variable is “Kvinde”). However, you’d need a
+different approach.</p>
+<p>You might either use the all-powerful %in% that identifies all
+observations in the first element that are also present in the
+second.</p>
+<div class="sourceCode" id="cb58"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1" tabindex="-1"></a><span class="co">#Take 2</span></span>
+<span id="cb58-2"><a href="#cb58-2" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span> df_poor[, <span class="sc">!</span><span class="fu">names</span>(df_poor) <span class="sc">%in%</span> <span class="st">&quot;Uddannelse&quot;</span>]</span></code></pre></div>
+<p>Alternatively, you might use the function <code>subset()</code> from
+base-R. Note how I remove a variable by using its negative.</p>
+<div class="sourceCode" id="cb59"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb59-1"><a href="#cb59-1" tabindex="-1"></a><span class="co">#Take 3:</span></span>
+<span id="cb59-2"><a href="#cb59-2" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span> <span class="fu">subset</span>(df_poor, <span class="at">select =</span> <span class="sc">-</span>Uddannelse)</span></code></pre></div>
 </div>
 <div id="tidyverse-3" class="section level4">
 <h4>tidyverse</h4>
 <p>In tidyverse we have, as you are now used to, a function to do the
 same operations.</p>
 <p>I can remove observations using the <code>filter()</code>.</p>
-<div class="sourceCode" id="cb58"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span></span>
-<span id="cb58-2"><a href="#cb58-2" tabindex="-1"></a>  df <span class="sc">%&gt;%</span></span>
-<span id="cb58-3"><a href="#cb58-3" tabindex="-1"></a>  <span class="fu">filter</span>(Poor <span class="sc">==</span> <span class="dv">1</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb60"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb60-1"><a href="#cb60-1" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span></span>
+<span id="cb60-2"><a href="#cb60-2" tabindex="-1"></a>  df <span class="sc">%&gt;%</span></span>
+<span id="cb60-3"><a href="#cb60-3" tabindex="-1"></a>  <span class="fu">filter</span>(Poor <span class="sc">==</span> <span class="dv">1</span>)</span></code></pre></div>
 <p>I can also select or remove variables using the <code>select()</code>
 function. I can select variables by specifying their name, or
 <em>de</em>select them by adding a an exclamation mark first.</p>
-<div class="sourceCode" id="cb59"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb59-1"><a href="#cb59-1" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span></span>
-<span id="cb59-2"><a href="#cb59-2" tabindex="-1"></a>  df_poor <span class="sc">%&gt;%</span></span>
-<span id="cb59-3"><a href="#cb59-3" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">!</span>Uddannelse)</span></code></pre></div>
+<div class="sourceCode" id="cb61"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb61-1"><a href="#cb61-1" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span></span>
+<span id="cb61-2"><a href="#cb61-2" tabindex="-1"></a>  df_poor <span class="sc">%&gt;%</span></span>
+<span id="cb61-3"><a href="#cb61-3" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">!</span>Uddannelse)</span></code></pre></div>
 </div>
 </div>
 <div id="your-turn" class="section level2">

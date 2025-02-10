@@ -62,7 +62,7 @@ While research in both contexts suggests that it is the “haves” (businesses 
 &lt;li&gt;&lt;a href=&#34;week2_data_manipulation.html&#34;&gt;Data manipulation: dialects and tidyverse pipes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;week2_descriptive_statistics.html&#34;&gt;Descriptive statistics: numeric summaries and visuals using ggplot2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you haven&amp;rsquo;t installed the &lt;code&gt;RiPraksis&lt;/code&gt; package, you may fetch the data here: &lt;a href=&#34;kap6.rda&#34;&gt;kap6.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you haven&amp;rsquo;t installed the &lt;code&gt;RiPraksis&lt;/code&gt; package, you may fetch the data here: &lt;a href=&#34;kap6.rda&#34;&gt;kap6.rda&lt;/a&gt;.&lt;/p&gt;
 &lt;!--
 
 #### Week 3: Linear models and non-linear effects
