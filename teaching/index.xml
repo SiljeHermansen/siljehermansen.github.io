@@ -42,9 +42,10 @@
 &lt;h4 id=&#34;week-3-linear-models-and-non-linear-effects&#34;&gt;Week 3: Linear models and non-linear effects&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Hermansen 2023, ch. 7-9, p. 123-194; Gelman 2007, ch 3-4, p. 29-79; Berry 2012, p 653-671; King Tomz and Wittenberg 2000&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We will spend the week familiarizing with non-linear effects in linear models (interaction effects) and how to interpret model results.&lt;/p&gt;
-&lt;p&gt;Notebooks:&lt;/p&gt;
+&lt;p&gt;Resources:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;week3_linear_models_interpretation.html&#34;&gt;Linear models: interpretation of point estimates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;week3_linear_models_interpretation.html&#34;&gt;Notebook: interpretation of point estimates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;week3_concepts.pdf&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The data we will be working on are a subset of the replication data for &amp;ldquo;Blurred Lines betwen electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament&amp;rdquo; &lt;a href=&#34;https://journals.sagepub.com/doi/pdf/10.1177/14651165221149900&#34;&gt;&lt;em&gt;European Union Politics&lt;/em&gt;&lt;/a&gt; (2023).&lt;/p&gt;
 &lt;p&gt;You can download the data here: &lt;a href=&#34;MEP2014.rda&#34;&gt;MEP2014.rda&lt;/a&gt;&lt;/p&gt;
