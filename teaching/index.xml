@@ -46,6 +46,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;week3_concepts.pdf&#34;&gt;Slides: interpretation and uncertainty&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;week3_linear_models_interpretation.html&#34;&gt;R-notebook: interpretation of point estimates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;week3_linear_models_non_linear_effects.html&#34;&gt;R-notebook: non-linear effects&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;week3_problem_set_linear_regression.pdf&#34;&gt;Problem set&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The data we will be working on are a subset of the replication data for &amp;ldquo;Blurred Lines betwen electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament&amp;rdquo; &lt;a href=&#34;https://journals.sagepub.com/doi/pdf/10.1177/14651165221149900&#34;&gt;&lt;em&gt;European Union Politics&lt;/em&gt;&lt;/a&gt; (2023).&lt;/p&gt;
