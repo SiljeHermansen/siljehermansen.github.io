@@ -66,38 +66,41 @@ While research in both contexts suggests that it is the “haves” (businesses 
 &lt;h4 id=&#34;week-3-linear-models-and-non-linear-effects&#34;&gt;Week 3: Linear models and non-linear effects&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Hermansen 2023, ch. 7-9, p. 123-194; Gelman 2007, ch 3-4, p. 29-79; Berry 2012, p 653-671; King Tomz and Wittenberg 2000&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We will spend the week familiarizing with non-linear effects in linear models (interaction effects) and how to interpret model results.&lt;/p&gt;
-&lt;p&gt;Resources:&lt;/p&gt;
+&lt;p&gt;Slides:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;week3_concepts.pdf&#34;&gt;Slides: interpretation and uncertainty&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;week3_linear_models_interpretation.html&#34;&gt;R-notebook: interpretation of point estimates&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;week3_linear_models_non_linear_effects.html&#34;&gt;R-notebook: non-linear effects&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;week3_problem_set_linear_regression.pdf&#34;&gt;Problem set&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;R-notebook:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;week3_linear_models_interpretation.html&#34;&gt;Interpretation of point estimates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;week3_linear_models_non_linear_effects.html&#34;&gt;Non-linear effects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Problem set:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;week3_problem_set_linear_regression.pdf&#34;&gt;Problem set: interpretation and uncertainty&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The data we will be working on are a subset of the replication data for &amp;ldquo;Blurred Lines betwen electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament&amp;rdquo; &lt;a href=&#34;https://journals.sagepub.com/doi/pdf/10.1177/14651165221149900&#34;&gt;&lt;em&gt;European Union Politics&lt;/em&gt;&lt;/a&gt; (2023).&lt;/p&gt;
 &lt;p&gt;You can download the data here: &lt;a href=&#34;MEP2014.rda&#34;&gt;MEP2014.rda&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;when-data-is-structured&#34;&gt;When data is structured&lt;/h2&gt;
+&lt;h4 id=&#34;week-4-5-hierarchicalmultilevel-models&#34;&gt;Week 4-5: Hierarchical/multilevel models&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Gelman and Hill (2007), ch 11-13, p. 235-299&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We start by going through the assumptions of the linear model in order to transition to instances where observations share common characteristics (they are not i.i.d.). We then go through the opportunities offered by hierarchical models: varying intercepts, varying slopes, 2-level regression and how these models pool information.&lt;/p&gt;
+&lt;p&gt;Slides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Day 1: &lt;a href=&#34;week4_1_hierarchical.pdf&#34;&gt;Assumptions of the linear model and grouped variation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Day 2-3: &lt;a href=&#34;week4_2_hierarchical.pdf&#34;&gt;Overview over hierarchical models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;!--
-
-## When data is structured
-
-#### Week 4-5: Hierarchical/multilevel models
-
-*Gelman and Hill (2007), ch 11-13, p. 235-299*
-
-We start by going through the assumptions of the linear model in order to transition to instances where observations share common characteristics (they are not i.i.d.). We then go through the opportunities offered by hierarchical models: varying intercepts, varying slopes, 2-level regression and how these models pool information. 
-
-Slides:
- - Day 1: [Assumptions of the linear model and grouped variation](week4_1_hierarchical.pdf)
- - Day 2-3: [Overview over hierarchical models](week4_2_hierarchical.pdf)
-
 Problem sets:
  - Problem set 1: [Assumptions of the linear model](week4_1_problem_set_linear_assumptions.html)
  - Problem set 2: [Within- and between-group variation](week4_2_problem_set_two_level_regression.html)
-
-R-notebook:
-  - Day 4: [R workflow for hierarchical models](week5_1_notebook_hierarchical_workflow.html)
-
-You can download the data I use to exemplify linear assumptions ([MEP2014.rda](MEP2014.rda)) and hierarchical structures ([MEP.rda](MEP.rda)) here.
-
+--&gt;
+&lt;p&gt;R-notebook:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Day 4: &lt;a href=&#34;week5_1_notebook_hierarchical_workflow.html&#34;&gt;R workflow for hierarchical models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can download the data I use to exemplify linear assumptions (&lt;a href=&#34;MEP2014.rda&#34;&gt;MEP2014.rda&lt;/a&gt;) and hierarchical structures (&lt;a href=&#34;MEP.rda&#34;&gt;MEP.rda&lt;/a&gt;) here.&lt;/p&gt;
+&lt;!--
 ## When outcomes are descrete
 
 #### Week 6: Binary outcomes
