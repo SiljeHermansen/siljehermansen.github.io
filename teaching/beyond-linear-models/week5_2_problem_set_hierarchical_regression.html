@@ -419,10 +419,10 @@ Please advise me on the following covariates:</p>
 <ul>
 <li>electoral calendar</li>
 <li>electoral system</li>
-<li>labor cost</li>
-<li>gender</li>
-<li>age</li>
-<li>lag of the dependent variable</li>
+<li>labor cost (<code>LaborCost</code>)</li>
+<li>gender (<code>Female</code>)</li>
+<li>age (<code>Age</code>)</li>
+<li>lag of the dependent variable (<code>ShareOfLocal.lag</code>)</li>
 </ul></li>
 <li><p>Now, I’m considering a fixed-effect on time-period. Would this be
 a good idea? What would be the effects of my two election variables?
@@ -451,11 +451,37 @@ the electoral system?</p>
 <ol style="list-style-type: lower-alpha">
 <li><p>Create two scenarios and interpret either the marginal effect or
 the first-difference. Justify your choice.</p></li>
+<li><p>Descriptive statistics from a survey conducted among MEPs shows
+that some 31% claim that they envision staying in Parliament for 10 or
+more years (i.e. they will seek reelection). How does this change your
+understanding of the results?</p></li>
 <li><p>Illustrate the effects. What plot would you opt for?</p></li>
 <li><p>In your opinion, are the two hypotheses supported? How big are
 the electoral incentives?</p></li>
 </ol>
 <!-- I have a third hypothesis: I believe MEPs with higher incentives to cultivate a personal vote are more sensitive to the electoral calendar. -->
+</div>
+<div id="exercise-5-interaction-effect" class="section level3">
+<h3>Exercise 5: Interaction effect</h3>
+<p>I have a third hypothesis: I believe MEPs with higher incentives to
+cultivate a personal vote are more sensitive to the electoral
+calendar.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>How could I model this?</p></li>
+<li><p>Can you implement your suggestion using a random-intercept
+model?</p></li>
+<li><p>Can you interpret the results following the Berry et al.s
+recommendation?</p></li>
+</ol>
+<p>What is the effect of:</p>
+<ul>
+<li>national electoral calendar when electoral system is
+candidate-centered</li>
+<li>national electoral calendar when electoral system is
+party-centered</li>
+<li>national electoral system when electoins are far away</li>
+<li>national electoral system when electoins are tomorrow</li>
+</ul>
 </div>
 <div id="literature" class="section level1">
 <h1>Literature</h1>
