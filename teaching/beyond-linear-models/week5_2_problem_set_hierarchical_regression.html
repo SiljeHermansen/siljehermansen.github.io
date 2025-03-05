@@ -253,28 +253,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-
-div.csl-bib-body { }
-div.csl-entry {
-clear: both;
-}
-.hanging div.csl-entry {
-margin-left:2em;
-text-indent:-2em;
-}
-div.csl-left-margin {
-min-width:2em;
-float:left;
-}
-div.csl-right-inline {
-margin-left:2em;
-padding-left:1em;
-}
-div.csl-indent {
-margin-left: 2em;
-}
-</style>
 
 
 
@@ -400,171 +378,87 @@ download.file(url = &quot;https://siljehermansen.github.io/teaching/beyond-linea
 load(&quot;MEP.rda&quot;)
 
 #Rename the data for convenience
-df &lt;- MEP
-
-#Rename the three main variables for convenience
-df &lt;-
-  df %&gt;%
-  filter(Period == 5) %&gt;%
-  mutate(
-    #The number of local assistants employed by each MEP in 2014
-    y = ShareOfLocalAssistants,
-    #The vote share (in percentage points) that the national party got last election
-    x = VoteShare_LastElection,
-    #Candidate-centered (or not) electoral system for EU elections
-    z = OpenList) </code></pre>
-<p>Here, we will check out the predictions of the following linear
-model. It formulates the expectation that MEPs from parties with larger
-electoral support in the past will invest less in local staff.</p>
-<div id="exercise-1-simpsons-paradox-and-leveraging-variation" class="section level3">
-<h3>Exercise 1: Simpson’s paradox and leveraging variation</h3>
-<p>Let’s start by subsetting the data to period 5 (in 2014) for
-excercise 1 and 2:
-<code>df &lt;- MEP %&gt;% filter(Period == 5)</code>.</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Describe the bivariate relationship between MEPs’ local staff
-(<code>ShareOfLocalStaff</code>, y) and their party’s vote share
-(<code>VoteShare_LastElection</code>, x) by fitting a linear regression.
-What do you find?</p></li>
-<li><p>Fit a fixed-effects model where you control for
-<code>Nationality</code>.</p></li>
-<li><p>Illustrate the bivariate relationship between voteshare and the
-size of MEP’s local staff in <code>ggplot2</code>. You can use the
-geometric function for local regression and specify the method
-<code>geom_smooth(aes(x, y), method = &quot;loess&quot;)</code>. Change the method
-to “lm” (linear model). What do you think?</p></li>
-<li><p>Building on your previous ggplot code, use the
-<code>color = &quot;Nationality&quot;</code> or
-<code>facet_wrap(~Nationality)</code> arguments to create a separate
-regression for each MEP’s nationality. You can remove the uncertainty by
-adding <code>se = FALSE</code> if the shaded lines makes it hard to read
-the plot. Compare the new plot with the plot from 1c. What
-happened?</p></li>
-<li><p>Ok. Calculate the grouped averages of both x and y using
-<code>group_by()</code> and <code>reframe()</code>. You now have a new
-data frame with 28 observations. Plot x and y against each other in a
-scatterplot. Using <code>geom_smooth(aes(x,y), method = &quot;lm&quot;)</code> in
-ggplot2 you can also fit a regression line to the data. What do you
-see?</p></li>
-<li><p>Use <code>stargazer()</code> to compare your pooled model with
-the fixed-effects model. If you don’t want to see the regression
-coefficients relating to Nationality, you may use the argument
-<code>omit = &quot;Nationality&quot;</code>. What happened to the effect of vote
-share? Why do you think this happened?</p></li>
-</ol>
-</div>
-<div id="exercise-2-non-identified-models." class="section level3">
-<h3>Exercise 2: Non-identified models.</h3>
-<p><span class="citation">Gelman and Hill (2007)</span> emphasize at
-several points that fixed-effects (non-pooled) models quickly become
-non-identified (chapter 11). When introducing fixed effects for your
-group identity variables (e.g. nationality), the R will relegate the
-first group as a reference group (in the intercept). If you then
-introduce other variables that are colinear with your groups
-(e.g. electoral system), they too will have to omit one category. In
-other words, you have limited possibility to add group-level predictors
-once you have grouped fixed-effects in your model.</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Fit a pooled model with predictors for vote share (x) and
-electoral system (z).</p></li>
-<li><p>Fixed-effects model: Add national-level fixed effects to the
-pooled model. What happened to Sweden? Why?</p></li>
-<li><p>Tweak your fixed-effects model such that you remove z. What
-happens to Sweden?</p></li>
-</ol>
-</div>
-<div id="exercise-3" class="section level3">
-<h3>Exercise 3:</h3>
-<p>Ok, now, let’s consider the entire data set:
-<code>df &lt;- MEP</code>.</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Reestimate the first model on the entire data set, then calculate
-the residuals. I did this on the slides last week.</p></li>
-<li><p>Describe the residuals: What is their mean and spread. Plot them
-as a histogram.</p></li>
-<li><p>Calculate the group mean of the residuals for each MEP. The ID
-variable for each person is <code>ID</code>. Store the result in a
-separate data frame. Describe the spread and plot a histogram. What does
-this say about the between-group variation in the data, once you’ve
-accounted for vote share (and nationality)? Is there more within- or
-between-group variation here?</p></li>
-<li><p>Re-do all of the above, but on the model where you control for
-nationality (<code>mod.fix</code>). Store the results in separate
-variables for comparison. What happened? Why?</p></li>
-</ol>
-</div>
-<div id="exercise-4-labelling-the-errors-take-2." class="section level3">
-<h3>Exercise 4: Labelling the errors, take 2.</h3>
-<p>In the two next exercises, we work with the entire data set:
-<code>df &lt;- MEP</code>.</p>
-<p>We can think of hierarchical models/models with varying intercepts as
-a way to label the errors.</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Go back to your pooled model and re-estimate it on the entire
-data and calculate the residuals. Store them as a variable in your data.
-Remember, the residuals are just the difference between what you
-predicted and observed (y - predicted y). T</p></li>
-<li><p>Calculate the group means of the residuals per nationality
-(i.e. the unexplained staff size per country) using
-<code>group_by()</code> and <code>reframe()</code>. Store the data frame
-(n = 28) in an R object.</p></li>
-<li><p>Fit a fixed-effects model without intercept:
-<code>mod.stage1 &lt;- lm(y ~ -1 + x + Nationality, df)</code>.</p></li>
-<li><p>Extract the coefficients for nationality. Store them as a new
-variable in the same data frame (N = 28). You can see them stored as a
-data frame in the model object <code>mod.fix$coefficients</code>. Remove
-the coefficients not related to nationality.</p></li>
-<li><p>Compare the grouped residuals and the fixed-effects coefficients.
-You can plot them against each other in a scatter plot, for example.
-What do you see? What is the link between residuals and fixed
-effects?</p></li>
-</ol>
-</div>
-<div id="exercise-5-two-level-regression-by-hand." class="section level3">
-<h3>Exercise 5: Two-level regression “by hand”.</h3>
-<p><span class="citation">Gelman and Hill (2007)</span> explain the
-intuition of the 2-level model in chapter 11: It is a way for us to
-group the residuals according to their identities, then run a second
-regression on the residuals.</p>
-<ol style="list-style-type: lower-alpha">
-<li><p>Level-1 regression: Ok, continue with the <code>mod.stage1</code>
-results. Compare with your previous fixed-effects model. What is the
-difference in how you interpret them?</p></li>
-<li><p>Level-2 data frame: You can build on your data frame (n=28) from
-exercise 3 or make it anew, but this time, add a variable on the
-electoral system (<code>z</code>; <code>OpenList</code>).</p></li>
-</ol>
-<p>If you make the dataframe anew:</p>
+df &lt;- MEP</code></pre>
+<p>We will work on an unbalanced panel data (the same as in the R
+notebook). Each Member of the European Parliament (MEP) is observed
+every 6th month in the 2012-2017 period (identified as
+<code>ID</code>).</p>
+<p>This time, we’re interested in whether MEPs use their parliamentary
+resources for electoral purposes. There are two empirical implications
+of this:</p>
 <ul>
-<li><p>Use the <code>group_by()</code> and <code>reframe()</code>
-arguments to make a new data frame from <code>df</code> that reports the
-mean value of z, the electoral system, by country (N = 28).</p></li>
-<li><p>Extract the fixed-effects coefficients for Nationality from your
-level-1 regression and add them as a variable to this new data frame.
-You can do this using <code>mutate()</code> or
-<code>cbind</code>.</p></li>
+<li><p>First, do MEPs with higher incentives to cultivate a personal
+vote have larger teams of local assistants? I measure this in two ways:
+At the national level (<code>NationalPartyCentered</code>) and at the
+European level (<code>OpenList</code>).</p></li>
+<li><p>Second, do they gear up by hiring more assistants before
+elections? I als measure this at both levels
+(<code>ProxNatElection</code> and <code>EPElection</code>).</p></li>
 </ul>
-<ol start="3" style="list-style-type: lower-alpha">
-<li><p>Level-2 regression: Regress your fixed-effects coefficients on
-the aggregated values of z by drawing on the values in your new,
-aggregated data frame (e.g. <code>lm(coefs ~ z_m, df2)</code>).</p></li>
-<li><p>Let R do a two-level regression for you. Fetch the
-<code>lme4</code> package to run a two-level hierarchical model:
-<code>mod.ran &lt;- lmer(y ~ x + z + (1|Nationality), df)</code>.</p></li>
-<li><p>Use stargazer to compare the results from your four regressions:
-the pooled model, level 1-, level 2- and random-effects model (from this
-exercise). What are your take-aways?</p></li>
+<p>Our dependent variable is the local staff size of each MEP:
+<code>ShareOfLocalAssistants</code>.</p>
+<div id="exercise-1-descriptive-statistics" class="section level3">
+<h3>Exercise 1: Descriptive statistics</h3>
+<p>Let’s start by exploring the data structure.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>What is the size of the data? How many individual MEPs are there
+in the data set? How often are they observed?</p></li>
+<li><p>How is the relevant variation here? How are the variables
+measured? What is the within-group and between group variation?</p></li>
+<li><p>How could I model this? What would be the advantages and
+drawbacks? I.e. what variation would I leverage?</p></li>
 </ol>
 </div>
-<div id="literature" class="section level1 unnumbered">
-<h1 class="unnumbered">Literature</h1>
-<div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-Gelman2007" class="csl-entry">
-Gelman, Andrew, and Jennifer Hill. 2007. <em>Data Analysis Using
-Regression and Multilevel/Hierarchical Models</em>. Analytical Methods
-for Social Research. Cambridge ; New York: Cambridge University Press.
+<div id="exercise-2-choice-of-covariates" class="section level3">
+<h3>Exercise 2: Choice of covariates</h3>
+<ol style="list-style-type: lower-alpha">
+<li><p>I want to model the <em>change</em> in staff size as a function
+of the electoral calendar. How can I do this?</p></li>
+<li><p>I’m considering a fixed-effects model at the individual level.
+Please advise me on the following covariates:</p>
+<ul>
+<li>electoral calendar</li>
+<li>electoral system</li>
+<li>labor cost</li>
+<li>gender</li>
+<li>age</li>
+<li>lag of the dependent variable</li>
+</ul></li>
+<li><p>Now, I’m considering a fixed-effect on time-period. Would this be
+a good idea? What would be the effects of my two election variables?
+(EPElection; ProxNatElection).</p></li>
+<li><p>How do you think the random-effects model would perform
+here?</p></li>
+</ol>
 </div>
+<div id="exercise-3-fit-and-interpret-the-model" class="section level3">
+<h3>Exercise 3: Fit and interpret the model</h3>
+<ol style="list-style-type: lower-alpha">
+<li><p>Fit the following model as a pooled linear regression,
+fixed-effects model and a random effects model (with varying individual
+intercepts):
+<code>ShareOfLocalAssistants ~ ProxNatElection + NationalCandidateCentered + EPElection + OpenList + ShareOfLocal.lag</code>.
+Present the results in <code>stargazer()</code>.</p></li>
+<li><p>What do you find? What happened?</p></li>
+<li><p>Discuss my choice of variables.</p></li>
+</ol>
 </div>
+<div id="exercise-4-interpretation" class="section level3">
+<h3>Exercise 4: Interpretation</h3>
+<p>Interpret the results from the random-effects model.</p>
+<p>What is the effect of the two measures of the electoral calendar and
+the electoral system?</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>Create two scenarios and interpret either the marginal effect or
+the first-difference. Justify your choice.</p></li>
+<li><p>Illustrate the effects. What plot would you opt for?</p></li>
+<li><p>In your opinion, are the two hypotheses supported? How big are
+the electoral incentives?</p></li>
+</ol>
+<!-- I have a third hypothesis: I believe MEPs with higher incentives to cultivate a personal vote are more sensitive to the electoral calendar. -->
+</div>
+<div id="literature" class="section level1">
+<h1>Literature</h1>
 </div>
 
 
