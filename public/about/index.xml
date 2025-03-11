@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Silje Synnøve Lyder Hermansen</title>
+    <link>https://siljehermansen.github.io/about/</link>
+    <description>Recent content on Silje Synnøve Lyder Hermansen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    
+	    <atom:link href="https://siljehermansen.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

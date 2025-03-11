@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lær deg R/R i praksis on Silje Synnøve Lyder Hermansen</title>
+    <link>https://siljehermansen.github.io/data/</link>
+    <description>Recent content in Lær deg R/R i praksis on Silje Synnøve Lyder Hermansen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://siljehermansen.github.io/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installere R-pakken</title>
+      <link>https://siljehermansen.github.io/data/ripraksis/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/data/ripraksis/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;&amp;ldquo;R i praksis&amp;rdquo;&lt;/a&gt; er en introduktionsbog til statistikprogrammet R udgivet af DJØF (2023). Bogen leveres med datasæt, øvelsesopgaver og løsningsforslag, så du kan prøve dig selv. Her kan du downloade denne online ressource. Det kommer som en separat R-pakke.&lt;/p&gt;
+&lt;p&gt;Pakken kan installeres fra en lokal fil eller direkte fra GitHub.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;
+&lt;img src=&#34;r-i-praksis.png&#34; width=&#34;35%&#34; align=&#34;right&#34; alt=&#34;R i praksis. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;installation-fra-lokal-fil&#34;&gt;Installation fra lokal fil&lt;/h2&gt;
+&lt;p&gt;Denne løsning består af to trin.&lt;/p&gt;
+&lt;p&gt;På denne side kan du downloade pakken ved at trykke på en af følgende links:&lt;/p&gt;
+&lt;p&gt;For alle operativsystemer:&lt;/p&gt;
+&lt;a href=&#34;RiPraksis_0.1.0.tar.gz&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; RiPraksis_0.1.0.tar.gz&lt;/button&gt;
+&lt;/a&gt;
+&lt;p&gt;Windows-brugere kan også bruge denne:&lt;/p&gt;
+&lt;a href=&#34;RiPraksis_0.1.0.zip&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; RiPraksis_0.1.0.zip&lt;/button&gt;
+&lt;/a&gt; 
+&lt;p&gt;Filen vil så blive downloaded til din computer. Hvis du ikke har angivet andet, vil den være placeret i mappen kaldet &amp;ldquo;Downloads&amp;rdquo; på din computer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I RStudio&lt;/strong&gt; installerer du filen i R-biblioteket.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Klik på fanebladet kaldet &amp;ldquo;Packages&amp;rdquo; i vindue nederst til højre.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Klik derefter på &amp;ldquo;Install&amp;rdquo;. I kommunikationsvinduet, der derefter åbner sig, skal du vælge &amp;ldquo;Install from: Package Archive File&amp;rdquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Under &amp;ldquo;Package archive:&amp;rdquo; skal du derefter klikke på &amp;ldquo;Browse&amp;rdquo; og navigere frem til filen, du lige har downloadet.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Klik derefter på &amp;ldquo;Install&amp;rdquo;. Nu vil R skrive installationskommandoen, og R vil hurtigt fortælle dig i rød skrift, at pakken installeres, og i sort skrift at &amp;lsquo;package &amp;lsquo;RiPraksis&amp;rsquo; successfully unpacked and MD5 sums checked&amp;rsquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hvis du støder på fejlmeddelelser, bør du tjekke, om de ekstra argumenter i installationskoden er korrekte. Filadressen (C:/Downloads/) vil naturligvis variere fra computer til computer.&lt;/p&gt;
+&lt;p&gt;Hvis du har valgt tar.gz-filen, skal koden se sådan ud.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;C:/Downloads/RiPraksis_0.1.0.tar.gz&amp;#34;, repos = NULL, type = &amp;#34;source&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Hvis du har valgt zip-filen, skal koden se sådan ud.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;C:/Downloads/RiPraksis_0.1.0.zip&amp;#34;, repos = NULL, type = &amp;#34;binary&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;installation-fra-github&#34;&gt;Installation fra GitHub&lt;/h2&gt;
+&lt;p&gt;Hvis du vil installere direkte fra GitHub, kræver det lidt mere avancerede trin.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I nettleseren:&lt;/strong&gt; Begynd med at downloade og installere &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34;&gt;RTools&lt;/a&gt; uden at åbne RStudio.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I RStudio:&lt;/strong&gt; installer &lt;code&gt;devtools&lt;/code&gt;-pakken og hent den ind fra biblioteket.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;devtools&amp;#34;)
+library(devtools)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Nu kan du downloade og installere nettressourcen direkte fra GitHubs sider.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install_github(&amp;#34;SiljeHermansen/RiPraksis&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Installere R-pakken</title>
+      <link>https://siljehermansen.github.io/data/laerdegr/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://siljehermansen.github.io/data/laerdegr/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;&amp;ldquo;Lær deg R&amp;rdquo;&lt;/a&gt; er en innføringsbok i statistikkprogrammet R utgitt av Fagbokforlaget (2019). Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Her kan du laste ned denne nettressursen. Den kommer som en egen R-pakke.&lt;/p&gt;
+&lt;p&gt;Pakken kan installeres fra lokal fil eller rett fra GitHub.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
+&lt;img src=&#34;laerdegr.jpg&#34; width=&#34;35%&#34; align=&#34;right&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+&lt;h2 id=&#34;installere-fra-lokal-fil&#34;&gt;Installere fra lokal fil&lt;/h2&gt;
+&lt;p&gt;Denne løsningen gjøres i to skritt.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;På denne siden&lt;/strong&gt; laster du ned pakken ved å trykke på én av disse lenkene:&lt;/p&gt;
+&lt;p&gt;For alle operativsystemer:&lt;/p&gt;
+&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.tar.gz&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.tar.gz&lt;/button&gt;
+&lt;/a&gt;
+&lt;p&gt;Windows-brukere kan også benytte seg av denne:&lt;/p&gt;
+&lt;a href=&#34;https://github.com/SiljeHermansen/laerdegR/raw/master/laerdegR_0.1.0.zip&#34; download&gt;
+&lt;button class=&#34;button&#34;&gt;&lt;i class=&#34;fa fa-download&#34;&gt;&lt;/i&gt; laerdegR_0.1.0.zip&lt;/button&gt;
+&lt;/a&gt; 
+&lt;p&gt;Filen vil da lastes ned på din maskin. Om du ikke har spesifisert annet, vil den ligge i mappen som kalles &amp;ldquo;Downloads&amp;rdquo; på maskinen din.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I RStudio&lt;/strong&gt; installerer du filen i R-biblioteket.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Klikk på fanen som kalles &amp;ldquo;Packages&amp;rdquo; i vinduet nederst til høyre.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Klikk så på &amp;ldquo;Install&amp;rdquo;. I kommunikasjonsvinduet som så åpner seg, skal du velge &amp;ldquo;Install from: Package Archive File&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Under &amp;ldquo;Package archive:&amp;rdquo; må du deretter klikke på &amp;ldquo;Browse&amp;rdquo; og navigere deg fram til filen du nettopp lastet ned.&lt;/li&gt;
+&lt;li&gt;Klikk så på &amp;ldquo;Install&amp;rdquo;. Nå skrives installasjonskommandoen til R, og R skal i rask rekkefølge gi deg beskjed i rød skrift om at pakken installeres, og i svart skrift at &lt;code&gt;package ‘laerdegR’ successfully unpacked and MD5 sums checked&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Om du møter på feilmeldinger, bør du sjekke at tilleggsargumentene i installasjonskoden er korrekte. Filadressa (&lt;code&gt;C:/Downloads/&lt;/code&gt;) vil åpenbart variere fra maskin til maskin.&lt;/p&gt;
+&lt;p&gt;Om du har valgt tar.gz-fil, må koden se slik ut.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;C:/Downloads/laerdegR_0.1.0.tar.gz&amp;#34;, repos = NULL, type = &amp;#34;source&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Om du har valgt zip-fil, må koden se slik ut.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#34;C:/Downloads/laerdegR_0.1.0.zip&amp;#34;, repos = NULL, type = &amp;#34;binary&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
+&lt;h2 id=&#34;installere-direkte-fra-github&#34;&gt;Installere direkte fra GitHub&lt;/h2&gt;
+&lt;p&gt;Denne løsningen krever mer manøvrering.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I nettleseren:&lt;/strong&gt; Begynn med å laste ned og installere &lt;a href=&#34;https://cran.r-project.org/bin/windows/Rtools/&#34;&gt;RTools&lt;/a&gt; uten å åpne RStudio.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I RStudio:&lt;/strong&gt; installere &lt;code&gt;devtools&lt;/code&gt;-pakken og hent den inn fra biblioteket.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install.packages(&amp;#39;devtools&amp;#39;)
+library(devtools)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Nå kan du laste ned og installere nettressursen direkte fra GitHubs sider.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install_github(&amp;#34;SiljeHermansen/laerdegR&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
