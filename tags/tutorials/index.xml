@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorials on Silje Synnøve Lyder Hermansen</title>
-    <link>/tags/tutorials/</link>
+    <link>https://siljehermansen.github.io/tags/tutorials/</link>
     <description>Recent content in Tutorials on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://siljehermansen.github.io/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hvordan &#34;skrape&#34; data i R?</title>
-      <link>/teaching/skrape-data/</link>
+      <link>https://siljehermansen.github.io/teaching/skrape-data/</link>
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/skrape-data/</guid>
+      <guid>https://siljehermansen.github.io/teaching/skrape-data/</guid>
       <description>&lt;html&gt;
 &lt;body&gt;
 &lt;em&gt;
@@ -495,10 +495,10 @@ $(document).ready(function () {
     
     <item>
       <title>What GLM should I choose?</title>
-      <link>/teaching/choose_glm/</link>
+      <link>https://siljehermansen.github.io/teaching/choose_glm/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/choose_glm/</guid>
+      <guid>https://siljehermansen.github.io/teaching/choose_glm/</guid>
       <description>&lt;p&gt;&lt;em&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of choice criteria when I consider what Generalized Linear Model (GLM) to rely on.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Let&#39;s assume I want to describe the relationship (&amp;beta;) between an independent variable (&lt;em&gt;x&lt;/em&gt;) and a dependent variable (&lt;em&gt;y&lt;/em&gt;) in the form of:
 &lt;/p&gt;

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Silje Synnøve Lyder Hermansen</title>
-    <link>/</link>
+    <link>https://siljehermansen.github.io/</link>
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Sep 2025 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://siljehermansen.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Publications</title>
-      <link>/publication/</link>
+      <link>https://siljehermansen.github.io/publication/</link>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
       
-      <guid>/publication/</guid>
+      <guid>https://siljehermansen.github.io/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>/teaching/</link>
+      <link>https://siljehermansen.github.io/teaching/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/</guid>
+      <guid>https://siljehermansen.github.io/teaching/</guid>
       <description>&lt;p&gt;These pages provide supplementary information to students. For a comprehensive overview of my teaching activities, please refer to my CV.&lt;/p&gt;
 &lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
 &lt;h3 id=&#34;a-hrefbeyond-linear-modelsstatistical-models-beyond-linear-regression-astk18414ua&#34;&gt;&lt;a href=&#34;beyond-linear-models&#34;&gt;Statistical models beyond linear regression (ASTK18414U)&lt;/a&gt;&lt;/h3&gt;
@@ -74,13 +74,13 @@ Core subject in our EU specialization track. Course given together with Stein Ar
     
     <item>
       <title>Projects</title>
-      <link>/project/</link>
+      <link>https://siljehermansen.github.io/project/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/project/</guid>
+      <guid>https://siljehermansen.github.io/project/</guid>
       <description>&lt;p&gt;How do our representatives behave given how we select them? And how does information about their behavior affect who we retain in office?&lt;/p&gt;
 &lt;h2 id=&#34;the-court-of-justice-of-the-european-union-cjeu&#34;&gt;The Court of Justice of the European Union (CJEU)&lt;/h2&gt;
-&lt;a href=&#34;/project/judicial-behavior&#34;&gt;
+&lt;a href=&#34;https://siljehermansen.github.io/project/judicial-behavior&#34;&gt;
 &lt;img src=&#34;CJEU.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; caption = &#34;The Court of Justice of the EU in Luxembourg&#34;  alt = &#34;The Court of Justice of the EU in Luxembourg&#34;/&gt;
 &lt;/a&gt;
 &lt;p&gt;The CJEU is probably the world’s most influential international court, functioning in many respects as a federal supreme court.&lt;/p&gt; 
@@ -90,7 +90,7 @@ Core subject in our EU specialization track. Course given together with Stein Ar
 &lt;h4 id=&#34;a-hrefcourt-strategiescourt-strategies-the-courts-relations-with-external-actorsa&#34;&gt;&lt;a href=&#34;court-strategies&#34;&gt;Court strategies: the Court&amp;rsquo;s relations with external actors&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;No court controls the implementation of its own rulings. To ensure its position, the CJEU engages with external actors: It strategically engages with governments, but also cultivates support in civil society. Here, I probe the Court&#39;s strategic interactions with its political interlocutors.&lt;/p&gt;
 &lt;h2 id=&#34;decision-makers-in-the-european-parliament-ep&#34;&gt;Decision makers in the European Parliament (EP)&lt;/h2&gt;
-&lt;a href=&#34;/project/european-parliament&#34;&gt;
+&lt;a href=&#34;https://siljehermansen.github.io/project/european-parliament&#34;&gt;
 &lt;img src=&#34;EP.jpg&#34; width=&#34;50%&#34; align=&#34;right&#34; caption = &#34;The European Parliament in Strasbourg&#34;
  alt = &#34;The European Parliament in Strasbourg&#34;/&gt;
 &lt;/a&gt;
@@ -100,10 +100,10 @@ Core subject in our EU specialization track. Course given together with Stein Ar
     
     <item>
       <title>Lær deg R/R i praksis</title>
-      <link>/data/</link>
+      <link>https://siljehermansen.github.io/data/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/data/</guid>
+      <guid>https://siljehermansen.github.io/data/</guid>
       <description>&lt;p&gt;Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som lærer statistisk analyse.&lt;/p&gt;
 &lt;figure&gt;
 &lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
@@ -144,10 +144,10 @@ Her kan du finde instruktioner om, hvordan du downloader den online ressource, d
     
     <item>
       <title></title>
-      <link>/about/</link>
+      <link>https://siljehermansen.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://siljehermansen.github.io/about/</guid>
       <description>&lt;p&gt;Welcome to my website! I currently work at &lt;a href=&#34;https://jura.ku.dk/icourts/&#34;&gt;&lt;em&gt;iCourts&lt;/em&gt;&lt;/a&gt;, a centre of excellence dedicated to the study of international courts at the University of Copenhagen.&lt;/p&gt;
 </description>
     </item>

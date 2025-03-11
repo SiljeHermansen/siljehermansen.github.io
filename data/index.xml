@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lær deg R/R i praksis on Silje Synnøve Lyder Hermansen</title>
-    <link>/data/</link>
+    <link>https://siljehermansen.github.io/data/</link>
     <description>Recent content in Lær deg R/R i praksis on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Feb 2023 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/data/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://siljehermansen.github.io/data/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Installere R-pakken</title>
-      <link>/data/ripraksis/</link>
+      <link>https://siljehermansen.github.io/data/ripraksis/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>/data/ripraksis/</guid>
+      <guid>https://siljehermansen.github.io/data/ripraksis/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;&amp;ldquo;R i praksis&amp;rdquo;&lt;/a&gt; er en introduktionsbog til statistikprogrammet R udgivet af DJØF (2023). Bogen leveres med datasæt, øvelsesopgaver og løsningsforslag, så du kan prøve dig selv. Her kan du downloade denne online ressource. Det kommer som en separat R-pakke.&lt;/p&gt;
 &lt;p&gt;Pakken kan installeres fra en lokal fil eller direkte fra GitHub.&lt;/p&gt;
 &lt;figure&gt;
@@ -69,10 +69,10 @@ library(devtools)
     
     <item>
       <title>Installere R-pakken</title>
-      <link>/data/laerdegr/</link>
+      <link>https://siljehermansen.github.io/data/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/data/laerdegr/</guid>
+      <guid>https://siljehermansen.github.io/data/laerdegr/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;&amp;ldquo;Lær deg R&amp;rdquo;&lt;/a&gt; er en innføringsbok i statistikkprogrammet R utgitt av Fagbokforlaget (2019). Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Her kan du laste ned denne nettressursen. Den kommer som en egen R-pakke.&lt;/p&gt;
 &lt;p&gt;Pakken kan installeres fra lokal fil eller rett fra GitHub.&lt;/p&gt;
 &lt;figure&gt;
