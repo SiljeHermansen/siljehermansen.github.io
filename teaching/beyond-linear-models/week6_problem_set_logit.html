@@ -11,7 +11,7 @@
 
 <meta name="author" content="Silje Synnøve Lyder Hermansen" />
 
-<meta name="date" content="2024-03-11" />
+<meta name="date" content="2025-03-12" />
 
 <title>Problem set: Back and forth in the logistic regression</title>
 
@@ -258,6 +258,7 @@ if (window.hljs) {
 div.csl-bib-body { }
 div.csl-entry {
 clear: both;
+margin-bottom: 0em;
 }
 .hanging div.csl-entry {
 margin-left:2em;
@@ -375,7 +376,7 @@ display: none;
 <h1 class="title toc-ignore">Problem set: Back and forth in the logistic
 regression</h1>
 <h4 class="author">Silje Synnøve Lyder Hermansen</h4>
-<h4 class="date">2024-03-11</h4>
+<h4 class="date">2025-03-12</h4>
 
 </div>
 
@@ -388,131 +389,99 @@ the exponential family, it also means that the effect size of one
 variable depends on the value of the other variables in the regression.
 These exercices are intended to help you see that.</p>
 </blockquote>
-<p>We will be working on the likelihood that Members of the European
-Parliament will pool resources. The dependent variable
-<code>PoolLocal</code> reports whether an MEP shares at least one
-constituency-based (local) assistant with a fellow party member. The
-hypothesis is that MEPs that compete in candidate-centered systems
-(<code>OpenList</code> == 1) will have fewer incentives to share
-resources with party colleagues, since they compete against each other
-during the election (i.e. there is an intra-party competition).</p>
+<p>We will be working on the likelihood that judges at the Court of
+Justice of the European Union (CJEU) leaves office at the expiry of
+their mandate. They serve 6 year-terms that can be renewed. The question
+is whether their government will want to renew their mandate. The
+dependent variable <code>exit</code> reports whether a judge leaves or
+remains for another term. The data is the same as in the R notebook.</p>
 <p>The first exercise focuses on interpretation of the results from a
 model that is already estimated (<span class="citation">Ward and
 Ahlquist (2018)</span>, ch 3; <span class="citation">Hermansen
 (2023)</span>, ch 7 and 10).. The second exercise allows you to see how
 those estimates are calculated.</p>
-<p><em>Be prepared to share on padlet:</em> <a href="https://padlet.com/siljesynnove/blr" class="uri">https://padlet.com/siljesynnove/blr</a></p>
-<div id="exercise-1-interpretation-the-logistic-transformation" class="section level1">
-<h1>Exercise 1: Interpretation (the logistic transformation)</h1>
-<p>Fit a model with the following predictors.</p>
-<pre class="r"><code>mod &lt;- glm(PoolsLocal ~
-             #Candidate-centered system (x = 1) vs party-centered (x = 0)
-             OpenList 
-           #Party size: share of seats in national parliament
-           + SeatsNatPal.prop
-           #Cost of hiring an assistant in member state
-           + LaborCost,
+<!-- *Be prepared to share on padlet:* https://padlet.com/siljesynnove/blr -->
+<pre class="r"><code>mod &lt;- glm(exit ~
+             #Political difference between governments
+             free_economy_diff
+           #Performance of judge 
+           + performance
+           + age 
+           + tenure
+           + attendance
+           + court,
            #Recoding strategy (logit-transformation) and binomial probability distribution
            family = binomial(link = &quot;logit&quot;),
            #Data
            df)</code></pre>
-<ol style="list-style-type: lower-alpha">
-<li><p>What is the marginal effect of changing the electoral
-system?</p></li>
-<li><p>What is the predicted probability of sharing assistants when x is
-0 and 1, respectively (OpenList)?</p></li>
-</ol>
-<ul>
-<li>In Bulgaria (Labor cost == 4.4) when the party is small (Seat share
-== 0.1).</li>
-<li>In Denmark (Labor cost == 42) when the party is small (Seat share ==
-0.1).</li>
-</ul>
-<p>To do so, fill in the equation to get the logodds (z):</p>
-<p><span class="math display">\[z = -1.09 + -1.12x_1 + -1.93x_2 + 0.06
-x_3\]</span></p>
-<p>Then, use the logistic transformation to back-transform:</p>
-<p><span class="math display">\[\frac{e^z}{1+e^z} =
-\frac{exp(z)}{1+exp(z)}\]</span></p>
-<ol start="3" style="list-style-type: lower-alpha">
-<li>What is the first difference/absolute change in probabilities in the
-two countries?</li>
-</ol>
-<p>Compare the two predicted probabilities for each pairs of scenarios
-by calculating the first differences.</p>
-<ol start="4" style="list-style-type: lower-alpha">
-<li>What is the difference in absolute effect between the two countries
-(difference between the two first-differences)? Do you think this is a
-realistic estimate of the effect of changing electoral system in the two
-countries?</li>
-</ol>
+<p><code>free_economy_diff</code> captures the political distance
+between the government that appointed the judge at the beginning of the
+term and the government that might re-appoint the judge today.</p>
+<p><code>performance</code> captures the share of salient/high-impact
+assignment the judge received in the previous term compared to the share
+of high-impact assignments on the Court.</p>
 <table style="text-align:center">
 <caption>
-<strong>MEPs’ propensity to share local assistants (a binomial
+<strong>Exit decisions among judges at the CJEU (a binomial
 logit)</strong>
 </caption>
 <tr>
-<td colspan="2" style="border-bottom: 1px solid black">
+<td colspan="3" style="border-bottom: 1px solid black">
 </td>
 </tr>
 <tr>
 <td style="text-align:left">
 </td>
-<td>
+<td colspan="2">
 Dependent variable
 </td>
 </tr>
 <tr>
 <td>
 </td>
-<td colspan="1" style="border-bottom: 1px solid black">
-</td>
-</tr>
-<tr>
-<td style="text-align:left">
-</td>
-<td>
-PoolsLocal
-</td>
-</tr>
-<tr>
 <td colspan="2" style="border-bottom: 1px solid black">
 </td>
 </tr>
 <tr>
 <td style="text-align:left">
-OpenList
 </td>
-<td>
--1.124<sup>***</sup>
-</td>
-</tr>
-<tr>
-<td style="text-align:left">
-</td>
-<td>
-(0.181)
+<td colspan="2">
+exit
 </td>
 </tr>
 <tr>
 <td style="text-align:left">
 </td>
 <td>
-</td>
-</tr>
-<tr>
-<td style="text-align:left">
-SeatsNatPal.prop
+(1)
 </td>
 <td>
--1.930<sup>***</sup>
+(2)
+</td>
+</tr>
+<tr>
+<td colspan="3" style="border-bottom: 1px solid black">
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+free_economy_diff
+</td>
+<td>
+1.505<sup>***</sup>
+</td>
+<td>
+1.490<sup>***</sup>
 </td>
 </tr>
 <tr>
 <td style="text-align:left">
 </td>
 <td>
-(0.527)
+(0.386)
+</td>
+<td>
+(0.443)
 </td>
 </tr>
 <tr>
@@ -520,17 +489,106 @@ SeatsNatPal.prop
 </td>
 <td>
 </td>
+<td>
+</td>
 </tr>
 <tr>
 <td style="text-align:left">
-LaborCost
+performance
 </td>
 <td>
-0.056<sup>***</sup>
+-0.184
+</td>
+<td>
+-0.556<sup>*</sup>
 </td>
 </tr>
 <tr>
 <td style="text-align:left">
+</td>
+<td>
+(0.272)
+</td>
+<td>
+(0.307)
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+age
+</td>
+<td>
+</td>
+<td>
+0.132<sup>***</sup>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+<td>
+(0.027)
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+tenure
+</td>
+<td>
+</td>
+<td>
+0.045
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+<td>
+(0.036)
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+attendance
+</td>
+<td>
+</td>
+<td>
+-0.015<sup>*</sup>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
 </td>
 <td>
 (0.009)
@@ -541,20 +599,55 @@ LaborCost
 </td>
 <td>
 </td>
+<td>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+courtGC
+</td>
+<td>
+</td>
+<td>
+0.809<sup>**</sup>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+<td>
+(0.376)
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+<td>
+</td>
 </tr>
 <tr>
 <td style="text-align:left">
 Constant
 </td>
 <td>
--1.094<sup>***</sup>
+-1.383<sup>***</sup>
+</td>
+<td>
+-9.746<sup>***</sup>
 </td>
 </tr>
 <tr>
 <td style="text-align:left">
 </td>
 <td>
-(0.286)
+(0.308)
+</td>
+<td>
+(1.759)
 </td>
 </tr>
 <tr>
@@ -562,9 +655,11 @@ Constant
 </td>
 <td>
 </td>
+<td>
+</td>
 </tr>
 <tr>
-<td colspan="2" style="border-bottom: 1px solid black">
+<td colspan="3" style="border-bottom: 1px solid black">
 </td>
 </tr>
 <tr>
@@ -572,7 +667,10 @@ Constant
 Observations
 </td>
 <td>
-686
+250
+</td>
+<td>
+235
 </td>
 </tr>
 <tr>
@@ -580,7 +678,10 @@ Observations
 Log Likelihood
 </td>
 <td>
--392.832
+-137.610
+</td>
+<td>
+-110.922
 </td>
 </tr>
 <tr>
@@ -588,23 +689,108 @@ Log Likelihood
 Akaike Inf. Crit.
 </td>
 <td>
-793.665
+281.220
+</td>
+<td>
+235.844
 </td>
 </tr>
 <tr>
-<td colspan="2" style="border-bottom: 1px solid black">
+<td colspan="3" style="border-bottom: 1px solid black">
 </td>
 </tr>
 <tr>
 <td style="text-align:left">
 <em>Note:</em>
 </td>
-<td style="text-align:right">
+<td colspan="2" style="text-align:right">
 <sup><em></sup>p&lt;0.1; <sup><strong></sup>p&lt;0.05;
 <sup></strong></em></sup>p&lt;0.01
 </td>
 </tr>
 </table>
+<div id="exercise-1-interpretation-the-logistic-transformation" class="section level1">
+<h1>Exercise 1: Interpretation (the logistic transformation)</h1>
+<p>Replicate model 2.</p>
+<ol style="list-style-type: lower-alpha">
+<li><p><strong>What is the marginal effect</strong> of a one-unit
+increase in the following predictors on the probab the probability that
+a judge is replaced (<code>exit == 1</code>)?</p>
+<ul>
+<li>Ideology: <code>free_economy_diff</code></li>
+<li>Past performance/influence: <code>performance</code></li>
+</ul></li>
+<li><p><strong>What would you say is a good increment for a
+“high-performing” judge?</strong> Can you make a partial scenario and
+report the marginal effect of judges’ performance on governments’
+decision to replace a judge?</p></li>
+<li><p><strong>Can you illustrate the two effects
+graphically?</strong></p></li>
+<li><p><strong>What is the marginal effect of a left-right overturn in
+government</strong> during a judge’s mandate on their probability of
+being replaced? To find a good increment, draw on the descriptive
+statistics.</p>
+<ul>
+<li>use the <code>filter()</code> function to find the appointing and
+reappointing prime minister’s party family (you might want to eyeball
+the data using the <code>View()</code> function first)
+(<code>family_id</code>, <code>family_id_ren</code>).</li>
+<li>use the <code>group_by</code> and <code>reframe()</code> functions
+to calculate a measure for a “typical” left-right shift</li>
+<li>fill in the partial scenario and make a catchy sentence!</li>
+</ul></li>
+<li><p><strong>Explore the compensation threshold:</strong> How much
+better must a judge perform to compensate for a median political
+distance in government preferences (i.e. <code>free_economy_diff</code>
+== 0.24)? Given the distribution of performance, how realistic is it for
+judges to survive based on merit alone?</p></li>
+</ol>
+<hr />
+<p><em>You can follow the three steps:</em></p>
+<p><em>Step 1:</em> The logistic regression model</p>
+<p>The log-odds of exit are given by:</p>
+<p><span class="math display">\[
+\log\left(\frac{P(\text{exit} = 1)}{1 - P(\text{exit} = 1)}\right) =
+\beta_0 + \beta_1 \cdot \text{free_economy_diff} + \beta_2 \cdot
+\text{performance} + \dots
+\]</span></p>
+<p>We are interested in finding how much <code>performance</code> is
+needed to offset a given level of <code>free_economy_diff</code>.</p>
+<p><em>Step 2:</em> Neutralize the effect</p>
+<p>To “compensate,” we set the combined effect of
+<code>free_economy_diff</code> and <code>performance</code> to zero,
+meaning they cancel each other out:</p>
+<p><span class="math display">\[
+\beta_1 \cdot \text{free_economy_diff} + \beta_2 \cdot
+\text{performance} = 0
+\]</span></p>
+<p><em>Step 3</em>: Solve for performance Rearrange for performance:</p>
+<p><span class="math display">\[
+\text{performance} = -\frac{\beta_1}{\beta_2} \cdot
+\text{free_economy_diff}
+\]</span></p>
+<p>This is the <strong>compensation equation</strong>: for each unit
+increase in free_economy_diff, performance must increase by
+<strong><span class="math inline">\(-\beta_1 / \beta_2\)</span></strong>
+to keep the probability of exit unchanged.</p>
+<!-- ### **Hint for Students** -->
+<!-- You could include a **hint** like this in your problem set: -->
+<!-- > **Hint:** To find the compensation effect, set the combined effect of political distance (**free_economy_diff**) and performance to **zero** in the logit model. -->
+<!-- > -->
+<!-- > 1. Write out the equation for log-odds. -->
+<!-- > 2. Set the effect of **free_economy_diff** and **performance** to cancel out. -->
+<!-- > 3. Solve for **performance** in terms of **free_economy_diff**. -->
+<!-- > -->
+<!-- > Your final answer should have the form: -->
+<!-- > \[ -->
+<!-- > \text{performance} = -\frac{\beta_1}{\beta_2} \cdot \text{free\_economy\_diff} -->
+<!-- > \] -->
+<!-- > where \(\beta_1\) and \(\beta_2\) are the coefficients from the regression model. -->
+<!-- This keeps the math **manageable**, while still pushing them to think critically. If they get stuck, you can follow up by asking: -->
+<!-- - **What does a positive \(\beta_1\) mean for exit probability?** -->
+<!-- - **What does a negative \(\beta_2\) mean?** -->
+<!-- - **What happens when you divide one by the other?** -->
+<!-- Let me know if you want to fine-tune it further! -->
 </div>
 <div id="the-recoding-of-the-dependent-variable-logit-transformation" class="section level1">
 <h1>The recoding of the dependent variable (logit transformation)</h1>
@@ -617,13 +803,13 @@ regression coefficients are in fact the result of such comparisons.</p>
 <p>In this exercise, you will calculate the regression coefficients of
 two simple binomial logistic regressions. Remember that all coefficients
 are reported as logodds and change in logodds (oddsratio).</p>
-<p>Download the data from my website: <a href="https://siljehermansen.github.io/teaching/beyond-linear-models/MEP2016.rda" class="uri">https://siljehermansen.github.io/teaching/beyond-linear-models/MEP2016.rda</a></p>
+<p>Download the data from my website: <a href="https://siljehermansen.github.io/teaching/beyond-linear-models/Reappointments.rda" class="uri">https://siljehermansen.github.io/teaching/beyond-linear-models/Reappointments.rda</a></p>
 <div id="exercise-2-base-line-model-without-predictors." class="section level2">
 <h2>Exercise 2: Base-line model without predictors.</h2>
 <p>We’ll start out by calculating the intercept in an intercept-only
-model. <span class="math inline">\(y\)</span> reports whether each MEP
-shared an assistant or not, while <span class="math inline">\(z\)</span>
-reports the logodds that MEPs share resources.</p>
+model. <span class="math inline">\(y\)</span> reports whether each judge
+exited the Court or not, while <span class="math inline">\(z\)</span>
+reports the logodds that the judge exited.</p>
 <p><span class="math display">\[y = \alpha\]</span> <span class="math display">\[z = \alpha\]</span></p>
 <p><span class="math display">\[ z = logit(p) =
 \frac{p}{1-p}\]</span></p>
@@ -631,58 +817,69 @@ reports the logodds that MEPs share resources.</p>
 only comparison is between the number of successes and failures in the
 data.</p>
 <p><strong>a. Calculate the intercept</strong></p>
-<p>Calculate the probability, then the odds, then the logodds that an
-MEP will pool resources (<code>PoolsLocal</code>). To do so, you will
-have to calculate the number of MEPs that share resources (successes)
-and the number of MEPs that don’t share (failures).</p>
+<p>Calculate the probability, then the odds, then the logodds that a
+judge will exit (<code>exit</code>). To do so, you will have to
+calculate the number of judges that exited (successes) and the number of
+judges that remained on the Court (failures).</p>
+<ul>
+<li>sum over how many exited the court</li>
+<li>sum over how many did not exit the court</li>
+<li>divide one by the other</li>
+<li>logtransform</li>
+</ul>
+<p>You have your logodds!</p>
 <p><strong>b. Run a binomial regression with only an
 intercept.</strong></p>
 <p>How do your logodds compare with the regression coefficients?</p>
-<pre class="r"><code>mod0 &lt;- glm(PoolsLocal ~ 1,
+<pre class="r"><code>mod0 &lt;- glm(exit ~ 1,
             family = &quot;binomial&quot;,
             df)</code></pre>
 </div>
 <div id="exercise-3-model-with-one-predictor" class="section level2">
 <h2>Exercise 3: Model with one predictor</h2>
 <p>Now, let’s expand the analysis to a binary predictor. We want to
-describe the likelihood that an MEP will share at least one local
-assistant as a function of the electoral system.</p>
+describe the likelihood that a judge will exit the Court as a function
+of whether he is older than 65 years.</p>
 <blockquote>
 <p><span class="math inline">\(y = \alpha + \beta x\)</span></p>
 </blockquote>
 <p>In a model with predictors, we add a second comparison between the
 groups. In this example, we have a binary predictor
-(<code>OpenList</code>).</p>
-<p><strong>a. Calculate the odds of pooling resources in each electoral
-system</strong></p>
+(<code>age60</code>).</p>
+<p><strong>a. Calculate the odds of exiting the court among young and
+old judges</strong></p>
 <ul>
-<li>First, divide the data in two groups according to the values of the
-predictor (<code>OpenList</code>).</li>
-<li>Second, calculate the odds of sharing assistants in each group in
-the same way as you did in exercise 2.</li>
+<li>divide the data in two groups according to the values of the
+predictor (<code>age60</code>).</li>
+<li>calculate the odds of exiting the court in <em>each group
+separately</em> in the same way as you did in exercise 2.</li>
 </ul>
 <p><strong>b. Calculate the intercept.</strong></p>
 <p>The intercept (<span class="math inline">\(\alpha\)</span>) is
 defined as the value of <span class="math inline">\(y\)</span> when all
 the <span class="math inline">\(x\)</span>s are 0. In our model, it
-reports the logodds when <code>PoolsLocal == 0</code>.</p>
+reports the logodds when <code>age60 == 0</code>.</p>
+<ul>
+<li>logtransform the odds of exiting the court among the
+<code>age60 == 0</code> group</li>
+</ul>
 <p><strong>c. Calculate the slope parameter.</strong></p>
 <ul>
-<li>Calculate the ratio between the two odds (odds of x == 1 vs. odds of
-x == 1).</li>
-<li>Logtransform.</li>
+<li>calculate the ratio between the two odds (odds of
+<code>age60 == 1</code> vs. odds of <code>age60 == 1</code>).</li>
+<li>logtransform.</li>
 </ul>
 <p><strong>c. Run the model in R and compare.</strong></p>
 <p>Did you find the same thing?</p>
-<pre class="r"><code>mod1 &lt;- glm(PoolsLocal ~
-              OpenList,
+<pre class="r"><code>mod1 &lt;- glm(exit ~
+              age60,
             family = &quot;binomial&quot;,
             df)</code></pre>
 </div>
 </div>
 <div id="literature" class="section level1 unnumbered">
 <h1 class="unnumbered">Literature</h1>
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
 <div id="ref-Hermansen2023" class="csl-entry">
 Hermansen, Silje Synnøve Lyder. 2023. <em>R i praksis - en introduktion
 for samfundsvidenskaberne</em>. 1st ed. <span>Copenhagen</span>:
