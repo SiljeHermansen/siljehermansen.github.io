@@ -1,3 +1,0 @@
-\beamer@endinputifotherversion {3.26pt}
-\beamer@sectionintoc {1}{Hvordan samler vi inn informasjon?}{2}{0}{1}
-\beamer@sectionintoc {2}{Hvordan velger vi enheter?}{14}{0}{2}
