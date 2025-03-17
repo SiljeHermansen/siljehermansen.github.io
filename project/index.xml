@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Silje Synnøve Lyder Hermansen</title>
-    <link>https://siljehermansen.github.io/project/</link>
+    <link>/project/</link>
     <description>Recent content in Projects on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Dec 2024 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://siljehermansen.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Decision makers in the European Parliament (EP)</title>
-      <link>https://siljehermansen.github.io/project/european-parliament/</link>
+      <link>/project/european-parliament/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/project/european-parliament/</guid>
+      <guid>/project/european-parliament/</guid>
       <description>&lt;!---
 &lt;img src=&#34;EP.jpg&#34; align=&#34;centre&#34;, caption = &#34;The European Parliament in Strasbourg&#34;/&gt;
 ---&gt;
@@ -63,10 +63,10 @@ A popularized presentation (in Norwegian) can be found [here](https://www.sv.uio
     
     <item>
       <title>External strategic interactions - the CJEU in relation with other actors</title>
-      <link>https://siljehermansen.github.io/project/court-strategies/</link>
+      <link>/project/court-strategies/</link>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/project/court-strategies/</guid>
+      <guid>/project/court-strategies/</guid>
       <description>&lt;p&gt;How does the CJEU relate to its external interlocutors; litigants, the legal community and governments? These projects argue that the CJEU actively seeks alliance partners beyond governments. They also explore how the Court pursues its own interests without running against member states&amp;rsquo; wishes.&lt;/p&gt;
 &lt;h3 id=&#34;courting-litigants-relationship-with-civil-society&#34;&gt;Courting litigants: relationship with civil society&lt;/h3&gt;
 &lt;ul&gt;
@@ -132,10 +132,10 @@ A draft version can be found [here](WordEmbeddings_Hermansen.pdf).
     
     <item>
       <title>Judicial behavior: Decision makers in the CJEU</title>
-      <link>https://siljehermansen.github.io/project/judicial-behavior/</link>
+      <link>/project/judicial-behavior/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/project/judicial-behavior/</guid>
+      <guid>/project/judicial-behavior/</guid>
       <description>&lt;p&gt;Little research exists on how judges enter the Court and how its internal organization affects decision making.  This project opens the black box of these decision-making processes to consider governments’ and judges’ strategic behavior.&lt;/p&gt;
 &lt;p&gt;I show that judges&amp;rsquo; performance and governments&amp;rsquo; political preferences are intertwined both when judges are appointed and when influence is distributed within the Court.&lt;/p&gt;
 &lt;h2 id=&#34;judicial-appointments-to-the-cjeu&#34;&gt;Judicial appointments to the CJEU&lt;/h2&gt;

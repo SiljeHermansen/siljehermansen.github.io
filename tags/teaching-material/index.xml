@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching material on Silje Synnøve Lyder Hermansen</title>
-    <link>https://siljehermansen.github.io/tags/teaching-material/</link>
+    <link>/tags/teaching-material/</link>
     <description>Recent content in Teaching material on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://siljehermansen.github.io/tags/teaching-material/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/tags/teaching-material/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Statistical models beyond linear regression (2025)</title>
-      <link>https://siljehermansen.github.io/teaching/beyond-linear-models/</link>
+      <link>/teaching/beyond-linear-models/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/beyond-linear-models/</guid>
+      <guid>/teaching/beyond-linear-models/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s level. &lt;em&gt;University of Copenhagen. Department of Political Science.&lt;/em&gt; 2025&lt;/p&gt;
 &lt;p&gt;Here you can find the slides and other material used for the different lectures.&lt;/p&gt;
 &lt;h2 id=&#34;learning-the-basics&#34;&gt;Learning the basics&lt;/h2&gt;
@@ -99,26 +99,23 @@ Problem sets:
 &lt;ul&gt;
 &lt;li&gt;Day 2: &lt;a href=&#34;week6_notebook_logit_workflow.html&#34;&gt;R workflow for binomial logistic models&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h4 id=&#34;week-7-8-categorical-outcomes&#34;&gt;Week 7-8: Categorical outcomes&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Ward 2018, ch. 8-9, p. 141-189&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The data I will be exemplifying with is drawn from the European Social Survey.&lt;/p&gt;
+&lt;p&gt;You can download the data here: &lt;a href=&#34;kap6.rda&#34;&gt;kap6.rda&lt;/a&gt; and &lt;a href=&#34;kap10.rda&#34;&gt;kap10.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Slides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Day 1-2: &lt;a href=&#34;week6_ordered_categorical.pdf&#34;&gt;Multinomial and ordered logit regression&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Problem set:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Problem set 4: &lt;a href=&#34;week7_problem_set_categorical.html&#34;&gt;Interpretation and estimation of multinomial and ordered logit  regression&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;R-notebook:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Day 2: &lt;a href=&#34;week7_notebook_categorical_workflow.html&#34;&gt;Workflow for multinomial and ordered logit  regression&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;!--
-
-#### Week 7-8: Categorical outcomes
-
-*Ward 2018, ch. 8-9, p. 141-189*
-
-The data I will be exemplifying with is drawn from the European Social Survey.
-
-You can download the data here: [kap6.rda](kap6.rda) and [kap10.rda](kap10.rda)
-
-Slides:
- - Day 1-2: [Multinomial and ordered logit regression](week7_ordered_categorical.pdf)
-
-Problem set:
- - Problem set 4: [Interpretation and estimation of multinomial and ordered logit  regression](week7_problem_set_categorical.html)
- 
-R-notebook:
- - Day 2: [Workflow for multinomial and ordered logit  regression](week7_notebook_categorical_workflow.html)
-
-
 
 #### Week 10: Count outcomes
 
@@ -625,10 +622,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Important challenges in European governance. Judicialization of Europe</title>
-      <link>https://siljehermansen.github.io/teaching/important-challenges/</link>
+      <link>/teaching/important-challenges/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/important-challenges/</guid>
+      <guid>/teaching/important-challenges/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s level. &lt;em&gt;University of Copenhagen. Department of Political Science.&lt;/em&gt; 2024&lt;/p&gt;
 &lt;p&gt;Time and place: CSS 2-0-30; 15:00-17:00&lt;/p&gt;
 &lt;p&gt;Here you can find the material that I use for the lectures.&lt;/p&gt;
@@ -914,10 +911,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Statistical models beyond linear regression (2024)</title>
-      <link>https://siljehermansen.github.io/teaching/beyond-linear-models-2024/</link>
+      <link>/teaching/beyond-linear-models-2024/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/beyond-linear-models-2024/</guid>
+      <guid>/teaching/beyond-linear-models-2024/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s level. &lt;em&gt;University of Copenhagen. Department of Political Science.&lt;/em&gt; 2024&lt;/p&gt;
 &lt;p&gt;Here you can find the slides and other material used for the different lectures.&lt;/p&gt;
 &lt;h2 id=&#34;learning-the-basics&#34;&gt;Learning the basics&lt;/h2&gt;
@@ -1508,10 +1505,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Introduction to R</title>
-      <link>https://siljehermansen.github.io/teaching/social-science-methods-for-interdisciplinary-legal-studies/</link>
+      <link>/teaching/social-science-methods-for-interdisciplinary-legal-studies/</link>
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/social-science-methods-for-interdisciplinary-legal-studies/</guid>
+      <guid>/teaching/social-science-methods-for-interdisciplinary-legal-studies/</guid>
       <description>&lt;p&gt;PhD level. &lt;em&gt;University of Copenhagen. Faculty of Law.&lt;/em&gt; 2023&lt;/p&gt;
 &lt;p&gt;Welcome to our R workshop! The purpose of this workshop is to provide you with the basic knowledge you need to navigate R independently. You won’t become an expert, but you will have an insight into - and firsthand experience with - how R operates.&lt;/p&gt;
 &lt;p&gt;This is a workshop. It means that we will be actively working in R together throughout the course. Bring your laptop and get ready to write! &lt;em&gt;Please install R&lt;/em&gt; (&lt;a href=&#34;https://www.r-project.org/;&#34;&gt;https://www.r-project.org/;&lt;/a&gt; the statistical program) &lt;em&gt;and RStudio&lt;/em&gt; (&lt;a href=&#34;https://www.rstudio.com/products/rstudio/;&#34;&gt;https://www.rstudio.com/products/rstudio/;&lt;/a&gt; the user interface) before the workshop begins.&lt;/p&gt;
@@ -1572,10 +1569,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Installere R-pakken</title>
-      <link>https://siljehermansen.github.io/data/ripraksis/</link>
+      <link>/data/ripraksis/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/data/ripraksis/</guid>
+      <guid>/data/ripraksis/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;&amp;ldquo;R i praksis&amp;rdquo;&lt;/a&gt; er en introduktionsbog til statistikprogrammet R udgivet af DJØF (2023). Bogen leveres med datasæt, øvelsesopgaver og løsningsforslag, så du kan prøve dig selv. Her kan du downloade denne online ressource. Det kommer som en separat R-pakke.&lt;/p&gt;
 &lt;p&gt;Pakken kan installeres fra en lokal fil eller direkte fra GitHub.&lt;/p&gt;
 &lt;figure&gt;
@@ -1628,10 +1625,10 @@ library(devtools)
     
     <item>
       <title>Statistical models beyond linear regression (2023)</title>
-      <link>https://siljehermansen.github.io/teaching/beyond-linear-models-2023/</link>
+      <link>/teaching/beyond-linear-models-2023/</link>
       <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/beyond-linear-models-2023/</guid>
+      <guid>/teaching/beyond-linear-models-2023/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s level. &lt;em&gt;University of Copenhagen. Department of Political Science.&lt;/em&gt; 2023&lt;/p&gt;
 &lt;p&gt;Here you can find the slides and other material used for the different lectures.&lt;/p&gt;
 &lt;h2 id=&#34;learning-r&#34;&gt;Learning R&lt;/h2&gt;
@@ -2022,10 +2019,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>R i praksis</title>
-      <link>https://siljehermansen.github.io/publication/r-i-praksis/</link>
+      <link>/publication/r-i-praksis/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/publication/r-i-praksis/</guid>
+      <guid>/publication/r-i-praksis/</guid>
       <description>&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;
 &lt;img src=&#34;r-i-praksis.png&#34; alt=&#34;R i praksis: En introduktion for samfundsvidenskaberne. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
 &lt;/a&gt;
@@ -2075,10 +2072,10 @@ Vi begynner med å laste inn og tilrettelegge data, før vi går videre med besk
     
     <item>
       <title>Introduksjon til R</title>
-      <link>https://siljehermansen.github.io/teaching/oslomet/</link>
+      <link>/teaching/oslomet/</link>
       <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/oslomet/</guid>
+      <guid>/teaching/oslomet/</guid>
       <description>&lt;a&gt;
 &lt;img src=&#34;RStudio-Logo.png&#34; width=&#34;45%&#34; align=&#34;right&#34; caption = &#34;RStudio&#34;  alt = &#34;RStudio&#34;/&gt;
 &lt;/a&gt;
@@ -2160,10 +2157,10 @@ Data for sesjonen: [df_all](df_all.rda)--&gt;
     
     <item>
       <title>Hvordan &#34;skrape&#34; data i R?</title>
-      <link>https://siljehermansen.github.io/teaching/skrape-data/</link>
+      <link>/teaching/skrape-data/</link>
       <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/skrape-data/</guid>
+      <guid>/teaching/skrape-data/</guid>
       <description>&lt;html&gt;
 &lt;body&gt;
 &lt;em&gt;
@@ -2642,10 +2639,10 @@ $(document).ready(function () {
     
     <item>
       <title>What GLM should I choose?</title>
-      <link>https://siljehermansen.github.io/teaching/choose_glm/</link>
+      <link>/teaching/choose_glm/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/choose_glm/</guid>
+      <guid>/teaching/choose_glm/</guid>
       <description>&lt;p&gt;&lt;em&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of choice criteria when I consider what Generalized Linear Model (GLM) to rely on.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Let&#39;s assume I want to describe the relationship (&amp;beta;) between an independent variable (&lt;em&gt;x&lt;/em&gt;) and a dependent variable (&lt;em&gt;y&lt;/em&gt;) in the form of:
 &lt;/p&gt;
@@ -2666,10 +2663,10 @@ $(document).ready(function () {
     
     <item>
       <title>Statistical analysis (STV4020B)</title>
-      <link>https://siljehermansen.github.io/teaching/stv4020b/</link>
+      <link>/teaching/stv4020b/</link>
       <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/stv4020b/</guid>
+      <guid>/teaching/stv4020b/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s/PhD level. &lt;em&gt;University of Oslo. Department of Political Science.&lt;/em&gt; 2020&lt;/p&gt;
 &lt;!---Here you can find the slides and other material used for the different lectures.---&gt;
 &lt;p&gt;This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them.&lt;/p&gt;
@@ -2796,10 +2793,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Installere R-pakken</title>
-      <link>https://siljehermansen.github.io/data/laerdegr/</link>
+      <link>/data/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/data/laerdegr/</guid>
+      <guid>/data/laerdegr/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;&amp;ldquo;Lær deg R&amp;rdquo;&lt;/a&gt; er en innføringsbok i statistikkprogrammet R utgitt av Fagbokforlaget (2019). Boka er levert med datasett, øvelsesoppgaver og løsningsforslag, slik at du kan prøve deg på egen hånd. Her kan du laste ned denne nettressursen. Den kommer som en egen R-pakke.&lt;/p&gt;
 &lt;p&gt;Pakken kan installeres fra lokal fil eller rett fra GitHub.&lt;/p&gt;
 &lt;figure&gt;
@@ -2847,10 +2844,10 @@ library(devtools)
     
     <item>
       <title>Lær deg R</title>
-      <link>https://siljehermansen.github.io/publication/laerdegr/</link>
+      <link>/publication/laerdegr/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/publication/laerdegr/</guid>
+      <guid>/publication/laerdegr/</guid>
       <description>&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
 &lt;img src=&#34;laerdegr.jpg&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
 &lt;/a&gt;
@@ -2890,10 +2887,10 @@ library(devtools)
     
     <item>
       <title>Samfunnsvitenskapelig forskningsmetode (SFS10207)</title>
-      <link>https://siljehermansen.github.io/teaching/sfs10207/</link>
+      <link>/teaching/sfs10207/</link>
       <pubDate>Thu, 01 Aug 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://siljehermansen.github.io/teaching/sfs10207/</guid>
+      <guid>/teaching/sfs10207/</guid>
       <description>&lt;p&gt;Bachelornivå. &lt;em&gt;Høgskolen i Østfold. Avdeling for økonomi, språk og samfunnsfag.&lt;/em&gt; 2013&lt;/p&gt;
 &lt;p&gt;Formålet med dette faget er å gi deg en introduksjon til hvordan vi oppnår kunnskap om samfunnet vi lever i. Samfunnsvitenskapelig forskningsmetode er et obligatorisk emne for studenter som ønsker en bachelor i statsvitenskap ved Høgskolen i Østfold.&lt;/p&gt;
 &lt;p&gt;Lysark fra forelseningene finnes her:&lt;/p&gt;
