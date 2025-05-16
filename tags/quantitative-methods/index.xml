@@ -160,18 +160,17 @@ Event history models (Fortna, 2015):
   - Article: [Fortna, 2015](https://www.cambridge.org/core/journals/international-organization/article/abs/do-terrorists-win-rebels-use-of-terrorism-and-civil-war-outcomes/4729B2B926904616190DC38DB3240C8F)
 
 
-#### Week 14: Missing data
-
-Our data frequently contains missing observations. This week, we take the time to reflect and explore what kind of missing observations we have and whether it may bias our results. It can be useful to have an active approach to how to address missing information. We will be using the [MEP.rda](MEP.rda) data on the European Parliament.
-
-Slides:
-  - [Missing data and imputations](week14_missing_slides.pdf)
-
-Notebook:
-  - [Missing data and imputations](week14_missing_notebook.html)
-
-
 --&gt;
+&lt;h4 id=&#34;week-14-missing-data&#34;&gt;Week 14: Missing data&lt;/h4&gt;
+&lt;p&gt;Our data frequently contains missing observations. This week, we take the time to reflect and explore what kind of missing observations we have and whether it may bias our results. It can be useful to have an active approach to how to address missing information. We will be using the &lt;a href=&#34;MEP.rda&#34;&gt;MEP.rda&lt;/a&gt; data on the European Parliament.&lt;/p&gt;
+&lt;p&gt;Slides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;week14_missing_slides.pdf&#34;&gt;Missing data and imputations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notebook:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;week14_missing_notebook.html&#34;&gt;Missing data and imputations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;complete-syllabus&#34;&gt;Complete syllabus&lt;/h1&gt;
 &lt;p&gt;Please familiarize with the &lt;a href=&#34;blm_syllabus_2025.pdf&#34;&gt;syllabus&lt;/a&gt;.&lt;/p&gt;
 &lt;div&gt;
@@ -421,7 +420,7 @@ Notebook:
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;em&gt;Assignment 2 is due&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;16.05&lt;/td&gt;
+&lt;td&gt;11.05&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
