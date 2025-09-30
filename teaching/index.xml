@@ -12,6 +12,74 @@
     
     
     <item>
+      <title>Courts, power and politics: Europe in context (2025)</title>
+      <link>/teaching/courts-power-politics/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/courts-power-politics/</guid>
+      <description>&lt;p&gt;Master&amp;rsquo;s level. &lt;em&gt;University of Copenhagen. Department of Political Science.&lt;/em&gt; 2025&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Far from impartial interpreters of the law, courts often shape and are shaped by politics. The judicialization of politics—the phenomenon by which an increasing number of political and societal values are allocated by courts rather than elected politicians—has become a defining feature of governance in Europe. At its helm is the Court of Justice of the European Union (CJEU). Courts would have no political role if judges simply applied the law and politicians readily complied with their rulings. Instead, legislators often leave high courts with extensive interpretative discretion, while judges lack the power to enforce their decisions. The result is a strategic interplay where courts navigate their independence within political constraints.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We will ask questions like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Are judges’ political preferences reflected in their decisions?&lt;/li&gt;
+&lt;li&gt;Is there a tradeoff between competence and ideology?&lt;/li&gt;
+&lt;li&gt;How do we balance judicial independence with accountability?&lt;/li&gt;
+&lt;li&gt;What is the influence of public opinion on courts’ willingness to challenge governments?&lt;/li&gt;
+&lt;li&gt;How do governments shape high court decisions?&lt;/li&gt;
+&lt;li&gt;What mechanisms shape judicial legitimacy?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The course draws on a variety of political science research methods, including quantitative, qualitative, and formal approaches. Students will engage with a mix of classics in the field and cutting-edge research to evaluate judicial behavior, institutional design, and the broader implications of courts in democratic governance. This course is relevant for students looking to study EU decision making from a different angle and those interested in the strategic dynamics of political institutions in established democracies.&lt;/p&gt;
+&lt;!--Here you can find the slides and other material used for the different lectures.--&gt;
+&lt;p&gt;Please familiarize with the &lt;a href=&#34;courts_power_politics_weekly_overview_2025.pdf&#34;&gt;reading list&lt;/a&gt;. The full syllabus and weekly material is available on our online classroom, Absalon.&lt;/p&gt;
+&lt;div&gt;
+&lt;object data=&#34;courts_power_politics_weekly_overview_2025.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
+&lt;a href=&#34;courts_power_politics_weekly_overview_2025.pdf&#34;&gt;Download the reading list&lt;/a&gt;
+&lt;/object&gt;
+&lt;/div&gt;
+&lt;!---## Flexibility
+This feature can be used for publishing content such as:
+
+* **Online courses**
+* **Project or software documentation**
+* **Tutorials**
+
+The `courses` folder may be renamed. For example, we can rename it to `docs` for software/project documentation or `tutorials` for creating an online course.
+
+## Delete tutorials
+
+**To remove these pages, delete the `courses` folder and see below to delete the associated menu link.**
+
+## Update site menu
+
+After renaming or deleting the `courses` folder, you may wish to update any `[[main]]` menu links to it by editing your menu configuration at `config/_default/menus.toml`.
+
+For example, if you delete this folder, you can remove the following from your menu configuration:
+
+```toml
+[[main]]
+  name = &#34;Courses&#34;
+  url = &#34;courses/&#34;
+  weight = 50
+```
+
+Or, if you are creating a software documentation site, you can rename the `courses` folder to `docs` and update the associated *Courses* menu configuration to:
+
+```toml
+[[main]]
+  name = &#34;Docs&#34;
+  url = &#34;docs/&#34;
+  weight = 50
+```
+
+## Update the docs menu
+
+If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.&lt;NewFolderName&gt;]`.
+---&gt;</description>
+    </item>
+    
+    <item>
       <title>Statistical models beyond linear regression (2025)</title>
       <link>/teaching/beyond-linear-models/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
