@@ -38,6 +38,27 @@
     <loc>/tags/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/authors/naurin/</loc>
+    <lastmod>2025-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2025-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/judicial-appointments/</loc>
+    <lastmod>2025-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/judicial-behavior/</loc>
+    <lastmod>2025-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/performance/</loc>
+    <lastmod>2025-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/rapporteurs/</loc>
+    <lastmod>2025-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/jop2025/</loc>
+    <lastmod>2025-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/teaching/courts-power-politics/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -61,9 +82,6 @@
   </url><url>
     <loc>/tags/teaching-material/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/candidate-selection/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
@@ -101,9 +119,6 @@
     <loc>/teaching/important-challenges/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/judicial-behavior/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/authors/sadl/</loc>
     <lastmod>2024-03-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -134,9 +149,6 @@
     <loc>/authors/fjelstul/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/naurin/</loc>
-    <lastmod>2023-01-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/publication/jlc2023/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -146,16 +158,10 @@
     <loc>/publication_types/5/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/judicial-appointments/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/project/judicial-behavior/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication/r-i-praksis/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/rapporteurs/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/teaching/oslomet/</loc>
@@ -212,9 +218,6 @@
     <loc>/publication/laerdegr/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/performance/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/publication/pp2018/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -237,6 +240,8 @@
     <loc>/authors/gabel/</loc>
   </url><url>
     <loc>/authors/krehbiel/</loc>
+  </url><url>
+    <loc>/authors/voeten/</loc>
   </url><url>
     <loc>/categories/</loc>
   </url>
