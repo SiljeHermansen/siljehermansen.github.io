@@ -6,7 +6,7 @@
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Publications</title>
       <link>/publication/</link>
-      <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
       
       <guid>/publication/</guid>
       <description></description>
@@ -28,21 +28,22 @@
       <guid>/teaching/</guid>
       <description>&lt;p&gt;These pages provide supplementary information to students. For a comprehensive overview of my teaching activities, please refer to my CV.&lt;/p&gt;
 &lt;h2 id=&#34;courses&#34;&gt;Courses&lt;/h2&gt;
+&lt;h3 id=&#34;a-hrefbeyond-linear-modelsstatistical-models-beyond-linear-regression-astk18414ua&#34;&gt;&lt;a href=&#34;beyond-linear-models&#34;&gt;Statistical models beyond linear regression (ASTK18414U)&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Master&#39;s level. &lt;i&gt;University of Copenhagen. Department of Political Science.&lt;/i&gt; 
+&lt;!--&lt;a href = &#34;https://siljehermansen.github.io/teaching/beyond-linear-models-2023/&#34;&gt;2023&lt;/a&gt;,--&gt;
+&lt;a&gt;2023, 2024&lt;/a&gt;, 
+&lt;!--&lt;a href = &#34;https://siljehermansen.github.io/teaching/beyond-linear-models-2024/&#34;&gt;2024&lt;/a&gt;, --&gt;
+&lt;a href = &#34;https://siljehermansen.github.io/teaching/beyond-linear-models/&#34;&gt;2025&lt;/a&gt;
+&lt;/p&gt; 
+&lt;p&gt;
+Applied statistics class for political scientists.
+&lt;/p&gt;
 &lt;h3 id=&#34;a-hrefcourts-power-politicscourts-power-and-politics-europe-in-context-astk18414ua&#34;&gt;&lt;a href=&#34;courts-power-politics&#34;&gt;Courts, power and politics: Europe in context (ASTK18414U)&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Master&#39;s level. &lt;i&gt;University of Copenhagen. Department of Political Science.&lt;/i&gt; 
 &lt;a href = &#34;https://siljehermansen.github.io/teaching/politics-power-courts/&#34;&gt;2025&lt;/a&gt;
 &lt;/p&gt; 
 &lt;p&gt;
-Judicial politics in a European perspective.
-&lt;/p&gt;
-&lt;h3 id=&#34;a-hrefbeyond-linear-modelsstatistical-models-beyond-linear-regression-astk18414ua&#34;&gt;&lt;a href=&#34;beyond-linear-models&#34;&gt;Statistical models beyond linear regression (ASTK18414U)&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Master&#39;s level. &lt;i&gt;University of Copenhagen. Department of Political Science.&lt;/i&gt; 
-&lt;a href = &#34;https://siljehermansen.github.io/teaching/beyond-linear-models-2023/&#34;&gt;2023&lt;/a&gt;, 
-&lt;a href = &#34;https://siljehermansen.github.io/teaching/beyond-linear-models-2024/&#34;&gt;2024&lt;/a&gt;, 
-&lt;a href = &#34;https://siljehermansen.github.io/teaching/beyond-linear-models/&#34;&gt;2025&lt;/a&gt;
-&lt;/p&gt; 
-&lt;p&gt;
-Applied statistics class for political scientists.
+Judicial politics in a European perspective. 
 &lt;/p&gt;
 &lt;h3 id=&#34;a-hrefimportant-challengesimportant-challenges-in-european-governance-judicialization-of-europe-astk18025ua&#34;&gt;&lt;a href=&#34;important-challenges&#34;&gt;Important challenges in European governance: Judicialization of Europe (ASTK18025U)&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Master&#39;s level. &lt;i&gt;University of Copenhagen. Department of Political Science.&lt;/i&gt; 2024.
@@ -63,8 +64,10 @@ Core subject in our EU specialization track. Course given together with Stein Ar
 &lt;h2 id=&#34;tutorials-and-resources&#34;&gt;Tutorials and resources&lt;/h2&gt;
 &lt;h3 id=&#34;a-hrefchoose_glmwhat-glm-model-should-i-choosea&#34;&gt;&lt;a href=&#34;choose_glm&#34;&gt;What GLM model should I choose?&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;How can I choose the best (parsimonious) description of my data? Here is my mental map of model choice criteria, given the data generating process that produced my dependent variable. Play around with my decision tree for Generalized Linear Models (GLMs).&lt;/p&gt;
-&lt;h3 id=&#34;a-hrefdata_sourcespdfwhere-do-i-find-my-comparative-politics-dataa&#34;&gt;&lt;a href=&#34;data_sources.pdf&#34;&gt;Where do I find my comparative politics data?&lt;/a&gt;&lt;/h3&gt;
+&lt;!--
+### &lt;a href=&#34;data_sources.pdf&#34;&gt;Where do I find my comparative politics data?&lt;/a&gt;
 &lt;p&gt;Embarking on your own research project can be daunting. What data already exists? And what data do I have to collect? Here, you can find my informal list of data resources relevant for my areas of resesarch in comparative politics.&lt;/p&gt;
+--&gt;
 &lt;h3 id=&#34;a-hrefskrape-datahvordan-skrape-data-i-ra&#34;&gt;&lt;a href=&#34;skrape-data&#34;&gt;Hvordan &amp;ldquo;skrape&amp;rdquo; data i R?&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Det finnes et hav av digital informasjon der ute som vi kan bruke som data. Da er &#34;skraping&#34; (automatisert datainnsamling) gull verdt. Her finner du en gjennomgang av hvordan vi bruker R for å samle inn data fra nettet.&lt;/p&gt;
 &lt;h3 id=&#34;a-hreflatexpdfr--latex--santa&#34;&gt;&lt;a href=&#34;LaTeX.pdf&#34;&gt;R + LaTeX = Sant&lt;/a&gt;&lt;/h3&gt;
