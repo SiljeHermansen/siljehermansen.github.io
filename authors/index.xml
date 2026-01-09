@@ -6,7 +6,7 @@
     <description>Recent content in Authors on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,13 +14,22 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
       
       <guid>/authors/admin/</guid>
       <description>&lt;p&gt;Welcome to my website! I am an assistant professor at the &lt;a href=&#34;https://politicalscience.ku.dk/&#34;&gt;&lt;em&gt;University of Copenhagen&lt;/em&gt;&lt;/a&gt;. I hold my PhD in political science from the University of Oslo. Previously, I have worked at &lt;a href=&#34;https://www.jus.uio.no/pluricourts/english/&#34;&gt;&lt;em&gt;PluriCourts&lt;/em&gt;&lt;/a&gt; (University of Oslo) and &lt;a href=&#34;https://jura.ku.dk/icourts/&#34;&gt;&lt;em&gt;iCourts&lt;/em&gt;&lt;/a&gt; (University of Copenhagen), both centers of excellence dedicated to the study of international courts.&lt;/p&gt;
-&lt;p&gt;My research focuses on the selection and behavior of our representatives; be they legislators or judges. I am particularly interested in the &lt;a href=&#34;/project/court-of-justice-of-the-european-union&#34;&gt;Court of Justice of the European Union&lt;/a&gt; and the &lt;a href=&#34;/project/european-parliament&#34;&gt;European Parliament&lt;/a&gt;. I rely mostly on quantitative methods, and have extensive experience in both automated data collection and Bayesian estimation strategies. My research is featured in places like &lt;em&gt;British Journal of Political Science&lt;/em&gt;, &lt;em&gt;European Union Politics&lt;/em&gt;, &lt;em&gt;Journal of Politics&lt;/em&gt;, &lt;em&gt;Journal of European Public Policy&lt;/em&gt; and &lt;em&gt;Party Politics&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;My research focuses on the selection and behavior of our representatives; be they legislators or judges. I am particularly interested in the &lt;a href=&#34;/project/court-of-justice-of-the-european-union&#34;&gt;Court of Justice of the European Union&lt;/a&gt; and the &lt;a href=&#34;/project/european-parliament&#34;&gt;European Parliament&lt;/a&gt;. I rely mostly on quantitative methods, and have extensive experience in both automated data collection and Bayesian estimation strategies. My research is featured in places like &lt;em&gt;British Journal of Political Science&lt;/em&gt;, &lt;em&gt;European Union Politics&lt;/em&gt;, &lt;em&gt;Journal of Politics&lt;/em&gt; and &lt;em&gt;Journal of European Public Policy&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;I teach topics on comparative politics, the European Union and research methods. This includes courses both at bachelor&amp;rsquo;s and master&amp;rsquo;s/PhD level, for students as well as professionals. My book, &lt;a href=&#34;/publication/laerdegr&#34;&gt;&lt;em&gt;Lær deg R&lt;/em&gt;&lt;/a&gt; (2019) is the first introduction to R in Norwegian. You can also find it in Danish (&lt;a href=&#34;/publication/r-i-praksis&#34;&gt;&lt;em&gt;R i praksis&lt;/em&gt;&lt;/a&gt;, 2023)&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/naurin/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/naurin/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -74,15 +83,6 @@
       <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>/authors/fjelstul/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/naurin/</link>
-      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/naurin/</guid>
       <description></description>
     </item>
     
