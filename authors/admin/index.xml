@@ -36,6 +36,59 @@
     </item>
     
     <item>
+      <title></title>
+      <link>/data/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>/data/</guid>
+      <description>&lt;h1 id=&#34;data&#34;&gt;Data&lt;/h1&gt;
+&lt;h4 id=&#34;a-hrefideology-on-both-sidesideology-on-both-sides-j-prefa&#34;&gt;&lt;a href=&#34;ideology-on-both-sides&#34;&gt;Ideology on both sides (J-Pref)&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;The data places judges of the Court of Justice of the European Union and member state governments in the same two-dimensional ideological space, enabling direct comparison across time and institutions. The dataset allows researchers to trace long-term trends in economic left–right ideology and integration preferences, and to link judicial appointments to broader political developments in the Union.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&#34;https://doi.org/10.7910/DVN/WRE0OT&#34;&gt;
+&lt;img src=&#34;ideology-over-time.png&#34; width=&#34;100%&#34; align=&#34;right&#34; alt=&#34;Median government and court ideology over time&#34;&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+&lt;h1 id=&#34;lær-deg-r--r-i-praksis&#34;&gt;Lær deg R / R i praksis&lt;/h1&gt;
+&lt;p&gt;Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som lærer statistisk analyse.&lt;/p&gt;
+&lt;figure&gt;
+&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
+&lt;img src=&#34;laerdegr.jpg&#34; width=&#34;35%&#34; align=&#34;right&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+&lt;h3 id=&#34;lær-deg-r&#34;&gt;Lær deg R&lt;/h3&gt;
+&lt;h4 id=&#34;a-hrefhttpssiljehermansengithubiopublicationlaerdegrlær-deg-r-bokaa&#34;&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/laerdegr&#34;&gt;Lær deg R-boka&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;(2019) &lt;em&gt;Fagbokforlaget&lt;/em&gt;, Oslo, 224 p.&lt;/p&gt;
+&lt;p&gt;Her finner du mer informasjon om innholdet i boka.&lt;/p&gt;
+&lt;h4 id=&#34;a-hreflaerdegrinstallere-r-pakkena&#34;&gt;&lt;a href=&#34;laerdegr&#34;&gt;Installere R-pakken&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Her finner du instrukser til hvordan laste ned nettressursen som hører med boka. Den gir deg tilgang på datasett og oppgaveløsninger.&lt;/p&gt;
+&lt;!---&#34;laerdegR&#34;-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Her finner du instrukser til hvordan laste denne ned.---&gt;
+&lt;!---
+## [Lær deg R-boka](laerdegr_bok)
+(2019) &lt;em&gt;Fagbokforlaget&lt;/em&gt;, Oslo, 224 p. 
+
+&lt;p&gt;Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som lærer statistisk analyse.&lt;/p&gt;
+
+## [Installere R-pakken](laerdegr)
+
+&#34;laerdegR&#34;-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Her finner du instrukser til hvordan laste denne ned.
+---&gt;
+&lt;figure&gt;
+&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;
+&lt;img src=&#34;r-i-praksis.png&#34; width=&#34;35%&#34; align=&#34;right&#34; alt=&#34;R i praksis: en introduktion for samfundsvidenskaberne, Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
+&lt;/a&gt;
+&lt;/figure&gt;
+&lt;h3 id=&#34;r-i-praksis&#34;&gt;R i praksis&lt;/h3&gt;
+&lt;h4 id=&#34;a-hrefhttpssiljehermansengithubiopublicationr-i-praksisr-i-praksis-bogena&#34;&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/r-i-praksis&#34;&gt;R i praksis-bogen&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;(2023) &lt;em&gt;DJØF&lt;/em&gt;, København, 224 p.&lt;/p&gt;
+&lt;p&gt;Her kan du finde yderligere information om indholdet i bogen.&lt;/p&gt;
+&lt;h4 id=&#34;a-hrefripraksisinstallere-r-pakkena&#34;&gt;&lt;a href=&#34;ripraksis&#34;&gt;Installere R-pakken&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;
+Her kan du finde instruktioner om, hvordan du downloader den online ressource, der er en del af &#34;R i praksis&#34;. Det giver dig adgang til datasæt og opgaveløsninger.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Leveling and Spotlighting: How the European Court of Justice Favors the Weak to Promote Its Legitimacy</title>
       <link>/publication/bjps2025/</link>
       <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
@@ -1900,50 +1953,6 @@ library(devtools)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Nu kan du downloade og installere nettressourcen direkte fra GitHubs sider.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;install_github(&amp;#34;SiljeHermansen/RiPraksis&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    <item>
-      <title>Lær deg R/R i praksis</title>
-      <link>/data/</link>
-      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/data/</guid>
-      <description>&lt;p&gt;Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som lærer statistisk analyse.&lt;/p&gt;
-&lt;figure&gt;
-&lt;a href=&#34;https://www.fagbokforlaget.no/L%C3%A6r-deg-R/I9788245022131&#34;&gt;
-&lt;img src=&#34;laerdegr.jpg&#34; width=&#34;35%&#34; align=&#34;right&#34; alt=&#34;Lær deg R: En innføring i statistikkprogrammets muligheter. Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-&lt;h2 id=&#34;lær-deg-r&#34;&gt;Lær deg R&lt;/h2&gt;
-&lt;h4 id=&#34;a-hrefhttpssiljehermansengithubiopublicationlaerdegrlær-deg-r-bokaa&#34;&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/laerdegr&#34;&gt;Lær deg R-boka&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;(2019) &lt;em&gt;Fagbokforlaget&lt;/em&gt;, Oslo, 224 p.&lt;/p&gt;
-&lt;p&gt;Her finner du mer informasjon om innholdet i boka.&lt;/p&gt;
-&lt;h4 id=&#34;a-hreflaerdegrinstallere-r-pakkena&#34;&gt;&lt;a href=&#34;laerdegr&#34;&gt;Installere R-pakken&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;Her finner du instrukser til hvordan laste ned nettressursen som hører med boka. Den gir deg tilgang på datasett og oppgaveløsninger.&lt;/p&gt;
-&lt;!---&#34;laerdegR&#34;-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Her finner du instrukser til hvordan laste denne ned.---&gt;
-&lt;!---
-## [Lær deg R-boka](laerdegr_bok)
-(2019) &lt;em&gt;Fagbokforlaget&lt;/em&gt;, Oslo, 224 p. 
-
-&lt;p&gt;Velkommen til R-universet! &lt;em&gt;Lær deg R&lt;/em&gt; er introduksjonen for deg som lærer statistisk analyse.&lt;/p&gt;
-
-## [Installere R-pakken](laerdegr)
-
-&#34;laerdegR&#34;-pakken er en nettressurs som gir deg tilgang til datasett og oppgaveløsninger som hører til boka. Her finner du instrukser til hvordan laste denne ned.
----&gt;
-&lt;figure&gt;
-&lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;
-&lt;img src=&#34;r-i-praksis.png&#34; width=&#34;35%&#34; align=&#34;right&#34; alt=&#34;R i praksis: en introduktion for samfundsvidenskaberne, Forfatter: Silje Synnøve Lyder Hermansen&#34;&gt;
-&lt;/a&gt;
-&lt;/figure&gt;
-&lt;h2 id=&#34;r-i-praksis&#34;&gt;R i praksis&lt;/h2&gt;
-&lt;h4 id=&#34;a-hrefhttpssiljehermansengithubiopublicationr-i-praksisr-i-praksis-bogena&#34;&gt;&lt;a href=&#34;https://siljehermansen.github.io/publication/r-i-praksis&#34;&gt;R i praksis-bogen&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;(2023) &lt;em&gt;DJØF&lt;/em&gt;, København, 224 p.&lt;/p&gt;
-&lt;p&gt;Her kan du finde yderligere information om indholdet i bogen.&lt;/p&gt;
-&lt;h4 id=&#34;a-hrefripraksisinstallere-r-pakkena&#34;&gt;&lt;a href=&#34;ripraksis&#34;&gt;Installere R-pakken&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;
-Her kan du finde instruktioner om, hvordan du downloader den online ressource, der er en del af &#34;R i praksis&#34;. Det giver dig adgang til datasæt og opgaveløsninger.
-&lt;/p&gt;</description>
     </item>
     
     <item>
