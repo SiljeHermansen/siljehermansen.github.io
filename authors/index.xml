@@ -6,7 +6,7 @@
     <description>Recent content in Authors on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       
       <guid>/authors/admin/</guid>
       <description>&lt;p&gt;Welcome to my website! I am an assistant professor at the &lt;a href=&#34;https://politicalscience.ku.dk/&#34;&gt;&lt;em&gt;University of Copenhagen&lt;/em&gt;&lt;/a&gt;. I hold my PhD in political science from the University of Oslo. Previously, I have worked at &lt;a href=&#34;https://www.jus.uio.no/pluricourts/english/&#34;&gt;&lt;em&gt;PluriCourts&lt;/em&gt;&lt;/a&gt; (University of Oslo) and &lt;a href=&#34;https://jura.ku.dk/icourts/&#34;&gt;&lt;em&gt;iCourts&lt;/em&gt;&lt;/a&gt; (University of Copenhagen), both centers of excellence dedicated to the study of international courts.&lt;/p&gt;
@@ -29,6 +29,24 @@
       <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
       
       <guid>/authors/naurin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/gabel/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/gabel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/krehbiel/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/krehbiel/</guid>
       <description></description>
     </item>
     
@@ -119,24 +137,6 @@
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/authors/hoyland/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/gabel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/gabel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/krehbiel/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/krehbiel/</guid>
       <description></description>
     </item>
     

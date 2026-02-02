@@ -3,15 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/authors/admin/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/quantitative-methods/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/r/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/r-i-praksis/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/teaching/beyond-linear-models/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/teaching/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/teaching-material/</loc>
+    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/naurin/</loc>
     <lastmod>2026-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication_types/2/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/</loc>
     <lastmod>2026-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/court-of-justice-of-the-european-union-cjeu/</loc>
@@ -38,13 +62,19 @@
     <loc>/publication/jop2026/</loc>
     <lastmod>2026-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <loc>/authors/gabel/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <loc>/authors/krehbiel/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/data/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/political-accountability/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/publication/eup2026/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/boulaziz/</loc>
@@ -74,22 +104,7 @@
     <loc>/tags/judicial-politics/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/quantitative-methods/</loc>
-    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/r/</loc>
-    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/r-i-praksis/</loc>
-    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/teaching/beyond-linear-models/</loc>
-    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/teaching/</loc>
-    <lastmod>2025-02-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/teaching-material/</loc>
+    <loc>/teaching/beyond-linear-models-2025/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/candidate-selection/</loc>
@@ -117,9 +132,6 @@
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/court-strategies/</loc>
-    <lastmod>2024-12-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/political-accountability/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/</loc>
@@ -240,10 +252,6 @@
     <lastmod>2013-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/about/</loc>
-  </url><url>
-    <loc>/authors/gabel/</loc>
-  </url><url>
-    <loc>/authors/krehbiel/</loc>
   </url><url>
     <loc>/authors/voeten/</loc>
   </url><url>

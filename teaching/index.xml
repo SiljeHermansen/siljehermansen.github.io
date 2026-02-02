@@ -6,10 +6,630 @@
     <description>Recent content in Teaching on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Statistical models beyond linear regression (2026)</title>
+      <link>/teaching/beyond-linear-models/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/beyond-linear-models/</guid>
+      <description>&lt;p&gt;Master&amp;rsquo;s level. &lt;em&gt;University of Copenhagen. Department of Political Science.&lt;/em&gt; 2026&lt;/p&gt;
+&lt;p&gt;Here you can find the slides and other material used for the different lectures.&lt;/p&gt;
+&lt;h2 id=&#34;learning-the-basics&#34;&gt;Learning the basics&lt;/h2&gt;
+&lt;p&gt;We will spend our first weeks familiarizing with R and linear models (OLS).&lt;/p&gt;
+&lt;h4 id=&#34;week-1-introduction&#34;&gt;Week 1: Introduction&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Hermansen 2023, ch. 1-4, p. 19-70&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We start by familiarizing with the topic of statistical models when the main assumptions underlying linear models (OLS) are not present. We then move on to R.&lt;/p&gt;
+&lt;p&gt;Slides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Day 1: &lt;a href=&#34;week1_intro_to_BLR.pdf&#34;&gt;Introduction to models beyond linear regressions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Day 2: &lt;a href=&#34;week1_intro_to_R.pdf&#34;&gt;Introduction to R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The best way to follow the class, is to code along. You can find info on how to install R (the statistical software) and RStudio (the interface) &lt;a href=&#34;https://intro2r.com/chap1.html&#34;&gt;here&lt;/a&gt; or &lt;a href=&#34;https://www.dataquest.io/blog/installing-r-on-your-computer/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;!--
+
+#### Week 2: Descriptive statistics and graphical display
+
+*Hermansen 2023, ch. 5-6, p. 73-119*
+
+You have had the time to familiarize with base R, functions and objects. Let&#39;s piece this together, and explore two new dialects: `ggplot2` for graphical display and `tidyverse` for data manipulation/recoding.
+
+Notebooks:
+ - [Data manipulation: dialects and tidyverse pipes](week2_data_manipulation.html)
+ - [Descriptive statistics: numeric summaries and visuals using ggplot2](week2_descriptive_statistics.html)
+
+If you haven&#39;t installed the `RiPraksis` package, you may fetch the data here: [kap6.rda](kap6.rda).
+
+
+
+#### Week 3: Linear models and non-linear effects
+
+*Hermansen 2023, ch. 7-9, p. 123-194; Gelman 2007, ch 3-4, p. 29-79; Berry 2012, p 653-671; King Tomz and Wittenberg 2000*
+
+We will spend the week familiarizing with non-linear effects in linear models (interaction effects) and how to interpret model results.
+
+Slides:
+ - [Slides: interpretation and uncertainty](week3_concepts.pdf)
+
+R-notebook:
+ - [Interpretation of point estimates](week3_linear_models_interpretation.html)
+ - [Non-linear effects](week3_linear_models_non_linear_effects.html)
+ 
+Problem set:
+ - [Problem set: interpretation and uncertainty](week3_problem_set_linear_regression.pdf)
+
+The data we will be working on are a subset of the replication data for &#34;Blurred Lines betwen electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament&#34; [*European Union Politics*](https://journals.sagepub.com/doi/pdf/10.1177/14651165221149900) (2023).
+
+You can download the data here: [MEP2014.rda](MEP2014.rda)
+
+
+
+## When data is structured
+
+#### Week 4-5: Hierarchical/multilevel models
+
+*Gelman and Hill (2007), ch 11-13, p. 235-299*
+
+We start by going through the assumptions of the linear model in order to transition to instances where observations share common characteristics (they are not i.i.d.). We then go through the opportunities offered by hierarchical models: varying intercepts, varying slopes, 2-level regression and how these models pool information. 
+
+Slides:
+ - Day 1: [Assumptions of the linear model and grouped variation](week4_1_hierarchical.pdf)
+ - Day 2-3: [Overview over hierarchical models](week4_2_hierarchical.pdf)
+
+&lt;!--
+Problem sets:
+ - Problem set 1: [Assumptions of the linear model](week4_1_problem_set_linear_assumptions.html)
+ - Problem set 2: [Within- and between-group variation](week4_2_problem_set_two_level_regression.html)
+--&gt;
+&lt;p&gt;R-notebook:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Day 4: &lt;a href=&#34;week5_1_notebook_hierarchical_workflow.html&#34;&gt;R workflow for hierarchical models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Problem set:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Day 3: &lt;a href=&#34;week5_1_problem_set_two_level_regression.html&#34;&gt;Problem set&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Day 4: &lt;a href=&#34;week5_2_problem_set_hierarchical_regression.html&#34;&gt;Problem set&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can download the data I use to exemplify linear assumptions (&lt;a href=&#34;MEP2014.rda&#34;&gt;MEP2014.rda&lt;/a&gt;) and hierarchical structures (&lt;a href=&#34;MEP.rda&#34;&gt;MEP.rda&lt;/a&gt;) here.&lt;/p&gt;
+&lt;h2 id=&#34;when-outcomes-are-descrete&#34;&gt;When outcomes are descrete&lt;/h2&gt;
+&lt;h4 id=&#34;week-6-binary-outcomes&#34;&gt;Week 6: Binary outcomes&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Ward (2018), ch. 3, p. 43-78; ch. 6, p. 119-132&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We will be working on how to model binary outcomes using a logit model. Our focus is on two different ways of understanding the logit model: As a regression on a latent variable or as a regression on a recoded dependent variable (logodds).&lt;/p&gt;
+&lt;p&gt;The data I will be exemplifying with are from &amp;ldquo;Shaping the Bench: The Effect of Ideology and Performance on Judicial Reappointments&amp;rdquo; (forthcoming). You can find the  &lt;a href=&#34;https://preprints.apsanet.org/engage/apsa/article-details/676750dbfa469535b966216f&#34;&gt;&lt;em&gt;preprint&lt;/em&gt;&lt;/a&gt; here.&lt;/p&gt;
+&lt;p&gt;You can download the data here: &lt;a href=&#34;Reappointments.rda&#34;&gt;Reappointments.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Slides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Day 1-2: &lt;a href=&#34;week6_logit_slides.pdf&#34;&gt;Binomial logistic regression: estimation and interpretation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Problem set:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Problem set 3: &lt;a href=&#34;week6_problem_set_logit.html&#34;&gt;Intuitions from the binomial logistic model&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;R-notebook:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Day 2: &lt;a href=&#34;week6_notebook_logit_workflow.html&#34;&gt;R workflow for binomial logistic models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;week-7-8-categorical-outcomes&#34;&gt;Week 7-8: Categorical outcomes&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Ward 2018, ch. 8-9, p. 141-189&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The data I will be exemplifying with is drawn from the European Social Survey.&lt;/p&gt;
+&lt;p&gt;You can download the data here: &lt;a href=&#34;kap6.rda&#34;&gt;kap6.rda&lt;/a&gt; and &lt;a href=&#34;kap10.rda&#34;&gt;kap10.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Slides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Day 1-2: &lt;a href=&#34;week7_ordered_categorical.pdf&#34;&gt;Multinomial and ordered logit regression&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Problem set:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Problem set 4: &lt;a href=&#34;week7_problem_set_categorical.html&#34;&gt;Interpretation and estimation of multinomial and ordered logit  regression&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Problem set 5: &lt;a href=&#34;week6b_problem_set_logit.html&#34;&gt;Repetetition on binomial logistic regression&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;R-notebook:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Day 2: &lt;a href=&#34;week7_notebook_categorical_workflow.html&#34;&gt;Workflow for multinomial and ordered logit  regression&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;week-10-count-outcomes&#34;&gt;Week 10: Count outcomes&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Ward 2018, ch. 10, p. 190-216&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Slides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Day 1: &lt;a href=&#34;week10_slides_count.pdf&#34;&gt;Event count models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Problem set:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Problem set 5: &lt;a href=&#34;week10_problem_set_count.html&#34;&gt;Interpretation and estimation of poisson regression&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Suggested supplementary reading &lt;em&gt;Gelman and Hill (2007), ch 6.2 p. 110-116&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll use yet another data set on MEPs; this time on the number of legislative proposals they handle during their tenure. You can download the data here: &lt;a href=&#34;df_yoshinaka.rda&#34;&gt;df_yoshinaka.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Notebook:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;week10_count.html&#34;&gt;Event count models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;week-11-and-12-duration-outcome&#34;&gt;Week 11 and 12: Duration outcome&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Ward (2018), ch. 11, p. 190-216&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Slides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;week11_slides_event.pdf&#34;&gt;Event history models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We will be working with a classical dataset on duration models used by &lt;a href=&#34;https://www.jstor.org/stable/2111628&#34;&gt;Box-Steffensmaier&lt;/a&gt;&amp;rsquo;s 1996 study of candidates&amp;rsquo; campaign funding and the entry of challengers. You can find the R-version of the data for the notebook here: &lt;a href=&#34;warchest.rda&#34;&gt;warchest.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Notebook:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;week11_event.html&#34;&gt;Workflow for event history models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;
+&lt;!--
+
+#### Week 12: Event count and history outcomes: former exams
+
+We&#39;ll be working together on former exams this week. You can find the exam questions and replication data here. You can also find some excellent former student hand-ins for inspiration on Absalon.
+
+Event count models (Scharpf, 2020): 
+  - [Portfolio questions](portfolio_count.pdf)
+  - Replication data: [df_scharpf](df_scharpf.rda)
+  - Article: [Scharpf, 2020](https://academic.oup.com/isq/article/64/3/734/5867529)
+  
+Event history models (Fortna, 2015): 
+  - [Portfolio questions](portfolio_event_history.pdf)
+  - Replication data: [fortna.rda](fortna.rda)
+  - Article: [Fortna, 2015](https://www.cambridge.org/core/journals/international-organization/article/abs/do-terrorists-win-rebels-use-of-terrorism-and-civil-war-outcomes/4729B2B926904616190DC38DB3240C8F)
+
+
+--&gt;
+&lt;h4 id=&#34;week-14-missing-data&#34;&gt;Week 14: Missing data&lt;/h4&gt;
+&lt;p&gt;Our data frequently contains missing observations. This week, we take the time to reflect and explore what kind of missing observations we have and whether it may bias our results. It can be useful to have an active approach to how to address missing information. We will be using the &lt;a href=&#34;MEP.rda&#34;&gt;MEP.rda&lt;/a&gt; data on the European Parliament.&lt;/p&gt;
+&lt;p&gt;Slides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;week14_missing_slides.pdf&#34;&gt;Missing data and imputations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Notebook:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;week14_missing_notebook.html&#34;&gt;Missing data and imputations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;complete-syllabus&#34;&gt;Complete syllabus&lt;/h1&gt;
+&lt;p&gt;Please familiarize with the &lt;a href=&#34;blm_syllabus_2025.pdf&#34;&gt;syllabus&lt;/a&gt;.&lt;/p&gt;
+&lt;div&gt;
+&lt;object data=&#34;blm_syllabus_2025.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
+&lt;a href=&#34;syllabus_beyond-linear-regression.pdf&#34;&gt;Download the syllabus&lt;/a&gt;
+&lt;/object&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;course-plan&#34;&gt;Course plan&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Week&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Reading&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Introduction to R as a statistics software&lt;/td&gt;
+&lt;td&gt;03.02; 05.02&lt;/td&gt;
+&lt;td&gt;@Hermansen2023, ch. 1-4, p. 19-70&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Descriptive statistics and graphical display&lt;/td&gt;
+&lt;td&gt;10.02; 12.02&lt;/td&gt;
+&lt;td&gt;@Hermansen2023, ch. 5-6, p. 73-119&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Linear regression&lt;/td&gt;
+&lt;td&gt;17.02; 19.02&lt;/td&gt;
+&lt;td&gt;@Hermansen2023, ch. 7-9, p. 123-194&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;@Gelman2007, ch 3-4, p. 29-79&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;@Berry2012&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;@King2000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4-5&lt;/td&gt;
+&lt;td&gt;Hierarchical data structures&lt;/td&gt;
+&lt;td&gt;24.02; 26.03&lt;/td&gt;
+&lt;td&gt;@Gelman2007, ch 11-12, p. 235-278&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;03.03; 05.03&lt;/td&gt;
+&lt;td&gt;@Gelman2007, ch 13, p. 279-300&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;@Gelman2007, ch 14-15, p. 301-342&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Binary outcomes (logistic regression)&lt;/td&gt;
+&lt;td&gt;10.03; 12.03&lt;/td&gt;
+&lt;td&gt;@Ward2018, ch. 3, p. 43-78&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;@Ward2018, ch. 6, p. 119-132&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;@Gelman2007, ch. 6, p. 109-134 (supplementary reading)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7-8&lt;/td&gt;
+&lt;td&gt;Categorical outcomes (multinomial and ordered logistic regression)&lt;/td&gt;
+&lt;td&gt;17.03; 19.03; 24.03; 26.03&lt;/td&gt;
+&lt;td&gt;@Ward2018, ch. 8-9, p. 141-189&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Assignment 1 is given&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;26.03&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Workshop week&lt;/td&gt;
+&lt;td&gt;31.03; 02.04&lt;/td&gt;
+&lt;td&gt;Assignment 1 presentation, Assignment helpdesk, Dynamic reporting&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10-11&lt;/td&gt;
+&lt;td&gt;Count outcomes (poisson, negative binomial and hurdle models)&lt;/td&gt;
+&lt;td&gt;07.04; 09.04&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://lineardigressions.com/episodes/2020/3/1/better-know-a-distribution-the-poisson-distribution&#34;&gt;Linear Digressions:&lt;/a&gt; podcast on poisson distribution&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;@Ward2018, ch. 10, p. 190-216&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;@Gelman2007, ch. 6, p. 109-134 (supplementary reading)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Assignment 1 due (optional)&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;11.04&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Spring break&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11-12&lt;/td&gt;
+&lt;td&gt;Event history data (survival models)&lt;/td&gt;
+&lt;td&gt;23.04; 28.04; 30.04&lt;/td&gt;
+&lt;td&gt;@Ward2018, ch. 11, p. 190-216&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Assignment 2 is given&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;30.04&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;Workshop week&lt;/td&gt;
+&lt;td&gt;05.05; 07.05&lt;/td&gt;
+&lt;td&gt;Practitioner visit (Epinion); helpdesk postponed  SUBJECT TO CHANGE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;Missing data&lt;/td&gt;
+&lt;td&gt;12.05; 14.05&lt;/td&gt;
+&lt;td&gt;@Ward2018, ch 12, p. 249-270&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;@Gelman2007, ch 25, p. 529-545&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Assignment 2 is due&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;11.05&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;Recap&lt;/td&gt;
+&lt;td&gt;19.05&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;Deadline portfolio exam&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;01.06&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;literature&#34;&gt;Literature&lt;/h1&gt;
+&lt;p&gt;Berry, William D., Matt Golder, and Daniel Milton. 2012. &lt;a href=&#34;https://doi.org/10.1017/S0022381612000199&#34;&gt;&amp;ldquo;Improving Tests of Theories Positing Interaction&amp;rdquo;&amp;quot;&lt;/a&gt;. &lt;em&gt;The Journal of Politics&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Gelman, Andrew, and Jennifer Hill. 2007. &lt;a href=&#34;http://www.SLQ.eblib.com.au/patron/FullRecord.aspx?p=288457&#34;&gt;&lt;em&gt;Data Analysis Using Regression and Multilevel/Hierarchical Models&lt;/em&gt;&lt;/a&gt;. Leiden: Cambridge University Press.&lt;/p&gt;
+&lt;p&gt;Hermansen, Silje Synnøve Lyder. 2023. &lt;a href=&#34;https://www.djoef-forlag.dk/book-info/r-i-praksis&#34;&gt;&lt;em&gt;R i praksis - en introduktion for samfundsvidenskaberne&lt;/em&gt;&lt;/a&gt;. 1st ed. Copenhagen: DJØF Forlag.&lt;/p&gt;
+&lt;p&gt;King, Gary, Michael Tomz, and Jason Wittenberg. 2000. “Making the Most of Statistical
+Analyses: Improving Interpretation and Presentation.” &lt;em&gt;American Journal of Political Science&lt;/em&gt;. 44 (2): 341–55.&lt;/p&gt;
+&lt;p&gt;Ward, Michael D., and John S. Ahlquist. 2018. &lt;a href=&#34;https://doi.org/10.1017/9781316888544&#34;&gt;&lt;em&gt;Maximum Likelihood for Social Science: Strategies for Analysis. Analytical Methods for Social Research&lt;/em&gt;&lt;/a&gt;. Cambridge: Cambridge University Press.&lt;/p&gt;
+&lt;!---This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them.
+
+The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).
+
+
+## Describing data (generalized linear models)
+
+Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&#39; choice of party, number of violent incidences in a time span, or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.
+
+#### Lecture 1: Maximum likelihood
+*(Ward and Ahlquist, 2018, ch 1, 2, 5-7)*
+
+We introduce maximum likelihood as a framework for statistical modeling.
+
+#### Lecture 2: [Models of outcome and choice: The logit model](logit_model_stv4020b.pdf)
+*(Ward and Ahlquist, 2018, ch 3)*
+
+Logistic regression is the base-line example of a generalized linear model (GLM).
+We go through how to model binary outcomes, how to interpret the results from a logit and why we can&#39;t simply run an OLS.
+
+#### Lecture 3: [Models of outcome and choice: Ordered and multinomial regression](choice_models_stv4020b.pdf)
+*(Ward and Ahlquist, 2018, ch 8-9)*
+
+We go through models with categorical dependent variables: Ordinal and nominal categories. Example data used in class can be downloaded [here](kap10.txt). It is the same as the data from chapter 10 in laerdegR.
+
+
+#### Lecture 4: [Event count models: Poisson regression and other alternatives](count_models_stv4020b.pdf)
+*(Ward and Ahlquist, 2018, ch 10)*
+
+Event count models describe grouped events. They are appropriate when we do not have relevant information at the event level, but are able to both count them and design contextual predictors. We go through the poisson model and how to check for overdispersion. We then consider different strategies to adress possible overdispersion. We study the quasi-poisson and the negative binomial models as well as hurle and zero-inflated models.
+
+Towards the end of the lecture, we consider the [decision tree for determining which GLM model](https://siljehermansen.github.io/teaching/choose_glm) might best describe our data.
+
+#### Lecture 5: Event history/duration models
+*(Ward and Ahlquist, 2018, ch 11)*
+
+We can leverage information both from the fact that an event occured or not (binary outcome) and the time it took for the event to take place (count outcome). These models are made to describe a duration until an outcome occurs.
+
+
+## Causal inference
+
+Beyond statistical description, researchers&#39; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework helps us understand the conditions under which we can identify causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.
+
+
+#### [Causal inference](causal_inference_stv4020b.pdf)
+*(Morgan and Winship, 2015, ch 1-3; Samii 2016)*
+
+We go through the idea of potential outcomes. What are the comparisons we would we like to make? And what is actually possible to compare with?
+
+In the R-lab we&#39;ll look at matching techniques. We will play with a version of the [data](judges.rda) from Glyn and Sen&#39;s daughters-effect paper in [APSR](https://scholar.harvard.edu/files/msen/files/daughters.pdf) from 2014.
+
+
+#### Regression and matching
+*(Ho et al., 2007; Iacus, King and Porro, 2011)*
+
+We introduce matching as a technique to adjust for observed confounders.
+
+####  [RDD and diff-in-diff](RDD_diff-in-diff_stv4020b.pdf)
+*(Angrist and Pischke, 2015, ch 4 and 5; Wing, Simon and Bello-Gomez, 2018; Imbens and Lemieux 2008)*
+
+We go through regression discontinuity designs (RDD) where a treatment kicks in at a certain cutpoint of an observed running variable. We then have a look at the differences-in-differences approach (diff-in-diff) where we observe a treatment group and a control group before and after the treatment. It&#39;s all about interaction effects and dummies!
+
+We&#39;ll play around with data on young adults, deathrates and alcohol both from [chapter 4](df_ch4.rda) and [chapter 5](df_ch5.rda).
+
+#### Instrumental variables
+*(Sovey and Green, 2011)*
+
+We introduce instrumental variables and provide guidelines for their application in political science.
+
+
+## Complete syllabus
+
+&lt;div&gt;
+&lt;object data=&#34;syllabus_stv4020b.pdf&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
+&lt;a href=&#34;syllabus_stv4020b.pdf&#34;&gt;Download the syllabus for Statistical analysis (stv4020b)&lt;/a&gt;
+&lt;/object&gt;
+&lt;/div&gt;
+
+
+**Learning outcome**  Students will get hands-on practice by learning how to implement the various techniques and by replicating existing studies in R. Students will also learn how to present results in a manner that is understandable to a general audience, for example by using graphs and other visual tools.
+
+**More information** about the course is available at the [University of Oslo&#39;s webpages](https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/).
+--&gt;
+&lt;!---
+### Course description 
+This course provides a toolkit for students looking to execute their own research projects using quantitative methods. We explain the statistical theory behind models, but we emphasize understanding when different models are useful and how to employ them. The course helps students 1) identify appropriate statistical models that describe different data types and 2) design studies that enable causal inference (as opposed to merely establishing correlation).
+
+Many of the phenomena political scientists take interest in can be classified into categories or events. This includes variables like voters&#39; choice of party, number of violent incidences in a time span, or time between violent events. The course introduces students to a number of models which are specifically designed to describe the underlying phenomenon that generates such data. The focus of the first part of the course is on correlations. Our purpose is to help students gear the statistical analysis towards a realistic description of the data.
+
+Beyond statistical description, researchers&#39; interest in political phenomena is often motivated by a wish to identify their causes. Causal claims focus on whether we would continue to observe $y$ even in the absence of $x$. This is a typical question when studying the effect of policies, for example. The potential outcomes framework helps us understand the conditions under which we can identify causal relationships.  The second part of the course is devoted to a set of quantitative research designs that can be used to make causal inferences.
+
+
+**Learning outcome**  Students will get hands-on practice by learning how to implement the various techniques and by replicating existing studies in R. Students will also learn how to present results in a manner that is understandable to a general audience, for example by using graphs and other visual tools. 
+
+**More information** about the course is available at the [University of Oslo&#39;s webpages](https://www.uio.no/studier/emner/sv/statsvitenskap/STV4020B/).
+
+&lt;div&gt;
+&lt;object data=&#34;syllabus&#34; type=&#34;application/pdf&#34; width=&#34;700&#34; height=&#34;950&#34;&gt;
+&lt;a href=&#34;syllabus_stv4020b.pdf&#34;&gt;Download the syllabus&lt;/a&gt;
+&lt;/object&gt;
+&lt;/div&gt; 
+
+### Readings
+We will use the following assigned readings:
+
+* *Ward and Ahlquist (2018)* will introduce students to maximum likelihood as a framework for statistical modelling, different generalized linear models suited for various data types frequently encountered in political science, model selection strategies, and methods for interpreting and presenting empirical results.  This is the resource we will use for the first part of the course. 
+* Chapters 1-3 in *Morgan and Winship (2015)* will  introduce  students  to  the  potential outcomes framework for causal inference and causal graphs, while *Samii (2016)* reviews the turn towards “causal empiricism” in political science that builds on these ideas.
+* *Ho et al. (2007)* and *Iacus, King and Porro (2011)* introduce matching as a technique to adjust for observed confounders. 
+* Chapter 4 in *Angrist and Pischke (2014)* will introduce students to regression discontinuity designs, while *Imbens and Lemieux (2008)* provide more detailed advice for the use of this design in applied research. 
+* Chapter 5 in *Angrist and Pischke (2014)* will introduce students to difference-in-differences designs, while *Wing, Simon and Bello-Gomez (2018)* provide more detailed advice for the use of this design in applied research. 
+* *Sovey and Green (2011)* introduce instrumental variables and provide guidelines for their application in political science. 
+
+Some students may find some of the readings (such as Ward and Ahlquist (2018)) to be technically demanding. If so:  Do not despair!  We will use the lectures to clarify and provide intuition.  However, we do encourage you to not skip the equations.  A useful approach is to engage actively with the examples.  Working through as much as possible of the maths will give you a much better grasp of the material.
+
+**Recommended readings**
+
+Sometimes we understand things better when they are explained in different ways.  You may find it useful to consult the following books for alternative explanations throughout the course:  Fox (2008) and Stock and Watson (2012) are useful for thefirst part of the course (weeks 1-3), Cunningham (forthcoming) is useful for the second part of the course (weeks 4-5), and Hermansen (2019) is useful for getting up to speed in R.
+
+---&gt;
+&lt;!---## Flexibility
+This feature can be used for publishing content such as:
+
+* **Online courses**
+* **Project or software documentation**
+* **Tutorials**
+
+The `courses` folder may be renamed. For example, we can rename it to `docs` for software/project documentation or `tutorials` for creating an online course.
+
+## Delete tutorials
+
+**To remove these pages, delete the `courses` folder and see below to delete the associated menu link.**
+
+## Update site menu
+
+After renaming or deleting the `courses` folder, you may wish to update any `[[main]]` menu links to it by editing your menu configuration at `config/_default/menus.toml`.
+
+For example, if you delete this folder, you can remove the following from your menu configuration:
+
+```toml
+[[main]]
+  name = &#34;Courses&#34;
+  url = &#34;courses/&#34;
+  weight = 50
+```
+
+Or, if you are creating a software documentation site, you can rename the `courses` folder to `docs` and update the associated *Courses* menu configuration to:
+
+```toml
+[[main]]
+  name = &#34;Docs&#34;
+  url = &#34;docs/&#34;
+  weight = 50
+```
+
+## Update the docs menu
+
+If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.&lt;NewFolderName&gt;]`.
+---&gt;</description>
+    </item>
     
     <item>
       <title>Courts, power and politics: Europe in context (2025)</title>
@@ -81,10 +701,10 @@ If you use the *docs* layout, note that the name of the menu in the front matter
     
     <item>
       <title>Statistical models beyond linear regression (2025)</title>
-      <link>/teaching/beyond-linear-models/</link>
+      <link>/teaching/beyond-linear-models-2025/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/beyond-linear-models/</guid>
+      <guid>/teaching/beyond-linear-models-2025/</guid>
       <description>&lt;p&gt;Master&amp;rsquo;s level. &lt;em&gt;University of Copenhagen. Department of Political Science.&lt;/em&gt; 2025&lt;/p&gt;
 &lt;p&gt;Here you can find the slides and other material used for the different lectures.&lt;/p&gt;
 &lt;h2 id=&#34;learning-the-basics&#34;&gt;Learning the basics&lt;/h2&gt;
