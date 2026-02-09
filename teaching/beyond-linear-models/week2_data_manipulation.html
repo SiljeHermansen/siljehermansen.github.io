@@ -3217,6 +3217,18 @@ frame, so I select only a few.</p>
 <p>Right… Sometimes, there is a missing observation in my “Poor”
 variable. R has thus greated a third group of “NA” for me. Good to
 know…</p>
+<p>Here is a good coding hygiene: when you have grouped your data frame,
+this is stored and the grouping remains unless you explicitly ask for an
+ungrouping. To keep control over your workflow, it is useful to
+<code>ungroup()</code> after grouping.</p>
+<div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" tabindex="-1"></a>df <span class="ot">&lt;-</span> </span>
+<span id="cb56-2"><a href="#cb56-2" tabindex="-1"></a>  df <span class="sc">%&gt;%</span></span>
+<span id="cb56-3"><a href="#cb56-3" tabindex="-1"></a>  <span class="co">#Group by poor</span></span>
+<span id="cb56-4"><a href="#cb56-4" tabindex="-1"></a>  <span class="fu">group_by</span>(Poor) <span class="sc">%&gt;%</span></span>
+<span id="cb56-5"><a href="#cb56-5" tabindex="-1"></a>  <span class="co">#Calculate one mean per group / value of poor</span></span>
+<span id="cb56-6"><a href="#cb56-6" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="st">&quot;scepticism_gr&quot;</span> <span class="ot">=</span> <span class="fu">mean</span>(Skepsis, <span class="at">na.rm =</span> T)) <span class="sc">%&gt;%</span></span>
+<span id="cb56-7"><a href="#cb56-7" tabindex="-1"></a>  <span class="co">#Ungroup and thank yourself later</span></span>
+<span id="cb56-8"><a href="#cb56-8" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span></code></pre></div>
 </div>
 </div>
 <div id="remove-variables-or-data-points" class="section level2">
@@ -3226,11 +3238,11 @@ know…</p>
 <p>I can remove or retain data points using the indexing. Here, I retain
 only observations of respondents that are categorized as poor and store
 the result in a new data frame.</p>
-<div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span> df[df<span class="sc">$</span>Poor <span class="sc">==</span> <span class="dv">1</span>,]</span></code></pre></div>
+<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb57-1"><a href="#cb57-1" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span> df[df<span class="sc">$</span>Poor <span class="sc">==</span> <span class="dv">1</span>,]</span></code></pre></div>
 <p>I can also remove variables using the same indexing. Here, I remove
 the third variable.</p>
-<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb57-1"><a href="#cb57-1" tabindex="-1"></a><span class="co">#Take 1</span></span>
-<span id="cb57-2"><a href="#cb57-2" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span> df_poor[, <span class="sc">-</span><span class="dv">3</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb58"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1" tabindex="-1"></a><span class="co">#Take 1</span></span>
+<span id="cb58-2"><a href="#cb58-2" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span> df_poor[, <span class="sc">-</span><span class="dv">3</span>]</span></code></pre></div>
 <p>It is often more precise to do this by calling variables by their
 name, as the third variable might change (by definition, once I’ve
 removed it, the third variable is “Kvinde”). However, you’d need a
@@ -3238,27 +3250,27 @@ different approach.</p>
 <p>You might either use the all-powerful %in% that identifies all
 observations in the first element that are also present in the
 second.</p>
-<div class="sourceCode" id="cb58"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1" tabindex="-1"></a><span class="co">#Take 2</span></span>
-<span id="cb58-2"><a href="#cb58-2" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span> df_poor[, <span class="sc">!</span><span class="fu">names</span>(df_poor) <span class="sc">%in%</span> <span class="st">&quot;Uddannelse&quot;</span>]</span></code></pre></div>
+<div class="sourceCode" id="cb59"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb59-1"><a href="#cb59-1" tabindex="-1"></a><span class="co">#Take 2</span></span>
+<span id="cb59-2"><a href="#cb59-2" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span> df_poor[, <span class="sc">!</span><span class="fu">names</span>(df_poor) <span class="sc">%in%</span> <span class="st">&quot;Uddannelse&quot;</span>]</span></code></pre></div>
 <p>Alternatively, you might use the function <code>subset()</code> from
 base-R. Note how I remove a variable by using its negative.</p>
-<div class="sourceCode" id="cb59"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb59-1"><a href="#cb59-1" tabindex="-1"></a><span class="co">#Take 3:</span></span>
-<span id="cb59-2"><a href="#cb59-2" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span> <span class="fu">subset</span>(df_poor, <span class="at">select =</span> <span class="sc">-</span>Uddannelse)</span></code></pre></div>
+<div class="sourceCode" id="cb60"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb60-1"><a href="#cb60-1" tabindex="-1"></a><span class="co">#Take 3:</span></span>
+<span id="cb60-2"><a href="#cb60-2" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span> <span class="fu">subset</span>(df_poor, <span class="at">select =</span> <span class="sc">-</span>Uddannelse)</span></code></pre></div>
 </div>
 <div id="tidyverse-3" class="section level4">
 <h4>tidyverse</h4>
 <p>In tidyverse we have, as you are now used to, a function to do the
 same operations.</p>
 <p>I can remove observations using the <code>filter()</code>.</p>
-<div class="sourceCode" id="cb60"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb60-1"><a href="#cb60-1" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span></span>
-<span id="cb60-2"><a href="#cb60-2" tabindex="-1"></a>  df <span class="sc">%&gt;%</span></span>
-<span id="cb60-3"><a href="#cb60-3" tabindex="-1"></a>  <span class="fu">filter</span>(Poor <span class="sc">==</span> <span class="dv">1</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb61"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb61-1"><a href="#cb61-1" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span></span>
+<span id="cb61-2"><a href="#cb61-2" tabindex="-1"></a>  df <span class="sc">%&gt;%</span></span>
+<span id="cb61-3"><a href="#cb61-3" tabindex="-1"></a>  <span class="fu">filter</span>(Poor <span class="sc">==</span> <span class="dv">1</span>)</span></code></pre></div>
 <p>I can also select or remove variables using the <code>select()</code>
 function. I can select variables by specifying their name, or
 <em>de</em>select them by adding a an exclamation mark first.</p>
-<div class="sourceCode" id="cb61"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb61-1"><a href="#cb61-1" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span></span>
-<span id="cb61-2"><a href="#cb61-2" tabindex="-1"></a>  df_poor <span class="sc">%&gt;%</span></span>
-<span id="cb61-3"><a href="#cb61-3" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>Uddannelse)</span></code></pre></div>
+<div class="sourceCode" id="cb62"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb62-1"><a href="#cb62-1" tabindex="-1"></a>df_poor <span class="ot">&lt;-</span></span>
+<span id="cb62-2"><a href="#cb62-2" tabindex="-1"></a>  df_poor <span class="sc">%&gt;%</span></span>
+<span id="cb62-3"><a href="#cb62-3" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>Uddannelse)</span></code></pre></div>
 </div>
 </div>
 <div id="your-turn" class="section level2">
@@ -3326,34 +3338,39 @@ new/overwriting the old variable.</td>
 <td>tidyverse</td>
 </tr>
 <tr class="odd">
+<td><code>ungroup()</code></td>
+<td>Undo the grouping</td>
+<td>tidyverse</td>
+</tr>
+<tr class="even">
 <td><code>df[, 1]</code></td>
 <td>Selects first variable/column. Can also be indexed by variable
 names</td>
 <td>base R</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>select()</code></td>
 <td>Selects a variable/column. An alternative to base indexing.</td>
 <td>tidyverse</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>df[1,]</code></td>
 <td>Selects first observation/row. Used in combination with the
 “guessing game”/conditional statements.</td>
 <td>base R</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>filter()</code></td>
 <td>Selects observations/rows. Used in combination with the “guessing
 game”/conditions as an alternative to base indexing.</td>
 <td>tidyverse</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>ifelse()</code></td>
 <td>Conditional recoding. Recodes the entire variable at once</td>
 <td>base R</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>if_else()</code></td>
 <td>Conditional recoding. For use in the <code>mutate()</code></td>
 <td>tidyverse</td>
