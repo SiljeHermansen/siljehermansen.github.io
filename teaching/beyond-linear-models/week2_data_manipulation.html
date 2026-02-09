@@ -2862,13 +2862,13 @@ wrangling.</em></p>
 </blockquote>
 <div id="tidyverse" class="section level4">
 <h4>Tidyverse</h4>
-<p>consists of a set of R packages that all follow roughly the same
-linguistic principles. This dialect has several advantages:</p>
+<p>Tidyverse consists of a set of R packages that all follow roughly the
+same linguistic principles. This dialect has several advantages:</p>
 <p><strong>Data cleaning:</strong> As the name suggests, the package is
 particularly well-suited for cleaning up data: recoding variables,
 aggregating data, pulling out descriptive statistics. In class, I will
 mostly rely on <code>dplyr</code> as one of the packages that build on
-<code>tidyverse</code>.</p>
+<code>tidyverse</code>. It suffices to load one of those two.</p>
 <!-- It has made a lot of data preparation very fast.  -->
 <!-- R has traditionally been poorly adapted to large datasets, where all functions that require going through long variables have been very slow. In addition, the package makes it possible to communicate with databases (SQL). -->
 <p><strong>Intuitive:</strong> In addition to its own vocabulary (a set
@@ -2878,14 +2878,14 @@ build an argument. Therefore, the codes can seem more intuitive.</p>
 </div>
 <div id="ggplot2" class="section level4">
 <h4>ggplot2</h4>
-<p>helps us with our graphics. Itis an R-package on which many other
-packages for graphical display are based on. You can also do your plots
-in base R. That’s what I do in the book (Hermansen, 2023, ch 3), but you
-may o find <code>ggplot2</code> helpful in your own work. Generally
-speaking, I use base functions when I want to do things “quick and
-dirty”, while I use <code>ggplot2</code> for more advanced plots. The
-reason is that <code>ggplot2</code> often requires quite a few lines of
-codes to do even basic tweaks.</p>
+<p>ggplot2 helps us with our graphics. It is an R-package on which many
+other packages for graphical display are based on. You can also do your
+plots in base R. That’s what I do in the book (Hermansen, 2023, ch 3),
+but you may find <code>ggplot2</code> helpful in your own work.
+Generally speaking, I use base functions when I want to do things “quick
+and dirty”, while I use <code>ggplot2</code> for more advanced plots.
+The reason is that <code>ggplot2</code> often requires quite a few lines
+of codes to do even basic tweaks.</p>
 <p>It is an advantage to have basic knowledge of all dialects. This way,
 you can work around any problem.</p>
 </div>
@@ -2897,7 +2897,7 @@ you can work around any problem.</p>
 install the package to your computer. You only need to do this once. At
 the beginning of each session, you then need to fetch the package (or
 one of the packages that are based on it) in the “library” where all
-installed packages are stored. By doing this you load it into your
+installed packages are stored. By doing this, you load it into your
 workspace memory. Only then will the functions and syntax located in the
 package be available to you.</p>
 <p>Here, we will rely on the <code>dplyr</code> package, which is part
@@ -2916,22 +2916,25 @@ first.</p>
 ##     intersect, setdiff, setequal, union</code></pre>
 <p>R follows up by informing us of which packages are masked from our
 workspace. For example, dplyr contains the <code>intersect()</code>
-function, which has a namesake in base-R. If we use the function name,
-it is the dplyr function that we will now be served.</p>
+function, which has a namesake in base-R. If we now use the function
+name, we will be served the dplyr function.</p>
 <div id="three-ways-to-load-in-data-in-r-format" class="section level3">
 <h3>Three ways to load in data in R-format</h3>
-<p>For this session, we will use a version of the Norwegian ESS (2014).
-We start by loading the data and giving it a name we like.</p>
+<p>For this session, we will use a version of the Danish ESS (2014). We
+start by loading the data and giving it a name we like. You can acquire
+the data in one of three ways:</p>
 <ol style="list-style-type: decimal">
-<li>You can find the data in my R package: <code>RiPraksis</code></li>
+<li>You can find the data in my R package <a href="https://siljehermansen.github.io/data/ripraksis/"><code>RiPraksis</code></a>.
+This would require your to install the R packages first by following the
+instructions online.</li>
 </ol>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="fu">library</span>(RiPraksis)</span>
 <span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a><span class="fu">data</span>(kap6)</span></code></pre></div>
 <ol start="2" style="list-style-type: decimal">
-<li>Alternatively, you can download the file from my webpage. You can do
-this automatically from R studio. Here, I have already set my working
+<li>Download the data file from my webpage. You can do this
+automatically from R studio. Here, I have already set my working
 directory, so it suffices to specify that the destination file should be
-called kap.rda.</li>
+called “kap6.rda”.</li>
 </ol>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="fu">download.file</span>(<span class="st">&quot;https://siljehermansen.github.io/teaching/beyond-linear-models/kap6.rda&quot;</span>,</span>
 <span id="cb6-2"><a href="#cb6-2" tabindex="-1"></a>              <span class="at">destfile =</span> <span class="st">&quot;kap6.rda&quot;</span>)</span></code></pre></div>
@@ -2940,14 +2943,13 @@ function. The data is an R-object that is stored as an .rda-file
 (R-object file). It is good practice to call the file the same thing as
 the object when you store it.</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="fu">load</span>(<span class="st">&quot;kap6.rda&quot;</span>)</span></code></pre></div>
-<ol start="3" style="list-style-type: decimal">
-<li>… or you can do the download by hand. Navigate to the link in your
-browser, click to download. Move the file from your download folder to
-your working folder (where your working directory is set). From R, you
-can now open the file by clicking: “File” -&gt; “Open file” etc.</li>
-</ol>
+<p>3.Download by hand. Navigate to the link in your browser, click to
+download. Move the file from your download folder to your working folder
+(where your working directory is set). From R, you can now open the file
+by clicking: “File” -&gt; “Open file” etc.</p>
 <p>Finally, I copy my R object into another object with a name that is
-easier to write. My main data is usually kalled <code>df.rda</code></p>
+easier to write. My main data is usually called <code>df.rda</code>
+(short for “data frame”).</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a>df <span class="ot">&lt;-</span> kap6</span></code></pre></div>
 </div>
 <div id="eye-ball-the-data" class="section level3">
@@ -3001,11 +3003,13 @@ each comma.</p>
 <p>It has no effect on how R reads the script, but the human eye finds
 it easier to navigate. You can automatically indent the code chunk by
 marking the line, and hit “Ctrl + I”.</p>
-<p><strong>In tidyverse:</strong> pipes</p>
-<p>In tidyverse, we use “pipes” to link different commmands together:
-the object, the verb/function. We do this with “%&gt;%” (percent,
+<p><strong>In tidyverse / Base R:</strong> pipes</p>
+<p>In tidyverse, we use “pipes” to link different commands together: the
+object, the verb/function. We do this with “%&gt;%” (percent,
 greater-than, percent). We can use functions from base-R or from the
-tidyverse together with the pipes.</p>
+tidyverse together with the pipes. Base R has its own pipe
+<code>|&gt;</code> that you can use, but I will consistently use the
+<code>tidyverse</code> pipe.</p>
 <p>We specify the object first, then the function. All arguments that do
 not specify the object must be added in the “old-fashioned” way. We
 indicate where the object should have been with “.”.</p>
