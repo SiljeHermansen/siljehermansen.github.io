@@ -590,15 +590,11 @@
 </ul>
 <p>The data we will be working on are a subset of the replication data for &ldquo;Blurred Lines between electoral and parliamentary representation: The use of constituency staff among Members of the European Parliament&rdquo; <a href="https://journals.sagepub.com/doi/pdf/10.1177/14651165221149900"><em>European Union Politics</em></a> (2023).</p>
 <p>You can download the data here: <a href="MEP2014.rda">MEP2014.rda</a></p>
+<h2 id="when-data-is-structured">When data is structured</h2>
+<h4 id="week-4-5-hierarchicalmultilevel-models">Week 4-5: Hierarchical/multilevel models</h4>
+<p><em>Gelman and Hill (2007), ch 11-13, p. 235-299</em></p>
+<p>We start by going through the assumptions of the linear model in order to transition to instances where observations share common characteristics (they are not i.i.d.). We then go through the opportunities offered by hierarchical models: varying intercepts, varying slopes, 2-level regression and how these models pool information.</p>
 <!--
-
-## When data is structured
-
-#### Week 4-5: Hierarchical/multilevel models
-
-*Gelman and Hill (2007), ch 11-13, p. 235-299*
-
-We start by going through the assumptions of the linear model in order to transition to instances where observations share common characteristics (they are not i.i.d.). We then go through the opportunities offered by hierarchical models: varying intercepts, varying slopes, 2-level regression and how these models pool information. 
 
 Slides:
  - Day 1: [Assumptions of the linear model and grouped variation](week4_1_hierarchical.pdf)
@@ -738,7 +734,7 @@ Notebook:
 <tr>
 <th>Week</th>
 <th>Topic</th>
-<th>Date</th>
+<th></th>
 <th>Reading</th>
 </tr>
 </thead>
@@ -746,19 +742,19 @@ Notebook:
 <tr>
 <td>1</td>
 <td>Introduction to R as a statistics software</td>
-<td>03.02; 05.02</td>
+<td></td>
 <td>@Hermansen2023, ch. 1-4, p. 19-70</td>
 </tr>
 <tr>
 <td>2</td>
 <td>Descriptive statistics and graphical display</td>
-<td>10.02; 12.02</td>
+<td></td>
 <td>@Hermansen2023, ch. 5-6, p. 73-119</td>
 </tr>
 <tr>
 <td>3</td>
 <td>Linear regression</td>
-<td>17.02; 19.02</td>
+<td></td>
 <td>@Hermansen2023, ch. 7-9, p. 123-194</td>
 </tr>
 <tr>
@@ -788,13 +784,13 @@ Notebook:
 <tr>
 <td>4-5</td>
 <td>Hierarchical data structures</td>
-<td>24.02; 26.03</td>
+<td></td>
 <td>@Gelman2007, ch 11-12, p. 235-278</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
-<td>03.03; 05.03</td>
+<td></td>
 <td>@Gelman2007, ch 13, p. 279-300</td>
 </tr>
 <tr>
@@ -810,9 +806,9 @@ Notebook:
 <td></td>
 </tr>
 <tr>
-<td>6</td>
+<td>6-7</td>
 <td>Binary outcomes (logistic regression)</td>
-<td>10.03; 12.03</td>
+<td></td>
 <td>@Ward2018, ch. 3, p. 43-78</td>
 </tr>
 <tr>
@@ -834,9 +830,63 @@ Notebook:
 <td></td>
 </tr>
 <tr>
-<td>7-8</td>
+<td></td>
+<td><em>Assignment 1 is given</em></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Workshop week</td>
+<td></td>
+<td>Assignment 1 presentation, Assignment helpdesk</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><em>Assignment 1 due (optional)</em></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Spring break</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9-10</td>
 <td>Categorical outcomes (multinomial and ordered logistic regression)</td>
-<td>17.03; 19.03; 24.03; 26.03</td>
+<td></td>
 <td>@Ward2018, ch. 8-9, p. 141-189</td>
 </tr>
 <tr>
@@ -846,33 +896,9 @@ Notebook:
 <td></td>
 </tr>
 <tr>
-<td></td>
-<td><em>Assignment 1 is given</em></td>
-<td>26.03</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>9</td>
-<td>Workshop week</td>
-<td>31.03; 02.04</td>
-<td>Assignment 1 presentation, Assignment helpdesk, Dynamic reporting</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>10-11</td>
+<td>11-12</td>
 <td>Count outcomes (poisson, negative binomial and hurdle models)</td>
-<td>07.04; 09.04</td>
+<td></td>
 <td><a href="http://lineardigressions.com/episodes/2020/3/1/better-know-a-distribution-the-poisson-distribution">Linear Digressions:</a> podcast on poisson distribution</td>
 </tr>
 <tr>
@@ -895,68 +921,14 @@ Notebook:
 </tr>
 <tr>
 <td></td>
-<td><em>Assignment 1 due (optional)</em></td>
-<td>11.04</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>Spring break</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>11-12</td>
-<td>Event history data (survival models)</td>
-<td>23.04; 28.04; 30.04</td>
-<td>@Ward2018, ch. 11, p. 190-216</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td><em>Assignment 2 is given</em></td>
-<td>30.04</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
 <td>13</td>
-<td>Workshop week</td>
-<td>05.05; 07.05</td>
-<td>Practitioner visit (Epinion); helpdesk postponed  SUBJECT TO CHANGE</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>14</td>
 <td>Missing data</td>
-<td>12.05; 14.05</td>
+<td></td>
 <td>@Ward2018, ch 12, p. 249-270</td>
 </tr>
 <tr>
@@ -973,21 +945,21 @@ Notebook:
 </tr>
 <tr>
 <td></td>
-<td><em>Assignment 2 is due</em></td>
-<td>11.05</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
+<td><em>Assignment 2 is given</em></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>15</td>
-<td>Recap</td>
-<td>19.05</td>
 <td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Workshop week / Recap</td>
+<td></td>
+<td>helpdesk; SUBJECT TO CHANGE</td>
 </tr>
 <tr>
 <td></td>
