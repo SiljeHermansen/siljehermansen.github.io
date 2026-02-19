@@ -3250,7 +3250,7 @@ the value of x.</p>
 term to the equation.</p>
 <blockquote>
 <p>Quadric term: <span class="math inline">\(y = a + b_1x +
-b_2x^2\)</span> Cubid term: <span class="math inline">\(y = a + b_1x +
+b_2x^2\)</span> Cubic term: <span class="math inline">\(y = a + b_1x +
 b_2x^2 + b_3x^3\)</span></p>
 </blockquote>
 <p>I could have created a new variable in R before I estimate the
@@ -4413,7 +4413,8 @@ national election.</p></li>
 <li><p>Since local assistants are easily thought of as human, and there
 is no such thing as 0.74 humans, we might even say: As elections
 approach, about three in four MEPs in party-centered systems cut one
-local assistant per year.</p></li>
+local assistant per year (<span class="math inline">\(0.75 =
+\frac{3}{4}\)</span>).</p></li>
 </ul>
 <p><strong>Conditional slope:</strong> The effect of the electoral
 calendar also depends on the effect of the interaction term for the
@@ -4427,10 +4428,15 @@ Here, the value of z is either 0 or 1, so I’ll examplify with 1.</p>
 <blockquote>
 <p><span class="math inline">\(-0.74 + 1.07 \times 1 = 0.33\)</span></p>
 </blockquote>
-<p>In candidate centered systems, a one-unit increase in the electoral
+<p>In candidate-centered systems, a one-unit increase in the electoral
 calendar corresponds to a 0.33 increase in the number of local
 assistants in an MEP’s local team, on average. All the other
-formulations also hold for this scenario.</p>
+formulations also hold for this scenario. We might for example say that
+one in three MEPs from candidate centered systems hire one more local
+assistant per year as the election approaches (<span class="math inline">\(0.33 = \frac{1}{3}\)</span>).</p>
+<p>NB: Berry et al recommend doing exactly the same exercise for the
+effect of z, the electoral system (more on that under “symmetric”
+effects).</p>
 <!-- #### Marginal effects plot -->
 <!-- ```{r} -->
 <!-- # Get the marginal effect of ProxNatElection across values of NationalCandidateCentered -->
@@ -4465,10 +4471,11 @@ formulations also hold for this scenario.</p>
 package</h4>
 <p>In this example the z-predictor has only two values. <span class="citation">Berry, Golder, and Milton (2012)</span> focus on the
 marginal effect, suggesting to always make scenarios by letting z – the
-moderating variable — slide from low to high to verify if the effect of
-x is consistent with the theory. In the <strong>marginal effect
-plot</strong> they let the x-axis report the value of z, while the
-y-axis reports the size of the regression coefficient.</p>
+moderating variable — slide from minimum to maximum to verify if the
+effect of x is consistent with the theory across the board. In the
+<strong>marginal effect plot</strong> they let the x-axis report the
+value of z, while the y-axis reports the size of the regression
+coefficient.</p>
 <p>In R, we can make marginal effects plots using the
 <code>marginaleffects</code> package. Here’s the <a href="https://marginaleffects.com/chapters/slopes.html">online
 resource</a> for the package. If you haven’t already installed it, you
