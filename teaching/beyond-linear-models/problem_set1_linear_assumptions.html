@@ -12,7 +12,7 @@
 <meta name="author" content="Silje Synnøve Lyder Hermansen" />
 
 
-<title>Problem set 2: Hierarchical modeling</title>
+<title>Problem set 1: Assumptions of the linear model</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -252,29 +252,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-
-div.csl-bib-body { }
-div.csl-entry {
-clear: both;
-margin-bottom: 0em;
-}
-.hanging div.csl-entry {
-margin-left:2em;
-text-indent:-2em;
-}
-div.csl-left-margin {
-min-width:2em;
-float:left;
-}
-div.csl-right-inline {
-margin-left:2em;
-padding-left:1em;
-}
-div.csl-indent {
-margin-left: 2em;
-}
-</style>
 
 
 
@@ -372,382 +349,261 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Problem set 2: Hierarchical modeling</h1>
+<h1 class="title toc-ignore">Problem set 1: Assumptions of the linear
+model</h1>
 <h4 class="author">Silje Synnøve Lyder Hermansen</h4>
 
 </div>
 
 
 <blockquote>
-<p>We can think of hierarchical/multilevel models as a way to partition
-and leverage variation at different levels.</p>
+<p>The best way to assess a model is how well it predicts. Virtually all
+model statistics are based on the idea of (mostly in-sample) prediction.
+This problem set is made to give you the intuition behind the three
+assumptions of the linear model that we’ve explored. The excercises are
+intended to give you a) some milage in R and 2) communicate the
+intuition behind the model assumptions.</p>
 </blockquote>
-<!-- **We will share the responses on Padlet:** https://padlet.com/siljesynnove/blr  -->
-<p>We begin to will work on cross-sectional time-series data on MEPs in
-the 2012-2017-period.</p>
-<pre class="r"><code>#libraries
-library(lme4) #hierarchical models
-library(stargazer) #regression tables
-library(dplyr) #data wrangling + pipes
-library(ggplot2) #graphics
-
-#download
-download.file(url = &quot;https://siljehermansen.github.io/teaching/beyond-linear-models/MEP.rda&quot;,
-              destfile = &quot;MEP.rda&quot;)
+<p><strong>We will share the responses on Padlet:</strong> <a href="https://padlet.com/siljesynnove/blr" class="uri">https://padlet.com/siljesynnove/blr</a></p>
+<p>We will continue to work on cross-sectional data on MEPs in 2014.
+However, compared to last time, I’ve added some variables, so you need
+to download the data anew. If you’ve set your working directory
+correctly, then the following code would work.</p>
+<pre class="r"><code>#download
+download.file(url = &quot;https://siljehermansen.github.io/teaching/beyond-linear-models/MEP2014.rda&quot;,
+              destfile = &quot;MEP2014.rda&quot;)
 
 #Load in
-load(&quot;MEP.rda&quot;)
+load(&quot;MEP2014.rda&quot;)
 
 #Rename the data for convenience
-df &lt;- MEP
+df &lt;- MEP2014
 
 #Rename the three main variables for convenience
 df &lt;-
   df %&gt;%
-  filter(Period == 5) %&gt;%
   mutate(
     #The number of local assistants employed by each MEP in 2014
-    y = ShareOfLocalAssistants,
+    y = LocalAssistants,
     #The vote share (in percentage points) that the national party got last election
     x = VoteShare_LastElection,
-    #Candidate-centered (or not) electoral system for EU elections
-    z = OpenList) </code></pre>
+    #The average labor cost (measured in 100 euros) in the MEPs home state 
+    z = LaborCost)</code></pre>
 <p>Here, we will check out the predictions of the following linear
 model. It formulates the expectation that MEPs from parties with larger
 electoral support in the past will invest less in local staff.</p>
-<div id="exercise-1-simpsons-paradox-and-leveraging-variation" class="section level3">
-<h3>Exercise 1: Simpson’s paradox and leveraging variation</h3>
-<p>Let’s start by subsetting the data to period 5 (in 2014) for
-excercise 1 and 2:
-<code>df &lt;- MEP %&gt;% filter(Period == 5)</code>.</p>
+<pre class="r"><code>mod1 &lt;- lm(y ~ x,
+           df)</code></pre>
+<table style="text-align:center">
+<caption>
+<strong>MEPs’ local staff (a linear model)</strong>
+</caption>
+<tr>
+<td colspan="2" style="border-bottom: 1px solid black">
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+Dependent variable
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1" style="border-bottom: 1px solid black">
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+y
+</td>
+</tr>
+<tr>
+<td colspan="2" style="border-bottom: 1px solid black">
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+x
+</td>
+<td>
+0.033
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+(0.642)
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+Constant
+</td>
+<td>
+2.869<sup>***</sup>
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+(0.204)
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="border-bottom: 1px solid black">
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+Observations
+</td>
+<td>
+722
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+R<sup>2</sup>
+</td>
+<td>
+0.00000
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+Adjusted R<sup>2</sup>
+</td>
+<td>
+-0.001
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+Residual Std. Error
+</td>
+<td>
+3.141 (df = 720)
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+F Statistic
+</td>
+<td>
+0.003 (df = 1; 720)
+</td>
+</tr>
+<tr>
+<td colspan="2" style="border-bottom: 1px solid black">
+</td>
+</tr>
+<tr>
+<td style="text-align:left">
+<em>Note:</em>
+</td>
+<td style="text-align:right">
+<sup><em></sup>p&lt;0.1; <sup><strong></sup>p&lt;0.05;
+<sup></strong></em></sup>p&lt;0.01
+</td>
+</tr>
+</table>
+<div id="exercise-1-interpret-the-model" class="section level3">
+<h3>Exercise 1: Interpret the model</h3>
 <ol style="list-style-type: lower-alpha">
-<li>Describe the bivariate relationship between MEPs’ local staff
-(<code>ShareOfLocalStaff</code>, y) and their party’s vote share
-(<code>VoteShare_LastElection</code>, x) by fitting a linear regression.
-What do you find?</li>
+<li><p>Run model 1, set a scenario and make an intuitive
+interpretation.</p></li>
+<li><p>Rephrase your finding: On average, how many MEPs would see a
+decrease of one employee in your “treatment group” (the second scenario
+you set)?</p></li>
 </ol>
-<pre class="r"><code>mod0.pool &lt;- lm(y ~ x,
-                df)
-# summary(mod0.pool)</code></pre>
-<ol start="2" style="list-style-type: lower-alpha">
-<li>Fit a fixed-effects model where you control for
-<code>Nationality</code>.</li>
-</ol>
-<pre class="r"><code>mod.fix &lt;- lm(y ~ x + Nationality, df)</code></pre>
-<ol start="3" style="list-style-type: lower-alpha">
-<li>Illustrate the bivariate relationship between voteshare and the size
-of MEP’s local staff in <code>ggplot2</code>. You can use the geometric
-function for local regression and specify the method
-<code>geom_smooth(aes(x, y), method = &quot;loess&quot;)</code>. Change the method
-to “lm” (linear model). What do you think?</li>
-</ol>
-<pre class="r"><code>df %&gt;%
-  ggplot +
-  geom_smooth(
-    aes(
-      y = y,
-      x = x
-    ), 
-    method = &quot;lm&quot;, se = T
-  )+
-  ggtitle(&quot;Pooled regression: Within- and between-country variation&quot;)</code></pre>
-<ol start="4" style="list-style-type: lower-alpha">
-<li>Building on your previous ggplot code, use the
-<code>color = &quot;Nationality&quot;</code> or
-<code>facet_wrap(~Nationality)</code> arguments to create a separate
-regression for each MEP’s nationality. You can remove the uncertainty by
-adding <code>se = FALSE</code> if the shaded lines makes it hard to read
-the plot. Compare the new plot with the plot from 1c. What
-happened?</li>
-</ol>
-<pre class="r"><code>df %&gt;%
-  ggplot +
-  geom_smooth(
-    aes(y = y,
-        x = x,
-        color = Nationality),
-    method = &quot;lm&quot;, se = F) +
-  ggtitle(&quot;28 non-pooled regressions: Within-country variation&quot;)</code></pre>
-<ol start="5" style="list-style-type: lower-alpha">
-<li>Ok. Calculate the grouped averages of both x and y using
-<code>group_by()</code> and <code>reframe()</code>. You now have a new
-data frame with 28 observations. Plot x and y against each other in a
-scatterplot. Using <code>geom_smooth(aes(x,y), method = &quot;lm&quot;)</code> in
-ggplot2 you can also fit a regression line to the data. What do you
-see?</li>
-</ol>
-<pre class="r"><code>df %&gt;%
-  group_by(Nationality) %&gt;%
-  reframe(y_bar = mean(y, na.rm = T),
-          x_bar = mean(x, na.rm = T),
-          n = n()) %&gt;%
-  ggplot +
-  geom_point(
-    aes(
-      y = y_bar,
-      x = x_bar,
-      size = n/10
-    ), alpha = 0.3
-    ) +
-  geom_smooth(
-    aes(
-      y = y_bar,
-      x = x_bar
-    ),
-    method = &quot;lm&quot;
-  ) +
-  ggtitle(&quot;Between-group variation: Correlation between vote share and local staff&quot;)</code></pre>
-<ol start="6" style="list-style-type: lower-alpha">
-<li>Use <code>stargazer()</code> to compare your pooled model with the
-fixed-effects model. If you don’t want to see the regression
-coefficients relating to Nationality, you may use the argument
-<code>omit = &quot;Nationality&quot;</code>. What happened to the effect of vote
-share? Why do you think this happened?</li>
-</ol>
-<pre class="r"><code>stargazer(mod0.pool, mod.fix, 
-          omit = &quot;Natio&quot;,
-          title = &quot;Pooled vs. non-pooled regression: The effect of the predictor changes direction&quot;,
-          type = &quot;text&quot;)</code></pre>
 </div>
-<div id="exercise-2-non-identified-models." class="section level3">
-<h3>Exercise 2: Non-identified models.</h3>
-<p><span class="citation">Gelman and Hill (2007)</span> emphasize at
-several points that fixed-effects (non-pooled) models quickly become
-non-identified (chapter 11). When introducing fixed effects for your
-group identity variables (e.g. nationality), the R will relegate the
-first group as a reference group (in the intercept). If you then
-introduce other variables that are colinear with your groups
-(e.g. electoral system), they too will have to omit one category. In
-other words, you have limited possibility to add group-level predictors
-once you have grouped fixed-effects in your model.</p>
+<div id="exercise-2-assess-the-assumption-of-a-normal-distribution" class="section level3">
+<h3>Exercise 2: Assess the assumption of a normal distribution</h3>
 <ol style="list-style-type: lower-alpha">
-<li>Fit a pooled model with predictors for vote share (x) and electoral
-system (z).</li>
+<li><p>Calculate the predicted outcomes, residuals and standardized
+residuals of the model and store them in your data frame.</p></li>
+<li><p>Generate a vector with the quantiles (percentiles) of the
+standardized residuals: you can use the function:
+<code>quantile(x, probs = seq(from = 0, to = 1, by = 0.1), na.rm = T)</code>.</p></li>
+<li><p>Generate a similar vector from a long vector that follows a
+standard normal distribution. You may generate the first vector by
+simulation <code>rnorm(n = 1000, mean = 0, sd = 1)</code>.</p></li>
+<li><p>You now have two vectors: One with the quantiles from your data,
+another with quantiles from your standard normal distribution. Create a
+scatterplot with your theoretical quantiles (the standard normal
+distribution) on your x-axis and the quantiles from your standardized
+residuals on the y-axis.</p></li>
+<li><p>Draw a diagonal line with intercept = 0 and slope = 1. You can
+either use <code>geom_abline(aes(intercept = 0, slope = 1))</code> in
+ggplot2 or <code>abline(a = 0, b = 1)</code> in base R.</p></li>
+<li><p>Compare what you find with what you find if you simply run the
+code <code>qqnorm(x)</code>, where x is the standardized residuals. What
+can you do to make your plot look like the new plot?</p></li>
 </ol>
-<pre class="r"><code>mod.pool &lt;- lm(y ~ x + z, df)
-# mod.pool %&gt;% summary</code></pre>
-<ol start="2" style="list-style-type: lower-alpha">
-<li>Fixed-effects model: Add national-level fixed effects to the pooled
-model. What happened to Sweden? Why?</li>
-</ol>
-<pre class="r"><code>mod.fix &lt;- lm(y ~ x + z + Nationality, df)
-# mod.fix %&gt;% summary</code></pre>
-<ol start="3" style="list-style-type: lower-alpha">
-<li>Tweak your fixed-effects model such that you remove z. What happens
-to Sweden?</li>
-</ol>
-<pre class="r"><code>mod2.fix &lt;- lm(y ~ x + Nationality, df)</code></pre>
-<pre class="r"><code>stargazer(mod.fix, mod2.fix, type = &quot;text&quot;) 
-#Sweden disappears/reappears because model is unidentified</code></pre>
 </div>
-<div id="exercise-3" class="section level3">
-<h3>Exercise 3:</h3>
-<pre class="r"><code>#Rename the three main variables for convenience
-df &lt;-
-  MEP %&gt;%
-  mutate(
-    #The number of local assistants employed by each MEP in 2014
-    y = ShareOfLocalAssistants,
-    #The vote share (in percentage points) that the national party got last election
-    x = VoteShare_LastElection,
-    #Candidate-centered (or not) electoral system for EU elections
-    z = OpenList) </code></pre>
-<p>Ok, now, let’s consider the entire data set:
-<code>df &lt;- MEP</code>.</p>
+<div id="exercise-3-assess-the-assumption-of-homoscedasiticty." class="section level3">
+<h3>Exercise 3: Assess the assumption of homoscedasiticty.</h3>
+<p>The calcualtion of standard errors rely on the assumption that the
+model’s errors/residuals are distributed evenly over the entire range of
+your conditional outcome. I.e. your predictions are surrounded by the
+same uncertainty over its entire (empirical) range.</p>
 <ol style="list-style-type: lower-alpha">
-<li>Reestimate the first model on the entire data set, then calculate
-the residuals. I did this on the slides last week.</li>
+<li><p>Plot your standardized residuals (y-axis) against your predicted
+outcomes (x-axis).</p></li>
+<li><p>Take the square root of your standardized residuals, then make
+the same plot again. Compare the two plots and tell me what you
+see.</p></li>
 </ol>
-<pre class="r"><code>mod1.pool &lt;- lm(y ~ x, df)
-mod1.fix &lt;- lm(y ~ x + Nationality, df)
-
-df &lt;- 
-  df %&gt;%
-  mutate(
-    predicted = predict(mod1.pool, df),
-    predicted2 = predict(mod1.fix, df),
-    residuals = ShareOfLocalAssistants - predicted,
-    residuals2 = ShareOfLocalAssistants - predicted2)</code></pre>
-<ol start="2" style="list-style-type: lower-alpha">
-<li>Describe the residuals: What is their mean and spread. Plot them as
-a histogram.</li>
-</ol>
-<pre class="r"><code>sd(df$residuals, na.rm = T); #68% of MEPs have a staff size p/m 2.87 + the prediction
-sd(df$residuals2, na.rm = T); #they&#39;re lower
-
-df %&gt;%
-  ggplot +
-  geom_histogram(aes(residuals))</code></pre>
+<p>It is common to take the square root of the residuals because it
+makes it easier to detect small changes in low values.</p>
 <ol start="3" style="list-style-type: lower-alpha">
-<li>Calculate the group mean of the residuals for each MEP. The ID
-variable for each person is <code>ID</code>. Store the result in a
-separate data frame. Describe the spread and plot a histogram. What does
-this say about the between-group variation in the data, once you’ve
-accounted for vote share (and nationality)? Is there more within- or
-between-group variation here?</li>
-</ol>
-<pre class="r"><code>df_mep &lt;-
-  df %&gt;%
-  group_by(ID) %&gt;%
-  reframe(m =mean(residuals, na.rm = T),
-          m2 = mean(residuals2, na.rm = T))
-
-
-sd(df_mep$m, na.rm = T) #between-group variation is 2.78
-sd(df_mep$m2, na.rm = T) #between-group variation is smaller
-
-df_mep %&gt;%
-  ggplot +
-  geom_histogram(aes(m))</code></pre>
-<ol start="4" style="list-style-type: lower-alpha">
-<li>Re-do all of the above, but on the model where you control for
-nationality (<code>mod.fix</code>). Store the results in separate
-variables for comparison. What happened? Why?</li>
+<li><p>Use the <code>cut()</code> function to create a new categorical
+variable that slices up your predicted outcomes into quartiles:
+<code>cut(x, quantile(x, probs = seq(0,1,0.25), na.rm = T)</code>.</p></li>
+<li><p>Group the standardized residuals by your new cut-variable
+(<code>group_by</code>) and calculate the standard deviation of the
+residuals within each group (`reframe()``). What do you see?</p></li>
+<li><p>In your opinion, is the distribution of residuals
+heteroscedastic?</p></li>
 </ol>
 </div>
-<div id="exercise-4-labelling-the-errors-take-2." class="section level3">
-<h3>Exercise 4: Labelling the errors, take 2.</h3>
-<pre class="r"><code>#Rename the three main variables for convenience
-df &lt;-
-  MEP %&gt;%
-  mutate(
-    #The number of local assistants employed by each MEP in 2014
-    y = ShareOfLocalAssistants,
-    #The vote share (in percentage points) that the national party got last election
-    x = VoteShare_LastElection,
-    #Candidate-centered (or not) electoral system for EU elections
-    z = OpenList) </code></pre>
-<p>In the two next exercises, we work with the entire data set:
-<code>df &lt;- MEP</code>.</p>
-<p>We can think of hierarchical models/models with varying intercepts as
-a way to label the errors.</p>
+<div id="exercise-4-assess-the-omitted-variable-assumption." class="section level3">
+<h3>Exercise 4: Assess the omitted variable assumption.</h3>
 <ol style="list-style-type: lower-alpha">
-<li>Go back to your pooled model and re-estimate it on the entire data
-and calculate the residuals. Store them as a variable in your data.
-Remember, the residuals are just the difference between what you
-predicted and observed (y - predicted y). T</li>
+<li><p>Create a scatterplot where you plot the residuals against x in
+ggplot2.</p></li>
+<li><p>Draw a local regression line by replacing the function
+<code>geom_point()</code> by <code>geom_smooth()</code>. What do you
+see?</p></li>
+<li><p>As ChatGPT what a “local regression” is. If the answer is too
+complicated, ask ChatGPT to ELI5 it for you (“explain it like I’m 5
+years old”). Was it useful?</p></li>
+<li><p>Consider the variable <code>LaborCost</code> (z). Correlate it
+with x and with y. What do you find? What do you think would happen if
+you add it to your main model as a control?</p></li>
+<li><p>Fit a second model (<code>mod2</code>). Use
+<code>stargazer()</code> to plot the two models against each other? What
+happened?</p></li>
 </ol>
-<pre class="r"><code>mod.pool &lt;- lm(y ~ x,
-               df)
-df &lt;- 
-  df %&gt;%
-  mutate(
-    predicted_pool = predict(mod.pool, df),
-    residuals_pool = y - predicted_pool)</code></pre>
-<ol start="2" style="list-style-type: lower-alpha">
-<li>Calculate the group means of the residuals per nationality (i.e. the
-unexplained staff size per country) using <code>group_by()</code> and
-<code>reframe()</code>. Store the data frame (n = 28) in an R
-object.</li>
-</ol>
-<pre class="r"><code>df_nat &lt;- 
-  df %&gt;%
-  group_by(Nationality) %&gt;%
-  reframe(residuals_grouped = mean(residuals_pool, na.rm = T),
-          n = n())</code></pre>
-<ol start="3" style="list-style-type: lower-alpha">
-<li>Fit a fixed-effects model without intercept:
-<code>mod.stage1 &lt;- lm(y ~ -1 + x + Nationality, df)</code>.</li>
-</ol>
-<pre class="r"><code>mod.fix &lt;- lm(y ~ -1 
-              + x
-              + Nationality
-              ,
-              df)</code></pre>
-<ol start="4" style="list-style-type: lower-alpha">
-<li>Extract the coefficients for nationality. Store them as a new
-variable in the same data frame (N = 28). You can see them stored as a
-data frame in the model object <code>mod.fix$coefficients</code>. Remove
-the coefficients not related to nationality.</li>
-</ol>
-<pre class="r"><code>df_nat &lt;- 
-  df_nat %&gt;%
-  #Remove first coefficient/intercept
-  mutate(fix  = mod.fix$coefficients[-1])</code></pre>
-<ol start="5" style="list-style-type: lower-alpha">
-<li>Compare the grouped residuals and the fixed-effects coefficients.
-You can plot them against each other in a scatter plot, for example.
-What do you see? What is the link between residuals and fixed
-effects?</li>
-</ol>
-<pre class="r"><code>#They&#39;re two ways of grouping the residuals. However they are not perfectly correlated, since the fixed effects model takes out some of the within-group variation explained by z.
-df_nat %&gt;%
-  ggplot+
-  geom_point(
-    aes(
-      residuals_grouped, 
-      fix
-    )
-  )</code></pre>
-</div>
-<div id="exercise-5-two-level-regression-by-hand." class="section level3">
-<h3>Exercise 5: Two-level regression “by hand”.</h3>
-<p><span class="citation">Gelman and Hill (2007)</span> explain the
-intuition of the 2-level model in chapter 11: It is a way for us to
-group the residuals according to their identities, then run a second
-regression on the residuals.</p>
-<ol style="list-style-type: lower-alpha">
-<li>Level-1 regression: Ok, continue with the <code>mod.stage1</code>
-results. Compare with your previous fixed-effects model. What is the
-difference in how you interpret them?</li>
-</ol>
-<pre class="r"><code>mod.level1 &lt;- lm(y ~ -1  + x + Nationality, df)
-# mod.level1 %&gt;% summary</code></pre>
-<ol start="2" style="list-style-type: lower-alpha">
-<li>Level-2 data frame: You can build on your data frame (n=28) from
-exercise 3 or make it anew, but this time, add a variable on the
-electoral system (<code>z</code>; <code>OpenList</code>).</li>
-</ol>
-<p>If you make the dataframe anew:</p>
-<ul>
-<li><p>Use the <code>group_by()</code> and <code>reframe()</code>
-arguments to make a new data frame from <code>df</code> that reports the
-mean value of z, the electoral system, by country (N = 28).</p></li>
-<li><p>Extract the fixed-effects coefficients for Nationality from your
-level-1 regression and add them as a variable to this new data frame.
-You can do this using <code>mutate()</code> or
-<code>cbind</code>.</p></li>
-</ul>
-<pre class="r"><code>df2 &lt;-
-  df %&gt;% 
-  group_by(Nationality) %&gt;% 
-  reframe(z_m = mean(z)) %&gt;%
-  mutate(coefs = mod.level1$coefficients[-1])</code></pre>
-<ol start="3" style="list-style-type: lower-alpha">
-<li>Level-2 regression: Regress your fixed-effects coefficients on the
-aggregated values of z by drawing on the values in your new, aggregated
-data frame (e.g. <code>lm(coefs ~ z_m, df2)</code>).</li>
-</ol>
-<pre class="r"><code>mod.level2 &lt;- lm(coefs ~ z_m, df2)
-# mod.level2 %&gt;% summary</code></pre>
-<ol start="4" style="list-style-type: lower-alpha">
-<li>Let R do a two-level regression for you. Fetch the <code>lme4</code>
-package to run a two-level hierarchical model:
-<code>mod.ran &lt;- lmer(y ~ x + z + (1|Nationality), df)</code>.</li>
-</ol>
-<pre class="r"><code>mod.ran &lt;- lmer(y ~ x + z + (1|Nationality), df)</code></pre>
-<ol start="6" style="list-style-type: lower-alpha">
-<li>Use stargazer to compare the results from your four regressions: the
-pooled model, level 1-, level 2- and random-effects model (from this
-exercise). What are your take-aways?</li>
-</ol>
-<pre class="r"><code>stargazer(mod.pool, mod.level1, mod.level2, mod.ran,
-          omit = &quot;National&quot;,
-          column.labels = c(&quot;Pooled&quot;, &quot;Level 1&quot;, &quot;Level 2&quot;, &quot;Two-level&quot;),
-          model.numbers = F,
-          model.names = F,
-          dep.var.caption = &quot;Local staff size (y)&quot;,
-          type = &quot;text&quot;)</code></pre>
-</div>
-<div id="literature" class="section level1 unnumbered">
-<h1 class="unnumbered">Literature</h1>
-<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
-<div id="ref-Gelman2007" class="csl-entry">
-Gelman, Andrew, and Jennifer Hill. 2007. <em>Data Analysis Using
-Regression and Multilevel/Hierarchical Models</em>. Analytical Methods
-for Social Research. Cambridge ; New York: Cambridge University Press.
-</div>
-</div>
 </div>
 
 
