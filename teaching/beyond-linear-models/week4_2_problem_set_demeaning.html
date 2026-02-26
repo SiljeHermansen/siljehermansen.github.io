@@ -476,7 +476,7 @@ introduce other variables that are colinear with your groups
 other words, you have limited possibility to add group-level predictors
 once you have grouped fixed-effects in your model.</p>
 <ol style="list-style-type: lower-alpha">
-<li><p>Fit a pooled model with predictors for vote share (x) and
+<li><p>Fit a pooled model with predictors for party size (x) and
 electoral system (z).</p></li>
 <li><p>Fixed-effects model: Add national-level fixed effects to the
 pooled model. What happened to Sweden? Why?</p></li>
@@ -519,10 +519,10 @@ following:</p>
 u_i\)</span></p>
 </blockquote>
 <p>Create a new data frame and call it <code>df0</code> where you
-calculate the group mean in y and x for each MEP. Use
-<code>group_by()</code> and <code>reframe()</code>. Estimate a model
-where you correlate the group means with each other. Store the result as
-<code>mod_between</code>.</p>
+calculate the group mean in y (local staff) and x (seat share) for each
+MEP. Use <code>group_by()</code> and <code>reframe()</code>. Estimate a
+model where you correlate the group means with each other. Store the
+result as <code>mod_between</code>.</p>
 <ol start="3" style="list-style-type: lower-alpha">
 <li>leverage only the within-individual variation in a similar
 model.</li>
