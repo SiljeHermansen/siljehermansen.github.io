@@ -100,10 +100,10 @@ Problem set:
 R-notebook:
   - Day 2: [R workflow for binomial logistic models](week6_notebook_logit_workflow.html)
 
-
-#### Week 7-8: Categorical outcomes
-
-*Ward 2018, ch. 8-9, p. 141-189*
+--&gt;
+&lt;h4 id=&#34;week-7-8-categorical-outcomes&#34;&gt;Week 7-8: Categorical outcomes&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Ward 2018, ch. 8-9, p. 141-189&lt;/em&gt;&lt;/p&gt;
+&lt;!--
 
 The data I will be exemplifying with is drawn from the European Social Survey.
 
@@ -119,12 +119,10 @@ Problem set:
 R-notebook:
  - Day 2: [Workflow for multinomial and ordered logit  regression](week7_notebook_categorical_workflow.html)
 
-
-
-#### Week 10: Count outcomes
-
-*Ward 2018, ch. 10, p. 190-216*
-
+--&gt;
+&lt;h4 id=&#34;week-10-count-outcomes&#34;&gt;Week 10: Count outcomes&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Ward 2018, ch. 10, p. 190-216&lt;/em&gt;&lt;/p&gt;
+&lt;!--
 Slides:
  - Day 1: [Event count models](week10_slides_count.pdf)
 
@@ -138,12 +136,10 @@ We&#39;ll use yet another data set on MEPs; this time on the number of legislati
 Notebook:
  - [Event count models](week10_count.html)
 
-
-
-#### Week 11 and 12: Duration outcome
-
-*Ward (2018), ch. 11, p. 190-216*
-
+--&gt;
+&lt;h4 id=&#34;week-11-and-12-duration-outcome&#34;&gt;Week 11 and 12: Duration outcome&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Ward (2018), ch. 11, p. 190-216&lt;/em&gt;&lt;/p&gt;
+&lt;!--
 Slides:
  - [Event history models](week11_slides_event.pdf)
 
@@ -152,12 +148,12 @@ We will be working with a classical dataset on duration models used by [Box-Stef
 Notebook:
  - [Workflow for event history models](week11_event.html)
  
---&gt;
-&lt;!--
 
 #### Week 12: Event count and history outcomes: former exams
 
 We&#39;ll be working together on former exams this week. You can find the exam questions and replication data here. You can also find some excellent former student hand-ins for inspiration on Absalon.
+
+
 
 Event count models (Scharpf, 2020): 
   - [Portfolio questions](portfolio_count.pdf)
@@ -170,11 +166,10 @@ Event history models (Fortna, 2015):
   - Article: [Fortna, 2015](https://www.cambridge.org/core/journals/international-organization/article/abs/do-terrorists-win-rebels-use-of-terrorism-and-civil-war-outcomes/4729B2B926904616190DC38DB3240C8F)
 
 
-
-
-#### Week 14: Missing data
-
-Our data frequently contains missing observations. This week, we take the time to reflect and explore what kind of missing observations we have and whether it may bias our results. It can be useful to have an active approach to how to address missing information. We will be using the [MEP.rda](MEP.rda) data on the European Parliament.
+--&gt;
+&lt;h4 id=&#34;week-14-missing-data&#34;&gt;Week 14: Missing data&lt;/h4&gt;
+&lt;p&gt;Our data frequently contains missing observations. This week, we take the time to reflect and explore what kind of missing observations we have and whether it may bias our results. It can be useful to have an active approach to how to address missing information. We will be using the &lt;a href=&#34;MEP.rda&#34;&gt;MEP.rda&lt;/a&gt; data on the European Parliament.&lt;/p&gt;
+&lt;!--
 
 Slides:
   - [Missing data and imputations](week14_missing_slides.pdf)
@@ -204,19 +199,19 @@ Notebook:
 &lt;tr&gt;
 &lt;td&gt;1&lt;/td&gt;
 &lt;td&gt;Introduction to R as a statistics software&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;02.02-05.02&lt;/td&gt;
 &lt;td&gt;@Hermansen2023, ch. 1-4, p. 19-70&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;2&lt;/td&gt;
 &lt;td&gt;Descriptive statistics and graphical display&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;09.02-12.02&lt;/td&gt;
 &lt;td&gt;@Hermansen2023, ch. 5-6, p. 73-119&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;3&lt;/td&gt;
 &lt;td&gt;Linear regression&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;16.02-19.02&lt;/td&gt;
 &lt;td&gt;@Hermansen2023, ch. 7-9, p. 123-194&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -246,7 +241,7 @@ Notebook:
 &lt;tr&gt;
 &lt;td&gt;4-5&lt;/td&gt;
 &lt;td&gt;Hierarchical data structures&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;23.02-05.03&lt;/td&gt;
 &lt;td&gt;@Gelman2007, ch 11-12, p. 235-278&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -270,7 +265,7 @@ Notebook:
 &lt;tr&gt;
 &lt;td&gt;6-7&lt;/td&gt;
 &lt;td&gt;Binary outcomes (logistic regression)&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;09.03-19.03&lt;/td&gt;
 &lt;td&gt;@Ward2018, ch. 3, p. 43-78&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -294,7 +289,7 @@ Notebook:
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;em&gt;Assignment 1 is given&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;19.03&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -306,7 +301,7 @@ Notebook:
 &lt;tr&gt;
 &lt;td&gt;8&lt;/td&gt;
 &lt;td&gt;Workshop week&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;23.03-26.03&lt;/td&gt;
 &lt;td&gt;Assignment 1 presentation, Assignment helpdesk&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -348,7 +343,7 @@ Notebook:
 &lt;tr&gt;
 &lt;td&gt;9-10&lt;/td&gt;
 &lt;td&gt;Categorical outcomes (multinomial and ordered logistic regression)&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;09.04-23.04&lt;/td&gt;
 &lt;td&gt;@Ward2018, ch. 8-9, p. 141-189&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -360,7 +355,7 @@ Notebook:
 &lt;tr&gt;
 &lt;td&gt;11-12&lt;/td&gt;
 &lt;td&gt;Count outcomes (poisson, negative binomial and hurdle models)&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;27.-07.05&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;http://lineardigressions.com/episodes/2020/3/1/better-know-a-distribution-the-poisson-distribution&#34;&gt;Linear Digressions:&lt;/a&gt; podcast on poisson distribution&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -390,7 +385,7 @@ Notebook:
 &lt;tr&gt;
 &lt;td&gt;13&lt;/td&gt;
 &lt;td&gt;Missing data&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;11.05-14.05&lt;/td&gt;
 &lt;td&gt;@Ward2018, ch 12, p. 249-270&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -408,7 +403,7 @@ Notebook:
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;em&gt;Assignment 2 is given&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;14.05&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -420,7 +415,7 @@ Notebook:
 &lt;tr&gt;
 &lt;td&gt;14&lt;/td&gt;
 &lt;td&gt;Workshop week / Recap&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;18.05-21.05&lt;/td&gt;
 &lt;td&gt;helpdesk; SUBJECT TO CHANGE&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
