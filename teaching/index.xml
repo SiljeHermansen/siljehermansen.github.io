@@ -82,7 +82,7 @@ Problem sets:
 &lt;/ul&gt;
 &lt;p&gt;You can download the data I use to exemplify linear assumptions (&lt;a href=&#34;MEP2014.rda&#34;&gt;MEP2014.rda&lt;/a&gt;) and hierarchical structures (&lt;a href=&#34;MEP.rda&#34;&gt;MEP.rda&lt;/a&gt;) here.&lt;/p&gt;
 &lt;h2 id=&#34;when-outcomes-are-descrete&#34;&gt;When outcomes are descrete&lt;/h2&gt;
-&lt;h4 id=&#34;week-6-binary-outcomes&#34;&gt;Week 6: Binary outcomes&lt;/h4&gt;
+&lt;h4 id=&#34;week-6-7-binary-outcomes&#34;&gt;Week 6-7: Binary outcomes&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Ward (2018), ch. 3, p. 43-78; ch. 6, p. 119-132&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We will be working on how to model binary outcomes using a logit model. Our focus is on two different ways of understanding the logit model: As a regression on a latent variable or as a regression on a recoded dependent variable (logodds).&lt;/p&gt;
 &lt;p&gt;The data I will be exemplifying with are from &amp;ldquo;Shaping the Bench: The Effect of Ideology and Performance on Judicial Reappointments&amp;rdquo; (forthcoming). You can find the  &lt;a href=&#34;https://preprints.apsanet.org/engage/apsa/article-details/676750dbfa469535b966216f&#34;&gt;&lt;em&gt;preprint&lt;/em&gt;&lt;/a&gt; here.&lt;/p&gt;
@@ -99,7 +99,7 @@ Problem sets:
 &lt;ul&gt;
 &lt;li&gt;Day 2: &lt;a href=&#34;week6_notebook_logit_workflow.html&#34;&gt;R workflow for binomial logistic models&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;week-7-8-categorical-outcomes&#34;&gt;Week 7-8: Categorical outcomes&lt;/h4&gt;
+&lt;h4 id=&#34;week-9-10-categorical-outcomes&#34;&gt;Week 9-10: Categorical outcomes&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Ward 2018, ch. 8-9, p. 141-189&lt;/em&gt;&lt;/p&gt;
 &lt;!--
 
@@ -118,7 +118,7 @@ R-notebook:
  - Day 2: [Workflow for multinomial and ordered logit  regression](week7_notebook_categorical_workflow.html)
 
 --&gt;
-&lt;h4 id=&#34;week-10-count-outcomes&#34;&gt;Week 10: Count outcomes&lt;/h4&gt;
+&lt;h4 id=&#34;week-11-12-count-outcomes&#34;&gt;Week 11-12: Count outcomes&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Ward 2018, ch. 10, p. 190-216&lt;/em&gt;&lt;/p&gt;
 &lt;!--
 Slides:
@@ -134,9 +134,13 @@ We&#39;ll use yet another data set on MEPs; this time on the number of legislati
 Notebook:
  - [Event count models](week10_count.html)
 
+
+
+#### Week 11 and 12: Duration outcome
+
+*Ward (2018), ch. 11, p. 190-216*
+
 --&gt;
-&lt;h4 id=&#34;week-11-and-12-duration-outcome&#34;&gt;Week 11 and 12: Duration outcome&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Ward (2018), ch. 11, p. 190-216&lt;/em&gt;&lt;/p&gt;
 &lt;!--
 Slides:
  - [Event history models](week11_slides_event.pdf)
@@ -165,7 +169,7 @@ Event history models (Fortna, 2015):
 
 
 --&gt;
-&lt;h4 id=&#34;week-14-missing-data&#34;&gt;Week 14: Missing data&lt;/h4&gt;
+&lt;h4 id=&#34;week-13-missing-data&#34;&gt;Week 13: Missing data&lt;/h4&gt;
 &lt;p&gt;Our data frequently contains missing observations. This week, we take the time to reflect and explore what kind of missing observations we have and whether it may bias our results. It can be useful to have an active approach to how to address missing information. We will be using the &lt;a href=&#34;MEP.rda&#34;&gt;MEP.rda&lt;/a&gt; data on the European Parliament.&lt;/p&gt;
 &lt;!--
 
