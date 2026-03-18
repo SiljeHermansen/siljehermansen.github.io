@@ -11,7 +11,7 @@
 
 <meta name="author" content="Silje Synnøve Lyder Hermansen" />
 
-<meta name="date" content="2025-03-12" />
+<meta name="date" content="2026-03-18" />
 
 <title>Problem set: Back and forth in the logistic regression</title>
 
@@ -376,7 +376,7 @@ display: none;
 <h1 class="title toc-ignore">Problem set: Back and forth in the logistic
 regression</h1>
 <h4 class="author">Silje Synnøve Lyder Hermansen</h4>
-<h4 class="date">2025-03-12</h4>
+<h4 class="date">2026-03-18</h4>
 
 </div>
 
@@ -398,15 +398,16 @@ remains for another term. The data is the same as in the R notebook.</p>
 <p>The first exercise focuses on interpretation of the results from a
 model that is already estimated (<span class="citation">Ward and
 Ahlquist (2018)</span>, ch 3; <span class="citation">Hermansen
-(2023)</span>, ch 7 and 10).. The second exercise allows you to see how
+(2023)</span>, ch 7 and 10). The second exercise allows you to see how
 those estimates are calculated.</p>
-<!-- *Be prepared to share on padlet:* https://padlet.com/siljesynnove/blr -->
+<!-- <!-- *Be prepared to share on padlet:* https://padlet.com/siljesynnove/blr -->
+<p>–&gt;</p>
 <pre class="r"><code>mod &lt;- glm(exit ~
              #Political difference between governments
              free_economy_diff
-           #Performance of judge 
+           #Performance of judge
            + performance
-           + age 
+           + age
            + tenure
            + attendance
            + court,
@@ -709,13 +710,13 @@ Akaike Inf. Crit.
 </td>
 </tr>
 </table>
-<div id="exercise-1-interpretation-the-logistic-transformation" class="section level1">
-<h1>Exercise 1: Interpretation (the logistic transformation)</h1>
+<div id="exercise-1-interpretation-the-logistic-transformation" class="section level2">
+<h2>Exercise 1: Interpretation (the logistic transformation)</h2>
 <p>Replicate model 2.</p>
 <ol style="list-style-type: lower-alpha">
 <li><p><strong>What is the marginal effect</strong> of a one-unit
-increase in the following predictors on the probab the probability that
-a judge is replaced (<code>exit == 1</code>)?</p>
+increase in the following predictors on the probability that a judge is
+replaced (<code>exit == 1</code>)?</p>
 <ul>
 <li>Ideology: <code>free_economy_diff</code></li>
 <li>Past performance/influence: <code>performance</code></li>
@@ -750,22 +751,28 @@ the effect among low-performing judges?</li>
 <li>who stands the most to win by performing better?</li>
 </ul></li>
 <li><p><strong>Explore the compensation threshold:</strong> How much
-better must a judge perform to compensate for a median political
-distance in government preferences (i.e. <code>free_economy_diff</code>
-== 0.24)? Given the distribution of performance, how realistic is it for
-judges to survive based on merit alone?</p></li>
+better must a judge perform to compensate for a small increase in
+political distance between governments
+(i.e. <code>free_economy_diff</code> == 0.17, the distance from the 1st
+quartile to the median)? Given the distribution of performance, how
+realistic is it for judges to survive based on merit alone?</p></li>
 </ol>
+<!-- For the early finishing students: tell me in which court performance and / or preferences matter. Interpret.  -->
 <hr />
 <p><em>You can follow the three steps:</em></p>
-<p><em>Step 1:</em> The logistic regression model</p>
-<p>The log-odds of exit are given by:</p>
+<p><em>Step 1:</em> Consider the relevant regession coefficients in the
+equation:</p>
 <p><span class="math display">\[
-\log\left(\frac{P(\text{exit} = 1)}{1 - P(\text{exit} = 1)}\right) =
-\beta_0 + \beta_1 \cdot \text{free_economy_diff} + \beta_2 \cdot
+y = \alpha + \beta_1 \cdot \text{free_economy_diff} + \beta_2 \cdot
 \text{performance} + \dots
 \]</span></p>
+<!-- \[ -->
+<!-- \log\left(\frac{P(\text{exit} = 1)}{1 - P(\text{exit} = 1)}\right) = \beta_0 + \beta_1 \cdot \text{free_economy_diff} + \beta_2 \cdot \text{performance} + \dots -->
+<!-- \] -->
 <p>We are interested in finding how much <code>performance</code> is
-needed to offset a given level of <code>free_economy_diff</code>.</p>
+needed to offset a given level of <code>free_economy_diff</code>. In
+other words: we are only interested in the two regression coefficients
+relating to preferences and performance.</p>
 <p><em>Step 2:</em> Neutralize the effect</p>
 <p>To “compensate,” we set the combined effect of
 <code>free_economy_diff</code> and <code>performance</code> to zero,
@@ -774,33 +781,17 @@ meaning they cancel each other out:</p>
 \beta_1 \cdot \text{free_economy_diff} + \beta_2 \cdot
 \text{performance} = 0
 \]</span></p>
-<p><em>Step 3</em>: Solve for performance Rearrange for performance:</p>
+<p><em>Step 3</em>: Solve for performance by rearranging:</p>
 <p><span class="math display">\[
 \text{performance} = -\frac{\beta_1}{\beta_2} \cdot
 \text{free_economy_diff}
 \]</span></p>
 <p>This is the <strong>compensation equation</strong>: for each unit
-increase in free_economy_diff, performance must increase by
-<strong><span class="math inline">\(-\beta_1 / \beta_2\)</span></strong>
-to keep the probability of exit unchanged.</p>
-<!-- ### **Hint for Students** -->
-<!-- You could include a **hint** like this in your problem set: -->
-<!-- > **Hint:** To find the compensation effect, set the combined effect of political distance (**free_economy_diff**) and performance to **zero** in the logit model. -->
-<!-- > -->
-<!-- > 1. Write out the equation for log-odds. -->
-<!-- > 2. Set the effect of **free_economy_diff** and **performance** to cancel out. -->
-<!-- > 3. Solve for **performance** in terms of **free_economy_diff**. -->
-<!-- > -->
-<!-- > Your final answer should have the form: -->
-<!-- > \[ -->
-<!-- > \text{performance} = -\frac{\beta_1}{\beta_2} \cdot \text{free\_economy\_diff} -->
-<!-- > \] -->
-<!-- > where \(\beta_1\) and \(\beta_2\) are the coefficients from the regression model. -->
-<!-- This keeps the math **manageable**, while still pushing them to think critically. If they get stuck, you can follow up by asking: -->
-<!-- - **What does a positive \(\beta_1\) mean for exit probability?** -->
-<!-- - **What does a negative \(\beta_2\) mean?** -->
-<!-- - **What happens when you divide one by the other?** -->
-<!-- Let me know if you want to fine-tune it further! -->
+increase in <code>free_economy_diff</code>, <code>performance</code>
+must increase by <strong><span class="math inline">\(-\beta_1 /
+\beta_2\)</span></strong> to keep the probability of exit unchanged.
+Now, you can set a scenario for the political distance and calculate the
+additional performance needed to compensate.</p>
 </div>
 <div id="the-recoding-of-the-dependent-variable-logit-transformation" class="section level1">
 <h1>The recoding of the dependent variable (logit transformation)</h1>
@@ -814,6 +805,11 @@ regression coefficients are in fact the result of such comparisons.</p>
 two simple binomial logistic regressions. Remember that all coefficients
 are reported as logodds and change in logodds (oddsratio).</p>
 <p>Download the data from my website: <a href="https://siljehermansen.github.io/teaching/beyond-linear-models/Reappointments.rda" class="uri">https://siljehermansen.github.io/teaching/beyond-linear-models/Reappointments.rda</a></p>
+<p>We are interested in whether judges at the CJEU <code>exit</code> (y
+== 1) the court after the end of their mandate or are renominated by
+their government (y == 0). Our main predictor is binary
+(<code>age60</code>): Is the judge younger or older than 60 years (close
+to retirement).</p>
 <div id="exercise-2-base-line-model-without-predictors." class="section level2">
 <h2>Exercise 2: Base-line model without predictors.</h2>
 <p>We’ll start out by calculating the intercept in an intercept-only
