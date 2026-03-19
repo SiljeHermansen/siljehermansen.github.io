@@ -6,10 +6,49 @@
     <description>Recent content on Silje Synnøve Lyder Hermansen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/data/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ideology on both sides (J-Pref)</title>
+      <link>/data/ideology-on-both-sides/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>/data/ideology-on-both-sides/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A unified measure of judicial and governmental policy preferences at the CJEU (1954-2023).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Presentation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://doi.org/10.7910/DVN/WREEOT&#34;&gt;&lt;em&gt;Ideology on Both Sides (J-Pref)&lt;/em&gt;&lt;/a&gt; places judges of the Court of Justice of the European Union and the governments that appoint them in the same two-dimensional ideological space, enabling direct comparison across time and institutions. The dataset covers the entire history of the Court and every EU member state government, linking judges to the political orientation of the cabinet that nominated them. It allows researchers to trace long-term trends in economic left–right ideology and integration preferences, and to link judicial appointments to broader political developments in the Union.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key variables&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Drawing on Manifesto Project data, ParlGov, and Eur-Lex, the dataset provides two linked components:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;judge-level ideology scores and appointment metadata (&lt;code&gt;judge_pref&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;government-date-level positions rescaled to the same latent space (&lt;code&gt;gvt_pref&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The underlying methodology is documented in detail in the &lt;a href=&#34;https://dataverse.harvard.edu/file.xhtml?fileId=13147847&amp;amp;version=1.0&#34;&gt;codebook&lt;/a&gt; and builds on recent theoretical and empirical work on individual judicial preferences and Court politics. The EUP review essay introduces the dataset as part of a broader research agenda connecting case supply, judicial appointments, ideological composition, and internal deliberation at the CJEU.&lt;/p&gt;
+&lt;p&gt;Together, these data help explain:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;how governments shape the ideological profile of the Court through appointments,&lt;/li&gt;
+&lt;li&gt;how judicial preferences diverge from or track political trends in Europe,&lt;/li&gt;
+&lt;li&gt;and how ideological heterogeneity within the Court affects case processing and outcomes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The dataset, codebook, and supporting files are available on Harvard Dataverse.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you use J-Pref, please cite either the article in which it was introduced or the dataset directly:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Dataset:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hermansen, Silje Synnøve Lyder; Gabel, Matthew; Krehbiel, Jay. 2025. &lt;em&gt;Ideology on Both Sides: Judges’ and Governments’ Preferences at the CJEU (J-Pref).&lt;/em&gt; Harvard Dataverse. V1. DOI: &lt;a href=&#34;https://doi.org/10.7910/DVN/WRE0OT&#34;&gt;https://doi.org/10.7910/DVN/WRE0OT&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Article:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Gabel, Matthew; Hermansen, Silje Synnøve Lyder; Krehbiel, Jay. 2026. &amp;ldquo;The Politics of the Court of Justice of the European Union: A Review&amp;rdquo;. &lt;em&gt;European Union Politics&lt;/em&gt;, 27(1).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Installere R-pakken</title>
