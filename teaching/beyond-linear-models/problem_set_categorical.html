@@ -431,64 +431,23 @@ of education and income.</p></li>
 <pre class="r"><code>library(nnet)
 mod.cat &lt;- multinom(Party ~ Education + Income, df)</code></pre>
 <ol start="3" style="list-style-type: lower-alpha">
-<li>The model effectively estimates the effect of income at equal levels
-of education. Which party has the voters with the highest/lowest
+<li><p>The model effectively estimates the effect of income at equal
+levels of education. Which party has the voters with the highest/lowest
 revenue? In your opinion, does our knowledge of respondents’ income help
-us understand how voters discriminate between parties?</li>
-</ol>
-<pre class="r"><code>df &lt;-
-  df %&gt;%
-  mutate(Party = as.factor(Party),
-         Party = relevel(Party, ref = &quot;V&quot;))
-library(nnet)
-mod.cat &lt;- multinom(Party ~ Income + Education + Immigrant, df)
-
-stargazer::stargazer(mod.cat, type = &quot;text&quot;)</code></pre>
-<ol start="4" style="list-style-type: lower-alpha">
-<li>Interpret the marginal effects (by exponentiating the slope
+us understand how voters discriminate between parties?</p></li>
+<li><p>Interpret the marginal effects (by exponentiating the slope
 coefficients). Which parties are similar to your reference category with
 respect to the effect of income? For the party-pairs that are
 significantly different, what is the effect of income on the
-respondents’ choice of party?</li>
+respondents’ choice of party?</p></li>
+<li><p>Make predictions for a scenario where a respondent is rich
+(Income = 9) by filling in the equation for Dansk Folkeparti (DF),
+Venstre (V) and Socialistisk Folkeparti (SF). What do you find?</p></li>
+<li><p>Reestimate your model with a new reference category? What
+happened?</p></li>
+<li><p>Based on your new model fit, make predictions for the same
+scenarios as in question 1e. What did you find? Why?</p></li>
 </ol>
-<pre class="r"><code>eff.DF &lt;- (1-exp(summary(mod.cat)$coefficients[&quot;DF&quot;, &quot;Income&quot;])) * 100
-paste(&quot;A one unit increase in income decreases the likelihood that a respondent will prefer DF to V by&quot;,
-      round(eff.DF), &quot;%.&quot;)</code></pre>
-<ol start="5" style="list-style-type: lower-alpha">
-<li>Make predictions for a scenario where a respondent is rich (Income =
-9) by filling in the equation for Dansk Folkeparti (DF), Venstre (V) and
-Socialistisk Folkeparti (SF). What do you find?</li>
-</ol>
-<pre class="r"><code>preds &lt;- predict(mod.cat, newdata = data.frame(Income = 9, 
-                                               Education = mean(df$Education, na.rm = T),
-                                               Immigrant = 0),
-                 type = &quot;probs&quot;)
-preds[c(&quot;DF&quot;, &quot;V&quot;, &quot;SF&quot;)]</code></pre>
-<ol start="6" style="list-style-type: lower-alpha">
-<li>Reestimate your model with a new reference category? What
-happened?</li>
-</ol>
-<pre class="r"><code>df &lt;-
-  df %&gt;%
-  mutate(Party = as.factor(Party),
-         Party = relevel(Party, ref = &quot;S&quot;))
-library(nnet)
-mod.alt.cat &lt;- multinom(Party ~ Income + Education + Immigrant, df)
-
-stargazer::stargazer(mod.alt.cat, type = &quot;text&quot;)</code></pre>
-<ol start="7" style="list-style-type: lower-alpha">
-<li>Based on your new model fit, make predictions for the same scenarios
-as in question 1e. What did you find? Why?</li>
-</ol>
-<pre class="r"><code>preds.alt &lt;- predict(mod.alt.cat, 
-                     newdata = data.frame(Income = 9, 
-                                          Education = mean(df$Education, na.rm = T),
-                                          Immigrant = 0),
-                 type = &quot;probs&quot;)
-
-
-#The two models yield the same predicted probabilities, regardless of the reference level.
-preds.alt[c(&quot;DF&quot;, &quot;V&quot;, &quot;SF&quot;)]; preds[c(&quot;DF&quot;, &quot;V&quot;, &quot;SF&quot;)]</code></pre>
 </div>
 <div id="exercise-2-how-the-multinomial-model-is-estimated" class="section level2">
 <h2>Exercise 2: How the multinomial model is estimated</h2>
@@ -496,135 +455,40 @@ preds.alt[c(&quot;DF&quot;, &quot;V&quot;, &quot;SF&quot;)]; preds[c(&quot;DF&qu
 <code>multinom()</code> function from the nnet package. Be mindful of
 the reference level you pick.</p>
 <ol style="list-style-type: lower-alpha">
-<li>Calculate the regression coefficients in an intercept-only model by
-hand. You might use my code from the lecture slides for
-inspiration.</li>
-</ol>
-<pre class="r"><code>df_bis &lt;- 
-  df %&gt;%
-  filter(!is.na(Party)) %&gt;%
-  group_by(Party) %&gt;%
-  reframe(n = n()) %&gt;%
-  mutate(N= sum(n),
-         p = n/N,
-         tot_p = sum(p),
-         p_ref = p[Party == &quot;V&quot;],
-         odds = p/p_ref,
-         logodds = log(odds)) </code></pre>
-<ol start="2" style="list-style-type: lower-alpha">
-<li>Calculate a the parameters of a multinomial model of party choice
+<li><p>Calculate the regression coefficients in an intercept-only model
+by hand. You might use my code from the lecture slides for
+inspiration.</p></li>
+<li><p>Calculate a the parameters of a multinomial model of party choice
 with a binary predictor by hand. The data contains a predictor that
 flags the respondent’s gender
-(<code>Kvinde</code>/<code>Female</code>)</li>
+(<code>Kvinde</code>/<code>Female</code>)</p></li>
 </ol>
 <p><span class="math display">\[Pr(m_j) \sim log(odds)\]</span> <span class="math display">\[log(odds) = a_m + b_m \times
 Female_i\]</span></p>
-<pre><code>* use the code from excersise a, but subset the data according to the value of the predictor. That is, create two data frames, one for all observations with &quot;Female == 0&quot; (`df0`) and one for &quot;Female == 1&quot; (`df1`).
-* calculate the odds of voting for each of the m-1 parties (be mindful of your reference category) for each of the data frames (df0 and df1).
-* slope:
-  - calculate the oddsratio by dividing the odds of observing a female respondent (Female == 1; `df1`) by the odds of not observing a female respondent  (Kvinde == 0; `df0`).
-  - logtransform the oddsratio
-* intercept: logtransform the odds of observing Female == 0.
-
-Compare your results to the regression coefficients from the multinomial model estimated with the `multinom()` function.</code></pre>
+<ul>
+<li><p>use the code from excersise a, but subset the data according to
+the value of the predictor. That is, create two data frames, one for all
+observations with “Female == 0” (<code>df0</code>) and one for “Female
+== 1” (<code>df1</code>).</p></li>
+<li><p>calculate the odds of voting for each of the m-1 parties (be
+mindful of your reference category) for each of the data frames (df0 and
+df1).</p></li>
+<li><p>slope:</p>
+<ul>
+<li>calculate the oddsratio by dividing the odds of observing a female
+respondent (Female == 1; <code>df1</code>) by the odds of not observing
+a female respondent (Kvinde == 0; <code>df0</code>).</li>
+<li>logtransform the oddsratio</li>
+</ul></li>
+<li><p>intercept: logtransform the odds of observing Female == 0.</p>
+<p>Compare your results to the regression coefficients from the
+multinomial model estimated with the <code>multinom()</code>
+function.</p></li>
+</ul>
 <ol start="3" style="list-style-type: lower-alpha">
 <li>How would you explain the slope coefficient to your
 neighbour/classmate?</li>
 </ol>
-<pre class="r"><code>##Binary predictor
-
-df %&gt;%
-  filter(!is.na(Party), !is.na(Prekaritet)) %&gt;%
-  group_by(Female, Party) %&gt;%
-  #Number of respondents picking party
-  reframe(n = n()) %&gt;%
-  group_by(Female) %&gt;%
-  mutate(
-    #Number of respondents
-    N = sum(n),
-    #Share of/probability that a respondent picks this party
-    p = n/N,
-    #Do the probabilities sum over to one?
-    p_sum = sum(p),
-    #Pick a reference category
-    p_ref = p[Party == &quot;V&quot;],
-    #Calculate the log odds
-    odds = p/p_ref) %&gt;%
-  arrange(Party, Female) %&gt;%
-  group_by(Party) %&gt;%
-  mutate(slope = log(odds/lag(odds)),
-         intercept = if_else(Female == 0, 
-                             log(odds),
-                             NA)) %&gt;%
-  dplyr::select(Party, intercept, slope) %&gt;%
-  # tidyr::pivot_wider(., 
-                     # names_from = Party,
-                     # values_from = c(intercept, slope)) %&gt;%
-  tidyr::pivot_longer(cols = c( intercept, slope),
-                      values_drop_na = T) %&gt;%
-  tidyr::pivot_wider(values_from = value)
-
-##When x == 0
-tab0 &lt;- 
-df %&gt;%
-  filter(!is.na(Party), !is.na(Female),
-         Female == 0) %&gt;%
-  group_by(Party) %&gt;%
-  #Number of respondents picking party
-  reframe(n = n()) %&gt;%
-  ungroup %&gt;%
-  mutate(
-    #Number of respondents
-    N = sum(n),
-    #Share of/probability that a respondent picks this party
-    p = n/N,
-    #Do the probabilities sum over to one?
-    p_sum = sum(p),
-    #Pick a reference category
-    p_ref = p[Party == &quot;V&quot;],
-    #Calculate the log odds
-    odds0 = p/p_ref,
-    logodds0 = log(odds0))
-tab0
-
-#When x == 1
-tab1 &lt;- 
-  df %&gt;%
-  filter(!is.na(Party), !is.na(Female),
-         Female == 1) %&gt;%
-  group_by(Party) %&gt;%
-  #Number of respondents picking party
-  reframe(n = n()) %&gt;%
-  ungroup %&gt;%
-  mutate(
-    #Number of respondents
-    N = sum(n),
-    #Share of/probability that a respondent picks this party
-    p = n/N,
-    #Do the probabilities sum over to one?
-    p_sum = sum(p),
-    #Pick a reference category
-    p_ref = p[Party == &quot;V&quot;],
-    #Calculate the log odds
-    odds1 = p/p_ref,
-    logodds1 = log(odds1))
-
-tab0 %&gt;%
-  mutate(
-    #Ratio of odds for x == 1 vs x==0
-    oddsratio = tab1$odds1/odds0,
-    #Logtransform
-    logoddsratio = log(oddsratio),
-    intercept = log(odds0),
-    slope = logoddsratio)
-
-mod.cat &lt;- multinom(Party ~ 
-                     Female
-                    ,
-                    df %&gt;%
-                      mutate(Party = relevel(as.factor(Party), ref = &quot;V&quot;)))
-
-summary(mod.cat)</code></pre>
 </div>
 </div>
 <div id="the-ordinal-model" class="section level1">
@@ -637,54 +501,29 @@ ordered logit model <span class="citation">(Ward and Ahlquist 2018, ch
 <div id="exercise-3-fit-and-interpret-an-ordinal-model" class="section level2">
 <h2>Exercise 3: Fit and interpret an ordinal model</h2>
 <ol style="list-style-type: lower-alpha">
-<li>Recode the variable in R into an ordinal variable. To do so, you can
-use the <code>as.factor()</code> and the <code>ordered()</code>
+<li><p>Recode the variable in R into an ordinal variable. To do so, you
+can use the <code>as.factor()</code> and the <code>ordered()</code>
 functions. Store the result in a new variable
-(e.g. <code>Burden_ord</code>).</li>
-</ol>
-<pre class="r"><code>library(MASS)
-df &lt;- 
-  df %&gt;%
-  mutate(Burden_ord = ordered(as.factor(Burden)))
-
-df$Burden_ord %&gt;% table</code></pre>
-<ol start="2" style="list-style-type: lower-alpha">
-<li>Fit an ordinal model where agreement to the statement is a function
-of the respondent’s income, education and immigrant background.</li>
+(e.g. <code>Burden_ord</code>).</p></li>
+<li><p>Fit an ordinal model where agreement to the statement is a
+function of the respondent’s income, education and immigrant
+background.</p></li>
 </ol>
 <pre class="r"><code>library(MASS)
 mod.ord &lt;- polr(Burden_ord ~ Income + Education + Immigrant, 
                 Hess = T,
                 df)</code></pre>
-<pre class="r"><code>summary(mod.ord)</code></pre>
 <ol start="3" style="list-style-type: lower-alpha">
-<li>Present the results in stargazer. You can use the argument
-<code>ord.intercept=</code> to display the intercepts/cutvalues.</li>
-</ol>
-<pre class="r"><code>stargazer::stargazer(mod.ord, 
-                     ord.intercepts = T,
-                     type = &quot;text&quot;)</code></pre>
-<ol start="4" style="list-style-type: lower-alpha">
-<li>What is the marginal effect of income? Can you make a sentence that
-states the finding?</li>
+<li><p>Present the results in stargazer. You can use the argument
+<code>ord.intercept=</code> to display the
+intercepts/cutvalues.</p></li>
+<li><p>What is the marginal effect of income? Can you make a sentence
+that states the finding?</p></li>
 </ol>
 <p>In the ordinal model, the cutpoints (where one category transitions
 to another) can be understood as intercepts. Specifically, the slope
 coefficients are estimated by comparing all observations above the
 cutpoint with all observations below the cutpoint.</p>
-<pre class="r"><code>#Increment
-scenario &lt;- c(1, 7)
-#Logoddsratio
-logoddsratio &lt;- mod.ord$coefficients[&quot;Income&quot;] * scenario
-#Partial back transformation
-oddsratio &lt;- exp(logoddsratio)
-marginal_effect &lt;- (oddsratio - 1) * 100
-marginal_effect &lt;- round(marginal_effect)
-##Formulation
-paste(&quot;For each step up the income ladder, a richer respondent has about a&quot;, 
-      abs(marginal_effect[1]),
-      &quot;lower odds of agreeing more strongly that immigrants are a burden to society. Moving from a low-income respondent (2nd decile) to a high-income respondent (8th decile) decreases those odds by approximately&quot;, abs(marginal_effect[2]), 
-      &quot;%.&quot;)</code></pre>
 <ol start="5" style="list-style-type: lower-alpha">
 <li>Calculate the probability that an observation is below the first –
 then the second – cutpoint in the model. The predicted probabilities in
@@ -699,112 +538,17 @@ intercept!</p>
 * backtransform from logodds to probability by using the logistic function </code></pre>
 <p><span class="math display">\[Pr(y &lt; \tau) = \frac{exp(logodds)}{1
 + exp(logodds)}\]</span></p>
-<pre class="r"><code>#first cutpoint
-logodds1 &lt;- 
-  mod.ord$zeta[1] -
-  mod.ord$coefficients[1] * 1 -
-  mod.ord$coefficients[2] * mean(df$Education, na.rm = T) -
-  mod.ord$coefficients[3] * 0 
-
-prob1 &lt;- exp(logodds1) / (1 + exp(logodds1))
-
-#second cutpoint
-logodds2 &lt;- 
-  mod.ord$zeta[2] -
-  mod.ord$coefficients[1] * 1 -
-  mod.ord$coefficients[2] * mean(df$Education, na.rm = T) -
-  mod.ord$coefficients[3] * 0 
-
-prob2 &lt;- exp(logodds2) / (1 + exp(logodds2))
-
-
-##Answer:
-paste(&quot;In this scenario, the probability that a respondent falls below the first cutpoint is&quot;,
-      round(prob1*100), 
-      &quot;%, while the probability that a respondent falls beneath the second cutpoint is&quot;,
-      round(prob2*100), &quot;%.&quot;)
-
-#3rd
-logodds3 &lt;- 
-  mod.ord$zeta[3] +
-  mod.ord$coefficients[1] * 1 -
-  mod.ord$coefficients[2] * mean(df$Education, na.rm = T) +
-  mod.ord$coefficients[3] * 0 
-
-prob3 &lt;- exp(logodds3) / (1 + exp(logodds3))
-
-
-predict(mod.ord, newdata = data.frame(Income = 1,
-                                      Education = mean(df$Education, na.rm = T),
-                                      Immigrant = 0),
-        type = &quot;probs&quot;) %&gt;% cumsum</code></pre>
 <ol start="6" style="list-style-type: lower-alpha">
-<li>Using the same scenario, calculate the probability that an
+<li><p>Using the same scenario, calculate the probability that an
 observation falls between cutpoints “0|1” and “1|2” by subtracting one
-cut point from the other.</li>
-</ol>
-<pre class="r"><code>category1 &lt;- prob2 - prob1
-
-paste(&quot;There is a&quot;, 
-      round(category1 * 100),
-      &quot;% probability that the respondent disagree completely to the statement that immigrants are a burden to society.&quot;)</code></pre>
-<ol start="5" style="list-style-type: lower-alpha">
-<li>Check your results by having R calculate the predicted
-probabilities. Remember to keep your scenario constant.</li>
-</ol>
-<pre class="r"><code>preds &lt;- predict(mod.ord, newdata = data.frame(Income = 1,
-                                               Education = mean(df$Education, na.rm = T),
-                                               Immigrant = 0),
-                 type = &quot;probs&quot;)
-preds</code></pre>
-<ol start="6" style="list-style-type: lower-alpha">
-<li>Calculate the cumulative sum of the probabilities using the
+cut point from the other.</p></li>
+<li><p>Check your results by having R calculate the predicted
+probabilities. Remember to keep your scenario constant.</p></li>
+<li><p>Calculate the cumulative sum of the probabilities using the
 <code>cumsum()</code> function:
 <code>predict(mod, newdata, type = &quot;probs&quot;) %&gt;% cumsum</code>. What
-is the difference?</li>
+is the difference?</p></li>
 </ol>
-<pre class="r"><code>preds %&gt;% cumsum</code></pre>
-<pre class="r"><code>mod0.ord &lt;- polr(Burden_ord ~ 1, 
-                Hess = T,
-                df)
-
-tau &lt;- predict(mod0.ord, 1,
-                 type = &quot;probs&quot;) %&gt;%
-  cumsum
-
-preds &lt;- predict(mod.ord, newdata = data.frame(Income = 1:10,
-                                               Education = mean(df$Education, na.rm = T),
-                                               Immigrant = 0),
-                 type = &quot;probs&quot;)
-
-library(ggeffects)
-eff &lt;- ggpredict(mod.ord,
-                 terms = list(Income = seq(1, 10, 1)),
-                 condition = list(
-                   Immigrant = 0
-                 ))
-eff %&gt;% 
-  as.data.frame %&gt;%
-  # arrange(response.level) %&gt;%
-  group_by(x) %&gt;%
-  mutate(predicted_cum = cumsum(predicted),
-         Burden = response.level %&gt;% 
-           as.numeric %&gt;% 
-           ordered) %&gt;%
-  ggplot() +
-  xlim(0,1) +
-  geom_density(
-    aes(
-      x = predicted_cum,
-      fill = Burden
-    ),
-    alpha = 0.5
-  ) 
-  # geom_vline(data = data.frame(tau),
-  #            aes(
-  #              xintercept = tau,
-  #            ),
-  #            lty = 2)</code></pre>
 </div>
 <div id="exercise-4-assumptions-of-the-ordered-logit-model" class="section level2">
 <h2>Exercise 4: Assumptions of the ordered logit model</h2>
@@ -827,86 +571,9 @@ coefficients very different?</p></li>
 do so, you will want to make a small data frame with one observation per
 model and variables reporting the slope coefficient, its standard error
 and the cutvalue associated with each model. What do you see?</p></li>
+<li><p>Create a similar coefplot for the intercepts/cutpoints of the
+model. There is no need to backtransform them.</p></li>
 </ol>
-<pre class="r"><code>mod &lt;- NULL
-slopes = NULL
-se.slopes = NULL
-
-for(i in 1:10){
-  mod[[i]] &lt;- glm(I(Burden &gt;= i) ~ Income + Education + Immigrant,
-                  family = &quot;binomial&quot;,
-                  df)
-  slopes[i] = summary(mod[[i]])$coefficients[2,1]
-  se.slopes[i] = summary(mod[[i]])$coefficients[2,2]
-}
-
-
-# data.frame(sims = rnorm(1000, mean(slopes), sd(slopes))) %&gt;%
-# ggplot() +
-#   geom_density(aes(sims)) +
-#   geom_vline(aes(xintercept = mod.ord$coefficients[1]),
-#              lty = 2)
-
-mod.ord$coefficients
-
-stargazer::stargazer(mod.ord, mod,
-                     ord.intercepts = T,
-                     type = &quot;text&quot;)</code></pre>
-<pre class="r"><code>data.frame(slope = slopes,
-           se.slope = se.slopes,
-           tau = 1:10) %&gt;%
-  ggplot +
-  geom_point(aes(x = tau,
-                 y = slope)) +
-  geom_errorbar(aes(x = tau,
-                    ymax = slope + 1.96 * se.slope,
-                    ymin = slope - 1.96 * se.slope)) +
-  geom_hline(aes(yintercept = mod.ord$coefficients[&quot;Income&quot;]),
-             lty = 2)</code></pre>
-<ol start="4" style="list-style-type: lower-alpha">
-<li>Create a similar coefplot for the intercepts/cutpoints of the model.
-There is no need to backtransform them.</li>
-</ol>
-<pre class="r"><code>intercepts &lt;- summary(mod.ord)$coefficients[-(1:3),1]
-se.intercepts &lt;- summary(mod.ord)$coefficients[-(1:3),2]
-
-data.frame(intercepts,
-           se.intercepts,
-           threshold = names(intercepts)) %&gt;%
-  ggplot +
-  geom_point(aes(y = threshold,
-                 x = intercepts)) +
-  geom_errorbar(aes(y = threshold,
-                    xmin = intercepts - se.intercepts * 1.96,
-                    xmax = intercepts + se.intercepts * 1.96),
-                width = 0.2) +
-  ggtitle(&quot;Are the intercepts ordered and distinguishable?&quot;)</code></pre>
-<pre class="r"><code>#Take 1
-mod &lt;- NULL
-
-for(i in 1:10){
-  mod[[i]] &lt;- glm(I(Belastning &gt;= i) ~ 1,
-                  family = &quot;binomial&quot;,
-                  df)
-}
-
-
-stargazer::stargazer(mod.ord, mod,
-                     ord.intercepts = T,
-                     type = &quot;text&quot;)
-
-#Take 2
-
-df %&gt;% 
-  filter(!is.na(Belastning)) %&gt;%
-  group_by(Belastning) %&gt;%
-  reframe(n = n()) %&gt;%
-  mutate(cum = cumsum(n),
-         ratio = cum/max(cum),
-         logodds = log(ratio/(1-ratio)),
-         intercept = c(summary(mod.ord)$coefficients[,1],
-                      Inf
-         ))</code></pre>
 </div>
 </div>
 <div id="literature" class="section level1 unnumbered">
