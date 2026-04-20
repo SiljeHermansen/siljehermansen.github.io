@@ -11,7 +11,7 @@
 
 <meta name="author" content="Silje Synnøve Lyder Hermansen" />
 
-<meta name="date" content="2026-04-13" />
+<meta name="date" content="2026-04-20" />
 
 <title>Problem set: Models for categorical data</title>
 
@@ -376,7 +376,7 @@ display: none;
 <h1 class="title toc-ignore">Problem set: Models for categorical
 data</h1>
 <h4 class="author">Silje Synnøve Lyder Hermansen</h4>
-<h4 class="date">2026-04-13</h4>
+<h4 class="date">2026-04-20</h4>
 
 </div>
 
@@ -548,6 +548,24 @@ probabilities. Remember to keep your scenario constant.</p></li>
 <code>cumsum()</code> function:
 <code>predict(mod, newdata, type = &quot;probs&quot;) %&gt;% cumsum</code>. What
 is the difference?</p></li>
+<li><p>illustrate the effect of i) education, then ii) immigrant
+backgroun using an effectplot (from <code>ggeffects</code>).</p></li>
+</ol>
+<p><em>Bonus questions</em></p>
+<ol start="10" style="list-style-type: lower-alpha">
+<li>Can you illustrate the <em>distribution</em> of predicted
+probabilities for each response category?</li>
+</ol>
+<p>To do so, create a data frame with predicted probabilities using
+<code>ggpredict()</code>. Then, calculate the <em>cumulative</em>
+predicted probabilities (your x-coordinates) and make sure the predicted
+category (<code>response.level</code>) is ordered (your grouping
+variable). Plot the result by using <code>geom_density()</code> from
+ggplot2 to plot density curves. If you want to fill each density with a
+separate color, you can do so with <code>fill=response.level</code>.</p>
+<ol start="11" style="list-style-type: lower-alpha">
+<li>Make a confusion matrix to assess how well your predictions allow
+you to predict outcome categories correctly.</li>
 </ol>
 </div>
 <div id="exercise-4-assumptions-of-the-ordered-logit-model" class="section level2">
