@@ -179,7 +179,7 @@ Problem sets:
 &lt;/ul&gt;
 &lt;p&gt;Problem set:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Problem set 5: &lt;a href=&#34;week10_problem_set_count.html&#34;&gt;Interpretation and estimation of poisson regression&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Problem set: &lt;a href=&#34;week10_problem_set_count.html&#34;&gt;Interpretation and estimation of poisson regression&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Suggested supplementary reading &lt;em&gt;Gelman and Hill (2007), ch 6.2 p. 110-116&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;ll use yet another data set on MEPs; this time on the number of legislative proposals they handle during their tenure. You can download the data here: &lt;a href=&#34;df_yoshinaka.rda&#34;&gt;df_yoshinaka.rda&lt;/a&gt;&lt;/p&gt;
@@ -315,6 +315,12 @@ Event history models (Fortna, 2015):
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Multilevel modeling for understanding deadly radioactive gas &lt;a href=&#34;https://open.spotify.com/episode/36IEO8q2iTGJ0kQEdtgu5l?si=HihQEBDeThKVRDajIxJD-w&#34;&gt;Linear digressions&lt;/a&gt;(supplementary listening)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -334,6 +340,12 @@ Event history models (Fortna, 2015):
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;@Gelman2007, ch. 6, p. 109-134 (supplementary reading)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Rock the ROC curve &lt;a href=&#34;https://lineardigressions.com/episodes/2017/1/29/rock-the-roc-curve&#34;&gt;Linear Digressions&lt;/a&gt; (supplementary listening)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;/td&gt;
