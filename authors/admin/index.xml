@@ -180,9 +180,10 @@ Problem sets:
 &lt;p&gt;Problem set:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Problem set: &lt;a href=&#34;week10_problem_set_count.html&#34;&gt;Interpretation and estimation of poisson regression&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Problem set: &lt;a href=&#34;portfolio_count_scharpf.pdf&#34;&gt;Former exam: Scharpf (2020)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Suggested supplementary reading &lt;em&gt;Gelman and Hill (2007), ch 6.2 p. 110-116&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;We&amp;rsquo;ll use yet another data set on MEPs; this time on the number of legislative proposals they handle during their tenure. You can download the data here: &lt;a href=&#34;df_yoshinaka.rda&#34;&gt;df_yoshinaka.rda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll use yet another data set on MEPs; this time on the number of legislative proposals they handle during their tenure. You can download the data here: &lt;a href=&#34;df_yoshinaka.rda&#34;&gt;df_yoshinaka.rda&lt;/a&gt;. During our session on &amp;ldquo;former exams&amp;rdquo;, we will be working with the replication data (&lt;a href=&#34;df_scharpf.rda&#34;&gt;df_scharpf.rda&lt;/a&gt;) for &lt;a href=&#34;Scharpf2020.pdf&#34;&gt;Scharpf&amp;rsquo;s (2020)&lt;/a&gt;. Here is a &lt;a href=&#34;summary_scharpf.pdf&#34;&gt;brief primer&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Notebook:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;week10_count.html&#34;&gt;Event count models&lt;/a&gt;&lt;/li&gt;
